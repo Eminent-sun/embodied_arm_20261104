@@ -1,0 +1,64 @@
+{
+  "status": "PASS_ACTUAL_ARM_GRIPPER_OFFLINE",
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+  "cases": [
+    {
+      "scenario": "boot_disabled_status_read_only_gripper_enable_no_CAN_or_arm_calibration",
+      "passed": true
+    },
+    {
+      "scenario": "all_presets_custom_pulse_and_OFF_stay_independent",
+      "passed": true
+    },
+    {
+      "scenario": "old_BIT_rejected_before_accessing_unmapped_PWM_address",
+      "passed": true
+    },
+    {
+      "scenario": "wrong_PWM_ID_rejected_without_writes",
+      "passed": true
+    },
+    {
+      "scenario": "bounds_padding_CRC_fail_without_actuation",
+      "passed": true
+    },
+    {
+      "scenario": "replayed_request_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "live_host_renews_PL_lease",
+      "passed": true
+    },
+    {
+      "scenario": "expired_PL_lease_visible_without_automatic_reenable",
+      "passed": true
+    },
+    {
+      "scenario": "STOP_disables_PWM_and_blocks_enable_OFF_still_available",
+      "passed": true
+    },
+    {
+      "scenario": "lost_console_heartbeat_disables_PWM",
+      "passed": true
+    },
+    {
+      "scenario": "full_cartesian_motion_coexists_with_gripper_hold_without_reenable",
+      "passed": true
+    },
+    {
+      "scenario": "dispatch_PAUSED_HOLD_retains_gripper_PWM",
+      "passed": true
+    },
+    {
+      "scenario": "arm_fault_disables_gripper_without_automatic_restart",
+      "passed": true
+    },
+    {
+      "scenario": "expanded_1110_1490_endpoints_accepted_outside_rejected_no_CAN",
+      "passed": true
+    }
+  ],
+  "hardware_access": false,
+  "limitation": "Virtual peripheral and ideal arm tracking, not servo mechanics."
+}

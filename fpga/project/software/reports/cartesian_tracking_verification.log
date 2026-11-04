@@ -1,0 +1,50 @@
+{
+  "status": "PASS_ARM_PLAN_TRACKING_MARGIN_OFFLINE_ONLY",
+  "ELF_sha256": "bf5de3311df462b3db76ad3c86d8106975b3ca927491a8bb04e2bdd309d211c9",
+  "target_base_xyz_mm": [
+    200,
+    0,
+    100
+  ],
+  "target_rpy_deg": [
+    0,
+    -45,
+    0
+  ],
+  "old_duration_ms": 6000,
+  "new_duration_ms": 14600,
+  "frames": 293,
+  "sample_ms": 50,
+  "max_motor_velocity_rad_s_by_axis": [
+    0.0005503930151462555,
+    0.10102272033691406,
+    0.06985604763031006,
+    0.00045631080865859985,
+    0.07039546966552734,
+    0.20296216011047363
+  ],
+  "max_motor_acceleration_rad_s2_by_axis": [
+    0.00011865049600601196,
+    0.0217437744140625,
+    0.01506805419921875,
+    9.834766387939453e-05,
+    0.015211105346679688,
+    0.043773651123046875
+  ],
+  "motor_PP_speed_rad_s": 0.5,
+  "motor_PP_accel_rad_s2": 0.5,
+  "PS_target_speed_cap_rad_s": 0.25,
+  "PS_target_accel_cap_rad_s2": 0.125,
+  "following_error_limit_rad": 0.099,
+  "endpoint_unchanged": true,
+  "calibration": "synthetic test record",
+  "delay_sensitivity": {
+    "assumed_delay_ms": 350,
+    "old_max_error_rad": 0.1741510033607483,
+    "new_max_error_rad": 0.07100898027420044,
+    "meaning": "illustrative fixed delay only; not a calibrated RobStride dynamics model"
+  },
+  "duration_scope": "Nominal plan samples only; completion spacing adds communication/verification time on the board",
+  "board_motion_verified": false,
+  "PL_changed": false
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-30T23:07:20.769881+08:00",
+  "gpu": "ROCm verified; default YOLO inference/training backend",
+  "npu": {
+    "pci": "0000:66:00.1",
+    "architecture": "aie2p",
+    "xrt_version": "2.25.37",
+    "kernel": "7.0.0-38-generic",
+    "firmware": "1.0.0.63",
+    "xrt_device_enumeration": "passed",
+    "gemm": "FAILED: ERT_CMD_STATE_ABORT",
+    "latency": "FAILED: ERT_CMD_STATE_ABORT",
+    "yolo_inference_verified": false,
+    "sdk": "Ryzen AI 1.8 Linux installer unavailable: AMD account download; user cannot download",
+    "installation": "Official deb contents extracted under .npu/root; NO system package/driver/firmware installation",
+    "source": "https://download.amd.com/opendownload/RyzenAI/Driver/RAI_1.8_Linux_NPU_XRT.zip",
+    "archive_sha256": "ea37ce2ff46ae20e64a081c38fc45b3bae183e488f293543c811f4c05186d2df",
+    "kernel_diagnostic": "amdxdna mailbox callback -22 / channel in bad state; cause not yet confirmed",
+    "official_sdk_alternative_check": "AMD v1.8.0 GitHub release has no installer assets; official docs still require AMD account download"
+  },
+  "gpu_training_busy_median_percent": 99.0
+}

@@ -1,0 +1,106 @@
+--- before
++++ current
+@@ -3,43 +3,18 @@
+ 
+ @dataclass(frozen=True)
+ class Waypoint:
+-    request: int
++    request: int | None
+     pose: tuple
+ 
+ APPROACH = (
+-    Waypoint(11, (200.0, 0.0, 300.0, 0.0, -90.0, 0.0)),
+-    Waypoint(40, (180.0, 0.0, 200.0, 0.0, -90.0, 0.0)),
+-    Waypoint(42, (120.0, 0.0, 200.0, 0.0, -90.0, 0.0)),
+-    Waypoint(44, (120.0, 0.0, 200.0, 0.0, -60.0, 0.0)),
+-    Waypoint(45, (120.0, 0.0, 200.0, 0.0, -30.0, 0.0)),
+-    Waypoint(46, (120.0, 0.0, 200.0, 0.0, -20.0, 0.0)),
+-    Waypoint(48, (120.0, 0.0, 180.0, 0.0, -10.0, 0.0)),
+-    Waypoint(50, (120.0, 0.0, 170.0, 0.0, -10.0, 0.0)),
+-    Waypoint(51, (160.0, 0.0, 170.0, 0.0, -10.0, 0.0)),
+-    Waypoint(52, (180.0, 0.0, 170.0, 0.0, -10.0, 0.0)),
+-    Waypoint(53, (180.0, 0.0, 170.0, 0.0, 0.0, 0.0)),
+     Waypoint(54, (180.0, 0.0, 160.0, 0.0, 0.0, 0.0)),
+ )
+ TRANSFER = (
+-    Waypoint(140, (180.0, 0.0, 170.0, 0.0, -10.0, 0.0)),
+-    Waypoint(143, (180.0, 0.0, 170.0, 0.0, -30.0, 0.0)),
+-    Waypoint(144, (180.0, 0.0, 170.0, 0.0, -60.0, 0.0)),
+-    Waypoint(146, (180.0, 0.0, 170.0, 0.0, -80.0, 0.0)),
+-    Waypoint(147, (180.0, 0.0, 170.0, 0.0, -90.0, 0.0)),
+-    Waypoint(149, (180.0, -60.0, 170.0, 0.0, -90.0, 0.0)),
+-    Waypoint(150, (180.0, -60.0, 170.0, -30.0, -90.0, 0.0)),
+-    Waypoint(151, (180.0, -90.0, 170.0, -60.0, -90.0, 0.0)),
+-    Waypoint(152, (180.0, -120.0, 170.0, -60.0, -90.0, 0.0)),
++    Waypoint(53, (180.0, 0.0, 170.0, 0.0, 0.0, 0.0)),
+     Waypoint(155, (180.0, -150.0, 170.0, -60.0, -90.0, 0.0)),
+ )
+ RETURN = (
+-    Waypoint(152, (180.0, -120.0, 170.0, -60.0, -90.0, 0.0)),
+-    Waypoint(151, (180.0, -90.0, 170.0, -60.0, -90.0, 0.0)),
+-    Waypoint(150, (180.0, -60.0, 170.0, -30.0, -90.0, 0.0)),
+-    Waypoint(149, (180.0, -60.0, 170.0, 0.0, -90.0, 0.0)),
+-    Waypoint(147, (180.0, 0.0, 170.0, 0.0, -90.0, 0.0)),
+-    Waypoint(40, (180.0, 0.0, 200.0, 0.0, -90.0, 0.0)),
+-    Waypoint(11, (200.0, 0.0, 300.0, 0.0, -90.0, 0.0)),
++    Waypoint(None, (180.0, -150.0, 200.0, -60.0, -90.0, 0.0)),
+ )
+ 
+ OPEN_US = 1110
+@@ -71,13 +46,15 @@
+     lines=['RUNPATH: execute ONE cycle from the saved, calibrated HOME.',
+            'Gripper: open 1110 us -> pickup arrived +5 s -> close 1490 us;',
+            'delivery arrived +3 s -> open 1110 us -> pulse reached +2 s -> return HOME.',
++           'Route v2: 5 motion segments; quintic joint interpolation, stop at each waypoint.',
++           'Fixed dwell deadlines; arrival jitter never resets the timer. Safety monitoring stays active.',
+            'Wait for verified arm completion and PWM ramp completion at every stage.',
+            'Preview first; rejected plans cancel the cycle and preserve verified settled hold.',
+            'Transient result=6 waits/rechecks within 5 s, at most 3 requests; accepted motion is never replayed.',
+            'During RUNPATH press Ctrl+C to cancel and request STOP.']
+     for phase,points in [('HOME -> PICK',APPROACH),('PICK -> DELIVERY',TRANSFER),('DELIVERY -> HOME',RETURN)]:
+         lines.append(phase)
+-        lines.extend('  '+' '.join(f'{v:g}' for v in point.pose)+f'  (record #{point.request})' for point in points)
++        lines.extend('  '+' '.join(f'{v:g}' for v in point.pose)+(f'  (record #{point.request})' if point.request is not None else '  (generated lift; offline validated)') for point in points)
+     lines.append('  GOHOME (the current session SAVEINITIAL pose)')
+     return '\n'.join(lines)
+ 
+@@ -145,6 +122,7 @@
+             self.sleep(.1)
+ 
+     def preflight(self):
++        self.progress('RUNPATH v2：5 段精简路线；5/3/2 秒固定计时，轻微反馈波动不重置。')
+         data=self.worker.read('g_arm_calibration',117);meta=record_info(data)
+         if meta['calibrated_mask']!=63 or not meta['initial_valid']:
+             raise CycleError('RUNPATH requires complete CAL and SAVEINITIAL')
+@@ -271,19 +249,25 @@
+ 
+     def dwell(self,seconds,label):
+         before=self.wait_hold_ready({3,12},'等待计时前停稳检查')
+-        self.progress(label);start=self.clock();self.log('dwell_started',seconds=seconds,label=label)
++        self.progress(label);start=self.clock();deadline=start+seconds;last_countdown=None;jitter_samples=0
++        self.log('dwell_started',seconds=seconds,label=label,deadline_monotonic_s=deadline)
+         while True:
+             snapshot=self.arm({3,12})
+             if not self.hold_safe(snapshot) or snapshot[0][7:9]!=before[0][7:9] or any(abs(x-y)>1e-6 for x,y in zip(snapshot[3],before[3])):
+                 raise CycleError('Arm exceeded safety limits or target changed during dwell')
+-            if not self.settled(snapshot):
+-                self.wait_hold_ready({3,12},'等待期间重新确认停稳')
+-                start=self.clock();self.log('dwell_restarted',seconds=seconds,label=label)
++            # Arrival already passed the consecutive-sample check. Small holding
++            # velocity fluctuations must not starve the operator's timed dwell.
++            # Actual safety violations still abort above; grip() checks readiness
++            # again before any output change, with a bounded timeout.
++            if not self.settled(snapshot):jitter_samples+=1
+             self.monitor_grip()
+-            remaining=seconds-(self.clock()-start)
++            remaining=deadline-self.clock()
+             if remaining<=0:break
++            countdown=math.ceil(remaining)
++            if countdown!=last_countdown:
++                self.progress(f'等待剩余 {countdown} 秒。');last_countdown=countdown
+             self.sleep(min(.1,remaining))
+-        self.log('dwell_finished',seconds=seconds,label=label,elapsed_s=self.clock()-start)
++        self.log('dwell_finished',seconds=seconds,label=label,elapsed_s=self.clock()-start,jitter_samples=jitter_samples)
+ 
+     def run(self):
+         try:self.preflight()  # Rejection here sends no enable, grip or motion command.

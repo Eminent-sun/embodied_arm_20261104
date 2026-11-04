@@ -1,0 +1,398 @@
+[
+  {
+    "path": "vision/requirements-rocm.lock.txt",
+    "sha256": "49b1e1e6e2fe6229400274787ba8da9ec30ef29ed2def2ceffffd44d626e9d61"
+  },
+  {
+    "path": "vision/requirements-data.txt",
+    "sha256": "be671b081a0de836babec03ad0f6434a7585628cf614331fabb19701d447df88"
+  },
+  {
+    "path": "vision/requirements.lock.txt",
+    "sha256": "14f530089d1fc133e87834d0afe226766a523c72c95367952761e23f336234d1"
+  },
+  {
+    "path": "vision/rocm-constraints.txt",
+    "sha256": "455a42fc359f80134cc344f916372a173880b90b5c461666dfc355879ab0a2ef"
+  },
+  {
+    "path": "vision/robotarm_vision/app.py",
+    "sha256": "a4d4c4df1a3bfe558804580503e6329a6368a7df1affd25fbea97cd4f159578b"
+  },
+  {
+    "path": "vision/robotarm_vision/collection.html",
+    "sha256": "5e21db399ef48e54928ffd5afb1f0d32eea4f3313661dc124820c33111e0100f"
+  },
+  {
+    "path": "vision/robotarm_vision/collection.py",
+    "sha256": "e234fb8211f08042dfa32ed657a53f0edda422313463108906e12e201d3fcced"
+  },
+  {
+    "path": "vision/robotarm_vision/planning_client.py",
+    "sha256": "19355654bcdc901ce24361eefcdd50f19581344dd8250ad2f18d3309312ffa56"
+  },
+  {
+    "path": "vision/robotarm_vision/geometry.py",
+    "sha256": "1a724571ee86a62b7a85b0d46fdec1aa18a1cd0ee6c0d71dd98a39cfac137fb0"
+  },
+  {
+    "path": "vision/robotarm_vision/pickup.py",
+    "sha256": "fe07fe53024a3fd95bd52e469fda270be2e9e85339e0ba45c2f649b27f260464"
+  },
+  {
+    "path": "vision/robotarm_vision/tracking.py",
+    "sha256": "81113135fddcd9f90396e386cfcb868fc5a9406d93a43c8d86bf9dbc63300e57"
+  },
+  {
+    "path": "vision/robotarm_vision/calibration.py",
+    "sha256": "d3ba319c314c9996755913d7ff5cd443c23de8276cccd892e9222ab2001fee3e"
+  },
+  {
+    "path": "vision/robotarm_vision/quality.py",
+    "sha256": "71459e56d82f003f8ef8fe5c5e91d378eb831a6e9075ed13e8ccda5e0a9b430b"
+  },
+  {
+    "path": "vision/robotarm_vision/camera.py",
+    "sha256": "6b12d9515fb9fd9ca77ab972e9d3ed5efaa6fa0e4c685a63444ab32218313703"
+  },
+  {
+    "path": "vision/robotarm_vision/dashboard.py",
+    "sha256": "146230263e31d2816e20d971896c10353b3b5083d2e05b32a27784317bf94ce9"
+  },
+  {
+    "path": "vision/robotarm_vision/ros_publisher.py",
+    "sha256": "fb1418270f5b1c8fa3d7103d3442ccd27ee09d37cf4501709e78a75611faf70e"
+  },
+  {
+    "path": "vision/robotarm_vision/__init__.py",
+    "sha256": "7a085287fbee1448ee6d83633174edc0ac0c8e74bd1b4ab9cd110fd739727cb7"
+  },
+  {
+    "path": "vision/robotarm_vision/pickup.html",
+    "sha256": "5a190de1de2f1d7160273b71702371111e21380d7120d0361578012187e15dea"
+  },
+  {
+    "path": "vision/robotarm_vision/overlay.py",
+    "sha256": "de440e19d67ee0d0166dcd4271b2b02684c16084d0dee28964bed53a4084cb85"
+  },
+  {
+    "path": "vision/robotarm_vision/target_lock.py",
+    "sha256": "4b5b52a85ef6f814e73f905bf55bc5a862ab41054ca7ce43bd7eb75e6c6e04b6"
+  },
+  {
+    "path": "communication/robotarm_link/ros_bridge.py",
+    "sha256": "d795e727224711d63f34c6c900d8f7b2d880d9387eac1571c9048d9f6778ddd5"
+  },
+  {
+    "path": "communication/robotarm_link/vision_bridge.py",
+    "sha256": "4e7767aba8ac71518aba84a4c34844a2d3088a94cab3f4763be7c2072946b710"
+  },
+  {
+    "path": "communication/robotarm_link/ps_simulator.py",
+    "sha256": "3b78088b8aeebc6d845f80437d4d3f6ebe7a76e4d4357f7411779076052603fc"
+  },
+  {
+    "path": "communication/robotarm_link/vision_receiver.py",
+    "sha256": "7a46ae72bac71d8483d492d3323cc702482c7a4434c9bf311f6eb75efbbd6abd"
+  },
+  {
+    "path": "communication/robotarm_link/vision_protocol.py",
+    "sha256": "dfe625b27017632b1deffbe069fd484373faf0493309aa054596b0d19274f0c1"
+  },
+  {
+    "path": "communication/robotarm_link/__init__.py",
+    "sha256": "1d3f5a69992707cce14ef8e8f57a14a14d5813406f6d88b0056379b38e3eb601"
+  },
+  {
+    "path": "communication/robotarm_link/cartesian.py",
+    "sha256": "a3aa31eb85ff3997d534e26446a84ef93362dc38be0b646bd3abede84bace488"
+  },
+  {
+    "path": "communication/robotarm_link/protocol.py",
+    "sha256": "61055267424377f4bd47d145e5a1e72ce1233787af505d77997b90222edd0c78"
+  },
+  {
+    "path": "planning/planning.launch.py",
+    "sha256": "79a990ba34d81b9f4fbae64844d069145a63c34f33517919d341fcf196e10613"
+  },
+  {
+    "path": "planning/robotarm_planning/worker.py",
+    "sha256": "8a468da77492b171c64bcc246265520d7b214f8a92225875687b81e400b6bd20"
+  },
+  {
+    "path": "planning/robotarm_planning/handover.py",
+    "sha256": "fa5bd9f4adc8b63ae51f1cf435906ffef12dcf446835f32b3ea82c32cb80b4f0"
+  },
+  {
+    "path": "planning/robotarm_planning/moveit_backend.py",
+    "sha256": "fc09b22da1388dd69a2faec52775538b2388d18848c3f6773630f2bf511c41ea"
+  },
+  {
+    "path": "planning/robotarm_planning/__init__.py",
+    "sha256": "d8b88eae6b9566dd933a73b6f600fc77c71474ac106e2e3376da935b2e9b7f2e"
+  },
+  {
+    "path": "planning/robotarm_planning/core.py",
+    "sha256": "f35aa4b0909b4fc4affc28e71d1ef9ce6e095413383853f5a3159ef981cc7990"
+  },
+  {
+    "path": "tests/test_collection.py",
+    "sha256": "c51379e9c7521c46c1072a688015918c8999afe4f81e49de3c862b2aff43c747"
+  },
+  {
+    "path": "tests/test_perception_quality.py",
+    "sha256": "657464d2114b51186a246e3c1cbb769cfecd7a481416368c91e5fab2ca11124d"
+  },
+  {
+    "path": "tests/test_temporal_tracking.py",
+    "sha256": "3662007d6a8fd5d118c4a9ccd100dac34f5ccb7f8f6b662da513d38536e11d35"
+  },
+  {
+    "path": "tests/test_handover.py",
+    "sha256": "2e31adfd292740b7ca484fa6bb777f141957f6e3f3e175d84a14be08cdd401a3"
+  },
+  {
+    "path": "tests/test_tasks.py",
+    "sha256": "590a4a6c0ff08dae822ad72a56991223e8eebcf8f2dd7bdbd28f6b46d1880710"
+  },
+  {
+    "path": "tests/test_pickup_tcp.py",
+    "sha256": "941aa374dbdf79a1239402f15c29abd2bd245f724692fb9bc9f1c395fa072e37"
+  },
+  {
+    "path": "tests/test_link.py",
+    "sha256": "44e9bc9997fd1b6d90741040ee68d3b29e870c0adada07fd34c7041d0d0e7fbe"
+  },
+  {
+    "path": "tests/test_geometry.py",
+    "sha256": "a5e29cae598ed4211ef06239fde683f72d02a7f3eb87690edbc4e9133047e1a7"
+  },
+  {
+    "path": "tests/test_calibration.py",
+    "sha256": "00ee7fede41a3a14c8278273fcf61292ea3c0fccad773352ff841ddee9be1505"
+  },
+  {
+    "path": "tests/test_vision_link.py",
+    "sha256": "31872398159402f670f0b10038a4c81062a0a63b417526ea84e57db7a3aa1604"
+  },
+  {
+    "path": "tests/test_aipc_planning.py",
+    "sha256": "877e4b1ae56661283cd1eacbf2678a1767f1f176f18ae7b4075c41c6eb6affe0"
+  },
+  {
+    "path": "config/planning.json",
+    "sha256": "02a78dfc92f84a69fa490ab8e34c8b3b4fe2c0b05112cc626042359afe5f7404"
+  },
+  {
+    "path": "config/vision_station.json",
+    "sha256": "36d41969e803359472578944a79330a848d097919f36ccba3a95b69d82566722"
+  },
+  {
+    "path": "config/tools_dataset.yaml",
+    "sha256": "69218f61272658209b0c02e1fc1b95f7d0a35b01c153ae8e98ae0bcc10708725"
+  },
+  {
+    "path": "config/pickup_tcp.json",
+    "sha256": "771d0835c3dea6f10093b9221599291623bcc8a863f6b4a01e7435b68c1cece1"
+  },
+  {
+    "path": "config/workspace.json",
+    "sha256": "cf79406cd5a63d6e47717fcda29a74a1fc7bca6981e4887476e0a843459378b4"
+  },
+  {
+    "path": "config/communication/vision_observation.example.json",
+    "sha256": "8a5187f6056f91b03e83125010e2649c7c51601ff26428790a1b37741de50d0c"
+  },
+  {
+    "path": "config/calibration/camera_to_base.json",
+    "sha256": "f13ff463c25a5bf36aedb3712cc7470531371079b08b3260ea50ebb5dd2b0808"
+  },
+  {
+    "path": "config/calibration/checkerboard_9x6_20mm.svg",
+    "sha256": "5bc1a3ad64cc74972a0951ba37ed111a19d0cd86c146d7493a758fae9df027f6"
+  },
+  {
+    "path": "config/calibration/correspondences.template.json",
+    "sha256": "4f6fde559fbd0bcc1f5b973214a190640b5695138f2b44cb70bd56a6df45a13f"
+  },
+  {
+    "path": "scripts/benchmark_perception.py",
+    "sha256": "29448c8359b6ebb010215e2eb9b64cb4197b4ec468eb8baaafd14112ea6c555a"
+  },
+  {
+    "path": "scripts/start_dashboard.sh",
+    "sha256": "2ccac28620efa4419afb339fdc5754cc463b8c43fd8e5185024b637c9731cd1a"
+  },
+  {
+    "path": "scripts/verify_tabletop_pickup.py",
+    "sha256": "e271abd1184ec01f400bb44b8f5547d6dd751ac30801fece91ce0fc54f24ca61"
+  },
+  {
+    "path": "scripts/enable_ai_devices.sh",
+    "sha256": "79aac1b7037b27f24f989526a03a10f01d1fcb5cd52f810b6059a10933b13f5b"
+  },
+  {
+    "path": "scripts/start_ethernet_moveit.sh",
+    "sha256": "4f7a5883a7e7d612fb4e4337fbef9ed9f75fee1c51e3359b5d86601f561b96fc"
+  },
+  {
+    "path": "scripts/start_planning.sh",
+    "sha256": "b68c070b7c31562c2bc4474ae873f3d5b2b29350915cfe1e12a5046af90aeb41"
+  },
+  {
+    "path": "scripts/make_plan_request.py",
+    "sha256": "47e7f144f6bedbf71098216da57b7225943c8719db9023e94bca7a1b5a12a8f7"
+  },
+  {
+    "path": "scripts/verify_moveit_jazzy.py",
+    "sha256": "9ad35ae8395553953fa1160e8d2c3b8ba0c6718e2d09a322e27aac094ee3eb48"
+  },
+  {
+    "path": "scripts/verify_handover_planning.py",
+    "sha256": "2ff6bb436c18bceb994a631e84bf6dd68d05e03ae38319820fa9740a2bdf2a93"
+  },
+  {
+    "path": "scripts/start_ax7010_bridge.sh",
+    "sha256": "681e058d5751cf7ea2d8f6001a67df3e2e134cfa5486ce361e7e22e0cf4234ea"
+  },
+  {
+    "path": "scripts/start_sim_jazzy.sh",
+    "sha256": "4e1a09a89bb660ecdac3f4ed3b78bf6d34ac9cf734d7746d2bd393448b623571"
+  },
+  {
+    "path": "scripts/verify_aipc_planning.py",
+    "sha256": "c5de29b328502e1a6e4c2285e259465ea3c86eff408ba30cc0a16f147bcc6b91"
+  },
+  {
+    "path": "scripts/prepare_tabletop_refinement.py",
+    "sha256": "85d7244edc236e7e7b0ebfd55c65f416ad24cca6230f437f48390fc694069d40"
+  },
+  {
+    "path": "scripts/start_vision_link.sh",
+    "sha256": "2d24889616a23ff41f6156fc39c982c59a10d86c84bd1df8345626234d0c3296"
+  },
+  {
+    "path": "scripts/start_ps_vision_simulator.sh",
+    "sha256": "42b44f065ba5a85d6950759105eb63d74737fb400d0ef061793821944604c2d3"
+  },
+  {
+    "path": "scripts/install_vision_environment.sh",
+    "sha256": "d7f99bd862287c627ea5f2103ea5d74eda599e8df76b074a44eeae89f20b1afa"
+  },
+  {
+    "path": "scripts/evaluate_site_tools.py",
+    "sha256": "ba46f129afb2fb808127855eb00bde479cfe3c38302ebbc157dc021ed21e1676"
+  },
+  {
+    "path": "scripts/download_vision_models.py",
+    "sha256": "d6744eef742f7b7cb6dbfc9945f35fa0f5e3fe8284c0e979d0bd06c4da4332b1"
+  },
+  {
+    "path": "scripts/prepare_public_tools.py",
+    "sha256": "af13baecd304ee7a7384cd7975a7e2f2803b9af575d4e77b6956afe5d16f6901"
+  },
+  {
+    "path": "scripts/plan_task.sh",
+    "sha256": "85b01b5100ff2cf56a236b2d30f7d883df34d3fd81b4d94b652520eb88d5b026"
+  },
+  {
+    "path": "scripts/start_ps_simulator.sh",
+    "sha256": "bb63c71cbe379fad70ff5ddd42f7f97bfb0d8045e6ebfff3d5907809fd734db0"
+  },
+  {
+    "path": "scripts/install_rocm_vision.sh",
+    "sha256": "317212f2773e4a3b93a9779694fb67c0f0c6a6fc00974d408c1bace0e935eca5"
+  },
+  {
+    "path": "scripts/start_gazebo_jazzy.sh",
+    "sha256": "25ac42c834d20c6b9ba84070c5be0269b2a82aa667914a9213badd88979f126a"
+  },
+  {
+    "path": "scripts/verify_planning_rejections.py",
+    "sha256": "fccffe5487c89852a91a1aaf0f9c647160f4dd27e7b46892cea5fa194ed264cc"
+  },
+  {
+    "path": "scripts/evaluate_site_tools_v4.py",
+    "sha256": "bd36fbb49d85f6268c120e227ca1e837a31da0f5ee3d1857a677dac254b29c9f"
+  },
+  {
+    "path": "scripts/env_jazzy.bash",
+    "sha256": "6595fb58cd865d3fde2ea290777e9e0afec613a073d15010fcbe96bf5c2425b9"
+  },
+  {
+    "path": "scripts/export_depth_cloud.py",
+    "sha256": "a47812c882a0338dcb01651b1c02401d739612c6d070d5c117ea5e17af9f0a35"
+  },
+  {
+    "path": "scripts/start_vision.sh",
+    "sha256": "486107116b12a1db680221c368ef892e9f32e160ec80f10c569daecb8a5ef556"
+  },
+  {
+    "path": "scripts/install_local_dependencies.sh",
+    "sha256": "62d31ef8477565ba72d5cf4148793263583cb5f7857f4c9f3df0f91f0dd0f8cc"
+  },
+  {
+    "path": "scripts/prepare_site_tools_v4.py",
+    "sha256": "7117800c352cb91e3436d3082e02b31e649408757395b5a2d203713cf09b7187"
+  },
+  {
+    "path": "scripts/prepare_tools_v2.py",
+    "sha256": "c7fef4c16a01f9ab493b61c957b8e72552d19329f4dee1bbfb002b77221ec1f6"
+  },
+  {
+    "path": "scripts/verify_acceleration.py",
+    "sha256": "b972eeee7356b2bf50279eeee702180dd2e7bd0dfea615d523663a9dec5fe867"
+  },
+  {
+    "path": "scripts/train_tools.py",
+    "sha256": "53282101a575dc2f480a1e35fe96fa61bcee14b21cecb0af61f7a908c258cb56"
+  },
+  {
+    "path": "scripts/capture_tool_dataset.py",
+    "sha256": "c8b952a0804875d87b71c3e633bb15c2a03c7b9bb60b82f9c82a0d022da8aa4b"
+  },
+  {
+    "path": "scripts/verify_temporal_filter.py",
+    "sha256": "772dabf7645e6717aa66fec28d0977329119bd4f8e4252fcc8ae8d4ff3772de0"
+  },
+  {
+    "path": "scripts/env_npu_diagnostics.bash",
+    "sha256": "d6e5243bb3aafec8b18734454dcf9e15ec13d85c4eba2fab6384d68f660cb189"
+  },
+  {
+    "path": "scripts/verify_vision_pipeline.py",
+    "sha256": "7b5d53c0a1571989394e02040acd68f350862a3ebcd8a2090d2c1a9acd7d5726"
+  },
+  {
+    "path": "scripts/calibrate_camera.py",
+    "sha256": "1954a55cf8f7c29dc2a280c75d396ff04ec6c1fd74e03c55e491dc48df6d7a30"
+  },
+  {
+    "path": "scripts/install_camera_permissions.sh",
+    "sha256": "28447757f8a43ef88cf0d2feb4fa17170294573bae61ecc708f4c3473c776b63"
+  },
+  {
+    "path": "scripts/evaluate_tabletop_stress.py",
+    "sha256": "cb79e6a991904e579eac3d07103f3dbe50772ee7b49c3f923e355a1744903f0c"
+  },
+  {
+    "path": "scripts/build_jazzy.sh",
+    "sha256": "f6b2710f9a0dbd0c831ef698bf81b0a1f6add10c44787a571cbe65a349ad13a1"
+  },
+  {
+    "path": "models/tools_yolo11n.pt",
+    "sha256": "c4f3d1e2def5f30f86cd55beb582407b41c808bb4eaff01ca6584771f53a489f"
+  },
+  {
+    "path": "models/hand_landmarker.task",
+    "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+  },
+  {
+    "path": "models/yolo11n.pt",
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  },
+  {
+    "path": "models/manifest.json",
+    "sha256": "5aae9ae1f90a53975d29c383e2cb3f2a17c260f6c9ecb79ee6d96a794864a35e"
+  }
+]

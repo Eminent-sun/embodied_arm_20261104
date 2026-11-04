@@ -1,0 +1,8 @@
+D:\FPGA_jingsai\optimization\robstride_arm_workflow_20261103\software\tests\workflow_tests.c: In function 'wf_tx':
+D:\FPGA_jingsai\optimization\robstride_arm_workflow_20261103\software\tests\workflow_tests.c:20:9: error: this 'else' clause does not guard... [-Werror=misleading-indentation]
+   20 |         else return -1;result=value;
+      |         ^~~~
+D:\FPGA_jingsai\optimization\robstride_arm_workflow_20261103\software\tests\workflow_tests.c:20:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   20 |         else return -1;result=value;
+      |                        ^~~~~~
+cc1.exe: all warnings being treated as errors

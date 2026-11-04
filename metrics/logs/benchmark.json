@@ -1,0 +1,273 @@
+{
+  "date": "2026-11-04T11:29:34+0800",
+  "scope": "AI PC offline; no camera, real Ethernet peer, actuator or browser stream",
+  "torch": "2.13.0+rocm10.0.0",
+  "hip": "7.15.26333",
+  "gpu": "AMD Radeon 890M Graphics",
+  "gpu_arch": "gfx1150",
+  "model_sha256": "c4f3d1e2def5f30f86cd55beb582407b41c808bb4eaff01ca6584771f53a489f",
+  "precision": "FP32",
+  "input": [
+    640,
+    480
+  ],
+  "imgsz": 640,
+  "batch": 1,
+  "torch_threads": 1,
+  "opencv_threads": 2,
+  "warmup": 20,
+  "detector": {
+    "cpu": {
+      "actual_torch_threads": 1,
+      "samples": 1271,
+      "duration_s": 60.03613105401746,
+      "fps": 21.170584740985703,
+      "process_cpu_seconds": 1424.056095553,
+      "parameter_dtype": "torch.float32",
+      "max_rss_bytes": 1143984128,
+      "timing_ms": {
+        "preprocess_ms": {
+          "n": 1271,
+          "mean": 0.7434850466358135,
+          "p50": 0.7397030130960047,
+          "p95": 0.7795865094522014,
+          "p99": 0.8241950010415167,
+          "max": 1.1785340029746294,
+          "min": 0.6852460210211575
+        },
+        "model_ms": {
+          "n": 1271,
+          "mean": 45.60194245336634,
+          "p50": 44.43855001591146,
+          "p95": 51.32039450109005,
+          "p99": 65.39795659482472,
+          "max": 143.39935401221737,
+          "min": 40.35734699573368
+        },
+        "postprocess_ms": {
+          "n": 1271,
+          "mean": 0.4718706045112185,
+          "p50": 0.4665279993787408,
+          "p95": 0.5053924978710711,
+          "p99": 0.5744680034695193,
+          "max": 2.0421169756446034,
+          "min": 0.43672602623701096
+        },
+        "predict_wall_ms": {
+          "n": 1271,
+          "mean": 47.075513141620775,
+          "p50": 45.91881,
+          "p95": 52.779404,
+          "p99": 66.88978299999994,
+          "max": 144.814504,
+          "min": 41.787491
+        }
+      }
+    },
+    "gpu": {
+      "actual_torch_threads": 1,
+      "samples": 6280,
+      "duration_s": 60.00647277099779,
+      "fps": 104.65537649523765,
+      "process_cpu_seconds": 119.9625494259999,
+      "parameter_dtype": "torch.float32",
+      "max_rss_bytes": 2294001664,
+      "timing_ms": {
+        "preprocess_ms": {
+          "n": 6280,
+          "mean": 0.424819007059144,
+          "p50": 0.40679149969946593,
+          "p95": 0.5144969516550191,
+          "p99": 0.6254822135088034,
+          "max": 0.855814985698089,
+          "min": 0.34878900623880327
+        },
+        "model_ms": {
+          "n": 6280,
+          "mean": 8.325132342289198,
+          "p50": 8.31328600179404,
+          "p95": 8.630603762867395,
+          "p99": 8.788232298975345,
+          "max": 9.41007598885335,
+          "min": 7.563408988062292
+        },
+        "postprocess_ms": {
+          "n": 6280,
+          "mean": 0.5447107604914271,
+          "p50": 0.47207849274855107,
+          "p95": 0.8695880431332622,
+          "p99": 1.0752393782604486,
+          "max": 2.1388469904195517,
+          "min": 0.41806302033364773
+        },
+        "predict_wall_ms": {
+          "n": 6280,
+          "mean": 9.476668054299363,
+          "p50": 9.459539,
+          "p95": 9.836162949999999,
+          "p99": 10.21022703,
+          "max": 11.514639,
+          "min": 8.768216
+        }
+      },
+      "torch_peak_allocated_bytes": 62606336,
+      "torch_peak_reserved_bytes": 71303168
+    }
+  },
+  "fixed_threshold": {
+    "images": 124,
+    "objects": 393,
+    "confidence": 0.35,
+    "nms_iou": 0.45,
+    "match_iou": 0.5,
+    "overall": {
+      "tp": 387,
+      "fp": 13,
+      "fn": 6,
+      "precision": 0.9675,
+      "recall": 0.9847328244274809,
+      "f1": 0.9760403530895334
+    },
+    "perfect_frames": 111,
+    "per_class": {
+      "screwdriver": {
+        "tp": 73,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.948051948051948,
+        "recall": 1.0,
+        "f1": 0.9733333333333334
+      },
+      "pliers": {
+        "tp": 124,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "scissors": {
+        "tp": 123,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9919354838709677,
+        "recall": 1.0,
+        "f1": 0.9959514170040485
+      },
+      "tweezers": {
+        "tp": 67,
+        "fp": 8,
+        "fn": 6,
+        "precision": 0.8933333333333333,
+        "recall": 0.9178082191780822,
+        "f1": 0.9054054054054054
+      }
+    }
+  },
+  "ap": {
+    "images": 124,
+    "instances": 393,
+    "metrics": {
+      "metrics/precision(B)": 0.9925735691566633,
+      "metrics/recall(B)": 0.9868510934979222,
+      "metrics/mAP50(B)": 0.9938605208211373,
+      "metrics/mAP50-95(B)": 0.8208379101779993,
+      "fitness": 0.8208379101779993
+    },
+    "per_class": [
+      {
+        "Class": "screwdriver",
+        "Images": 73,
+        "Instances": 73,
+        "Box-P": 0.97197,
+        "Box-R": 1.0,
+        "Box-F1": 0.98578,
+        "mAP50": 0.995,
+        "mAP75": 0.98144,
+        "mAP50-95": 0.83991
+      },
+      {
+        "Class": "pliers",
+        "Images": 124,
+        "Instances": 124,
+        "Box-P": 0.99833,
+        "Box-R": 1.0,
+        "Box-F1": 0.99916,
+        "mAP50": 0.995,
+        "mAP75": 0.995,
+        "mAP50-95": 0.8563
+      },
+      {
+        "Class": "scissors",
+        "Images": 123,
+        "Instances": 123,
+        "Box-P": 1.0,
+        "Box-R": 0.99473,
+        "Box-F1": 0.99736,
+        "mAP50": 0.995,
+        "mAP75": 0.98459,
+        "mAP50-95": 0.84405
+      },
+      {
+        "Class": "tweezers",
+        "Images": 73,
+        "Instances": 73,
+        "Box-P": 1.0,
+        "Box-R": 0.95267,
+        "Box-F1": 0.97576,
+        "mAP50": 0.99044,
+        "mAP75": 0.88499,
+        "mAP50-95": 0.7431
+      }
+    ],
+    "note": "AP uses conf=.001 and NMS IoU=.7; fixed deployment threshold measured separately at .35/.45"
+  },
+  "offline_rgbd": {
+    "source": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000052.png",
+    "source_timestamp": 1793633771.8735883,
+    "frames": 1819,
+    "duration_s": 30.014075735001825,
+    "fps": 60.604898050507614,
+    "timing_ms": {
+      "n": 1819,
+      "mean": 16.506145358988455,
+      "p50": 17.367229,
+      "p95": 18.907452,
+      "p99": 20.123635519999997,
+      "max": 39.863542,
+      "min": 12.749193
+    },
+    "hands_max": 0,
+    "scope": "Decoded cached same RGB-D repeated: parallel YOLO+MediaPipe, depth, tracking, overlay, JSON/JPEG encoding; excludes camera/USB, files/NPZ, ROS, browser/network, valid base transform and actuator"
+  },
+  "hand_model": {
+    "samples": 200,
+    "timing_ms": {
+      "n": 200,
+      "mean": 19.65067484,
+      "p50": 19.6801805,
+      "p95": 24.3835713,
+      "p99": 24.63296905,
+      "max": 24.839386,
+      "min": 12.659446
+    },
+    "hands_min": 2,
+    "hands_max": 2,
+    "scope": "CPU MediaPipe fixed RGB image; no landmark accuracy ground truth, depth or motion"
+  },
+  "depth_integrity": {
+    "paired_frames": 124,
+    "shape_pass": 124,
+    "hash_pass": 124,
+    "valid_depth_ratio": {
+      "n": 124,
+      "mean": 0.9718759713121641,
+      "p50": 0.9857454427083333,
+      "p95": 0.9970087890625,
+      "p99": 0.9975490885416667,
+      "max": 0.9980989583333333,
+      "min": 0.8289192708333334
+    },
+    "scope": "Archived holdout RGB-D completeness; no distance ground-truth accuracy or new sensor frame-drop test"
+  }
+}

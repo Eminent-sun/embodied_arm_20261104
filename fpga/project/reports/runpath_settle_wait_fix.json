@@ -1,0 +1,96 @@
+{
+  "status": "PASS_PC_SETTLE_WAIT_AND_INTERRUPT_MESSAGE_OFFLINE",
+  "hardware_access": false,
+  "incident_log": {
+    "path": "software\\operator_logs\\20261104_130107\\recorded_cycle.jsonl",
+    "sha256": "76d052a55cc101dfbdc35c364b02cb203536caaf1167869038194adefeb1213a",
+    "request": {
+      "event": "request",
+      "time_monotonic_s": 226428.375,
+      "request": 12,
+      "operation": 106,
+      "reply": [
+        12,
+        6,
+        106,
+        0
+      ]
+    },
+    "final_event": {
+      "event": "cycle_rejected_hold",
+      "time_monotonic_s": 226428.39,
+      "auto_resume": false,
+      "stop_requested": false,
+      "arm": {
+        "header": [
+          1464226353,
+          1,
+          3,
+          0,
+          63,
+          63,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "position_rad": [
+          -1.0693979263305664,
+          2.6340370178222656,
+          -2.1351735591888428,
+          3.034086227416992,
+          -0.08083227276802063,
+          -2.9688920974731445
+        ],
+        "velocity_rad_s": [
+          0.0,
+          0.002304953057318926,
+          0.0,
+          0.0,
+          -1.3428259716618401e-31,
+          0.0
+        ],
+        "target_rad": [
+          -1.0694403648376465,
+          2.6341519355773926,
+          -2.1356422901153564,
+          3.0341289043426514,
+          -0.08078967034816742,
+          -2.9688920974731445
+        ]
+      }
+    }
+  },
+  "observation": "CHECKPOSE rejected by PS readiness before IK; later DDR report settled and runner preserved hold. Exact failed axis/velocity sample was not retained by PS.",
+  "console_interrupt": "User pasted KeyboardInterrupt at input prompt; existing finally attempts STOP. New entrypoint reports this without a traceback.",
+  "fix": "Only explicit nonexecuted result=6 may wait under the verified original hold for 3 settled samples, max 5 s/3 requests. Accepted or uncertain motion is never replayed. Thresholds unchanged.",
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+  "runner_sha256": "3648e02c3f9d948432f9c25e68762fcef32df786bf87d55b4a1082df7dfcf81f",
+  "ELF_changed": false,
+  "BIT_changed": false,
+  "requires_new_download": false,
+  "python_tests": 96,
+  "actual_ARM_transient_rejections_tested": [
+    {
+      "operation": 106,
+      "sequence": 3,
+      "result": 6,
+      "no_motion_committed": true
+    },
+    {
+      "operation": 107,
+      "sequence": 8,
+      "result": 6,
+      "no_motion_committed": true
+    }
+  ],
+  "complete_cycle_segments": 30,
+  "physical_motion_tested": false,
+  "evidence": [
+    "software/reports/recorded_cycle_arm_path.json",
+    "software/reports/recorded_start_reproduction.json",
+    "reports/gripper_signoff.json"
+  ]
+}

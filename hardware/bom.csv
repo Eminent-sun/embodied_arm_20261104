@@ -1,0 +1,15 @@
+component,quantity,model,status,missing_details
+fpga_board,1,ALINX AX7010 / xc7z010clg400-1,documented,board revision / serial / power
+ai_pc,1,EliteMini Series / F8BNB / AMD Ryzen AI 9 HX 370 / Radeon 890M,AIPC environment.json and report,exact product SKU / physical RAM modules; OS-visible memory 28.98 GiB
+fpga_debug_workstation,1,ASUS FA608WI / AMD Ryzen AI 9 HX 370 / approximately 32GB,historical FPGA-side inventory; separate from AIPC inference device,debug OS / Python / power mode
+motor_id1,1,EL05,prior user confirmation,firmware / serial / reduction / current limits
+motor_id2,1,RS00,prior user confirmation,firmware / serial / reduction / current limits
+motor_id3,1,EL05,prior user confirmation,firmware / serial / reduction / current limits
+motor_id4,1,EL05,prior user confirmation,firmware / serial / reduction / current limits
+motor_id5,1,EL05,prior user confirmation,firmware / serial / reduction / current limits
+motor_id6,1,,not independently verified,model / firmware / serial
+gripper_servo,1,MG996R (historical test naming only),needs nameplate confirmation,rated voltage / current / physical travel / force
+can_transceiver,1,Wildfire module (historical description),needs physical confirmation,chip / supply / logic levels / termination
+camera,1,Orbbec Gemini 2,AIPC source documentation and RGB-D evidence,serial / current extrinsics / exposure / field calibration archive
+power_system,1,,not documented,motor and servo supply / protection / current
+safety_chain,1,,not documented,emergency stop / power removal / mechanical support

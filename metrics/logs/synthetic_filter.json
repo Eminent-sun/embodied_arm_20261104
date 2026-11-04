@@ -1,0 +1,9 @@
+{
+  "scope": "Synthetic software fixture, 600 frames at nominal 30 Hz, seed73; not measured camera/robot jitter",
+  "raw_std_mm": 4.023290382511018,
+  "filtered_std_mm": 1.593591989747597,
+  "jump_rejected": 2,
+  "jump_injected": 2,
+  "held_unusable": 3,
+  "dropout_frames": 3
+}

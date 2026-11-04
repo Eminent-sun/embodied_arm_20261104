@@ -1,0 +1,4 @@
+PICK frames=281 ms=14000
+DELIVER frames=353 ms=17600
+RETURN frames=183 ms=9100
+PASS WORKFLOW 68 CHECKS (synthetic ideal tracking only)

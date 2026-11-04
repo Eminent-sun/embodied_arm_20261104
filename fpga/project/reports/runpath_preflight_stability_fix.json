@@ -1,0 +1,21 @@
+{
+  "status": "PASS_PC_CONTINUOUS_PREFLIGHT_AND_HOLD_READINESS_OFFLINE",
+  "hardware_access": false,
+  "observation": "User supplied INITIAL_HOLD, frames63/63 and valid feedback before RUNPATH single-sample preflight refusal. Old preflight did not log its failed sample; exact failing axis/condition cannot be determined.",
+  "fix": "Bounded continuous readiness before first preview, before gripper action and before dwell; 3 consecutive completed-arrival samples. Transient gripper readiness waits within ramp deadline; dwell restarts after readiness returns. Limits unchanged.",
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+  "runner_sha256": "f32ad5d113c87c57f6e8c43f8072f33db1c2b1351ea74cdafe095cc912b2fb2b",
+  "ELF_changed": false,
+  "BIT_changed": false,
+  "requires_new_download": false,
+  "python_tests": 100,
+  "actual_ARM_complete_segments": 30,
+  "preflight_transient_velocity_tested": true,
+  "new_diagnostics": [
+    "hold_not_ready",
+    "hold_ready",
+    "dwell_restarted"
+  ],
+  "console_change": "Reload path module at each explicitly requested RUNPATH, between cycles only; current old console needs one restart.",
+  "physical_motion_tested": false
+}

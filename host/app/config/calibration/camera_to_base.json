@@ -1,0 +1,16 @@
+{
+  "validated": false,
+  "camera_serial": "AY6T25501D7",
+  "parent_frame": "base_link",
+  "child_frame": "camera_color_optical_frame",
+  "units": "m",
+  "T_base_camera": null,
+  "note": "Measure the fixed camera-to-base transform and validate it using independent points before enabling robot targets.",
+  "schema_version": 2,
+  "mounting": "eye_to_hand",
+  "camera_fixed": false,
+  "setup_id": null,
+  "calibration_id": null,
+  "camera_model_signature": null,
+  "physically_measured": false
+}

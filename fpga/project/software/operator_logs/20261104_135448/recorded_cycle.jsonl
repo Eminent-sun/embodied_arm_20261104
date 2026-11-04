@@ -1,0 +1,176 @@
+{"event": "hold_ready", "time_monotonic_s": 229752.296, "label": "RUNPATH 前置检查", "elapsed_s": 0.25, "arm": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0694403648376465, 2.6342670917510986, -2.1355996131896973, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, 0.00393926864489913, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "preflight_pass", "time_monotonic_s": 229752.296, "calibration_sha256": "477df88a8f23fd293b12711f7eeb2b97ba2b724dbbfa9a96cc4d70c4a6c41f9a", "home_motor_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445]}
+{"event": "cycle_started", "time_monotonic_s": 229752.312}
+{"event": "request", "time_monotonic_s": 229752.515, "request": 240, "operation": 106, "reply": [240, 6, 106, 0]}
+{"event": "cartesian_reply", "time_monotonic_s": 229752.515, "operation": 106, "source_request": 54, "report": {"sequence": 240, "result": 6, "model_only": true, "plan_valid": false, "frames": 0, "duration_ms": 0, "solver": "none", "analytic_solutions": 0, "xyz_mm": [180.0, 0.0, 160.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [0.0, 1.5700000524520874, 0.0, 0.0, 1.5700000524520874, 0.0], "target_joint_rad": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "target_motor_rad": null, "position_error_mm": 0.0, "orientation_error_rad": 0.0}, "arm_before": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0694403648376465, 2.6342670917510986, -2.1355996131896973, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, 0.00393926864489913, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "settle_wait_started", "time_monotonic_s": 229752.515, "operation": 106, "attempt": 1, "arm": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0693979263305664, 2.6341137886047363, -2.135556936264038, 3.034086227416992, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, -0.006983419414609671, 0.0, 0.08465524017810822, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "settle_wait_ready", "time_monotonic_s": 229752.859, "operation": 106, "attempt": 1, "arm": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0694832801818848, 2.6341519355773926, -2.135471820831299, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, -0.005015835165977478, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "request", "time_monotonic_s": 229753.281, "request": 241, "operation": 106, "reply": [241, 0, 106, 0]}
+{"event": "cartesian_reply", "time_monotonic_s": 229753.281, "operation": 106, "source_request": 54, "report": {"sequence": 241, "result": 0, "model_only": false, "plan_valid": true, "frames": 293, "duration_ms": 14600, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, 0.0, 160.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [-0.0, 1.5699235200881958, -8.535385131835938e-05, -0.0, 1.5700000524520874, 0.0], "target_joint_rad": [0.004728875122964382, 2.0272727012634277, -0.5013538599014282, 8.166811312548816e-05, -0.04489196464419365, 1.5661383867263794], "target_motor_rad": [-1.0741692781448364, 3.091463088989258, -1.6342884302139282, 3.0340471267700195, 1.5341023206710815, -1.4027537107467651], "position_error_mm": 4.2146846681134775e-05, "orientation_error_rad": 4.6820460397611896e-08}, "arm_before": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0694832801818848, 2.6341519355773926, -2.135471820831299, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, -0.005015835165977478, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "hold_ready", "time_monotonic_s": 229753.531, "label": "夹爪动作前停稳检查", "elapsed_s": 0.25, "arm": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0694403648376465, 2.634190320968628, -2.135556936264038, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, 0.003272461239248514, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "gripper_requested", "time_monotonic_s": 229753.531, "pulse_us": 1110}
+{"event": "request", "time_monotonic_s": 229753.734, "request": 242, "operation": 111, "reply": [242, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229753.968, "request": 243, "operation": 111, "reply": [243, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229754.296, "request": 244, "operation": 111, "reply": [244, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229754.625, "request": 245, "operation": 111, "reply": [245, 0, 111, 0]}
+{"event": "gripper_pulse_reached", "time_monotonic_s": 229754.625, "pulse_us": 1110, "mechanical_feedback": false}
+{"event": "request", "time_monotonic_s": 229754.859, "request": 246, "operation": 111, "reply": [246, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229755.218, "request": 247, "operation": 107, "reply": [247, 0, 107, 0]}
+{"event": "cartesian_reply", "time_monotonic_s": 229755.218, "operation": 107, "source_request": 54, "report": {"sequence": 247, "result": 0, "model_only": false, "plan_valid": true, "frames": 293, "duration_ms": 14600, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, 0.0, 160.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [-0.0, 1.5701149702072144, -0.0, -0.0, 1.5700000524520874, 0.0], "target_joint_rad": [0.004728875122964382, 2.0272727012634277, -0.5013538599014282, 8.166811312548816e-05, -0.04489196464419365, 1.5661383867263794], "target_motor_rad": [-1.0741692781448364, 3.091463088989258, -1.6342884302139282, 3.0340471267700195, 1.5341023206710815, -1.4027537107467651], "position_error_mm": 4.2146846681134775e-05, "orientation_error_rad": 4.6820460397611896e-08}, "arm_before": {"header": [1464226353, 1, 3, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0694832801818848, 2.6342670917510986, -2.1356422901153564, 3.0341289043426514, -0.08078967034816742, -2.9688920974731445], "velocity_rad_s": [0.0, 0.00833068136125803, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0694403648376465, 2.634190320968628, -2.1356422901153564, 3.0341289043426514, -0.08078968524932861, -2.9688920974731445]}}
+{"event": "move_accepted", "time_monotonic_s": 229755.218, "phase": "前往拾取", "source_request": 54, "pose": [180.0, 0.0, 160.0, 0.0, 0.0, 0.0], "plan": {"sequence": 247, "result": 0, "model_only": false, "plan_valid": true, "frames": 293, "duration_ms": 14600, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, 0.0, 160.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [-0.0, 1.5701149702072144, -0.0, -0.0, 1.5700000524520874, 0.0], "target_joint_rad": [0.004728875122964382, 2.0272727012634277, -0.5013538599014282, 8.166811312548816e-05, -0.04489196464419365, 1.5661383867263794], "target_motor_rad": [-1.0741692781448364, 3.091463088989258, -1.6342884302139282, 3.0340471267700195, 1.5341023206710815, -1.4027537107467651], "position_error_mm": 4.2146846681134775e-05, "orientation_error_rad": 4.6820460397611896e-08}}
+{"event": "request", "time_monotonic_s": 229755.562, "request": 248, "operation": 111, "reply": [248, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229756.312, "request": 249, "operation": 111, "reply": [249, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229757.109, "request": 250, "operation": 111, "reply": [250, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229757.89, "request": 251, "operation": 111, "reply": [251, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229758.656, "request": 252, "operation": 111, "reply": [252, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229759.406, "request": 253, "operation": 111, "reply": [253, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229760.171, "request": 254, "operation": 111, "reply": [254, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229760.906, "request": 255, "operation": 111, "reply": [255, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229761.671, "request": 256, "operation": 111, "reply": [256, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229762.468, "request": 257, "operation": 111, "reply": [257, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229763.218, "request": 258, "operation": 111, "reply": [258, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229763.968, "request": 259, "operation": 111, "reply": [259, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229764.812, "request": 260, "operation": 111, "reply": [260, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229765.562, "request": 261, "operation": 111, "reply": [261, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229766.343, "request": 262, "operation": 111, "reply": [262, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229767.125, "request": 263, "operation": 111, "reply": [263, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229767.921, "request": 264, "operation": 111, "reply": [264, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229768.703, "request": 265, "operation": 111, "reply": [265, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229769.5, "request": 266, "operation": 111, "reply": [266, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229770.25, "request": 267, "operation": 111, "reply": [267, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229771.046, "request": 268, "operation": 111, "reply": [268, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229771.812, "request": 269, "operation": 111, "reply": [269, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229772.578, "request": 270, "operation": 111, "reply": [270, 0, 111, 0]}
+{"event": "waypoint_arrived", "time_monotonic_s": 229772.921, "phase": "前往拾取", "source_request": 54, "pose": [180.0, 0.0, 160.0, 0.0, 0.0, 0.0]}
+{"event": "request", "time_monotonic_s": 229773.375, "request": 271, "operation": 111, "reply": [271, 0, 111, 0]}
+{"event": "hold_ready", "time_monotonic_s": 229773.375, "label": "等待计时前停稳检查", "elapsed_s": 0.4539999999979045, "arm": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.074127197265625, 3.0914700031280518, -1.634200930595398, 3.034043550491333, 1.534066081047058, -1.402740240097046], "velocity_rad_s": [0.0, -0.015132797881960869, 0.0, 0.0, -1.2389234603504828e-12, 0.0], "target_rad": [-1.0741692781448364, 3.091463088989258, -1.6342884302139282, 3.0340471267700195, 1.5341023206710815, -1.4027537107467651]}}
+{"event": "dwell_started", "time_monotonic_s": 229773.375, "seconds": 5.0, "label": "拾取点已到位，等待 5 秒。", "deadline_monotonic_s": 229778.375}
+{"event": "request", "time_monotonic_s": 229774.156, "request": 272, "operation": 111, "reply": [272, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229774.937, "request": 273, "operation": 111, "reply": [273, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229775.703, "request": 274, "operation": 111, "reply": [274, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229776.468, "request": 275, "operation": 111, "reply": [275, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229777.218, "request": 276, "operation": 111, "reply": [276, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229778.015, "request": 277, "operation": 111, "reply": [277, 0, 111, 0]}
+{"event": "dwell_finished", "time_monotonic_s": 229778.375, "seconds": 5.0, "label": "拾取点已到位，等待 5 秒。", "elapsed_s": 5.0, "jitter_samples": 2}
+{"event": "request", "time_monotonic_s": 229778.843, "request": 278, "operation": 111, "reply": [278, 0, 111, 0]}
+{"event": "hold_ready", "time_monotonic_s": 229778.843, "label": "夹爪动作前停稳检查", "elapsed_s": 0.46799999999348074, "arm": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0741701126098633, 3.0914700031280518, -1.6342861652374268, 3.034043550491333, 1.5341087579727173, -1.4026976823806763], "velocity_rad_s": [0.0, 0.011388017795979977, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0741692781448364, 3.091463088989258, -1.6342884302139282, 3.0340471267700195, 1.5341023206710815, -1.4027537107467651]}}
+{"event": "gripper_requested", "time_monotonic_s": 229778.843, "pulse_us": 1490}
+{"event": "request", "time_monotonic_s": 229779.031, "request": 279, "operation": 111, "reply": [279, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229779.281, "request": 280, "operation": 111, "reply": [280, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229779.625, "request": 281, "operation": 111, "reply": [281, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229779.968, "request": 282, "operation": 111, "reply": [282, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229780.312, "request": 283, "operation": 111, "reply": [283, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229780.64, "request": 284, "operation": 111, "reply": [284, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229780.953, "request": 285, "operation": 111, "reply": [285, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229781.281, "request": 286, "operation": 111, "reply": [286, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229781.609, "request": 287, "operation": 111, "reply": [287, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229781.953, "request": 288, "operation": 111, "reply": [288, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229782.281, "request": 289, "operation": 111, "reply": [289, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229782.625, "request": 290, "operation": 111, "reply": [290, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229782.937, "request": 291, "operation": 111, "reply": [291, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229783.281, "request": 292, "operation": 111, "reply": [292, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229783.609, "request": 293, "operation": 111, "reply": [293, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229783.968, "request": 294, "operation": 111, "reply": [294, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229784.296, "request": 295, "operation": 111, "reply": [295, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229784.687, "request": 296, "operation": 111, "reply": [296, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229785.0, "request": 297, "operation": 111, "reply": [297, 0, 111, 0]}
+{"event": "gripper_pulse_reached", "time_monotonic_s": 229785.0, "pulse_us": 1490, "mechanical_feedback": false}
+{"event": "request", "time_monotonic_s": 229785.218, "request": 298, "operation": 111, "reply": [298, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229785.406, "request": 299, "operation": 107, "reply": [299, 0, 107, 0]}
+{"event": "cartesian_reply", "time_monotonic_s": 229785.406, "operation": 107, "source_request": 53, "report": {"sequence": 299, "result": 0, "model_only": false, "plan_valid": true, "frames": 63, "duration_ms": 3100, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, 0.0, 170.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [0.004729747772216797, 2.027279853820801, -0.5013561248779297, 8.535385131835938e-05, -0.044898390769958496, 1.5661518573760986], "target_joint_rad": [0.004728673957288265, 1.982468843460083, -0.5255873799324036, 3.425687100389041e-05, -0.11392940580844879, 1.5660912990570068], "target_motor_rad": [-1.0741690397262573, 3.046658992767334, -1.6100549697875977, 3.0340945720672607, 1.6031397581100464, -1.4028007984161377], "position_error_mm": 4.214689033688046e-05, "orientation_error_rad": 9.75255858293167e-08}, "arm_before": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 293, 293, 0, 0, 0], "position_rad": [-1.0741701126098633, 3.091508150100708, -1.6342861652374268, 3.034043550491333, 1.5341087579727173, -1.4028680324554443], "velocity_rad_s": [0.0, 0.01213421393185854, 0.0, 1.5853290902256845e-10, 0.0, -5.194806362851523e-06], "target_rad": [-1.0741692781448364, 3.091463088989258, -1.6342884302139282, 3.0340471267700195, 1.5341023206710815, -1.4027537107467651]}}
+{"event": "move_accepted", "time_monotonic_s": 229785.406, "phase": "前往递送", "source_request": 53, "pose": [180.0, 0.0, 170.0, 0.0, 0.0, 0.0], "plan": {"sequence": 299, "result": 0, "model_only": false, "plan_valid": true, "frames": 63, "duration_ms": 3100, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, 0.0, 170.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [0.004729747772216797, 2.027279853820801, -0.5013561248779297, 8.535385131835938e-05, -0.044898390769958496, 1.5661518573760986], "target_joint_rad": [0.004728673957288265, 1.982468843460083, -0.5255873799324036, 3.425687100389041e-05, -0.11392940580844879, 1.5660912990570068], "target_motor_rad": [-1.0741690397262573, 3.046658992767334, -1.6100549697875977, 3.0340945720672607, 1.6031397581100464, -1.4028007984161377], "position_error_mm": 4.214689033688046e-05, "orientation_error_rad": 9.75255858293167e-08}}
+{"event": "request", "time_monotonic_s": 229785.937, "request": 300, "operation": 111, "reply": [300, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229786.734, "request": 301, "operation": 111, "reply": [301, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229787.5, "request": 302, "operation": 111, "reply": [302, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229788.296, "request": 303, "operation": 111, "reply": [303, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229789.046, "request": 304, "operation": 111, "reply": [304, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229789.859, "request": 305, "operation": 111, "reply": [305, 0, 111, 0]}
+{"event": "waypoint_arrived", "time_monotonic_s": 229789.984, "phase": "前往递送", "source_request": 53, "pose": [180.0, 0.0, 170.0, 0.0, 0.0, 0.0]}
+{"event": "request", "time_monotonic_s": 229790.328, "request": 306, "operation": 107, "reply": [306, 0, 107, 0]}
+{"event": "cartesian_reply", "time_monotonic_s": 229790.328, "operation": 107, "source_request": 155, "report": {"sequence": 306, "result": 0, "model_only": false, "plan_valid": true, "frames": 235, "duration_ms": 11700, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, -150.0, 170.0], "rpy_deg": [-60.0, -90.0, 0.0], "seed_joint_rad": [0.004772663116455078, 1.982448935508728, -0.5256015062332153, 4.267692565917969e-05, -0.11397016048431396, 1.5660240650177002], "target_joint_rad": [-0.6911072731018066, 2.1298320293426514, -0.8434998989105225, 0.3697158694267273, 1.304612398147583, 1.672376275062561], "target_motor_rad": [-0.37833309173583984, 3.1940221786499023, -1.292142391204834, 2.6644129753112793, 0.18459796905517578, -1.2965158224105835], "position_error_mm": 3.332001142553054e-05, "orientation_error_rad": 1.0883180578957763e-07}, "arm_before": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 63, 63, 0, 0, 0], "position_rad": [-1.0742130279541016, 3.046562671661377, -1.6100407838821411, 3.034086227416992, 1.6031805276870728, -1.402782917022705], "velocity_rad_s": [0.0, -0.015936026349663734, 0.0, 0.0, 0.0, 0.0], "target_rad": [-1.0741690397262573, 3.046658992767334, -1.6100549697875977, 3.0340945720672607, 1.6031397581100464, -1.4028007984161377]}}
+{"event": "move_accepted", "time_monotonic_s": 229790.328, "phase": "前往递送", "source_request": 155, "pose": [180.0, -150.0, 170.0, -60.0, -90.0, 0.0], "plan": {"sequence": 306, "result": 0, "model_only": false, "plan_valid": true, "frames": 235, "duration_ms": 11700, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, -150.0, 170.0], "rpy_deg": [-60.0, -90.0, 0.0], "seed_joint_rad": [0.004772663116455078, 1.982448935508728, -0.5256015062332153, 4.267692565917969e-05, -0.11397016048431396, 1.5660240650177002], "target_joint_rad": [-0.6911072731018066, 2.1298320293426514, -0.8434998989105225, 0.3697158694267273, 1.304612398147583, 1.672376275062561], "target_motor_rad": [-0.37833309173583984, 3.1940221786499023, -1.292142391204834, 2.6644129753112793, 0.18459796905517578, -1.2965158224105835], "position_error_mm": 3.332001142553054e-05, "orientation_error_rad": 1.0883180578957763e-07}}
+{"event": "request", "time_monotonic_s": 229790.625, "request": 307, "operation": 111, "reply": [307, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229791.406, "request": 308, "operation": 111, "reply": [308, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229792.187, "request": 309, "operation": 111, "reply": [309, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229792.953, "request": 310, "operation": 111, "reply": [310, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229793.687, "request": 311, "operation": 111, "reply": [311, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229794.484, "request": 312, "operation": 111, "reply": [312, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229795.281, "request": 313, "operation": 111, "reply": [313, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229796.046, "request": 314, "operation": 111, "reply": [314, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229796.843, "request": 315, "operation": 111, "reply": [315, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229797.609, "request": 316, "operation": 111, "reply": [316, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229798.421, "request": 317, "operation": 111, "reply": [317, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229799.203, "request": 318, "operation": 111, "reply": [318, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229800.0, "request": 319, "operation": 111, "reply": [319, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229800.781, "request": 320, "operation": 111, "reply": [320, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229801.546, "request": 321, "operation": 111, "reply": [321, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229802.296, "request": 322, "operation": 111, "reply": [322, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229803.093, "request": 323, "operation": 111, "reply": [323, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229803.843, "request": 324, "operation": 111, "reply": [324, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229804.609, "request": 325, "operation": 111, "reply": [325, 0, 111, 0]}
+{"event": "waypoint_arrived", "time_monotonic_s": 229804.609, "phase": "前往递送", "source_request": 155, "pose": [180.0, -150.0, 170.0, -60.0, -90.0, 0.0]}
+{"event": "hold_ready", "time_monotonic_s": 229804.843, "label": "等待计时前停稳检查", "elapsed_s": 0.23399999999674037, "arm": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 235, 235, 0, 0, 0], "position_rad": [-0.3782968521118164, 3.1939780712127686, -1.2920806407928467, 2.6644394397735596, 0.18454642593860626, -1.2965121269226074], "velocity_rad_s": [0.0, 0.0004216860979795456, 0.0, 0.0, 0.0, 0.0], "target_rad": [-0.37833309173583984, 3.1940221786499023, -1.292142391204834, 2.6644129753112793, 0.18459796905517578, -1.2965158224105835]}}
+{"event": "dwell_started", "time_monotonic_s": 229804.843, "seconds": 3.0, "label": "递送点已到位，等待 3 秒。", "deadline_monotonic_s": 229807.843}
+{"event": "request", "time_monotonic_s": 229805.343, "request": 326, "operation": 111, "reply": [326, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229806.093, "request": 327, "operation": 111, "reply": [327, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229806.89, "request": 328, "operation": 111, "reply": [328, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229807.671, "request": 329, "operation": 111, "reply": [329, 0, 111, 0]}
+{"event": "dwell_finished", "time_monotonic_s": 229807.859, "seconds": 3.0, "label": "递送点已到位，等待 3 秒。", "elapsed_s": 3.0160000000032596, "jitter_samples": 1}
+{"event": "hold_ready", "time_monotonic_s": 229808.093, "label": "夹爪动作前停稳检查", "elapsed_s": 0.23399999999674037, "arm": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 235, 235, 0, 0, 0], "position_rad": [-0.3783392906188965, 3.194016218185425, -1.2921233177185059, 2.6644394397735596, 0.18458901345729828, -1.2965121269226074], "velocity_rad_s": [0.0, 0.00018889742204919457, 0.0, 0.0, 0.0, 0.0], "target_rad": [-0.37833309173583984, 3.1940221786499023, -1.292142391204834, 2.6644129753112793, 0.18459796905517578, -1.2965158224105835]}}
+{"event": "gripper_requested", "time_monotonic_s": 229808.093, "pulse_us": 1110}
+{"event": "request", "time_monotonic_s": 229808.265, "request": 330, "operation": 111, "reply": [330, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229808.5, "request": 331, "operation": 111, "reply": [331, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229808.828, "request": 332, "operation": 111, "reply": [332, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229809.187, "request": 333, "operation": 111, "reply": [333, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229809.515, "request": 334, "operation": 111, "reply": [334, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229809.828, "request": 335, "operation": 111, "reply": [335, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229810.078, "request": 336, "operation": 111, "reply": [336, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229810.406, "request": 337, "operation": 111, "reply": [337, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229810.734, "request": 338, "operation": 111, "reply": [338, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229811.031, "request": 339, "operation": 111, "reply": [339, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229811.375, "request": 340, "operation": 111, "reply": [340, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229811.718, "request": 341, "operation": 111, "reply": [341, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229811.984, "request": 342, "operation": 111, "reply": [342, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229812.296, "request": 343, "operation": 111, "reply": [343, 0, 111, 0]}
+{"event": "gripper_pulse_reached", "time_monotonic_s": 229812.296, "pulse_us": 1110, "mechanical_feedback": false}
+{"event": "request", "time_monotonic_s": 229812.5, "request": 344, "operation": 111, "reply": [344, 0, 111, 0]}
+{"event": "hold_ready", "time_monotonic_s": 229812.734, "label": "等待计时前停稳检查", "elapsed_s": 0.4379999999946449, "arm": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 235, 235, 0, 0, 0], "position_rad": [-0.3782968521118164, 3.194016218185425, -1.2921658754348755, 2.6643970012664795, 0.18458901345729828, -1.2965121269226074], "velocity_rad_s": [0.0, 0.0028911347035318613, 0.0, 0.0, 0.0, 0.0], "target_rad": [-0.37833309173583984, 3.1940221786499023, -1.292142391204834, 2.6644129753112793, 0.18459796905517578, -1.2965158224105835]}}
+{"event": "dwell_started", "time_monotonic_s": 229812.734, "seconds": 2.0, "label": "已完成打开指令，再等待 2 秒。", "deadline_monotonic_s": 229814.734}
+{"event": "request", "time_monotonic_s": 229813.296, "request": 345, "operation": 111, "reply": [345, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229814.062, "request": 346, "operation": 111, "reply": [346, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229814.859, "request": 347, "operation": 111, "reply": [347, 0, 111, 0]}
+{"event": "dwell_finished", "time_monotonic_s": 229814.859, "seconds": 2.0, "label": "已完成打开指令，再等待 2 秒。", "elapsed_s": 2.125, "jitter_samples": 0}
+{"event": "request", "time_monotonic_s": 229815.078, "request": 348, "operation": 107, "reply": [348, 0, 107, 0]}
+{"event": "cartesian_reply", "time_monotonic_s": 229815.093, "operation": 107, "source_request": null, "report": {"sequence": 348, "result": 0, "model_only": false, "plan_valid": true, "frames": 63, "duration_ms": 3100, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, -150.0, 200.0], "rpy_deg": [-60.0, -90.0, 0.0], "seed_joint_rad": [-0.69110107421875, 2.1298646926879883, -0.843476414680481, 0.3697319030761719, 1.3045786619186401, 1.672379970550537], "target_joint_rad": [-0.6911077499389648, 2.040055990219116, -0.9198063015937805, 0.39182883501052856, 1.1503664255142212, 1.7378591299057007], "target_motor_rad": [-0.37833261489868164, 3.104246139526367, -1.2158360481262207, 2.6423001289367676, 0.3388439416885376, -1.2310329675674438], "position_error_mm": 2.5809567887336016e-05, "orientation_error_rad": 1.2811096894438379e-07}, "arm_before": {"header": [1464226353, 1, 12, 0, 63, 63, 1, 235, 235, 0, 0, 0], "position_rad": [-0.3783392906188965, 3.1940934658050537, -1.2921658754348755, 2.6644394397735596, 0.18463166058063507, -1.2965121269226074], "velocity_rad_s": [0.0, 0.006432352587580681, 0.0, 0.0, 0.0, 0.0], "target_rad": [-0.37833309173583984, 3.1940221786499023, -1.292142391204834, 2.6644129753112793, 0.18459796905517578, -1.2965158224105835]}}
+{"event": "move_accepted", "time_monotonic_s": 229815.093, "phase": "返回初始位置", "source_request": null, "pose": [180.0, -150.0, 200.0, -60.0, -90.0, 0.0], "plan": {"sequence": 348, "result": 0, "model_only": false, "plan_valid": true, "frames": 63, "duration_ms": 3100, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, -150.0, 200.0], "rpy_deg": [-60.0, -90.0, 0.0], "seed_joint_rad": [-0.69110107421875, 2.1298646926879883, -0.843476414680481, 0.3697319030761719, 1.3045786619186401, 1.672379970550537], "target_joint_rad": [-0.6911077499389648, 2.040055990219116, -0.9198063015937805, 0.39182883501052856, 1.1503664255142212, 1.7378591299057007], "target_motor_rad": [-0.37833261489868164, 3.104246139526367, -1.2158360481262207, 2.6423001289367676, 0.3388439416885376, -1.2310329675674438], "position_error_mm": 2.5809567887336016e-05, "orientation_error_rad": 1.2811096894438379e-07}}
+{"event": "request", "time_monotonic_s": 229815.64, "request": 349, "operation": 111, "reply": [349, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229816.406, "request": 350, "operation": 111, "reply": [350, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229817.187, "request": 351, "operation": 111, "reply": [351, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229817.906, "request": 352, "operation": 111, "reply": [352, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229818.718, "request": 353, "operation": 111, "reply": [353, 0, 111, 0]}
+{"event": "waypoint_arrived", "time_monotonic_s": 229819.171, "phase": "返回初始位置", "source_request": null, "pose": [180.0, -150.0, 200.0, -60.0, -90.0, 0.0]}
+{"event": "request", "time_monotonic_s": 229819.515, "request": 354, "operation": 108, "reply": [354, 0, 108, 0]}
+{"event": "request", "time_monotonic_s": 229819.765, "request": 355, "operation": 111, "reply": [355, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229820.562, "request": 356, "operation": 111, "reply": [356, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229821.359, "request": 357, "operation": 111, "reply": [357, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229822.14, "request": 358, "operation": 111, "reply": [358, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229822.89, "request": 359, "operation": 111, "reply": [359, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229823.703, "request": 360, "operation": 111, "reply": [360, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229824.437, "request": 361, "operation": 111, "reply": [361, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229825.234, "request": 362, "operation": 111, "reply": [362, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229826.0, "request": 363, "operation": 111, "reply": [363, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229826.781, "request": 364, "operation": 111, "reply": [364, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229827.578, "request": 365, "operation": 111, "reply": [365, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229828.312, "request": 366, "operation": 111, "reply": [366, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229829.109, "request": 367, "operation": 111, "reply": [367, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229829.875, "request": 368, "operation": 111, "reply": [368, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229830.671, "request": 369, "operation": 111, "reply": [369, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229831.421, "request": 370, "operation": 111, "reply": [370, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229832.187, "request": 371, "operation": 111, "reply": [371, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229832.968, "request": 372, "operation": 111, "reply": [372, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229833.781, "request": 373, "operation": 111, "reply": [373, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229834.546, "request": 374, "operation": 111, "reply": [374, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229835.328, "request": 375, "operation": 111, "reply": [375, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229836.14, "request": 376, "operation": 111, "reply": [376, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 229836.968, "request": 377, "operation": 111, "reply": [377, 0, 111, 0]}
+{"event": "cycle_completed", "time_monotonic_s": 229837.296, "final_state": "INITIAL_HOLD", "gripper_pulse_us": 1110}

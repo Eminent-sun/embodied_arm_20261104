@@ -1,0 +1,9 @@
+names:
+  0: screwdriver
+  1: pliers
+  2: scissors
+  3: tweezers
+path: datasets/tools_site_v4_holdout
+test: images/test
+train: images/test
+val: images/test

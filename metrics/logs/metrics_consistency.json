@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "file": "detector_gpu.csv",
+      "samples": 6280,
+      "percentiles_match": true
+    },
+    {
+      "file": "detector_cpu.csv",
+      "samples": 1271,
+      "percentiles_match": true
+    },
+    {
+      "file": "cpu_fallback.csv",
+      "samples": 1249,
+      "percentiles_match": true
+    },
+    {
+      "file": "offline_rgbd.csv",
+      "samples": 1819,
+      "percentiles_match": true
+    },
+    {
+      "file": "hand_model.csv",
+      "samples": 200,
+      "percentiles_match": true
+    },
+    {
+      "file": "host_loopback_rtt.csv",
+      "samples": 409340,
+      "percentiles_match": true
+    },
+    {
+      "fixed_threshold_counts_match": true,
+      "images": 124,
+      "objects": 393
+    }
+  ]
+}

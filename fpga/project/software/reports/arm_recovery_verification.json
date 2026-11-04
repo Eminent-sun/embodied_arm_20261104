@@ -1,0 +1,61 @@
+{
+  "status": "PASS_ACTUAL_ARM_RECOVERY_OFFLINE_ONLY",
+  "ELF_sha256": "91032f7172f8d9723cd204b7630288bdc482361ff087fe688eedd9f0fd5e41c9",
+  "cases": [
+    {
+      "scenario": "RECOVER_stop_and_reads_only_retains_calibration",
+      "passed": true,
+      "recovery_bursts": 1
+    },
+    {
+      "scenario": "replayed_RECOVER_and_RECOVER_outside_fault_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "RESUME_enables_current_pose_without_homing_or_recalibration",
+      "passed": true
+    },
+    {
+      "scenario": "GOHOME_after_recovery_uses_original_saved_HOME",
+      "passed": true
+    },
+    {
+      "scenario": "recover_stale_cannot_resume_or_replay",
+      "passed": true
+    },
+    {
+      "scenario": "recover_fast_cannot_resume_or_replay",
+      "passed": true
+    },
+    {
+      "scenario": "recover_running_cannot_resume_or_replay",
+      "passed": true
+    },
+    {
+      "scenario": "recover_stop_cannot_resume_or_replay",
+      "passed": true
+    },
+    {
+      "scenario": "recover_tx_fail_cannot_resume_or_replay",
+      "passed": true
+    },
+    {
+      "scenario": "poisoned_mailbox_not_unlocked",
+      "passed": true
+    },
+    {
+      "scenario": "stale_host_cannot_recover",
+      "passed": true
+    },
+    {
+      "scenario": "changed_motor_offset_invalidates_saved_calibration",
+      "passed": true
+    },
+    {
+      "scenario": "malformed_recovery_and_out_of_range_resume_rejected",
+      "passed": true
+    }
+  ],
+  "hardware_access": false,
+  "physical_calibration": "synthetic only"
+}

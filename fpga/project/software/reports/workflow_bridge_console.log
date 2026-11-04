@@ -1,0 +1,21 @@
+test_chunked_read (__main__.BridgeTests.test_chunked_read) ... ok
+test_decimal_versus_hex_regression (__main__.BridgeTests.test_decimal_versus_hex_regression) ... ok
+test_diagnosis_only_reads (__main__.BridgeTests.test_diagnosis_only_reads) ... ok
+test_existing_stop_flag_no_auto_clear_or_stop_write (__main__.BridgeTests.test_existing_stop_flag_no_auto_clear_or_stop_write) ... ok
+test_explicit_idle_cleanup_one_word_only (__main__.BridgeTests.test_explicit_idle_cleanup_one_word_only) ... ok
+test_fault_or_active_cleanup_rejected (__main__.BridgeTests.test_fault_or_active_cleanup_rejected) ... ok
+test_fault_reconnect_leaves_stop_set_until_explicit_RECOVER (__main__.BridgeTests.test_fault_reconnect_leaves_stop_set_until_explicit_RECOVER) ... ok
+test_fault_saved_targets_and_velocity_readonly (__main__.BridgeTests.test_fault_saved_targets_and_velocity_readonly) ... ok
+test_legacy_ambiguous_wire_rejected (__main__.BridgeTests.test_legacy_ambiguous_wire_rejected) ... ok
+test_mismatch_no_cleanup_write (__main__.BridgeTests.test_mismatch_no_cleanup_write) ... ok
+test_real_tcl_numeric_conversion (__main__.BridgeTests.test_real_tcl_numeric_conversion) ... ok
+test_signed_32_bit_words (__main__.BridgeTests.test_signed_32_bit_words) ... ok
+test_slow_geometry_startup_is_waited_readonly (__main__.BridgeTests.test_slow_geometry_startup_is_waited_readonly) ... ok
+test_startup_stall_times_out_without_writes (__main__.BridgeTests.test_startup_stall_times_out_without_writes) ... ok
+test_uninitialized_message_contains_actual_state (__main__.BridgeTests.test_uninitialized_message_contains_actual_state) ... ok
+test_valid_attach_heartbeat_without_GO_or_enable (__main__.BridgeTests.test_valid_attach_heartbeat_without_GO_or_enable) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.085s
+
+OK

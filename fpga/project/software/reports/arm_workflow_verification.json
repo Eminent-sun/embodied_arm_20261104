@@ -1,0 +1,226 @@
+{
+  "status": "PASS_ACTUAL_ARM_OFFLINE_ONLY",
+  "ELF_sha256": "91032f7172f8d9723cd204b7630288bdc482361ff087fe688eedd9f0fd5e41c9",
+  "cases": [
+    {
+      "scenario": "boot_configure_bad_config_replay_CRC",
+      "passed": true,
+      "peripherals_mapped": false,
+      "CAN_commands": 0
+    },
+    {
+      "scenario": "capture_save_hold_without_config_or_IK",
+      "passed": true,
+      "held_mask": 63,
+      "target_groups": 0,
+      "model_calibration_created": false,
+      "manual_deflection_no_stop": true,
+      "original_PP_target_retained": true
+    },
+    {
+      "scenario": "minimal_hold_heartbeat_loss",
+      "passed": true,
+      "motor_commands_after_fault": "stops only"
+    },
+    {
+      "scenario": "raw_pose_restore_passive_CRC_rejection",
+      "passed": true,
+      "peripherals_mapped": false
+    },
+    {
+      "scenario": "saved_pose_mismatch_no_enable",
+      "passed": true,
+      "enable_count": 0
+    },
+    {
+      "scenario": "explicit_readonly_without_calibration",
+      "passed": true,
+      "CAN_commands": 30,
+      "enable_count": 0
+    },
+    {
+      "scenario": "nominal",
+      "passed": true,
+      "state": "0x3",
+      "CAN_model_commands": 16534,
+      "model_enables": 6,
+      "model_enabled_mask": 63
+    },
+    {
+      "scenario": "wrong_sequence_echo",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 246,
+      "model_enables": 6,
+      "model_enabled_mask": 0
+    },
+    {
+      "scenario": "following_error",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 248,
+      "model_enables": 6,
+      "model_enabled_mask": 0
+    },
+    {
+      "scenario": "late_commit",
+      "passed": true,
+      "state": "0xd",
+      "CAN_model_commands": 325,
+      "model_enables": 6,
+      "model_enabled_mask": 63
+    },
+    {
+      "scenario": "host_lost",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0
+    },
+    {
+      "scenario": "stop_unknown",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0
+    },
+    {
+      "scenario": "wrong_ABI",
+      "passed": true,
+      "state": "0x1",
+      "CAN_model_commands": 0,
+      "model_enables": 0,
+      "model_enabled_mask": 0
+    },
+    {
+      "scenario": "explicit_stop",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": true,
+      "reported_enabled_mask": 0,
+      "stop_ack_mask": "0x3f",
+      "stop_elapsed_ms": 0,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_one_missing",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": false,
+      "reported_enabled_mask": 63,
+      "stop_ack_mask": "0x37",
+      "stop_elapsed_ms": 300,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_running_feedback",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 32,
+      "stop_confirmed": false,
+      "reported_enabled_mask": 63,
+      "stop_ack_mask": "0x1f",
+      "stop_elapsed_ms": 300,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_feedback_error",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": false,
+      "reported_enabled_mask": 63,
+      "stop_ack_mask": "0x3e",
+      "stop_elapsed_ms": 300,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_near_zero_rs00",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": true,
+      "reported_enabled_mask": 0,
+      "stop_ack_mask": "0x3f",
+      "stop_elapsed_ms": 0,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_fast_el05",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": false,
+      "reported_enabled_mask": 63,
+      "stop_ack_mask": "0x3f",
+      "stop_elapsed_ms": 300,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_snapshot_race",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 32,
+      "stop_confirmed": false,
+      "reported_enabled_mask": 63,
+      "stop_ack_mask": "0x1f",
+      "stop_elapsed_ms": 300,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_delayed_feedback",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": true,
+      "reported_enabled_mask": 0,
+      "stop_ack_mask": "0x3f",
+      "stop_elapsed_ms": 150,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    },
+    {
+      "scenario": "stop_late_feedback",
+      "passed": true,
+      "state": "0xe2",
+      "CAN_model_commands": 137,
+      "model_enables": 6,
+      "model_enabled_mask": 0,
+      "stop_confirmed": false,
+      "reported_enabled_mask": 63,
+      "stop_ack_mask": "0x1f",
+      "stop_elapsed_ms": 300,
+      "no_CAN_queries_after_stop": true,
+      "no_auto_retry": true
+    }
+  ],
+  "calibration": "synthetic only; not physical",
+  "hardware_access": false
+}

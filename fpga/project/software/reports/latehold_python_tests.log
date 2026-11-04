@@ -1,0 +1,6 @@
+{"status": "PASS_NO_HARDWARE", "checks": 8, "test_record": "synthetic ARM model only", "file_round_trip": "CRC32+SHA256"}
+.........................................................
+----------------------------------------------------------------------
+Ran 57 tests in 0.581s
+
+OK

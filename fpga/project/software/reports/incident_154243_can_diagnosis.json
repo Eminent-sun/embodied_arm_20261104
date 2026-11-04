@@ -1,0 +1,59 @@
+{
+  "status": "CAN_RECEIVE_INTEGRITY_ERROR_LATCHED_RECOVERY_BLOCKED",
+  "session": "software/operator_logs/20261104_154243",
+  "hardware_access": "APU memory reads only",
+  "CAN_commands_sent": false,
+  "register_writes": false,
+  "reset_or_halt_requested": false,
+  "mailbox": {
+    "ID": "0x43414e36",
+    "VERSION": "0x00020009",
+    "COMMAND_STATUS": "0x00e0091a",
+    "HEALTH": "0x00003f1b",
+    "RX_ERRORS": "0x00000020",
+    "RX_OVERFLOW": 0,
+    "TX_STATUS": 0
+  },
+  "can": {
+    "ECR": "0x00008000",
+    "ESR": "0x00000006",
+    "SR": "0x000001d8",
+    "ISR": "0x00000103",
+    "receive_error_counter": 128,
+    "transmit_error_counter": 0,
+    "stuff_error": true,
+    "form_error": true
+  },
+  "arm": {
+    "state": "FAULT_LOCKED",
+    "error": 5,
+    "fault_cause": 5,
+    "stop_confirmed": true,
+    "enabled_mask": 0,
+    "calibrated_mask": 63,
+    "initial_valid": true,
+    "frames_completed": 293,
+    "frames_total": 293
+  },
+  "prior_session_completed_cycles": 2,
+  "new_v3_high_waypoint_found_in_preceding_session": false,
+  "recovery_block": "path_mailbox healthy requires RX_ERRORS==0 and integrity_lost==0; CAN ERROR bit remains set until common PL reset",
+  "physical_cause": "Not isolated to one node. Check wiring, ground, termination, transceiver and power integrity; no automatic recovery bypass.",
+  "decode_sources": [
+    "candidate/rtl/can_rx_service.v",
+    "candidate/rtl/pl_motion_mailbox.v",
+    "software/src/path_mailbox.c",
+    "D:/Xilinx/Vitis/2023.1/data/embeddedsw/XilinxProcessorIPLib/drivers/can_v3_6/src/xcan_l.h"
+  ],
+  "evidence": [
+    {
+      "path": "software/reports/incident_154243_defined_registers.log",
+      "sha256": "1f74c775efce14155af0e8f87eb7f6c91e65911fd3391d60c872cf52b963f3a0"
+    },
+    {
+      "path": "software/reports/incident_154243_can_readonly.log",
+      "sha256": "1af414f4a67b5d92bef49f26cb86e1fc1bf5583779d46d7239275e19eda0bea1"
+    }
+  ],
+  "first_diagnostic_attempt": "A bulk read crossed undefined mailbox offset 0x0c and returned a bus error; successful diagnosis then read only explicitly defined registers."
+}

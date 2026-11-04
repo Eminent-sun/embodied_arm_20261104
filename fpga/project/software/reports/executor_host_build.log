@@ -1,0 +1,36 @@
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/src/path_executor.c: In function 'disabled':
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/src/path_executor.c:21:9: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   21 |         if(mask==63)return 0;if(now(x)-started>=300)return PATH_STOP_UNKNOWN;
+      |         ^~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/src/path_executor.c:21:30: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   21 |         if(mask==63)return 0;if(now(x)-started>=300)return PATH_STOP_UNKNOWN;
+      |                              ^~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/src/path_executor.c: In function 'path_execute_once':
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/src/path_executor.c:78:5: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   78 |     if(!r)return PATH_BAD_CONFIG;memset(r,0,sizeof(*r));r->magic=0x50544831U;r->version=1;r->phase=1;
+      |     ^~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/src/path_executor.c:78:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   78 |     if(!r)return PATH_BAD_CONFIG;memset(r,0,sizeof(*r));r->magic=0x50544831U;r->version=1;r->phase=1;
+      |                                  ^~~~~~
+cc1.exe: all warnings being treated as errors
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c: In function 'transaction':
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c:35:9: error: this 'else' clause does not guard... [-Werror=misleading-indentation]
+   35 |         else return -1;result=value;
+      |         ^~~~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c:35:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   35 |         else return -1;result=value;
+      |                        ^~~~~~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c:50:5: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   50 |     if(out)*out=result;return 0;
+      |     ^~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c:50:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   50 |     if(out)*out=result;return 0;
+      |                        ^~~~~~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c: In function 'main':
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c:75:9: error: this 'if' clause does not guard... [-Werror=misleading-indentation]
+   75 |         if(!ok)return 1;++passed;
+      |         ^~
+D:\FPGA_jingsai\optimization\robstride_tcp_path_exec_20261103\software/tests/path_executor_tests.c:75:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   75 |         if(!ok)return 1;++passed;
+      |                         ^~
+cc1.exe: all warnings being treated as errors

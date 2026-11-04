@@ -1,0 +1,12 @@
+{"request": 2, "operation": "CONFIGHOME", "file": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\config\\home_current.json", "config_file": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\config\\home_current.machine.json", "reply": [2, 0, 100, 0]}
+{"request": 3, "operation": "BEGIN", "reply": [3, 0, 1, 0]}
+{"request": 4, "operation": "BEGIN", "reply": [4, 20, 1, 0]}
+{"request": 5, "operation": "CAL", "reply": [5, 0, 2, 0]}
+{"request": 6, "operation": "CAL", "reply": [6, 0, 2, 0]}
+{"request": 7, "operation": "CAL", "reply": [7, 0, 2, 0]}
+{"request": 8, "operation": "CAL", "reply": [8, 0, 2, 0]}
+{"request": 9, "operation": "CAL", "reply": [9, 0, 2, 0]}
+{"request": 10, "operation": "CAL", "reply": [10, 0, 2, 0]}
+{"request": 11, "operation": "SAVEINITIAL", "reply": [11, 0, 3, 0]}
+{"request": 759, "operation": "GOHOME", "reply": [759, 0, 108, 0]}
+{"request": 760, "operation": "RECOVER", "reply": [760, 5, 109, 0]}

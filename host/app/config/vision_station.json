@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "mounting": "eye_to_hand",
+  "camera_fixed": false,
+  "setup_id": null,
+  "image_roi_xyxy": null,
+  "expected_image_size": [
+    640,
+    480
+  ],
+  "stability_min_hits": 3,
+  "stability_iou": 0.4,
+  "stability_max_gap_s": 0.25,
+  "note": "Camera not fixed yet. After physically fixing camera/base, assign a new setup_id, measure and validate extrinsics. Changing setup_id invalidates old calibration. ROI is optional full-image pixel bounds, never a robot workspace measurement.",
+  "temporal_filter": {
+    "hold_s": 0.35,
+    "tau_s": 0.1,
+    "jump_m": 0.03,
+    "deadband_m": 0.0015
+  }
+}

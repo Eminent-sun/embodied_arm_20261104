@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "ps_host": "127.0.0.1",
+  "ps_port": 7010,
+  "contract": {
+    "validated": false,
+    "frame_id": "base_link",
+    "units": "mm",
+    "base_definition": null,
+    "robot_model_id": null,
+    "tcp_id": null,
+    "workspace_min_mm": null,
+    "workspace_max_mm": null,
+    "profiles": {}
+  },
+  "note": "先实测基座/TCP/工作区并与 PS 使用同一 contract。每类 profile 填 validated、surface_to_tcp_base_mm、orientation_xyzw、approach_height_mm、lift_height_mm。R_base_tcp 四元数 xyzw；接近和抬升沿基座 +Z。界面只提交锁定目标，不启动电机。"
+}

@@ -1,0 +1,166 @@
+{
+  "compiler": "arm-xilinx-eabi-gcc.exe (GCC) 12.2.0",
+  "sources": [
+    {
+      "sha256": "402bd93194ea06942bee423ecaa06e8d76d107b412ca46f9956cf962e040f13c",
+      "path": "platform/start.s"
+    },
+    {
+      "sha256": "2a4de64cd74dfabea1159fd5719721af9447c169446f6d7dbbfb0bc684d21253",
+      "path": "platform/compute.ld"
+    },
+    {
+      "sha256": "5b149eef5c2ba72f92f7c79fc702d02e79e0e55ed44bdb5272b106620f44d4a1",
+      "path": "build/urdf_kinematics_cooperative.c"
+    },
+    {
+      "sha256": "d40959a0b2814f92ad35bed16930eaa4ccf6b2b6d517a6a2f6404228b9bbddc4",
+      "path": "build/urdf_model_parameters.h"
+    },
+    {
+      "sha256": "4645055780619b7df6be40e8e6ba5ff4de167166cef7df69c2e5be43be947850",
+      "path": "tools/prepare_cooperative_solver.py"
+    },
+    {
+      "sha256": "a477d5edcd199cecc671b95090106e9b363ed1425f2a150cf3eccb269f48fc5f",
+      "path": "src/arm_kinematics_port.c"
+    },
+    {
+      "sha256": "37880701cd41288db09f73796db6378465ae40192446a729d482cf13b71f895b",
+      "path": "src/arm_tool.c"
+    },
+    {
+      "sha256": "164137f8fda614b201b966c0f5194ff23dcdbc7a39dc0051d66e9561d1719d94",
+      "path": "src/arm_workflow.c"
+    },
+    {
+      "sha256": "ba85766e230d45b7dbb6b761d1cd40490caef87080cd52b539d89d0a9a771683",
+      "path": "src/fixed_path_main.c"
+    },
+    {
+      "sha256": "e0815b29e2b0b06c775eb58dbef0d4dce8d144daab92e27cc7188f3c751030ff",
+      "path": "src/fixed_path.c"
+    },
+    {
+      "sha256": "58ca0da33e2ff91cf0477ab57569ead37d8c85967efa616159afe246ac1c265d",
+      "path": "src/fixed_workflow.c"
+    },
+    {
+      "sha256": "12741829261629a54da39fc5b82dcf92d69272193ae2e96a3a12db912d38debf",
+      "path": "src/gripper.c"
+    },
+    {
+      "sha256": "4b52301a0d9078fd0643fbe31db7cc65d54b10eb59dc66274fb9247695e442ab",
+      "path": "src/motion_mailbox.c"
+    },
+    {
+      "sha256": "a19ec4902c017c27ebe7b64ce565732380a3fed4d187c91b1c3acc51429ca871",
+      "path": "src/path_executor.c"
+    },
+    {
+      "sha256": "a799fd7b97aa5d37d48989be9971230706cb84c7c4229f70c988b2f16ed896a6",
+      "path": "src/path_mailbox.c"
+    },
+    {
+      "sha256": "4565fbc2b404a60713c307141b9e0f5f6b04667bba634aabba2230c18339083b",
+      "path": "src/path_plan.c"
+    },
+    {
+      "sha256": "b6f6a734be0c0e8e3f5c4ffce90585ae1a09d269b009d130c07d8cdde5dff81d",
+      "path": "src/path_runtime.c"
+    },
+    {
+      "sha256": "9ce2a520b9a52e325ab3d8d1a9d775244c00a2b5aaf6ac743189687d8b55f852",
+      "path": "src/physical_config.c"
+    },
+    {
+      "sha256": "c8364c183b687d3208e048d3194eb2788310fb90401a7b23db9b74a9be120df5",
+      "path": "src/pick_candidate.c"
+    },
+    {
+      "sha256": "30a77d35e711f21a06219700b7801221334146169b204aa944f3a7ee42a35a4f",
+      "path": "src/pieper_kinematics.c"
+    },
+    {
+      "sha256": "453f14a3d95b12d63cebe4c60d66cabc34bb0c94d6b5ca02396a8b4ef3aed49c",
+      "path": "src/tcp_pick_main.c"
+    },
+    {
+      "sha256": "3c7d9b5ca072da1f62d2a91999bdb0051ae9272a32f386b7d9eae2c35d94d396",
+      "path": "src/workflow_plan.c"
+    },
+    {
+      "sha256": "3ce676eab69b397d72140f27b5b84d56e09d9f77dda1ad3a341a11db111835b6",
+      "path": "src/workflow_runtime.c"
+    },
+    {
+      "sha256": "196881a5e28df3ef26e96c4f44e5b1b8a46c848ea84c47e5659463eed53f9443",
+      "path": "include/arm_kinematics_port.h"
+    },
+    {
+      "sha256": "13ef35262fc51413df733c43a708ec69a4cc972a4a4640e23cd7498c3d1d9f97",
+      "path": "include/arm_tool.h"
+    },
+    {
+      "sha256": "9668202278d911af55ea00dda5239632cbe24eb965ae8f0a5e819ff36c9fab4b",
+      "path": "include/arm_workflow.h"
+    },
+    {
+      "sha256": "71d8ddced75f5d03359aa7f91416cead7d1355c024a3bf4bbe44000aacdb6b10",
+      "path": "include/fixed_path.h"
+    },
+    {
+      "sha256": "403070366dfeddd6ab7aa4dd7d251f6237a37be962841aabc1d7fc52cbe8e30c",
+      "path": "include/fixed_workflow.h"
+    },
+    {
+      "sha256": "7e7a560408bfe4b9a6762e133b99633dc7de1aedb9a770744db5a50dd0436dc5",
+      "path": "include/gripper.h"
+    },
+    {
+      "sha256": "efa60626921facd083bcaf1ee2641dfad8e4e43c7814f14b3921f503965fa46e",
+      "path": "include/mailbox_address.h"
+    },
+    {
+      "sha256": "0e6093403dd6031002e6547bd7ae9dedbdacc7911a98720aba9beed7e815d596",
+      "path": "include/motion_mailbox.h"
+    },
+    {
+      "sha256": "c81ea54c23bb07ca75a4edf622efeb04f8c7d0226072d54b987cf5ef7e2c276f",
+      "path": "include/path_executor.h"
+    },
+    {
+      "sha256": "0ff0d067ebbab919f88e344162f70045af62afa961cdb609c4565d786f8a8e77",
+      "path": "include/path_mailbox.h"
+    },
+    {
+      "sha256": "8dba1ce8d3cbb5a2144e120d6f214cddc7baad235207ce06369ebf87a97ca424",
+      "path": "include/path_runtime.h"
+    },
+    {
+      "sha256": "8469f9e8994e7c203c3cc65bc1779f2cd76983182db19fbe46e3621bffcbef0a",
+      "path": "include/physical_config.h"
+    },
+    {
+      "sha256": "d5cae9c4eeb0217112e990f33feb1d14e2eebde3a196814b6b065b7c7f826b9d",
+      "path": "include/pick_candidate.h"
+    },
+    {
+      "sha256": "14b392a4d97030a29e8ebffd26cb9b800cc1f8cd9794da1bc5387e28dabd98f0",
+      "path": "include/pieper_kinematics.h"
+    },
+    {
+      "sha256": "e2b9b1740efeb80fd0ef599b873677c6bb10bd164ceecb4d9a8033756b482bdf",
+      "path": "include/workflow_runtime.h"
+    },
+    {
+      "sha256": "14b5c49d594a587fd74fa973a33d359a7eccb9d077d05bfb39f21cbbb5306b7e",
+      "path": "vendor/ra8p1/urdf_kinematics.c"
+    },
+    {
+      "sha256": "f31cf29280a29bf5d7f1ca8b75303540ee6ce064c3aea38efe8fa8fa23b722f4",
+      "path": "vendor/ra8p1/urdf_kinematics.h"
+    }
+  ],
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3"
+}

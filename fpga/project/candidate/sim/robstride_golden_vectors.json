@@ -1,0 +1,18 @@
+{
+  "format": "RobStride private CAN; byte list is CAN DATA[0..7], not AXI words",
+  "host_id": "FD",
+  "motor_ids": [9, 11, 23, 42, 77, 99],
+  "vectors": [
+    {"name":"status", "id":"02A509FD", "bytes":"12 34 AB CD 13 57 24 68", "kind":2, "motor":9, "host":253, "raw":[4660,43981,4951,9320], "pattern":2, "error":37},
+    {"name":"parameter_success", "id":"110009FD", "bytes":"16 70 00 00 00 00 80 BF", "kind":17, "motor":9, "host":253, "index":28694, "status":0, "value_bits":"BF800000"},
+    {"name":"parameter_failure", "id":"110109FD", "bytes":"16 70 00 00 EF BE AD DE", "kind":17, "motor":9, "host":253, "index":28694, "status":1, "value_bits":"DEADBEEF"},
+    {"name":"fault_warning", "id":"150009FD", "bytes":"01 02 03 84 05 06 07 88", "kind":21, "motor":9, "host":253, "fault":"84030201", "warning":"88070605"},
+    {"name":"identity", "id":"000009FE", "bytes":"01 02 03 04 05 06 07 08", "kind":0, "motor":9, "host":254},
+    {"name":"write_speed_1", "id":"1200FD01", "bytes":"24 70 00 00 00 00 80 3F", "kind":18, "motor":1, "host":253, "index":28708, "value_bits":"3F800000", "idr":"9019FA02", "dw1":"24700000", "dw2":"0000803F"},
+    {"name":"write_position_minus1", "id":"1200FD01", "bytes":"16 70 00 00 00 00 80 BF", "kind":18, "motor":1, "host":253, "index":28694, "value_bits":"BF800000"},
+    {"name":"write_speed_2", "id":"1200FD03", "bytes":"24 70 00 00 00 00 00 40", "kind":18, "motor":3, "host":253, "index":28708, "value_bits":"40000000"},
+    {"name":"write_position_0", "id":"1200FD06", "bytes":"16 70 00 00 00 00 00 00", "kind":18, "motor":6, "host":253, "index":28694, "value_bits":"00000000"},
+    {"name":"read_parameter", "id":"1100FD09", "direction":"tx", "bytes":"16 70 00 00 00 00 00 00", "kind":17, "motor":9, "host":253, "index":28694, "value_bits":"00000000"},
+    {"name":"write_mode_csp", "id":"1200FD09", "bytes":"05 70 00 00 05 00 00 00", "kind":18, "motor":9, "host":253, "index":28677, "value_bits":"00000005"}
+  ]
+}

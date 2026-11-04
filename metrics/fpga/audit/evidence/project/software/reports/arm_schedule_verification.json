@@ -1,0 +1,53 @@
+{
+  "status": "PASS_ACTUAL_ARM_SCHEDULE_OFFLINE_ONLY",
+  "ELF_sha256": "91032f7172f8d9723cd204b7630288bdc482361ff087fe688eedd9f0fd5e41c9",
+  "cases": [
+    {
+      "scenario": "serial_service_over_sample_period_all_293_frames_complete_without_catchup",
+      "passed": true,
+      "injected_delay_per_transaction_ms": 3,
+      "max_service_ms": 63,
+      "actual_virtual_elapsed_ms": 36559,
+      "nominal_plan_ms": 14600
+    },
+    {
+      "scenario": "GOHOME_uses_same_completion_spacing_and_saved_HOME",
+      "passed": true
+    },
+    {
+      "scenario": "real_dispatch_stall_pauses_holding_without_next_commit",
+      "passed": true,
+      "lateness_ms": 151,
+      "timing_reason": 2
+    },
+    {
+      "scenario": "total_55_second_limit_retained",
+      "passed": true,
+      "frames": 252,
+      "elapsed_ms": 55168,
+      "timing_reason": 1
+    },
+    {
+      "scenario": "STOP_during_slow_serial_groups_prevents_next_target",
+      "passed": true
+    },
+    {
+      "scenario": "host_loss_during_slow_serial_groups_prevents_next_target",
+      "passed": true
+    },
+    {
+      "scenario": "RESUME_after_RECOVER_keeps_timer_monotonic_and_calibration",
+      "passed": true
+    },
+    {
+      "scenario": "fresh_ELF_RESTORE_then_RESUME_initializes_IO_and_holds_current_pose",
+      "passed": true
+    },
+    {
+      "scenario": "fresh_ELF_restore_retains_original_GO_HOME",
+      "passed": true
+    }
+  ],
+  "hardware_access": false,
+  "scope": "Synthetic transaction delay and ideal motor tracking. Not a measured hardware timing or dynamics model."
+}

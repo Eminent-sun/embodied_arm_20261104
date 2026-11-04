@@ -1,0 +1,26 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Nov  4 11:14:10 2026
+| Host         : YouShuTing running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/clock_interaction.rpt
+| Design       : can_test_wrapper
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                                        WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock         
+From Clock                  To Clock                    Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints         
+--------------------------  --------------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  ------------------  
+clk_out1_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0  rise - rise     0.22     0.00            0        25850            20.00  Clean                Partial False Path  
+clk_out1_can_test_clk_pl_0  clk_out2_can_test_clk_pl_0  rise - rise     7.01     0.00            0           78            10.00  Clean                Partial False Path  
+clk_out2_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0  rise - rise     7.23     0.00            0           41            10.00  Clean                Partial False Path  
+clk_out2_can_test_clk_pl_0  clk_out2_can_test_clk_pl_0  rise - rise    38.97     0.00            0          602            50.00  Clean                Partial False Path  
+
+

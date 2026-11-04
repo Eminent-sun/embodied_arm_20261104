@@ -1,0 +1,185 @@
+{
+  "created_local": "2026-11-04T16:32:14",
+  "project": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104",
+  "guide_section": "3.2.4; printed pages 13-14, PDF pages 16-17",
+  "quantile_method": "nearest_rank",
+  "resources": {
+    "lut": {
+      "used": 9814.0,
+      "capacity": 17600.0,
+      "percent": 55.76
+    },
+    "ff": {
+      "used": 8576.0,
+      "capacity": 35200.0,
+      "percent": 24.36
+    },
+    "slice": {
+      "used": 3438.0,
+      "capacity": 4400.0,
+      "percent": 78.14
+    },
+    "bram": {
+      "used": 1.5,
+      "capacity": 60.0,
+      "percent": 2.5
+    },
+    "dsp": {
+      "used": 0.0,
+      "capacity": 80.0,
+      "percent": 0.0
+    }
+  },
+  "timing": {
+    "wns_ns": 0.218,
+    "tns_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "whs_ns": 0.037,
+    "scope": "existing routed report; not new implementation or physical timing measurement",
+    "warnings": "2 no_input_delay, 2 no_output_delay; CDC/reset warnings remain"
+  },
+  "path_cycle_log_audit": {
+    "started": 12,
+    "outcomes": {
+      "cycle_aborted": 1,
+      "cycle_completed": 8,
+      "cycle_rejected_hold": 2,
+      "missing_terminal": 1
+    },
+    "completed_over_all_started_percent": 66.66666666666667,
+    "completed_over_known_terminal_percent": 72.72727272727273,
+    "completed_duration_s": {
+      "n": 8,
+      "p50": 86.84299999999348,
+      "p95": 92.43799999999464,
+      "p99": 92.43799999999464,
+      "max": 92.43799999999464,
+      "min": 84.5,
+      "mean": 87.85549999999421
+    },
+    "scope": "uncontrolled development logs across route/calibration revisions; controller completion only; grasp/object success and interventions not observed"
+  },
+  "dwell_overshoot_ms": {
+    "n": 24,
+    "p50": 16.00000000325963,
+    "p95": 139.999999984866,
+    "p99": 234.99999998603016,
+    "max": 234.99999998603016,
+    "min": 0.0,
+    "mean": 50.0833333353512
+  },
+  "accepted_to_arrived_move_s": {
+    "n": 50,
+    "p50": 4.578000000008615,
+    "p95": 18.046999999991385,
+    "p99": 18.905999999988126,
+    "max": 18.905999999988126,
+    "min": 3.984000000025844,
+    "mean": 8.849800000000977
+  },
+  "hold_snapshot_error": {
+    "per_axis": {
+      "1": {
+        "n": 95,
+        "rmse_rad": 0.000127863571784,
+        "absolute_error_rad": {
+          "n": 95,
+          "p50": 6.198883056640625e-06,
+          "p95": 0.0002493858337402344,
+          "p99": 0.000858306884765625,
+          "max": 0.000858306884765625,
+          "min": 0.0,
+          "mean": 5.4375748885305304e-05
+        }
+      },
+      "2": {
+        "n": 95,
+        "rmse_rad": 0.00026046432547008374,
+        "absolute_error_rad": {
+          "n": 95,
+          "p50": 4.4345855712890625e-05,
+          "p95": 0.0005054473876953125,
+          "p99": 0.0017325878143310547,
+          "max": 0.0017325878143310547,
+          "min": 0.0,
+          "mean": 0.00011369554620040091
+        }
+      },
+      "3": {
+        "n": 95,
+        "rmse_rad": 0.00011573300770031726,
+        "absolute_error_rad": {
+          "n": 95,
+          "p50": 1.919269561767578e-05,
+          "p95": 0.0002745389938354492,
+          "p99": 0.0007054805755615234,
+          "max": 0.0007054805755615234,
+          "min": 0.0,
+          "mean": 5.2424481040553045e-05
+        }
+      },
+      "4": {
+        "n": 95,
+        "rmse_rad": 3.2477108034892116e-05,
+        "absolute_error_rad": {
+          "n": 95,
+          "p50": 3.5762786865234375e-06,
+          "p95": 6.890296936035156e-05,
+          "p99": 0.00015401840209960938,
+          "max": 0.00015401840209960938,
+          "min": 0.0,
+          "mean": 1.8601668508429278e-05
+        }
+      },
+      "5": {
+        "n": 95,
+        "rmse_rad": 4.658935901031603e-05,
+        "absolute_error_rad": {
+          "n": 95,
+          "p50": 6.4373016357421875e-06,
+          "p95": 9.422004222869873e-05,
+          "p99": 0.0002646595239639282,
+          "max": 0.0002646595239639282,
+          "min": 0.0,
+          "mean": 2.3270751300610994e-05
+        }
+      },
+      "6": {
+        "n": 95,
+        "rmse_rad": 2.430234629142452e-05,
+        "absolute_error_rad": {
+          "n": 95,
+          "p50": 1.3455748558044434e-05,
+          "p95": 5.605816841125488e-05,
+          "p99": 8.146464824676514e-05,
+          "max": 8.146464824676514e-05,
+          "min": 0.0,
+          "mean": 1.5843306717119717e-05
+        }
+      }
+    },
+    "pooled_abs_error_rad": {
+      "n": 570,
+      "p50": 1.3455748558044434e-05,
+      "p95": 0.0001704692840576172,
+      "p99": 0.000530242919921875,
+      "max": 0.0017325878143310547,
+      "min": 0.0,
+      "mean": 4.636858377540321e-05
+    },
+    "scope": "selected settled snapshots with serial per-axis readings; not trajectory RMSE or external positioning accuracy"
+  },
+  "fault_log": {
+    "snapshot_count": 10,
+    "unique_session_time_pairs": 10,
+    "sessions_with_fault_snapshots": 7,
+    "unconfirmed_stop_snapshot_count": 4,
+    "scope": "snapshots can repeat a latched incident; no incident rate or MTBF denominator"
+  },
+  "recorded_cycle_request_results": {
+    "count": 1344,
+    "nonzero_result_count": 17,
+    "scope": "application result codes include readiness/plan rejections; not communication packet loss"
+  },
+  "hardware_access_this_audit": false
+}

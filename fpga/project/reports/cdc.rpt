@@ -1,0 +1,19 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Nov  4 11:14:08 2026
+| Host         : YouShuTing running 64-bit major release  (build 9200)
+| Command      : report_cdc -file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/cdc.rpt
+| Design       : can_test_wrapper
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Physopt postRoute
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock                Destination Clock           CDC Type      Exceptions  Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  --------------------------  --------------------------  ------------  ----------  ---------  ----  ------  -------  ------------  
+Info      clk_out2_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0  Safely Timed  None               41    41       0        0             0  
+Info      clk_out1_can_test_clk_pl_0  clk_out2_can_test_clk_pl_0  Safely Timed  None               74    74       0        0             0  
+

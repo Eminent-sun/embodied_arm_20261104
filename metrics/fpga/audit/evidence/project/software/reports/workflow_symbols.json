@@ -1,0 +1,71 @@
+{
+  "_start": {
+    "address": "0x100040",
+    "bytes": 0
+  },
+  "compute_idle": {
+    "address": "0x10007c",
+    "bytes": 0
+  },
+  "g_approved_path_geometry": {
+    "address": "0x131018",
+    "bytes": 19260
+  },
+  "g_arm_calibration": {
+    "address": "0x112d8c",
+    "bytes": 468
+  },
+  "g_arm_cartesian": {
+    "address": "0x1128a0",
+    "bytes": 144
+  },
+  "g_arm_heartbeat": {
+    "address": "0x1124b8",
+    "bytes": 4
+  },
+  "g_arm_readback": {
+    "address": "0x112cfc",
+    "bytes": 144
+  },
+  "g_arm_reply": {
+    "address": "0x112c74",
+    "bytes": 16
+  },
+  "g_arm_report": {
+    "address": "0x112824",
+    "bytes": 120
+  },
+  "g_arm_request": {
+    "address": "0x112930",
+    "bytes": 836
+  },
+  "g_arm_stop": {
+    "address": "0x1124c4",
+    "bytes": 4
+  },
+  "g_arm_stop_trace": {
+    "address": "0x112f60",
+    "bytes": 112
+  },
+  "g_arm_timing": {
+    "address": "0x112fd0",
+    "bytes": 64
+  },
+  "g_gripper_report": {
+    "address": "0x135b54",
+    "bytes": 52
+  },
+  "g_initial_pose": {
+    "address": "0x112c88",
+    "bytes": 116
+  },
+  "workflow_runtime_poll": {
+    "address": "0x10b0f0",
+    "bytes": 1796
+  },
+  "workspace": {
+    "address": "0x113010",
+    "bytes": 122888
+  },
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3"
+}

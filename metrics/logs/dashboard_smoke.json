@@ -1,0 +1,17 @@
+{
+  "pickup": {
+    "candidate": null,
+    "last_ack": null,
+    "last_error": null,
+    "config_error": "请先实测并确认基座、TCP、工作区和抓取配置",
+    "execution_enabled": false
+  },
+  "/": 200,
+  "/workbench": 200,
+  "/planning": 200,
+  "/api/status": 200,
+  "camera_state": "stopped",
+  "inference_running": false,
+  "copy_root_confirmed": true,
+  "no_rgbd_request_status": 400
+}

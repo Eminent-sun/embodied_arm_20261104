@@ -1,0 +1,504 @@
+{
+  "historical_reads": {
+    "date": "2026-11-02 23:09:47 to 23:10:31 Asia/Shanghai",
+    "n": 35,
+    "verified_passed": 35,
+    "checks": [
+      {
+        "motor": 1,
+        "index": "7005",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 1,
+        "index": "7019",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 1,
+        "index": "701B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 1,
+        "index": "7024",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 1,
+        "index": "7025",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 1,
+        "index": "7029",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 1,
+        "index": "702B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "7005",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "7019",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "701B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "7024",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "7025",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "7029",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 2,
+        "index": "702B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "7005",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "7019",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "701B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "7024",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "7025",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "7029",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 3,
+        "index": "702B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "7005",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "7019",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "701B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "7024",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "7025",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "7029",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 4,
+        "index": "702B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "7005",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "7019",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "701B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "7024",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "7025",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "7029",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      },
+      {
+        "motor": 5,
+        "index": "702B",
+        "capture_sha_matches": true,
+        "fresh_completion": true,
+        "matched_wire_reply": true
+      }
+    ],
+    "scope": "2026-11-02 old parameter-debug BIT, five motors, not current PC-FPGA link or long-run reliability"
+  },
+  "signoff_hash_verification": [
+    {
+      "path": "candidate/rtl/pl_servo_axi.v",
+      "expected": "16d8e0cbcaf2e55417aada9b93375efcb392f5391c2609d296c5fd4e40989ddc",
+      "actual": "16d8e0cbcaf2e55417aada9b93375efcb392f5391c2609d296c5fd4e40989ddc",
+      "match": true
+    },
+    {
+      "path": "candidate/sim/tb_servo_axi.sv",
+      "expected": "fdac0964c60e360fe517b3952f47559280709e56aad31bc86040b5d75cb0903a",
+      "actual": "fdac0964c60e360fe517b3952f47559280709e56aad31bc86040b5d75cb0903a",
+      "match": true
+    },
+    {
+      "path": "software/src/gripper.c",
+      "expected": "12741829261629a54da39fc5b82dcf92d69272193ae2e96a3a12db912d38debf",
+      "actual": "12741829261629a54da39fc5b82dcf92d69272193ae2e96a3a12db912d38debf",
+      "match": true
+    },
+    {
+      "path": "software/tests/verify_gripper_arm.py",
+      "expected": "f921670ad7307901a16eb9cae8663a116f3e80ec7113d71fae388888a18911c5",
+      "actual": "f921670ad7307901a16eb9cae8663a116f3e80ec7113d71fae388888a18911c5",
+      "match": true
+    },
+    {
+      "path": "software/tests/test_gripper_protocol.py",
+      "expected": "05da6effbf418385686beed8daa64d8cd15e35bfa8dd7127f22be092d70e4522",
+      "actual": "05da6effbf418385686beed8daa64d8cd15e35bfa8dd7127f22be092d70e4522",
+      "match": true
+    },
+    {
+      "path": "software/tools/recorded_cycle.py",
+      "expected": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+      "actual": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+      "match": true
+    },
+    {
+      "path": "software/tests/test_recorded_cycle.py",
+      "expected": "99a66ee1baa280e4926200d64868c3cb24408bd2f624be2d36eb7098cbb99c62",
+      "actual": "99a66ee1baa280e4926200d64868c3cb24408bd2f624be2d36eb7098cbb99c62",
+      "match": true
+    },
+    {
+      "path": "software/tests/verify_recorded_cycle_arm.py",
+      "expected": "2a883f515180a5515b286e1e424248a42dc860e5c6839c207d4e7b207a5f4519",
+      "actual": "2a883f515180a5515b286e1e424248a42dc860e5c6839c207d4e7b207a5f4519",
+      "match": true
+    },
+    {
+      "path": "software/src/workflow_plan.c",
+      "expected": "3c7d9b5ca072da1f62d2a91999bdb0051ae9272a32f386b7d9eae2c35d94d396",
+      "actual": "3c7d9b5ca072da1f62d2a91999bdb0051ae9272a32f386b7d9eae2c35d94d396",
+      "match": true
+    },
+    {
+      "path": "software/tests/cartesian_tests.c",
+      "expected": "08e37998d56faefd4541c531cfb8b774700f2805f886f64b661c18fe62ac4a59",
+      "actual": "08e37998d56faefd4541c531cfb8b774700f2805f886f64b661c18fe62ac4a59",
+      "match": true
+    },
+    {
+      "path": "software/tests/probe_recorded_start.py",
+      "expected": "a210eb7bfb2101aef92bf4a2ddfc3098b70aadb7e29a29e8e65979f37c72b272",
+      "actual": "a210eb7bfb2101aef92bf4a2ddfc3098b70aadb7e29a29e8e65979f37c72b272",
+      "match": true
+    },
+    {
+      "path": "bitstream/roboarm_arm_workflow.bit",
+      "expected": "a842287fd4ef1b495c5b9cbc6b555e3024fe21e47414ae5908cbec5852df2cb4",
+      "actual": "a842287fd4ef1b495c5b9cbc6b555e3024fe21e47414ae5908cbec5852df2cb4",
+      "match": true
+    },
+    {
+      "path": "bitstream/roboarm_arm_workflow.xsa",
+      "expected": "1d58bf426a65501f15307a80a9d353b1a703f5c7dfe7f8b97ad6cc5dfbbeff83",
+      "actual": "1d58bf426a65501f15307a80a9d353b1a703f5c7dfe7f8b97ad6cc5dfbbeff83",
+      "match": true
+    },
+    {
+      "path": "bitstream/ps_init/ps7_init.tcl",
+      "expected": "ae69fbae96b303cd1f8651e1c791b56b4d9cc421df5b28f5b6af42b333968cbd",
+      "actual": "ae69fbae96b303cd1f8651e1c791b56b4d9cc421df5b28f5b6af42b333968cbd",
+      "match": true
+    },
+    {
+      "path": "software/build/arm_workflow.elf",
+      "expected": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+      "actual": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+      "match": true
+    },
+    {
+      "path": "software/reports/workflow_symbols.json",
+      "expected": "4e0e080ff77ada7205e0f108f31916b45a288d688a64ad4793ec15f48dea185f",
+      "actual": "4e0e080ff77ada7205e0f108f31916b45a288d688a64ad4793ec15f48dea185f",
+      "match": true
+    },
+    {
+      "path": "software/tools/control_center.py",
+      "expected": "126ff434921a1d823ba2612cc9dd9cd51c48b31b81e2de5d690a59a642c18633",
+      "actual": "126ff434921a1d823ba2612cc9dd9cd51c48b31b81e2de5d690a59a642c18633",
+      "match": true
+    },
+    {
+      "path": "software/tools/download_gripper.py",
+      "expected": "838ae5cafe68e57fb41e027b59db374efd992037186c5e1a11928d31a4acc856",
+      "actual": "838ae5cafe68e57fb41e027b59db374efd992037186c5e1a11928d31a4acc856",
+      "match": true
+    },
+    {
+      "path": "software/tools/gripper_protocol.py",
+      "expected": "674fa58ad5aa9c8b5ab7c1e1bcfb44eaaf062c67a0dadbc2d66379fa0e70ffb7",
+      "actual": "674fa58ad5aa9c8b5ab7c1e1bcfb44eaaf062c67a0dadbc2d66379fa0e70ffb7",
+      "match": true
+    },
+    {
+      "path": "software/tools/prepare_cooperative_solver.py",
+      "expected": "4645055780619b7df6be40e8e6ba5ff4de167166cef7df69c2e5be43be947850",
+      "actual": "4645055780619b7df6be40e8e6ba5ff4de167166cef7df69c2e5be43be947850",
+      "match": true
+    },
+    {
+      "path": "software/tools/prepare_home_alignment.py",
+      "expected": "ab54c07ecfa92c936072f4df26a7eaf6de774f9450b470fc6dd3557f59e89340",
+      "actual": "ab54c07ecfa92c936072f4df26a7eaf6de774f9450b470fc6dd3557f59e89340",
+      "match": true
+    },
+    {
+      "path": "software/tools/prepare_machine_config.py",
+      "expected": "d84e93946bd0f5cb4b53ba0bbf9a664d7d20f59ccb0b036910745d10e877cfd0",
+      "actual": "d84e93946bd0f5cb4b53ba0bbf9a664d7d20f59ccb0b036910745d10e877cfd0",
+      "match": true
+    },
+    {
+      "path": "software/tools/recorded_cycle.py",
+      "expected": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+      "actual": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+      "match": true
+    },
+    {
+      "path": "software/tools/refresh_workflow_symbols.py",
+      "expected": "2fe4d9c9176474c28a0de90e18ca8ae5f6224dfa696cf6ca361f7a33ca4eb834",
+      "actual": "2fe4d9c9176474c28a0de90e18ca8ae5f6224dfa696cf6ca361f7a33ca4eb834",
+      "match": true
+    },
+    {
+      "path": "software/tools/workflow_console.py",
+      "expected": "06070ef17683134cd78656273b07d99698acd686959ff024d631bd9c18b847fd",
+      "actual": "06070ef17683134cd78656273b07d99698acd686959ff024d631bd9c18b847fd",
+      "match": true
+    },
+    {
+      "path": "software/tools/workflow_protocol.py",
+      "expected": "b3132842f1483a4ce72b376e2f3bdf158c046ea505d8f50ec75a5636c17d418c",
+      "actual": "b3132842f1483a4ce72b376e2f3bdf158c046ea505d8f50ec75a5636c17d418c",
+      "match": true
+    },
+    {
+      "path": "software/tools/download_gripper.tcl",
+      "expected": "3e41cbdb57743eb89ef8328d3a744e31a5e312e89ed2bb8f73f42ae9faf294b4",
+      "actual": "3e41cbdb57743eb89ef8328d3a744e31a5e312e89ed2bb8f73f42ae9faf294b4",
+      "match": true
+    },
+    {
+      "path": "software/tools/workflow_bridge.tcl",
+      "expected": "24d4a0de683b37f52b6921ec1a8be6130ab134fdd48b66e04ecd3f90c552c60c",
+      "actual": "24d4a0de683b37f52b6921ec1a8be6130ab134fdd48b66e04ecd3f90c552c60c",
+      "match": true
+    }
+  ],
+  "hold_snapshot_pooled_rmse_rad": 0.00013000052683090688,
+  "stop_snapshots": [
+    {
+      "session": "20261104_131510",
+      "time": "2026-11-04T13:15:19",
+      "elapsed_ms": 26,
+      "ack_mask": "0x3f",
+      "stop_confirmed": true
+    },
+    {
+      "session": "20261104_133116",
+      "time": "2026-11-04T13:31:38",
+      "elapsed_ms": 26,
+      "ack_mask": "0x3f",
+      "stop_confirmed": true
+    },
+    {
+      "session": "20261104_135448",
+      "time": "2026-11-04T13:54:54",
+      "elapsed_ms": 300,
+      "ack_mask": "0x3f",
+      "stop_confirmed": false
+    },
+    {
+      "session": "20261104_143500",
+      "time": "2026-11-04T14:48:15",
+      "elapsed_ms": 300,
+      "ack_mask": "0x0",
+      "stop_confirmed": false
+    },
+    {
+      "session": "20261104_154243",
+      "time": "2026-11-04T15:42:50",
+      "elapsed_ms": 24,
+      "ack_mask": "0x3f",
+      "stop_confirmed": true
+    },
+    {
+      "session": "20261104_154243",
+      "time": "2026-11-04T15:43:06",
+      "elapsed_ms": 24,
+      "ack_mask": "0x3f",
+      "stop_confirmed": true
+    },
+    {
+      "session": "20261104_154243",
+      "time": "2026-11-04T15:43:56",
+      "elapsed_ms": 24,
+      "ack_mask": "0x3f",
+      "stop_confirmed": true
+    },
+    {
+      "session": "20261104_154647",
+      "time": "2026-11-04T15:46:50",
+      "elapsed_ms": 24,
+      "ack_mask": "0x3f",
+      "stop_confirmed": true
+    },
+    {
+      "session": "20261104_155128",
+      "time": "2026-11-04T16:19:14",
+      "elapsed_ms": 300,
+      "ack_mask": "0x0",
+      "stop_confirmed": false
+    },
+    {
+      "session": "20261104_155128",
+      "time": "2026-11-04T16:19:26",
+      "elapsed_ms": 300,
+      "ack_mask": "0x0",
+      "stop_confirmed": false
+    }
+  ],
+  "simulation_status": {
+    "servo_axi": "SERVO_AXI_PASS checks=246",
+    "scope": "historical RTL simulation; TB LEASE_MS=100, deployed RTL default=1000; not physical PWM measurement"
+  },
+  "no_hardware_access": true,
+  "no_tests_rerun": true
+}

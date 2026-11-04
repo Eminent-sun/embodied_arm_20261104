@@ -1,0 +1,121 @@
+{
+  "status": "PASS_MODEL_SUPPORTS_ANALYTIC_SPHERICAL_WRIST",
+  "original_URDF_sha256": "1414020687dba88bc0bf973c1a4cbffe061ea3c5a2f1e933f637a7f6847d308d",
+  "original_C_sha256": "14b5c49d594a587fd74fa973a33d359a7eccb9d077d05bfb39f21cbbb5306b7e",
+  "all_six_URDF_joint_origins_match_C": true,
+  "J2_J3_parallel": true,
+  "J4_J5_J6_common_origin": true,
+  "Link6_origin_is_wrist_center_in_this_model": true,
+  "rounding_or_mechanical_parameter_changes": false,
+  "joints": [
+    {
+      "id": 1,
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 2,
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0875
+      ],
+      "rpy_rad": [
+        1.5708,
+        0.0,
+        3.1416
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 3,
+      "xyz_m": [
+        0.24245,
+        -0.0018586,
+        -0.000525
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        1.5645
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 4,
+      "xyz_m": [
+        0.067234,
+        0.14958,
+        -0.00032776
+      ],
+      "rpy_rad": [
+        1.6024,
+        1.5708,
+        -3.1037
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 5,
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        1.5708,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "id": 6,
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        3.1416,
+        -1.5708,
+        0.0
+      ],
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "scope": "Matches the supplied URDF and operator spherical-wrist assertion; no physical measurement or tool/TCP calibration."
+}

@@ -1,0 +1,79 @@
+{
+  "source": "software\\operator_logs\\20261104_113335\\requests.jsonl",
+  "sha256": "d2709aa2eee32815888dba6a476fa0e027a673839ac9bbb3e7a179f7aacb61b8",
+  "total_rows": 130,
+  "selected_waypoints": [
+    {
+      "phase": "approach",
+      "request": null,
+      "pose": [
+        180.0,
+        0.0,
+        190.0,
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "source": "generated_high_approach_user_confirmed_pitch"
+    },
+    {
+      "phase": "approach",
+      "request": 54,
+      "pose": [
+        180.0,
+        0.0,
+        160.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source": "accepted_historical_endpoint"
+    },
+    {
+      "phase": "transfer",
+      "request": 53,
+      "pose": [
+        180.0,
+        0.0,
+        170.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source": "accepted_historical_endpoint"
+    },
+    {
+      "phase": "transfer",
+      "request": 155,
+      "pose": [
+        180.0,
+        -150.0,
+        170.0,
+        -60.0,
+        -90.0,
+        0.0
+      ],
+      "source": "accepted_historical_endpoint"
+    },
+    {
+      "phase": "return",
+      "request": null,
+      "pose": [
+        180.0,
+        -150.0,
+        200.0,
+        -60.0,
+        -90.0,
+        0.0
+      ],
+      "source": "generated_lift_offline_validated"
+    }
+  ],
+  "motion_segments": 6,
+  "return_home": "current session SAVEINITIAL",
+  "obstacles_user_reported": false,
+  "pickup_wait_after_descent": true,
+  "high_approach_pitch_deg": -10,
+  "pickup_height_increase_mm": 30,
+  "validation": "recorded_cycle_arm_path.json"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_CONFIGURED_HOME_CAPTURE_ACTUAL_ARM_OFFLINE",
+  "ELF_sha256": "bf5de3311df462b3db76ad3c86d8106975b3ca927491a8bb04e2bdd309d211c9",
+  "old_capture_result": 20,
+  "old_capture_CAN_commands": 0,
+  "new_capture_queries": 30,
+  "new_capture_and_config_motor_writes": 0,
+  "new_capture_and_config_enables": 0,
+  "reconnect_only_writes_stop_word": true,
+  "explicit_CAL_SAVEINITIAL_passed": true,
+  "raw_PS_reference_buffer_unchanged": true,
+  "hardware_access": false
+}

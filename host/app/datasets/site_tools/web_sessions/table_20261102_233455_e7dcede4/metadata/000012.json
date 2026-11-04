@@ -1,0 +1,50 @@
+{
+  "sample_id": "000012",
+  "group_id": "table_20261102_233455_e7dcede4",
+  "split": "train",
+  "source": "local_gemini_rgbd",
+  "frame_id": 10391,
+  "captured_at_unix_s": 1793633709.284595,
+  "device_timestamp_ms": 22354110.0,
+  "camera_serial": "AY6T25501D7",
+  "camera_intrinsics": {
+    "fx": 518.2166748046875,
+    "fy": 518.3094482421875,
+    "cx": 321.8009033203125,
+    "cy": 242.79714965820312,
+    "width": 640,
+    "height": 480
+  },
+  "camera_distortion": [
+    46.366661071777344,
+    -96.3670883178711,
+    0.0006114107090979815,
+    0.000458164926385507,
+    108.80004119873047,
+    46.200252532958984,
+    -96.01884460449219,
+    109.10325622558594
+  ],
+  "depth_units": "m",
+  "depth_aligned_to": "color",
+  "image_size": [
+    640,
+    480
+  ],
+  "image": "images/000012.png",
+  "depth": "depth/000012.npz",
+  "quality": {
+    "mean_luma": 110.23257486979166,
+    "p95_luma": 166.0,
+    "laplacian_variance": 206.76411129123898,
+    "almost_black": false,
+    "blur_warning": false,
+    "depth_valid_ratio": 0.9951692708333333
+  },
+  "issue": "normal",
+  "selection": "manual_snapshot",
+  "annotation_status": "unlabelled",
+  "image_sha256": "f9b87e481c45f64639d10388b6b0c895a8bac850c1e8da0e3f4178ddf350c1ad",
+  "video": null,
+  "video_frame_index": null
+}

@@ -1,0 +1,366 @@
+{
+  "tests_run": 71,
+  "passed": 71,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_s": 4.059845037991181,
+  "test_cases": [
+    {
+      "test": "test_aipc_planning.PlanningGeometryTest.test_export_respects_ps_joint_order_and_sampled_speed_limits",
+      "duration_s": 0.000455933011835441,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_aipc_planning.PlanningGeometryTest.test_live_conversion_recomputes_base_and_does_not_trust_cached_xyz",
+      "duration_s": 0.008498996001435444,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_aipc_planning.PlanningGeometryTest.test_refuses_uncalibrated_stale_hands_and_unreviewed_grasp",
+      "duration_s": 0.001274167007068172,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_aipc_planning.PlanningGeometryTest.test_tabletop_pickup_needs_no_receiver_or_place_zone",
+      "duration_s": 0.0015105489874258637,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_aipc_planning.PlanningGeometryTest.test_tcp_offset_and_rotation_roundtrip",
+      "duration_s": 0.00024068099446594715,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_aipc_planning.PlanningGeometryTest.test_workspace_and_config_tampering_are_rejected",
+      "duration_s": 0.0011714760039467365,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_calibration.CalibrationTest.test_intrinsic_recovers_synthetic_camera",
+      "duration_s": 0.015955056995153427,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_calibration.CalibrationTest.test_reject_degenerate_or_reused_points",
+      "duration_s": 0.0032065979903563857,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_calibration.CalibrationTest.test_reject_mm_values_and_repeated_validation",
+      "duration_s": 0.00020343100186437368,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_calibration.CalibrationTest.test_robust_fit_excludes_bad_fit_but_never_validation",
+      "duration_s": 0.05752697502612136,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_calibration.CalibrationTest.test_transform_direction_and_independent_validation",
+      "duration_s": 0.02468473502085544,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionHTTPTest.test_controls_require_token_and_preview_does_not_start_on_get",
+      "duration_s": 0.5366706119966693,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionTest.test_clean_png_and_paired_depth_metadata_and_session_split",
+      "duration_s": 0.08692783099832013,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionTest.test_paths_and_disk_limits",
+      "duration_s": 0.10792976498487405,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionTest.test_quality_similarity_and_stale_frames_are_not_training_candidates",
+      "duration_s": 0.086214287992334,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionTest.test_recording_finalizes_and_video_timestamps_match_frame_count",
+      "duration_s": 0.4232396939769387,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionTest.test_session_split_cannot_change_during_recording",
+      "duration_s": 0.23707840399583802,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_collection.CollectionTest.test_stop_preview_closes_video_and_requires_new_session",
+      "duration_s": 0.2368660529900808,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_geometry.GeometryTest.test_calibration_gate_and_serial",
+      "duration_s": 0.001090926001779735,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_geometry.GeometryTest.test_depth_and_invalid_depth",
+      "duration_s": 0.0002054810174740851,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.HandoverTest.test_dashboard_review_persists_invalidation_across_polls",
+      "duration_s": 0.011753862985642627,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.HandoverTest.test_gripped_tool_disappearing_only_allowed_in_delivery_review",
+      "duration_s": 0.00635950401192531,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.HandoverTest.test_lost_moved_stale_second_hand_and_session_change_latch",
+      "duration_s": 0.015667353989556432,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.HandoverTest.test_no_automatic_release_or_retreat_across_handover_barrier",
+      "duration_s": 0.0019155409827362746,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.HandoverTest.test_region_exit_unreviewed_body_and_tampered_target_rejected",
+      "duration_s": 0.0030228960094973445,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.HandoverTest.test_region_fixed_but_hand_target_moves",
+      "duration_s": 0.004181682015769184,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.PalmStabilityTest.test_raw_motion_cannot_hide_behind_ema_or_invalid_depth",
+      "duration_s": 0.012901459005661309,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_handover.PalmStabilityTest.test_real_depth_stability_and_hold_not_new_samples",
+      "duration_s": 0.0123846770147793,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_link.FramingTest.test_crc_and_size_rejected",
+      "duration_s": 0.00013115999172441661,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_link.FramingTest.test_fragmented_message",
+      "duration_s": 0.0005170330114196986,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_link.FramingTest.test_invalid_trajectories",
+      "duration_s": 0.00011544098379090428,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_link.SessionTest.test_confirmation_execution_gripper",
+      "duration_s": 0.5046137459867168,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_link.SessionTest.test_disconnect_stops_and_invalidates_plan",
+      "duration_s": 0.15133584500290453,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_link.SessionTest.test_watchdog_stops",
+      "duration_s": 1.2013845890178345,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_perception_quality.QualityTest.test_binding_rejects_moved_mount_and_resolution_change",
+      "duration_s": 0.0009311550238635391,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_perception_quality.QualityTest.test_current_frame_only_and_adjacent_objects",
+      "duration_s": 0.00011657099821604788,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_perception_quality.QualityTest.test_depth_edges_and_holes_are_not_coordinates",
+      "duration_s": 0.0005455120117403567,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_ack_must_echo_exact_payload",
+      "duration_s": 0.008500383992213756,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_bad_serial_or_changed_model_block_binding",
+      "duration_s": 0.015099150012247264,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_changed_contract_or_calibration_before_send_blocks",
+      "duration_s": 0.0060352519794832915,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_click_requires_tool_surface_and_good_metric_depth",
+      "duration_s": 0.0114657609956339,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_expired_choice_and_mismatched_depth_units_are_rejected",
+      "duration_s": 0.007729300996288657,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_full_tcp_ack_then_dropout_does_not_rewrite_or_resend",
+      "duration_s": 0.10873338297824375,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_live_synthetic_replay_and_held_cannot_be_submitted",
+      "duration_s": 0.014474346011411399,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_no_confirmation_no_submission",
+      "duration_s": 0.005527560017071664,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_ps_different_tcp_contract_is_rejected",
+      "duration_s": 0.007071936997817829,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_receiver_checks_units_frame_pose_bounds_and_digest",
+      "duration_s": 0.009138027991866693,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_reject_moving_missing_changed_identity_or_hand_at_send",
+      "duration_s": 0.006546454009367153,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_snapshot_is_same_frame_and_stale_freeze_rejected",
+      "duration_s": 0.006553464016178623,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_transform_direction_mm_tcp_offset_and_projection",
+      "duration_s": 0.0061799729883205146,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_pickup_tcp.PickupTest.test_unfixed_camera_never_yields_base_goal",
+      "duration_s": 0.005608200008282438,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_tasks.TaskGateTest.test_missing_training_and_calibration_cannot_execute",
+      "duration_s": 4.7770008677616715e-05,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_tasks.TaskGateTest.test_stale_and_hand_observations_block",
+      "duration_s": 2.5299988919869065e-05,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.ReceiverAgingTest.test_ambiguity_holds_instead_of_switching_identity",
+      "duration_s": 0.0005759729829151183,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.ReceiverAgingTest.test_lock_point_is_an_immutable_copy",
+      "duration_s": 3.6551005905494094e-05,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.ReceiverAgingTest.test_ps_expires_coordinate_before_frame_ttl",
+      "duration_s": 0.0010513349843677133,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TargetAgeTest.test_camera_latency_and_offline_data_cannot_qualify_a_target",
+      "duration_s": 2.8520007617771626e-05,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_hand_point_filter_and_presence_hold",
+      "duration_s": 0.004315653000958264,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_held_wire_points_cannot_be_used_and_age_includes_send_delay",
+      "duration_s": 0.0004003320063930005,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_hold_reacquisition_expiry_and_time_reset",
+      "duration_s": 0.0005141530127730221,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_jitter_reduction_and_outlier_rejection",
+      "duration_s": 0.00515900700702332,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_locked_target_never_switches_to_other_instance",
+      "duration_s": 8.573100785724819e-05,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_no_depth_is_not_fake_z_and_hold_is_bounded",
+      "duration_s": 0.00077155398321338,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_repeated_jump_reinitializes_and_requires_three_measurements",
+      "duration_s": 0.00044686198816634715,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_temporal_tracking.TemporalTests.test_two_similar_objects_and_low_confidence_hysteresis",
+      "duration_s": 0.00033648201497271657,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_vision_link.VisionSchemaTest.test_invalid_coordinates_quality_and_motion_are_rejected",
+      "duration_s": 0.00032007199479267,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_vision_link.VisionSchemaTest.test_stale_and_future_are_rejected",
+      "duration_s": 2.3770000552758574e-05,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_vision_link.VisionSchemaTest.test_ttl_and_duplicate_cannot_refresh_old_frame",
+      "duration_s": 0.030242128996178508,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_vision_link.VisionTransportTest.test_disconnect_clears_observation_and_reconnect_rejects_replay",
+      "duration_s": 0.031547236983897164,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_vision_link.VisionTransportTest.test_file_to_ps_and_no_control_commands",
+      "duration_s": 0.0020966209995094687,
+      "outcome": "passed"
+    },
+    {
+      "test": "test_vision_link.VisionTransportTest.test_vision_does_not_occupy_motion_control_connection",
+      "duration_s": 0.0009200549975503236,
+      "outcome": "passed"
+    }
+  ],
+  "scope": "Offline software tests and synthetic geometry/network fixtures, no hardware motion"
+}

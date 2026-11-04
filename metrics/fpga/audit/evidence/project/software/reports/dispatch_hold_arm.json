@@ -1,0 +1,80 @@
+{
+  "status": "PASS_ACTUAL_ARM_DISPATCH_HOLD_OFFLINE",
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+  "cases": [
+    {
+      "scenario": "dispatch_91ms_continues",
+      "passed": true,
+      "threshold_ms": 100
+    },
+    {
+      "scenario": "dispatch_100ms_continues",
+      "passed": true,
+      "threshold_ms": 100
+    },
+    {
+      "scenario": "101ms_freezes_verified_target_and_holds_for_3s_no_disable_reenable_or_replay",
+      "passed": true
+    },
+    {
+      "scenario": "explicit_GOHOME_after_pause_returns_saved_initial_and_holds",
+      "passed": true
+    },
+    {
+      "scenario": "moving_axis_keeps_last_PP_target_until_settled",
+      "passed": true
+    },
+    {
+      "scenario": "STOP_during_PAUSED_HOLD_still_stops",
+      "passed": true
+    },
+    {
+      "scenario": "host_loss_during_PAUSED_HOLD_still_stops",
+      "passed": true
+    },
+    {
+      "scenario": "CAN_fault_during_PAUSED_HOLD_still_stops",
+      "passed": true
+    },
+    {
+      "scenario": "motor_fault_during_PAUSED_HOLD_still_stops",
+      "passed": true
+    },
+    {
+      "scenario": "tracking_fault_during_PAUSED_HOLD_still_stops",
+      "passed": true
+    },
+    {
+      "scenario": "speed_fault_during_PAUSED_HOLD_still_stops",
+      "passed": true
+    },
+    {
+      "scenario": "tracking_fault_cannot_enter_PAUSED_HOLD",
+      "passed": true
+    },
+    {
+      "scenario": "CAN_fault_cannot_enter_PAUSED_HOLD",
+      "passed": true
+    },
+    {
+      "scenario": "hold_reply_failure_cannot_enter_PAUSED_HOLD",
+      "passed": true
+    },
+    {
+      "scenario": "transaction_timeout_cannot_enter_PAUSED_HOLD",
+      "passed": true
+    },
+    {
+      "scenario": "lease_expired_cannot_enter_PAUSED_HOLD",
+      "passed": true
+    },
+    {
+      "scenario": "reported_frame255_delay91ms_advances_to256_without_disable",
+      "passed": true
+    }
+  ],
+  "dispatch_limit_ms": 100,
+  "CAN_transaction_timeout_ms": 50,
+  "hardware_access": false,
+  "plant_limitation": "Synthetic transport and ideal tracking; physical deceleration/torque and collision clearance are not verified."
+}

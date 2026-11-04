@@ -1,0 +1,232 @@
+{
+  "baseline": {
+    "site_holdout": {
+      "metrics": {
+        "metrics/precision(B)": 0.6600852964908321,
+        "metrics/recall(B)": 0.7555815928434835,
+        "metrics/mAP50(B)": 0.8127134885661507,
+        "metrics/mAP50-95(B)": 0.6451149635386317,
+        "fitness": 0.6451149635386317
+      },
+      "per_class": [
+        {
+          "Class": "screwdriver",
+          "Images": 73,
+          "Instances": 73,
+          "Box-P": 0.75087,
+          "Box-R": 0.9863,
+          "Box-F1": 0.85263,
+          "mAP50": 0.98841,
+          "mAP75": 0.97473,
+          "mAP50-95": 0.7712
+        },
+        {
+          "Class": "pliers",
+          "Images": 124,
+          "Instances": 124,
+          "Box-P": 1.0,
+          "Box-R": 0.31145,
+          "Box-F1": 0.47497,
+          "mAP50": 0.94207,
+          "mAP75": 0.94207,
+          "mAP50-95": 0.8227
+        },
+        {
+          "Class": "scissors",
+          "Images": 123,
+          "Instances": 123,
+          "Box-P": 0.48078,
+          "Box-R": 0.97115,
+          "Box-F1": 0.64316,
+          "mAP50": 0.74843,
+          "mAP75": 0.73289,
+          "mAP50-95": 0.59782
+        },
+        {
+          "Class": "tweezers",
+          "Images": 73,
+          "Instances": 73,
+          "Box-P": 0.40869,
+          "Box-R": 0.75342,
+          "Box-F1": 0.52992,
+          "mAP50": 0.57194,
+          "mAP75": 0.44155,
+          "mAP50-95": 0.38874
+        }
+      ],
+      "speed_ms_per_image": {
+        "preprocess": 0.7464479838803996,
+        "inference": 43.44387249992935,
+        "loss": 0.00022523389845680925,
+        "postprocess": 0.2700120645210019
+      },
+      "note": "Validation speed excludes live camera/hand/depth/telemetry; not whole-system FPS."
+    },
+    "public_regression": {
+      "metrics": {
+        "metrics/precision(B)": 0.7175821295916864,
+        "metrics/recall(B)": 0.4969333907068439,
+        "metrics/mAP50(B)": 0.6007686453065515,
+        "metrics/mAP50-95(B)": 0.3783533943601266,
+        "fitness": 0.3783533943601266
+      },
+      "per_class": [
+        {
+          "Class": "screwdriver",
+          "Images": 20,
+          "Instances": 51,
+          "Box-P": 0.74928,
+          "Box-R": 0.58604,
+          "Box-F1": 0.65768,
+          "mAP50": 0.67696,
+          "mAP75": 0.3535,
+          "mAP50-95": 0.38459
+        },
+        {
+          "Class": "pliers",
+          "Images": 13,
+          "Instances": 18,
+          "Box-P": 0.78913,
+          "Box-R": 0.66667,
+          "Box-F1": 0.72275,
+          "mAP50": 0.80791,
+          "mAP75": 0.64791,
+          "mAP50-95": 0.52912
+        },
+        {
+          "Class": "scissors",
+          "Images": 17,
+          "Instances": 21,
+          "Box-P": 0.61433,
+          "Box-R": 0.2381,
+          "Box-F1": 0.34318,
+          "mAP50": 0.31744,
+          "mAP75": 0.24636,
+          "mAP50-95": 0.22135
+        }
+      ],
+      "speed_ms_per_image": {
+        "preprocess": 1.7082908999327628,
+        "inference": 12.16599014987878,
+        "loss": 0.00037100007830304094,
+        "postprocess": 0.3079574000366847
+      },
+      "note": "Validation speed excludes live camera/hand/depth/telemetry; not whole-system FPS."
+    }
+  },
+  "new": {
+    "site_holdout": {
+      "metrics": {
+        "metrics/precision(B)": 0.9925735687234181,
+        "metrics/recall(B)": 0.9868511419810746,
+        "metrics/mAP50(B)": 0.9938605208211373,
+        "metrics/mAP50-95(B)": 0.8208379101779993,
+        "fitness": 0.8208379101779993
+      },
+      "per_class": [
+        {
+          "Class": "screwdriver",
+          "Images": 73,
+          "Instances": 73,
+          "Box-P": 0.97197,
+          "Box-R": 1.0,
+          "Box-F1": 0.98578,
+          "mAP50": 0.995,
+          "mAP75": 0.98144,
+          "mAP50-95": 0.83991
+        },
+        {
+          "Class": "pliers",
+          "Images": 124,
+          "Instances": 124,
+          "Box-P": 0.99833,
+          "Box-R": 1.0,
+          "Box-F1": 0.99916,
+          "mAP50": 0.995,
+          "mAP75": 0.995,
+          "mAP50-95": 0.8563
+        },
+        {
+          "Class": "scissors",
+          "Images": 123,
+          "Instances": 123,
+          "Box-P": 1.0,
+          "Box-R": 0.99473,
+          "Box-F1": 0.99736,
+          "mAP50": 0.995,
+          "mAP75": 0.98459,
+          "mAP50-95": 0.84405
+        },
+        {
+          "Class": "tweezers",
+          "Images": 73,
+          "Instances": 73,
+          "Box-P": 1.0,
+          "Box-R": 0.95267,
+          "Box-F1": 0.97576,
+          "mAP50": 0.99044,
+          "mAP75": 0.88499,
+          "mAP50-95": 0.7431
+        }
+      ],
+      "speed_ms_per_image": {
+        "preprocess": 0.7119734838793633,
+        "inference": 7.900569362890008,
+        "loss": 0.00021862090380314077,
+        "postprocess": 0.2813187742093203
+      },
+      "note": "Validation speed excludes live camera/hand/depth/telemetry; not whole-system FPS."
+    },
+    "public_regression": {
+      "metrics": {
+        "metrics/precision(B)": 0.6700054724191409,
+        "metrics/recall(B)": 0.5265739137723761,
+        "metrics/mAP50(B)": 0.6194624345158555,
+        "metrics/mAP50-95(B)": 0.4189326021399407,
+        "fitness": 0.4189326021399407
+      },
+      "per_class": [
+        {
+          "Class": "screwdriver",
+          "Images": 20,
+          "Instances": 51,
+          "Box-P": 0.68699,
+          "Box-R": 0.62745,
+          "Box-F1": 0.65587,
+          "mAP50": 0.71941,
+          "mAP75": 0.55249,
+          "mAP50-95": 0.46618
+        },
+        {
+          "Class": "pliers",
+          "Images": 13,
+          "Instances": 18,
+          "Box-P": 0.77768,
+          "Box-R": 0.66667,
+          "Box-F1": 0.71791,
+          "mAP50": 0.82062,
+          "mAP75": 0.64941,
+          "mAP50-95": 0.57972
+        },
+        {
+          "Class": "scissors",
+          "Images": 17,
+          "Instances": 21,
+          "Box-P": 0.54535,
+          "Box-R": 0.2856,
+          "Box-F1": 0.37488,
+          "mAP50": 0.31836,
+          "mAP75": 0.21474,
+          "mAP50-95": 0.21089
+        }
+      ],
+      "speed_ms_per_image": {
+        "preprocess": 1.401269725010934,
+        "inference": 10.684918150036538,
+        "loss": 0.00020422494344529696,
+        "postprocess": 0.319515624869382
+      },
+      "note": "Validation speed excludes live camera/hand/depth/telemetry; not whole-system FPS."
+    }
+  }
+}

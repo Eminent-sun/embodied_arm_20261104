@@ -1,0 +1,6343 @@
+[
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000001",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000001.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          237.0,
+          105.0,
+          375.0,
+          318.0
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          439.0,
+          156.0,
+          552.0,
+          322.0
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 999,
+        "median_error_px": 0
+      },
+      {
+        "anchor": 1,
+        "inliers": 999,
+        "median_error_px": 0
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "1d54ece447f937ab9d5f4adabf4a10e6aaee5f7a28b6b31bbc6f4d9852591b94"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000002",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000002.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          226.47,
+          123.39,
+          356.64,
+          321.64
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          411.72,
+          185.93,
+          512.99,
+          340.58
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 487,
+        "median_error_px": 0.4207824766635895
+      },
+      {
+        "anchor": 1,
+        "inliers": 487,
+        "median_error_px": 0.4207824766635895
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "6540e94b07dcdc9a2c17fbf571a1f4b7d1e62dd65175cb4d5355263311f4a773"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000003",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000003.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          226.93,
+          129.02,
+          364.09,
+          326.22
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          408.88,
+          199.84,
+          508.07,
+          354.89
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 437,
+        "median_error_px": 0.4914282560348511
+      },
+      {
+        "anchor": 1,
+        "inliers": 437,
+        "median_error_px": 0.4914282560348511
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "3dc0a277b955568da4084ecfa5335c53a1f6750e1e97ae8538292a368cd1a5b7"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000004",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000004.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          232.6,
+          133.26,
+          376.99,
+          326.19
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          406.16,
+          215.41,
+          501.19,
+          369.43
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 384,
+        "median_error_px": 0.4770629405975342
+      },
+      {
+        "anchor": 1,
+        "inliers": 384,
+        "median_error_px": 0.4770629405975342
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "58300897f546be1ea8cf9cee0b89f6bb680f8a1eec01791de2f983b8a5eaefaa"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000005",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000005.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          253.17,
+          145.55,
+          398.41,
+          333.95
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          418.49,
+          232.85,
+          511.73,
+          385.1
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 369,
+        "median_error_px": 0.4360334277153015
+      },
+      {
+        "anchor": 1,
+        "inliers": 369,
+        "median_error_px": 0.4360334277153015
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "1eb799f2bf2c5175c170fa64117d04cef4a1951b6f2862de18181afeaa24363e"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000006",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000006.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          281.38,
+          151.04,
+          423.23,
+          334.53
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          441.36,
+          239.05,
+          532.71,
+          388.4
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 345,
+        "median_error_px": 0.3960792124271393
+      },
+      {
+        "anchor": 1,
+        "inliers": 345,
+        "median_error_px": 0.3960792124271393
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "6f8aaedf75cf3d743da9f00565371225150f2656f21c35e7d8ae705513cde119"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000007",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000007.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          317.43,
+          137.47,
+          459.51,
+          320.53
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          476.01,
+          228.58,
+          567.72,
+          378.32
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 306,
+        "median_error_px": 0.441564679145813
+      },
+      {
+        "anchor": 1,
+        "inliers": 306,
+        "median_error_px": 0.441564679145813
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c859f3a9b635c13a813652555932727bd874ff155993eb1d15feee5b42520e72"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000008",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000008.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          333.05,
+          125.42,
+          477.28,
+          306.09
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          487.62,
+          221.07,
+          578.32,
+          369.09
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 270,
+        "median_error_px": 0.48120322823524475
+      },
+      {
+        "anchor": 1,
+        "inliers": 270,
+        "median_error_px": 0.48120322823524475
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "41ae166513e8f615eb2b07a45dc5fdf915285f80e36d04d7672dc77ca5cb2e63"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000009",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000009.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          341.35,
+          125.67,
+          484.0,
+          299.35
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          489.0,
+          221.49,
+          579.37,
+          364.63
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 244,
+        "median_error_px": 0.4479510188102722
+      },
+      {
+        "anchor": 1,
+        "inliers": 244,
+        "median_error_px": 0.4479510188102722
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "6378878063d11d7b4dadebbfee9cb6106c3f8411c369224e21b1628050c3aeb3"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000010",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000010.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          352.28,
+          132.2,
+          492.62,
+          299.36
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          494.85,
+          228.05,
+          585.86,
+          367.74
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 218,
+        "median_error_px": 0.5330706238746643
+      },
+      {
+        "anchor": 1,
+        "inliers": 218,
+        "median_error_px": 0.5330706238746643
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "46ef21349edc38001b9f8666f82554f36e87bd1d42a8442b16c74d04f8eb3862"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000011",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000011.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          369.32,
+          140.16,
+          507.25,
+          301.57
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          507.09,
+          234.92,
+          597.51,
+          370.82
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 205,
+        "median_error_px": 0.45864957571029663
+      },
+      {
+        "anchor": 1,
+        "inliers": 205,
+        "median_error_px": 0.45864957571029663
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "cbff57c9a3468f099f15e51357f0865805e654e13b6d2ddef48bdc92a77ab817"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000012",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000012.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          382.38,
+          139.8,
+          517.53,
+          295.5
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          514.78,
+          233.87,
+          604.46,
+          365.19
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 210,
+        "median_error_px": 0.4477837085723877
+      },
+      {
+        "anchor": 1,
+        "inliers": 210,
+        "median_error_px": 0.4477837085723877
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "f9b87e481c45f64639d10388b6b0c895a8bac850c1e8da0e3f4178ddf350c1ad"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000013",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000013.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          348.51,
+          119.88,
+          449.95,
+          277.62
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          494.36,
+          174.56,
+          576.76,
+          299.67
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 118,
+        "median_error_px": 0.7922518253326416
+      },
+      {
+        "anchor": 1,
+        "inliers": 118,
+        "median_error_px": 0.7922518253326416
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "be667265819ce18866407b5bfb705c33aa1fca8c5bcf1558224925b1e4718539"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000014",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000014.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          323.13,
+          201.9,
+          466.8,
+          369.29
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          449.11,
+          165.87,
+          565.87,
+          281.15
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 195,
+        "median_error_px": 0.4728142321109772
+      },
+      {
+        "anchor": 1,
+        "inliers": 195,
+        "median_error_px": 0.4728142321109772
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "d8d0b7f1ce984e4f10c0836f945482d284808729cda153fcd759dbd4b6606469"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000015",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000015.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          279.01,
+          129.45,
+          441.39,
+          307.78
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          411.28,
+          83.43,
+          537.54,
+          203.97
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 239,
+        "median_error_px": 0.48590561747550964
+      },
+      {
+        "anchor": 1,
+        "inliers": 239,
+        "median_error_px": 0.48590561747550964
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "02d65c83370ae0066d9abc4a05a8d0c8ee9f10e7dbdcf0b71ee1ecdd5c5c1a67"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000016",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000016.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          280.54,
+          152.32,
+          452.0,
+          336.04
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          414.04,
+          101.29,
+          546.92,
+          222.95
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 237,
+        "median_error_px": 0.5080180168151855
+      },
+      {
+        "anchor": 1,
+        "inliers": 237,
+        "median_error_px": 0.5080180168151855
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "54f29155922296f4d8b846f822c6155b51862d25372b1df3e3e4dd862e8dd709"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000017",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000017.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          277.02,
+          129.56,
+          457.5,
+          320.98
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          416.89,
+          74.94,
+          556.73,
+          201.98
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 248,
+        "median_error_px": 0.4817553162574768
+      },
+      {
+        "anchor": 1,
+        "inliers": 248,
+        "median_error_px": 0.4817553162574768
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "3df4d1f6507cc7f23075589f2c74235e10a1d2ad1c3d025d18212b09621e0a55"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000018",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000018.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          294.16,
+          167.63,
+          492.34,
+          361.37
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          425.69,
+          96.98,
+          577.94,
+          219.85
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 158,
+        "median_error_px": 0.6424276828765869
+      },
+      {
+        "anchor": 1,
+        "inliers": 158,
+        "median_error_px": 0.6424276828765869
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "69dd5774bd8572b38a114c6e8c111daeed1608a55c4b7d6f0f39acc125abd894"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000019",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000019.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          301.73,
+          268.47,
+          519.47,
+          434.94
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          392.56,
+          164.79,
+          551.22,
+          256.82
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 129,
+        "median_error_px": 0.5942659974098206
+      },
+      {
+        "anchor": 1,
+        "inliers": 129,
+        "median_error_px": 0.5942659974098206
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "ff2d8d3e74e737a1804b5adedb4b6989873c928120021e84b5640f81d256f943"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000020",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000020.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          287.0,
+          246.48,
+          507.08,
+          377.2
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          343.75,
+          97.27,
+          503.16,
+          191.17
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 130,
+        "median_error_px": 0.6498411297798157
+      },
+      {
+        "anchor": 1,
+        "inliers": 130,
+        "median_error_px": 0.6498411297798157
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "766545cae051aab4c1a166418bfc2a4bf435a0bd8a1ac618042be30f570adfd5"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000021",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000021.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          236.8,
+          219.95,
+          460.79,
+          354.83
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          282.62,
+          62.89,
+          444.59,
+          161.26
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 190,
+        "median_error_px": 0.6702395677566528
+      },
+      {
+        "anchor": 1,
+        "inliers": 190,
+        "median_error_px": 0.6702395677566528
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c688d67493c38e10eb3208b64c15c006b63ee3cd5c76f0cfa44740db236b07d5"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000022",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000022.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          246.79,
+          221.45,
+          472.19,
+          359.56
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          278.48,
+          58.16,
+          445.49,
+          159.78
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 202,
+        "median_error_px": 0.5282002687454224
+      },
+      {
+        "anchor": 1,
+        "inliers": 202,
+        "median_error_px": 0.5282002687454224
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "a6b5e4668ada75b9b0ad6180f6e238b741db734383346f0fe01253d3b1327f6a"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000023",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000023.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          239.83,
+          226.83,
+          473.91,
+          370.64
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          265.09,
+          55.43,
+          440.1,
+          161.66
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 191,
+        "median_error_px": 0.5237520933151245
+      },
+      {
+        "anchor": 1,
+        "inliers": 191,
+        "median_error_px": 0.5237520933151245
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "0eac8277974be1c9779044edeba5c866dea7a234400b4b5043c87757723590de"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000024",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000024.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          247.37,
+          212.82,
+          498.96,
+          362.67
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          252.99,
+          34.65,
+          441.17,
+          149.54
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 185,
+        "median_error_px": 0.529805064201355
+      },
+      {
+        "anchor": 1,
+        "inliers": 185,
+        "median_error_px": 0.529805064201355
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "7c39249c2ed84598d884af31b167fdfde82eb58a110fe36c7350c06a5b181926"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000025",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000025.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          231.02,
+          180.7,
+          495.76,
+          337.68
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          215.13,
+          0.0,
+          416.65,
+          125.61
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 121,
+        "median_error_px": 0.8021584749221802
+      },
+      {
+        "anchor": 1,
+        "inliers": 121,
+        "median_error_px": 0.8021584749221802
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "449a8a91a8eb5eb2368e45939c9829fcf54d99348d7ebbfcbf4835e982f52827"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000026",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000026.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          227.14,
+          121.57,
+          501.6,
+          319.72
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          161.76,
+          0.0,
+          373.65,
+          107.47
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 114,
+        "median_error_px": 0.7476742267608643
+      },
+      {
+        "anchor": 1,
+        "inliers": 114,
+        "median_error_px": 0.7476742267608643
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "dced91de7ab98e655c1a8de9695b2eea7780ec4e6c6b7635084e4de8fd49a486"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000027",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000027.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          333.73,
+          84.26,
+          604.25,
+          295.55
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          256.98,
+          0.0,
+          456.39,
+          104.33
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 86,
+        "median_error_px": 0.7913981080055237
+      },
+      {
+        "anchor": 1,
+        "inliers": 86,
+        "median_error_px": 0.7913981080055237
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "24e2de4dc7b8391950621cbf634d377ce5db42147dbc328edda7f93d7c14e925"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000028",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000028.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          424.9,
+          55.75,
+          640.0,
+          274.56
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          339.06,
+          0.0,
+          526.11,
+          105.13
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 68,
+        "median_error_px": 0.5938302278518677
+      },
+      {
+        "anchor": 1,
+        "inliers": 68,
+        "median_error_px": 0.5938302278518677
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "46317ac0aea6db513467fb88923be5bc26cfb39521c57d6bb5c87d30c6395956"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000029",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000029.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          485.87,
+          191.09,
+          640.0,
+          371.22
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          411.86,
+          30.53,
+          601.4,
+          198.34
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 99,
+        "median_error_px": 0.4743426740169525
+      },
+      {
+        "anchor": 1,
+        "inliers": 99,
+        "median_error_px": 0.4743426740169525
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "638a7333f116e766128482e0164cb6472f147f68517e40c9893dae075d65a4db"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000030",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000030.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          265.74,
+          132.22,
+          397.07,
+          297.66
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          427.12,
+          196.57,
+          524.08,
+          336.93
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 297,
+        "median_error_px": 0.47777828574180603
+      },
+      {
+        "anchor": 1,
+        "inliers": 297,
+        "median_error_px": 0.47777828574180603
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "145e88c1d50b725b59e32f8924a06632189cc4c2282a790eb44ca344cb439d6a"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000031",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000031.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          341.22,
+          166.41,
+          490.81,
+          325.44
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          504.05,
+          251.46,
+          610.7,
+          398.8
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 102,
+        "median_error_px": 0.6558446884155273
+      },
+      {
+        "anchor": 1,
+        "inliers": 102,
+        "median_error_px": 0.6558446884155273
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e950e607e0bac163eb8c751281bbc237c7b6cca76265c79ce3f709fbe3f28d1a"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000032",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000032.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          300.74,
+          142.85,
+          448.1,
+          323.09
+        ],
+        "anchor": 1
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          475.22,
+          223.6,
+          580.19,
+          380.06
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 257,
+        "median_error_px": 0.47914400696754456
+      },
+      {
+        "anchor": 1,
+        "inliers": 257,
+        "median_error_px": 0.47914400696754456
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "5b9303a2e00087e6d7a609d0bd79edee8ed9eb94fe9865709a2e6468a8934f63"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000033",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000033.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          290,
+          145,
+          474,
+          270
+        ],
+        "anchor": 1,
+        "manual_correction": true
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          441.47,
+          204.61,
+          546.03,
+          357.58
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 143,
+        "median_error_px": 0.44037526845932007
+      },
+      {
+        "anchor": 1,
+        "inliers": 143,
+        "median_error_px": 0.44037526845932007
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "1fecda4066546f9f90367c0e0601a8b1d55a74ece85ac6f2e4da4eeea8e2f903"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000034",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000034.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          407,
+          155,
+          552,
+          250
+        ],
+        "anchor": 1,
+        "manual_correction": true
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          451.56,
+          283.08,
+          573.31,
+          397.63
+        ],
+        "anchor": 1
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 1,
+        "inliers": 90,
+        "median_error_px": 0.5635921955108643
+      },
+      {
+        "anchor": 1,
+        "inliers": 90,
+        "median_error_px": 0.5635921955108643
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "74ad9aadddc3eed62ad61c38c2e9dafb4315ca65d6be567a9caa9b015e592ae6"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000035",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000035.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          201.28,
+          135.22,
+          374.24,
+          244.45
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          271.01,
+          340.08,
+          413.9,
+          470.68
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 22,
+        "median_error_px": 0.7943421602249146
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "586a80ec00bffd2831ffde1d79b645a65883c587cecdd4485c02f008027628d1"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000036",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000036.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          205.15,
+          137.41,
+          376.25,
+          245.91
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          268.82,
+          338.3,
+          409.42,
+          471.06
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 23,
+        "median_error_px": 0.9440170526504517
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "6bddd240345590bac20810a6d8bf6b2ed45374556642a65250612c63a5f6b569"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000037",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000037.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          219.83,
+          144.73,
+          388.59,
+          237.64
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          259.63,
+          353.05,
+          403.35,
+          473.05
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 30,
+        "median_error_px": 0.9886322021484375
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "572bfd83d836ecc412db436f055d05513dd6a784d69b5fc59a3c806f69691728"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000038",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000038.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          250.47,
+          76.35,
+          414.21,
+          171.57
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          250.16,
+          305.44,
+          390.73,
+          407.91
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 26,
+        "median_error_px": 0.7088398933410645
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c3346bb7a4916a61138ad2066ef99a7c00b3fc895819c9f516b310f45e413ef2"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000039",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000039.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          248.89,
+          54.8,
+          416.03,
+          155.02
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          225.29,
+          284.29,
+          364.15,
+          397.53
+        ],
+        "anchor": 45,
+        "manual_correction": true
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 16,
+        "median_error_px": 1.0009596347808838
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c844cd0e8e7a8ed332a290b53d551e558fb820567dd13d81eba5f502984757f2"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000040",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000040.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          216.04,
+          77.35,
+          384.9,
+          178.73
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          198.68,
+          326.88,
+          352.03,
+          443.47
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 25,
+        "median_error_px": 1.0721442699432373
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "8167df04aeaa47205b3bd6980cb6c6973c79f6f5c7f992c64852d7f15181d822"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000041",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000041.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          114.07,
+          278.03,
+          302.86,
+          454.24
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 30,
+        "median_error_px": 0.8668709397315979
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "9cd75a101d022e9a182bcf77e59bf2e521f232f917f223dff67fb4f7dba52f09"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000042",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000042.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          193.8,
+          222.71,
+          355.24,
+          413.88
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          451.66,
+          377.08,
+          547.29,
+          480.0
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 42,
+        "median_error_px": 0.6940897703170776
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e7912205fefa0d52479e9bb305715075f0153406f4767c49487f911471d7f73c"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000043",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000043.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          203.13,
+          177.39,
+          359.19,
+          376.47
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          455.68,
+          324.18,
+          575.27,
+          480.0
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 94,
+        "median_error_px": 0.7703220844268799
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c5862b61c650506ab14c964590e68122fa9ca680eb7f7285573a92c18f597305"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000044",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000044.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          181.62,
+          145.12,
+          332.5,
+          347.91
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          445.07,
+          276.34,
+          564.29,
+          449.52
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 98,
+        "median_error_px": 1.1085073947906494
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "77e8f7c2957f5b7d7a563155af5c98cfa4d351c77bd27c1f7843f23145f7b744"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000045",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000045.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          134.0,
+          136.0,
+          280.0,
+          342.0
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          403.0,
+          257.0,
+          518.0,
+          423.0
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 999,
+        "median_error_px": 0
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "3172aeb7c521ddfcaf1b819e6207e6dd3b9380d9b3d4b78181169565ab141128"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000046",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000046.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          101.29,
+          129.18,
+          243.91,
+          332.88
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          374.2,
+          242.06,
+          486.95,
+          401.3
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 89,
+        "median_error_px": 0.9555336833000183
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "56a2a0e74c8e9197e6c612fe30575b174afe96c65bf50f1a85fce17595d00a35"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000047",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000047.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          89.71,
+          107.39,
+          224.13,
+          308.46
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          361.45,
+          213.5,
+          472.05,
+          367.67
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 58,
+        "median_error_px": 0.828112006187439
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "a186b699a50499201bcf3af4636bef7665941c2ecc79da4a3fd37c24800cf7e4"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000048",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000048.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          88.45,
+          91.41,
+          224.76,
+          289.32
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          354.75,
+          202.8,
+          463.83,
+          355.74
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 53,
+        "median_error_px": 0.8771221041679382
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e5254d4c559dda4addc2a9c0e3264dd02cf20077d6ff56edfa3f3b18419df29c"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000049",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000049.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          94.0,
+          52.03,
+          235.98,
+          248.71
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          352.82,
+          176.28,
+          460.48,
+          330.05
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 39,
+        "median_error_px": 0.8893101811408997
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "abf3e6fbd18cd6e71a4d1a2c01aa76d1beba0726e40067f54438c66866363979"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000050",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000050.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          103.48,
+          32.41,
+          248.99,
+          229.1
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          359.55,
+          165.69,
+          467.12,
+          322.92
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 33,
+        "median_error_px": 0.9693741202354431
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "9399d4bd49adc0fa385ded71edfc598d8b950b04a076de242f7c2eb651afeb13"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000051",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000051.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          113.36,
+          9.36,
+          268.46,
+          206.21
+        ],
+        "anchor": 45
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          361.73,
+          156.37,
+          467.2,
+          313.91
+        ],
+        "anchor": 45
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 45,
+        "inliers": 31,
+        "median_error_px": 0.7711794972419739
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "4fdd3c672b8d50af585b701c2d9a25b33bfec46d26e6e6d054704131296b32d3"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000052",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000052.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          123.51,
+          91.13,
+          327.72,
+          229.69
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          183.24,
+          201.88,
+          389.78,
+          332.54
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          232.99,
+          319.29,
+          387.0,
+          473.25
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          64.28,
+          213.65,
+          145.26,
+          379.49
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 98,
+        "median_error_px": 0.7529371976852417
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "1ff6f901dd28f925245ec5fc971a77dcb9cb3bb1addf639fd9fbda904a150fea"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000053",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000053.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          64.78,
+          83.44,
+          286.48,
+          231.96
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          138.83,
+          194.96,
+          353.86,
+          338.06
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          195.81,
+          314.46,
+          355.49,
+          475.99
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          0.95,
+          218.76,
+          98.61,
+          392.16
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 80,
+        "median_error_px": 0.5958297252655029
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "2cf4256230ee181367b5c878defee26b092bf6ed1a34d51599b886d1e8bb79de"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000054",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000054.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          46.18,
+          104.56,
+          268.87,
+          266.51
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          132.8,
+          209.05,
+          341.9,
+          372.43
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          195.9,
+          330.88,
+          353.49,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          0.0,
+          261.79,
+          94.64,
+          437.13
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 93,
+        "median_error_px": 0.8298193216323853
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "eaac3eb6c99936f9c50d3a95d974eaf0267b09ce04224c0545e54a91af76b81a"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000055",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000055.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          83.62,
+          114.34,
+          291.72,
+          281.1
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          175.1,
+          214.08,
+          367.87,
+          384.46
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          240.15,
+          336.94,
+          388.15,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          33.67,
+          280.32,
+          144.56,
+          450.86
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 124,
+        "median_error_px": 0.960745096206665
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c7d14db92d4e3e2f76a09e33cec819c58112a537c6bcdec417eae648e61373fe"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000056",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000056.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          137.81,
+          111.25,
+          333.43,
+          284.3
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          239.68,
+          206.2,
+          414.89,
+          383.28
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          308.76,
+          329.07,
+          445.86,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          101.24,
+          287.91,
+          218.84,
+          450.21
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 61,
+        "median_error_px": 1.4535629749298096
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "28d9728ef685c892a7a8450ebf80bbeeb12ed95c404167dd9e112b6c04dd245a"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000057",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000057.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          167.57,
+          113.86,
+          345.85,
+          293.65
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          291.07,
+          190.69,
+          433.92,
+          377.58
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          366.19,
+          302.79,
+          481.39,
+          469.84
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          152.41,
+          309.22,
+          285.46,
+          444.2
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 81,
+        "median_error_px": 1.0734612941741943
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e9479f416331cde67de287fc22f18b2db9b8ce591f5105bceeb842dc5e65c3a5"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000058",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000058.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          148.06,
+          140.23,
+          321.86,
+          324.53
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          281.82,
+          205.21,
+          411.35,
+          404.59
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          361.79,
+          311.81,
+          476.07,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          137.3,
+          349.09,
+          281.24,
+          477.66
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 151,
+        "median_error_px": 0.8126611113548279
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "618522bbb80e4610f80cace973abe49f5927b2f17de07e63efdbf1c06a87bcff"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000059",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000059.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          154.49,
+          161.51,
+          307.55,
+          344.74
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          297.22,
+          212.5,
+          399.13,
+          414.38
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          379.16,
+          310.03,
+          488.88,
+          474.01
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          159.16,
+          375.87,
+          307.49,
+          480.0
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 180,
+        "median_error_px": 0.8201861381530762
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "0bd8820805609a2e42102dd56e7f1d3392728beebb0571ba5b302d374701c14e"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000060",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000060.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          162.01,
+          140.17,
+          312.34,
+          316.6
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          302.01,
+          191.33,
+          402.02,
+          383.88
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          381.53,
+          285.89,
+          487.67,
+          441.98
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          167.16,
+          345.33,
+          312.05,
+          451.15
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 182,
+        "median_error_px": 0.748814582824707
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "da80d74c5a31c1f25adbcc11ffbbf084bb4c12ce9ea9188aea271deec8707cc7"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000061",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000061.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          176.18,
+          129.85,
+          320.86,
+          299.2
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          312.61,
+          179.84,
+          408.04,
+          364.33
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          390.01,
+          271.16,
+          493.07,
+          421.35
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          182.14,
+          326.05,
+          323.23,
+          428.79
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 270,
+        "median_error_px": 0.6267109513282776
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "babe11d4506b2720a7d902ff2030a58b952bb55e38d83f3989f3b862ced3f42e"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000062",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000062.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          193.0,
+          121.0,
+          339.0,
+          282.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          319.0,
+          176.0,
+          422.0,
+          349.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          392.0,
+          268.0,
+          492.0,
+          414.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          193.0,
+          303.0,
+          325.0,
+          410.0
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 999,
+        "median_error_px": 0
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "d3806dd2e061cf1d4c5ed1305f3c7d97c8f476eee2c4282897fac47a6bd84620"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000063",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000063.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          223.82,
+          97.07,
+          373.03,
+          244.45
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          330.28,
+          164.22,
+          448.06,
+          316.25
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          394.77,
+          258.45,
+          492.6,
+          398.14
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          212.69,
+          254.11,
+          327.59,
+          371.04
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 162,
+        "median_error_px": 0.7797191739082336
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "5e291ce5f98d1750820f5638ee6e2155eb12b3a7a541ba325bcd2471cd2ba966"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000064",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000064.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          274.97,
+          102.84,
+          427.09,
+          232.28
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          350.5,
+          186.11,
+          489.26,
+          312.92
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          401.57,
+          284.09,
+          509.84,
+          418.62
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          247.11,
+          227.3,
+          334.84,
+          358.34
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 67,
+        "median_error_px": 0.9411271214485168
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "573843541247353fd671447b8f72e2d49fb70785dda969a905b1cec3dbbd6ac5"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000065",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000065.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          307.89,
+          150.44,
+          457.89,
+          242.63
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          321.54,
+          262.39,
+          490.4,
+          328.02
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          346.21,
+          353.13,
+          468.42,
+          460.68
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          251.39,
+          210.18,
+          286.06,
+          349.61
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 68,
+        "median_error_px": 0.9365870356559753
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "324774e251f706b6e93f74e45b666faa7b9231320b6c64600fcea0193267e828"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000066",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000066.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          293.38,
+          61.93,
+          454.87,
+          196.02
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          241.64,
+          202.62,
+          430.17,
+          289.13
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          206.26,
+          289.27,
+          353.7,
+          405.36
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          177.43,
+          74.08,
+          258.48,
+          221.18
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 55,
+        "median_error_px": 1.2026780843734741
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "03f62972b990b90805957924c3b1a8d4ccd8c08ddee39c211922f11eafd8cd16"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000067",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000067.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          267.38,
+          100.0,
+          429.23,
+          233.7
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          212.25,
+          235.36,
+          404.62,
+          327.14
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          168.2,
+          322.76,
+          325.09,
+          445.89
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          146.0,
+          108.38,
+          234.02,
+          251.59
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 47,
+        "median_error_px": 1.1463100910186768
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "ef11f4e8b56b66f67051860616332916bc54a92bc103229882a2981a8627d66d"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000068",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000068.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          244.54,
+          126.34,
+          408.98,
+          263.11
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          184.33,
+          256.9,
+          377.92,
+          355.02
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          129.69,
+          341.19,
+          292.35,
+          463.28
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          117.16,
+          130.67,
+          213.84,
+          268.92
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 75,
+        "median_error_px": 0.598588764667511
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "7aa2fefe789ca1d4602c737ab84ec1e0b3f0e55a5f754cf61c52de086a71f03e"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000069",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000069.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          248.29,
+          142.24,
+          408.26,
+          287.41
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          184.2,
+          258.21,
+          370.12,
+          377.8
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          114.54,
+          336.89,
+          278.66,
+          476.99
+        ],
+        "anchor": 62,
+        "manual_correction": true
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          120.78,
+          136.77,
+          224.26,
+          261.03
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 54,
+        "median_error_px": 1.2969942092895508
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "33ba0b4c0f9add79eadcfe3d16249d7190997dd6e95a7d122a2d082ca7548e63"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000070",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000070.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          297.34,
+          195.58,
+          444.43,
+          355.76
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          220.39,
+          285.31,
+          381.55,
+          439.36
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          109.61,
+          352.48,
+          276.32,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          163.35,
+          171.96,
+          289.52,
+          272.46
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 40,
+        "median_error_px": 1.0394456386566162
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "73f5a3b905db87887ec8fb6f7bf1725733c91354a130bca8418a6732cc80f6b4"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000071",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000071.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          395.9,
+          152.12,
+          526.35,
+          326.12
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          308.96,
+          220.77,
+          440.43,
+          395.73
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          181.76,
+          274.24,
+          333.22,
+          413.4
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          262.61,
+          112.11,
+          402.72,
+          194.73
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 19,
+        "median_error_px": 1.2054485082626343
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "2607816cb31544cd03e65edf3c2604ad326db16ceba07d3b370d83bc22129eea"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000072",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000072.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          441.47,
+          129.88,
+          569.82,
+          312.67
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          355.16,
+          203.28,
+          482.85,
+          384.42
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          231.47,
+          259.12,
+          377.77,
+          401.84
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          310.01,
+          88.1,
+          449.24,
+          176.23
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 28,
+        "median_error_px": 0.43626344203948975
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "de54456547f5c19526068cecd3ce6fa5bf1180bd1c6cb215a20916e2a37871d6"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000073",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000073.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          461.99,
+          99.4,
+          592.87,
+          296.98
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          371.42,
+          186.65,
+          501.54,
+          374.31
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          245.61,
+          250.06,
+          394.95,
+          396.76
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          323.56,
+          55.37,
+          470.99,
+          159.18
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 23,
+        "median_error_px": 0.8289679884910583
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "d8d0cf73225e3d5818fd03793a148adacc936da37c27c45ee1488d4c63015435"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000074",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000074.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          446.98,
+          88.39,
+          581.61,
+          267.45
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          366.2,
+          184.73,
+          507.14,
+          354.58
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          249.23,
+          255.15,
+          403.4,
+          395.92
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          316.1,
+          59.31,
+          447.37,
+          168.02
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 22,
+        "median_error_px": 1.0057470798492432
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "43d6d35b55a50047252379b5bb860fe86eb86372502bde0ecd6671e01329e931"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000075",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000075.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          387.19,
+          58.7,
+          549.65,
+          216.45
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          326.8,
+          180.31,
+          513.9,
+          319.12
+        ],
+        "anchor": 62,
+        "manual_correction": true
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          251.01999999999998,
+          259.48,
+          427.37,
+          410.42
+        ],
+        "anchor": 62,
+        "manual_correction": true
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          262.65,
+          50.2,
+          359.02,
+          180.85
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 17,
+        "median_error_px": 0.7115382552146912
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "64311be10a22e46c41018a6724e173aa589457d1b1570e5845dcc8e67a9e10ed"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000076",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000076.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          336.19,
+          76.36,
+          498.82,
+          213.73
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          288.17,
+          224.57,
+          491.55,
+          316.94
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          261.11,
+          326.11,
+          422.08,
+          470.82
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          217.86,
+          87.86,
+          295.09,
+          247.07
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 40,
+        "median_error_px": 1.2629600763320923
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "74bccb827c8e094884828a25057e999e6145b778bd907828960c07ace92c19d3"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000077",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000077.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          329.2,
+          128.88,
+          493.27,
+          239.3
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          294.71,
+          279.34,
+          506.53,
+          337.15
+        ],
+        "anchor": 62,
+        "manual_correction": true
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          296.2,
+          392.79,
+          452.13,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          226.55,
+          162.64,
+          277.24,
+          331.13
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 53,
+        "median_error_px": 0.5191339254379272
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "b477e7196d27b94d94ed29b6bca23795f329650fab8a3a1b53212773ae5639a5"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000078",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000078.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          337.73,
+          72.74,
+          517.28,
+          181.96
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          353.65,
+          210.66,
+          559.14,
+          287.37
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          384.27,
+          323.11,
+          535.45,
+          459.48
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          268.9,
+          141.99,
+          308.49,
+          313.17
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 63,
+        "median_error_px": 0.7672753930091858
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "8f638965fa85859d026a3097c26a0c65c912fc0cc47cf89830f20d3cabb4648f"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000079",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000079.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          293.93,
+          91.75,
+          477.02,
+          216.39
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          355.88,
+          202.13,
+          538.87,
+          320.12
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          405.67,
+          317.68,
+          545.86,
+          471.7
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          243.42,
+          194.84,
+          323.55,
+          363.18
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 52,
+        "median_error_px": 0.9895365238189697
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "52d74fe494fe9895b08ec316c9206012c1431be44110a81055b54a3bb978f701"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000080",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000080.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          258.21,
+          130.35,
+          427.6,
+          286.73
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          363.63,
+          209.49,
+          509.34,
+          374.09
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          434.39,
+          319.88,
+          552.95,
+          480.0
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          235.11,
+          292.21,
+          353.12,
+          436.51
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 157,
+        "median_error_px": 0.9086859226226807
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "2bbb892b7002e91b53125939e4169b58b9b933546834c2bff17c2493a96e0bb7"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000081",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000081.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          251.72,
+          99.64,
+          410.0,
+          267.81
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          379.39,
+          159.89,
+          500.59,
+          342.81
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          458.49,
+          262.12,
+          574.13,
+          425.17
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          246.64,
+          286.68,
+          382.12,
+          407.61
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 133,
+        "median_error_px": 0.9381825923919678
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "783004a912a0c9924b23b2f80e2db9626fd7a6438e7e0afea7b29adfa4d6d4ad"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000082",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000082.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          221.38,
+          67.42,
+          371.38,
+          242.36
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          360.26,
+          118.77,
+          464.07,
+          309.48
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          440.72,
+          215.01,
+          550.7,
+          371.17
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          227.22,
+          268.73,
+          370.07,
+          374.24
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 120,
+        "median_error_px": 0.8617398738861084
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "2ec8b48710ee5924e8d9f233dff744fab57356d2a2532307754904c97eabe74d"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000083",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000083.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          166.96,
+          85.47,
+          301.71,
+          263.89
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          318.9,
+          120.56,
+          396.42,
+          318.3
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          404.1,
+          204.72,
+          508.71,
+          351.34
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          188.51,
+          301.51,
+          341.87,
+          383.36
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 130,
+        "median_error_px": 0.7538347840309143
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "158c277b5ef23654a83061809f4a9e013a90e490ed8846cade0dfe8fb5f434f2"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000084",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000084.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          181.62,
+          109.82,
+          302.04,
+          285.84
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          334.01,
+          136.8,
+          395.71,
+          334.62
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          420.16,
+          215.19,
+          521.78,
+          357.71
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          210.62,
+          326.76,
+          363.88,
+          398.82
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 179,
+        "median_error_px": 0.8044111728668213
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "bfa27bc2fc7104952c9a0070868ca13fe9da5619c2a794afd346250b001a272c"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000085",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000085.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          221.55,
+          116.44,
+          337.54,
+          288.27
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          367.7,
+          143.74,
+          428.84,
+          337.18
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          451.44,
+          221.87,
+          551.78,
+          363.05
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          249.08,
+          326.63,
+          396.36,
+          399.62
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 177,
+        "median_error_px": 0.7857304811477661
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "8697169f67366ee5f860b0330b706d06dcd0b60211097411abe07307922c04b3"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000086",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000086.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          229.49,
+          124.87,
+          344.78,
+          294.64
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          373.63,
+          151.72,
+          435.04,
+          343.33
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          456.65,
+          229.08,
+          556.71,
+          369.54
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          255.99,
+          332.45,
+          401.67,
+          405.4
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 164,
+        "median_error_px": 0.8355715274810791
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "55a60d91ab647eccc77d92bec7e21a5850d0478b9a3543423fdb0c2569fa033c"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000087",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000087.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          230.11,
+          110.11,
+          406.52,
+          269.43
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          327.15,
+          196.58,
+          485.11,
+          358.59
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          392.28,
+          310.1,
+          517.84,
+          473.14
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          202.07,
+          272.32,
+          311.72,
+          417.48
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 174,
+        "median_error_px": 0.7551059722900391
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "bed0fb5dd491a223710458df9808f34a7981b537ce3d2af5ec6a9c6b5b26faa3"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000088",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000088.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          327.12,
+          103.45,
+          491.33,
+          205.91
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          330.92,
+          235.1,
+          517.37,
+          297.93
+        ],
+        "anchor": 62,
+        "manual_correction": true
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          353.1,
+          333.59,
+          484.3,
+          463.9
+        ],
+        "anchor": 62,
+        "manual_correction": true
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          257.12,
+          162.69,
+          287.94,
+          316.14
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 30,
+        "median_error_px": 0.7510899305343628
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "83127c5dc9cdbc29919e3e6dc460d69b92e919a354fd710720a7146c387753d7"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000089",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000089.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          128.18,
+          121.4,
+          253.69,
+          275.78
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          280.98,
+          141.44,
+          345.4,
+          320.95
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          371.43,
+          208.19,
+          480.23,
+          341.95
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          150.98,
+          314.73,
+          310.74,
+          384.25
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 82,
+        "median_error_px": 1.1911141872406006
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "30d5364cfb267192f08ae31a3e2bbb0d7f7ce4a10b3e702f4b57983ae34469ca"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000090",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000090.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          278.72,
+          139.62,
+          428.25,
+          256.45
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          333.92,
+          226.77,
+          479.24,
+          335.32
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          373.76,
+          320.28,
+          483.64,
+          440.56
+        ],
+        "anchor": 62
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          243.62,
+          245.62,
+          312.21,
+          372.49
+        ],
+        "anchor": 62
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 62,
+        "inliers": 129,
+        "median_error_px": 0.5811435580253601
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "4c947c907ba99e059d7f828007396afc2cae12aefe79726fc2194c9c2b6c1f54"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000091",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000091.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          239.1,
+          132.39,
+          349.36,
+          292.47
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          408.48,
+          158.55,
+          465.5,
+          330.24
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          497.22,
+          218.16,
+          578.23,
+          338.49
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          324.9,
+          385.43,
+          460.31,
+          420.18
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 162,
+        "median_error_px": 0.838369607925415
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "60d30dfb8d05854dd5ad945a5057d32f7cc3fc00aaa4240af2fc9982596a4a42"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000092",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000092.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          252.8,
+          131.47,
+          368.3,
+          289.74
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          417.1,
+          165.65,
+          482.56,
+          334.56
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          506.51,
+          230.98,
+          587.21,
+          351.74
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          328.04,
+          388.14,
+          463.4,
+          415.86
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 175,
+        "median_error_px": 1.0941451787948608
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "fb1f2c782088f5df5e4cb954bff039cb887b3da15d9bb5ff550e64cecb392485"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000093",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000093.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          279.53,
+          117.63,
+          408.35,
+          272.63
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          430.56,
+          172.13,
+          518.04,
+          333.11
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          519.69,
+          251.14,
+          606.51,
+          370.36
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          328.49,
+          368.75,
+          462.75,
+          398.32
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 177,
+        "median_error_px": 0.9606712460517883
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "f75c121038fc6a95bc8f661c46ca52f344189bc1b97fb3d94c9202fee3ec0738"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000094",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000094.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          263.8,
+          102.66,
+          396.7,
+          252.76
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          407.53,
+          164.21,
+          502.18,
+          317.03
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          494.56,
+          245.74,
+          582.85,
+          359.65
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          302.81,
+          344.76,
+          434.31,
+          378.74
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 175,
+        "median_error_px": 0.8999667167663574
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "251fb60ac663da69f85674a2323db09c451adbf21953925c2fab71fbd9f4b02b"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000095",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000095.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          244.16,
+          89.29,
+          375.95,
+          238.08
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          384.74,
+          151.44,
+          478.83,
+          301.46
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          469.34,
+          232.07,
+          555.78,
+          343.11
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          281.84,
+          328.3,
+          410.1,
+          361.59
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 153,
+        "median_error_px": 0.7102519869804382
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "d9c480ed5f10d514b0aebe210fa11d315ebfd20c6b50cfd3fe84ccc580288d6d"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000096",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000096.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          230.52,
+          91.56,
+          360.57,
+          237.1
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          369.83,
+          152.15,
+          461.77,
+          298.88
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          453.08,
+          230.56,
+          537.51,
+          339.09
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          268.24,
+          325.7,
+          395.19,
+          357.82
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 141,
+        "median_error_px": 0.8261306881904602
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e3ae890a63f535f8010ae96a2a7a01bb451b6405c4b803af634cdb470500f01b"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000097",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000097.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          229.11,
+          102.68,
+          353.06,
+          249.36
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          371.95,
+          157.05,
+          454.37,
+          306.52
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          453.86,
+          231.3,
+          533.08,
+          340.65
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          275.24,
+          339.8,
+          401.28,
+          367.31
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 144,
+        "median_error_px": 0.8070260286331177
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "7118cf768d36d9d0a80def60d74cbfe3c989bb10e1dc05b058dee2112995f8d3"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000098",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000098.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          249.62,
+          104.43,
+          355.49,
+          254.07
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          405.62,
+          136.22,
+          463.16,
+          293.45
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          487.38,
+          196.32,
+          560.91,
+          306.6
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          326.37,
+          343.4,
+          450.42,
+          369.5
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 160,
+        "median_error_px": 0.6572741270065308
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "b50494892bc203ee7b04058921cc512c38027800fe9186ad4ee7feac0dfd90c0"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000099",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000099.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          275.43,
+          67.32,
+          369.26,
+          216.92
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          436.06,
+          69.96,
+          482.26,
+          234.02
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          513.85,
+          111.42,
+          588.31,
+          219.89
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          377.58,
+          277.31,
+          494.42,
+          326.67
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 205,
+        "median_error_px": 0.5853708982467651
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e491074f83e54e3870b577959ff71f73bfdc9a555f8a05698269e3a25a7ffdec"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000100",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000100.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          288.0,
+          85.0,
+          383.0,
+          229.0
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          435.0,
+          58.0,
+          491.0,
+          222.0
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          517.0,
+          76.0,
+          593.0,
+          179.0
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          415.0,
+          256.0,
+          520.0,
+          328.0
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 999,
+        "median_error_px": 0
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "20ddcc0b478f943c9a9cd9bc67e082439dc3ff1d6aa77320c4bd1baeb4963ae5"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000101",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000101.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          303.27,
+          127.71,
+          397.23,
+          273.56
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          422.64,
+          84.57,
+          501.63,
+          239.88
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          519.7,
+          84.92,
+          597.1,
+          182.02
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          443.9,
+          265.84,
+          539.93,
+          351.56
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 248,
+        "median_error_px": 0.6048152446746826
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "fb1d4cdd057dbb94405eb9cc06613ea2b2e8a712d4f5daa8441525da339822e9"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000102",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000102.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          302.15,
+          165.69,
+          409.92,
+          313.69
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          411.9,
+          109.59,
+          509.13,
+          257.1
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          512.86,
+          95.44,
+          596.26,
+          192.68
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          468.99,
+          275.98,
+          555.0,
+          374.5
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 256,
+        "median_error_px": 0.5854414701461792
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "b724ee6d0c037d0c1c8ee70c07bcd7458c3c6dc6196c7f03249409f572d9aea2"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000103",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000103.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          300.7,
+          198.01,
+          417.63,
+          346.86
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          403.75,
+          133.17,
+          512.94,
+          274.05
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          502.75,
+          108.28,
+          593.67,
+          204.88
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          485.42,
+          286.81,
+          563.98,
+          394.54
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 219,
+        "median_error_px": 0.7101290225982666
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "2c6a07d86d11d9466b087ca6f37de81d200be4031c04d6f8429ad9e3fa35fed7"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000104",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000104.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          269.19,
+          253.04,
+          395.78,
+          402.9
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          362.93,
+          179.17,
+          483.1,
+          309.9
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          456.04,
+          142.92,
+          551.6,
+          235.97
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          472.88,
+          313.63,
+          538.43,
+          431.53
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 175,
+        "median_error_px": 0.8295558094978333
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "be0b0a262437ae5dbfc7bc955a8a020574c761b4f36b4cf022114271319ae7e6"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000105",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000105.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          245.3,
+          226.89,
+          367.91,
+          375.11
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          343.97,
+          156.39,
+          458.15,
+          289.27
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          439.18,
+          124.56,
+          530.9,
+          217.86
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          439.89,
+          295.5,
+          510.44,
+          408.1
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 172,
+        "median_error_px": 0.8632917404174805
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "d82f3c9e75bb8c486a82b4f19e9f4350b9191a7148dcb2f5779347344021171d"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000106",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000106.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          230.89,
+          177.55,
+          345.45,
+          325.88
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          338.6,
+          116.1,
+          441.45,
+          256.57
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          437.3,
+          96.03,
+          522.12,
+          190.37
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          408.92,
+          270.15,
+          488.82,
+          373.61
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 171,
+        "median_error_px": 0.8845023512840271
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "ff9af205b1facf3edbe0ccc68a6ee417a6fa884b199a481c55182646edbcedb0"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000107",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000107.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          267.95,
+          140.75,
+          365.51,
+          286.8
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          386.34,
+          94.35,
+          469.7,
+          246.16
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          485.53,
+          90.71,
+          563.48,
+          186.76
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          415.33,
+          269.82,
+          509.94,
+          359.23
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 209,
+        "median_error_px": 0.8530234098434448
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "92ccae0f5da90c1b3d6614dae1916a62a72d78b081960489221fb1b8c7d56abf"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000108",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000108.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          285.18,
+          82.08,
+          377.56,
+          227.02
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          443.76,
+          72.01,
+          488.83,
+          236.32
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          518.4,
+          103.99,
+          594.39,
+          211.23
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          396.01,
+          276.57,
+          508.36,
+          334.14
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 202,
+        "median_error_px": 0.7979118824005127
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "445acd3f219ac57813c2903c0c734013c4847b03dfdf7a907a3a8d2dec0efed8"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000109",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000109.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          281.83,
+          111.72,
+          372.02,
+          255.38
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          435.27,
+          122.64,
+          482.04,
+          279.42
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          513.57,
+          168.53,
+          588.23,
+          276.18
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          371.25,
+          325.31,
+          488.9,
+          364.87
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 166,
+        "median_error_px": 0.7712494134902954
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "8e996fb3223f510e9a7849fe706029c2a547304713f0bc250c3d743f821311ca"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000110",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000110.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          324.69,
+          109.82,
+          422.55,
+          252.08
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          472.65,
+          137.36,
+          528.25,
+          290.93
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          554.26,
+          195.57,
+          630.49,
+          305.84
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          397.42,
+          337.44,
+          517.96,
+          361.78
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 151,
+        "median_error_px": 0.7604707479476929
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "60081da8a3efbd8b055764a15f4cea6bee3e7d2090624d087698af810f24bedf"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000111",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000111.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          352.3,
+          126.72,
+          457.47,
+          265.74
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          493.15,
+          165.7,
+          560.82,
+          314.49
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          575.47,
+          232.16,
+          640.0,
+          342.63
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          410.09,
+          350.84,
+          530.94,
+          374.96
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 159,
+        "median_error_px": 0.8625124096870422
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "420554bf69cfe05da79f3136325487a81a98aae2de915e8e8a37b29c2e5d06e8"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000112",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000112.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          348.4,
+          127.36,
+          457.78,
+          261.22
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          480.85,
+          173.74,
+          556.48,
+          315.01
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          560.97,
+          243.92,
+          640.0,
+          350.59
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          393.53,
+          342.89,
+          511.72,
+          370.96
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 148,
+        "median_error_px": 1.0338523387908936
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "fbe87a2f78baf2b5e9fa1590231f68e54fce60f6b4703c8a636df2628a8979a6"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000113",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000113.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          321.57,
+          86.05,
+          433.6,
+          219.84
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          453.26,
+          135.66,
+          531.53,
+          274.16
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          532.16,
+          206.62,
+          611.24,
+          310.08
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          365.21,
+          299.95,
+          482.11,
+          328.55
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 148,
+        "median_error_px": 0.8449217677116394
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "edf2dd18e4237befc4d54f78cf6878d2f044bd463987ac2b794938934f83cf91"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000114",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000114.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          281.19,
+          76.7,
+          392.96,
+          209.44
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          413.38,
+          124.64,
+          489.1,
+          261.02
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          490.33,
+          192.55,
+          565.99,
+          293.03
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          326.33,
+          289.12,
+          442.2,
+          314.93
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 123,
+        "median_error_px": 0.9018777012825012
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "7d9ec5f90ebcf1831f28d4ddfbf9711a926eb52723e090d8e4697690752fe302"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000115",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000115.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          271.9,
+          64.08,
+          388.24,
+          198.04
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          400.38,
+          120.45,
+          483.02,
+          255.82
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          477.35,
+          194.12,
+          555.92,
+          294.93
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          309.93,
+          277.88,
+          425.62,
+          309.82
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 103,
+        "median_error_px": 0.8342239260673523
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "b1618cf26fbc65d8b42f3c8c0a676b719c41ae753aa1d37d83d0ead2890552fe"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000116",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000116.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          279.54,
+          69.63,
+          397.2,
+          201.78
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          404.9,
+          128.04,
+          490.95,
+          261.07
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          481.72,
+          202.93,
+          561.97,
+          302.68
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          313.32,
+          280.12,
+          428.2,
+          314.63
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 123,
+        "median_error_px": 0.7371681928634644
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "7a69222d85992605e51384e6d9807fc0c77909a17f5854f13c79270d59f1317b"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000117",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000117.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          280.05,
+          97.33,
+          434.98,
+          208.04
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          265.0,
+          289.46,
+          440.23,
+          344.88
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          287.91,
+          383.31,
+          404.44,
+          475.79
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          148.21,
+          216.84,
+          214.14,
+          364.63
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 104,
+        "median_error_px": 1.1976721286773682
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "b47ac16f18d05c3ede7141f4da3b05aee486233c612c01f7ddf31886f10a01fc"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000118",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000118.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          304.66,
+          126.91,
+          464.37,
+          241.65
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          283.24,
+          326.26,
+          463.77,
+          385.2
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          309.66,
+          427.57,
+          421.65,
+          480.0
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          168.52,
+          244.78,
+          227.85,
+          402.17
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 121,
+        "median_error_px": 0.7882150411605835
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "ac3b5f449e7e9cb69bfbed2423e0e589d151a8afe3891308f58ce3c97dc37c3a"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000119",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000119.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          224.11,
+          107.14,
+          392.85,
+          227.2
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          314.11,
+          234.0,
+          467.83,
+          348.78
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          395.94,
+          351.13,
+          501.91,
+          454.53
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          167.59,
+          300.88,
+          300.8,
+          408.13
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 99,
+        "median_error_px": 1.0669150352478027
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "2e7acb3384b7011db57366b375557b2b224ae71ac02958d7d955d7cb8d24a12b"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000120",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000120.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          315.63,
+          175.17,
+          465.74,
+          322.23
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          454.44,
+          260.07,
+          575.22,
+          414.57
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          553.59,
+          368.61,
+          640.0,
+          480.0
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          326.92,
+          419.23,
+          467.9,
+          480.0
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 137,
+        "median_error_px": 0.8920251131057739
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "20d3126a8164c65314d802cf1fa9488428f63af63053ae3c9ccc54431188b5b4"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000121",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000121.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          257.03,
+          211.32,
+          397.79,
+          398.05
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          374.36,
+          119.32,
+          508.56,
+          291.98
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          491.29,
+          75.24,
+          602.75,
+          198.54
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          482.18,
+          302.48,
+          571.52,
+          445.14
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 51,
+        "median_error_px": 1.1214224100112915
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "71bb16ad7ce0d5be1837e8ff3aacf51a47ced58d1601fc603117178ba97f735e"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000122",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000122.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          148.5,
+          209.22,
+          276.68,
+          383.08
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          370.73,
+          201.26,
+          431.87,
+          396.65
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          472.8,
+          236.67,
+          575.4,
+          363.76
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          396.14,
+          457.42,
+          461.84,
+          480.0
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 107,
+        "median_error_px": 1.1469120979309082
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "e9cbe5ec8968e778a04c1c8ca591a2ff4877cc89c98840accf0fe00391c68b58"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000123",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000123.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          264.85,
+          69.42,
+          401.97,
+          180.29
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          373.13,
+          159.35,
+          488.5,
+          270.21
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          454.37,
+          253.81,
+          548.21,
+          349.72
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          257.76,
+          248.89,
+          381.58,
+          323.95
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 63,
+        "median_error_px": 1.0970603227615356
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "3779371403d341b83aed90e269f2a817636c9a52ff60104cc74c0f10f080c76d"
+  },
+  {
+    "session_id": "table_20261102_233455_e7dcede4",
+    "sample_id": "000124",
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000124.png",
+    "objects": [
+      {
+        "class_id": 1,
+        "xyxy": [
+          245.9,
+          17.79,
+          401.46,
+          125.23
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 0,
+        "xyxy": [
+          296.19,
+          178.15,
+          453.54,
+          250.38
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 2,
+        "xyxy": [
+          362.88,
+          277.85,
+          463.28,
+          367.23
+        ],
+        "anchor": 100
+      },
+      {
+        "class_id": 3,
+        "xyxy": [
+          165.53,
+          167.17,
+          270.92,
+          290.36
+        ],
+        "anchor": 100
+      }
+    ],
+    "registration": [
+      {
+        "anchor": 100,
+        "inliers": 60,
+        "median_error_px": 0.9256397485733032
+      }
+    ],
+    "annotation_method": "Manual anchor polygons, feature propagation, every RGB overlay visually inspected by Codex; explicit transition/blur corrections; no model predictions used as truth",
+    "split": "test",
+    "review_status": "visually_reviewed",
+    "image_sha256": "c10e9a96e8d03b12919b0924a27a954c8b20ba1352c38e33ab786ced39dce761"
+  }
+]

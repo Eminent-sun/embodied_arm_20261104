@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>桌面工具拾取 · 三维定位</title>
+<style>
+:root{color-scheme:dark}body{margin:24px auto;padding:0 18px;max-width:1300px;background:#101820;color:#edf4f7;font:16px/1.6 system-ui}a{color:#9dd8ff}h1{font-size:26px}button,select{padding:10px 14px;margin:6px 6px 6px 0;border:1px solid #567386;border-radius:7px;background:#203846;color:inherit}button:disabled{opacity:.45}button:not(:disabled){cursor:pointer}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.panel{background:#192833;border-radius:12px;padding:16px;min-width:0}img,canvas{width:100%;display:block;background:#0b1219;border-radius:8px}canvas{cursor:crosshair}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px}table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;border-bottom:1px solid #345;padding:8px}.muted{color:#afc0cc}.warn{color:#ffd18a}.good{color:#9be3bc}#error{min-height:26px;color:#ffb5aa}#ack{border-left:4px solid #66d4a2;padding-left:14px}@media(max-width:850px){.grid{grid-template-columns:1fr}}
+</style>
+<nav><a href="/">数据采集</a> · <a href="/planning">高级规划预览</a></nav>
+<h1>桌面工具拾取 · 三维定位</h1>
+<p>选择工具 ID → 冻结画面并点选真实夹持位置 → 确认发送。已发送目标保持不变，不随检测框移动。</p>
+<div class="grid"><section class="panel"><h2>实时识别 / 已有平滑滤波</h2><img src="/stream/color" alt="视觉推理暂停时不会有新画面"><p id="liveState" class="warn">正在读取状态…</p><p class="muted">画面十字：滤波后的表面定位点，尚不是夹爪目标。橙色暂存点不能更新目标；过期画面不代表当前现场。</p><details><summary>对齐真实深度</summary><img src="/stream/depth" alt="对齐深度"></details></section>
+<section class="panel"><h2>点选夹持位置 / 冻结同帧 RGB-D</h2>
+<select id="target"><option value="">等待稳定工具</option></select><button id="freeze">① 冻结所选工具</button>
+<canvas id="frozen" width="640" height="480"></canvas>
+<p id="hint" class="muted">先冻结，再点在工具可夹持的实体表面。工具或相机移动后须重新冻结；不要点检测框中的桌面空隙。</p>
+<pre id="candidate">尚未点选。未完成标定时只显示相机测量值，不能发送。</pre>
+<label><input type="checkbox" id="confirm">我确认工具未移动，夹持点与夹爪姿态正确</label><br>
+<button id="send" disabled>② 确认并发送 TCP 目标到 PS</button><p class="muted">一次确认，只提交坐标。PS 负责逆解、路径及执行检查；本页不会启动电机或闭爪。</p>
+</section></div>
+<p id="error" role="alert"></p>
+<section class="panel"><h2>PS 确认收到的目标</h2><div id="ack">尚无接收确认记录。不会用实时检测值冒充已发送坐标。</div><p id="config" class="warn"></p></section>
+<h2>实时定位点（mm）</h2><table><thead><tr><th>工具 / ID</th><th>状态</th><th>相机 XYZ</th><th>基座 XYZ</th></tr></thead><tbody id="coords"></tbody></table>
+<details><summary>怎样标定 / 坐标约定</summary>
+<p>1. 固定相机与机械臂底座；与 PS 约定相同 base_link 原点和右手 XYZ 轴、机械零位、夹爪 TCP。相机光学轴是 X 向右、Y 向下、Z 向前，两者不同。</p>
+<p>2. 在工作区测量至少 6 个（建议 10–15 个）同名标记点的基座三维坐标，同时保存这些点的真实 RGB-D 坐标；另外至少 4 个位置只做独立验证。程序求 T_base_camera，并绑定相机序列号与安装位。</p>
+<p>3. 实测各类工具的表面点到夹持 TCP 偏移、向下抓取姿态、接近/抬升高度及工作区，填写 config/pickup_tcp.json；PS 使用完全相同的 contract。</p>
+<p>4. AI PC 自动计算 p_base = R × p_camera + t，再加实测 TCP 偏移。发送的是 base_link / mm / TCP 目标，姿态为 R_base_tcp 的四元数 xyzw；PS 无需再做相机坐标转换。</p>
+<p>固定安装后不必每次抓取都重标。移动相机或基座须重做外参；换夹爪须重标 TCP；桌面变化须复核高度和工作区。仿真不能代替实测。完整步骤见 docs/SIMPLE_PICKUP.md。</p>
+</details>
+<script>
+const token='TOKEN_VALUE', byId=id=>document.getElementById(id);
+const names={screwdriver:'螺丝刀',pliers:'钳子',scissors:'剪切工具',tweezers:'镊子'};
+let snapshot=null, chosen=null, ack=null, frozenImage=null, pending=false;
+const xyz=p=>Array.isArray(p)?p.map(x=>Number(x).toFixed(1)).join(', '):'无有效坐标';
+const mm=p=>Array.isArray(p)?p.map(x=>x*1000):null;
+async function post(action,data){const r=await fetch('/api/pickup/'+action,{method:'POST',headers:{'Content-Type':'application/json','X-Task-Token':token},body:JSON.stringify(data)});const d=await r.json();if(!r.ok)throw Error(d.error||'请求失败');return d}
+function refreshSend(){byId('send').disabled=pending||!chosen?.target||!byId('confirm').checked}
+function marker(g,p,color,label){if(!p||p.some(x=>!Number.isFinite(x)))return;const [x,y]=p;g.strokeStyle=color;g.fillStyle=color;g.lineWidth=2;g.beginPath();g.moveTo(x-9,y);g.lineTo(x+9,y);g.moveTo(x,y-9);g.lineTo(x,y+9);g.stroke();g.font='14px sans-serif';g.fillText(label,Math.min(x+12,g.canvas.width-120),Math.max(18,y-12))}
+function draw(){const c=byId('frozen'),g=c.getContext('2d');g.clearRect(0,0,c.width,c.height);if(!frozenImage)return;g.drawImage(frozenImage,0,0,c.width,c.height);if(snapshot){const [x1,y1,x2,y2]=snapshot.box_xyxy;g.strokeStyle='#eee';g.lineWidth=1;g.strokeRect(x1,y1,x2-x1,y2-y1)}if(chosen){marker(g,chosen.pixel,'#ffd166','夹持表面');marker(g,chosen.tcp_pixel,'#78caff','TCP 预览')}if(ack?.snapshot_id===snapshot?.snapshot_id)marker(g,ack.tcp_pixel||ack.pixel,'#8effb5','PS 已接收 TCP')}
+async function action(fn){if(pending)return;pending=true;refreshSend();byId('error').textContent='';try{await fn()}catch(e){byId('error').textContent=e.message}finally{pending=false;refreshSend()}}
+byId('confirm').onchange=refreshSend;
+byId('freeze').onclick=()=>action(async()=>{if(!byId('target').value)throw Error('请先选择一个稳定的工具 ID');chosen=null;byId('confirm').checked=false;byId('candidate').textContent='正在冻结…';snapshot=await post('freeze',{track_id:Number(byId('target').value)});const img=new Image();img.src='/api/pickup/image?id='+snapshot.snapshot_id;await img.decode();frozenImage=img;byId('frozen').width=snapshot.image_size[0];byId('frozen').height=snapshot.image_size[1];byId('hint').textContent='冻结帧 #'+snapshot.frame_id+' · 工具 #'+snapshot.track_id+'；请在 30 秒内点选、确认。';byId('candidate').textContent='点击白框内真实可夹持表面。';draw()});
+byId('frozen').onclick=e=>{if(!snapshot||!frozenImage||pending)return;const c=e.currentTarget,r=c.getBoundingClientRect(),pixel=[Math.floor((e.clientX-r.left)*c.width/r.width),Math.floor((e.clientY-r.top)*c.height/r.height)];action(async()=>{chosen=null;byId('confirm').checked=false;draw();chosen=await post('choose',{snapshot_id:snapshot.snapshot_id,pixel});let lines=['夹持表面 · 相机 XYZ (mm)：'+xyz(mm(chosen.surface_camera_m))];if(chosen.target){const t=chosen.target;lines.push('夹持表面 · 基座 XYZ (mm)：'+xyz(t.surface_base_mm),'夹爪 TCP · 基座 XYZ (mm)：'+xyz(t.position_mm),'接近 XYZ (mm)：'+xyz(t.approach_mm),'抬升 XYZ (mm)：'+xyz(t.lift_mm),'姿态 xyzw：'+t.orientation_xyzw.join(', '))}if(chosen.blocked)lines.push('暂不能发送：'+chosen.blocked);byId('candidate').textContent=lines.join('\n');draw()})};
+byId('send').onclick=()=>action(async()=>{ack=await post('send',{target_id:chosen.target.target_id,confirmed:byId('confirm').checked});byId('confirm').checked=false;renderAck();draw()});
+function renderAck(){const el=byId('ack');if(!ack)return;const t=ack.target;el.replaceChildren();const title=document.createElement('p');title.className='good';title.textContent=(ack.receiver_mode==='simulation'?'模拟 PS':'PS')+' 已确认接收 · '+new Date(ack.received_at_unix_s*1000).toLocaleTimeString()+' · 此为锁定目标记录，不代表实时物体位置或运动已完成';const p=document.createElement('pre');p.textContent='工具 #'+t.track_id+' '+(names[t.class_name]||t.class_name)+'\nTCP / base_link / mm：'+xyz(t.position_mm)+'\n姿态 xyzw：'+t.orientation_xyzw.join(', ')+'\n接近 (mm)：'+xyz(t.approach_mm)+'\n抬升 (mm)：'+xyz(t.lift_mm)+'\n目标 ID：'+t.target_id+'\n坐标短暂丢失不会覆盖此目标；PS 执行前仍需本地检查。';el.append(title,p)}
+async function update(){try{const [d,p]=await Promise.all([fetch('/api/status').then(r=>r.json()),fetch('/api/pickup/status').then(r=>r.json())]);const obs=d.observation||{},age=Date.now()/1000-(obs.captured_at_unix_s||0),fresh=age>=0&&age<.5;byId('liveState').textContent=fresh?'视觉在线 · '+Number(obs.processed_fps||0).toFixed(1)+' FPS · '+(obs.base_calibration_valid?'基座外参有效':'尚无有效基座外参'):'推理暂停或画面已过期；不会自动恢复相机';byId('config').textContent=p.config_error||'坐标配置已填写；发送时还会核对相机绑定和 PS 约定';if(p.last_error)byId('error').textContent='最近发送：'+p.last_error;if(p.last_ack){ack=p.last_ack;renderAck();draw()}
+const select=byId('target'),old=select.value,body=byId('coords');select.replaceChildren();body.replaceChildren();for(const o of obs.detections||[]){const pointAge=Number(o.coordinate_age_ms??Infinity)+Math.max(0,age)*1000,usable=fresh&&o.coordinate_usable&&o.coordinate_fresh&&pointAge<=150;const shown=fresh&&pointAge<=350;if(usable||String(o.track_id)===old){const op=document.createElement('option');op.value=o.track_id;op.textContent=(names[o.class_name]||o.class_name)+' #'+o.track_id+(usable?'':'（等待稳定）');select.append(op)}const tr=document.createElement('tr');for(const text of [(names[o.class_name]||o.class_name)+' #'+o.track_id,usable?'稳定 / 本帧':shown?'暂存 / 不可发送':'过期 / 不可发送',xyz(shown?mm(o.surface_point_camera_m):null),xyz(shown?mm(o.surface_point_base_m):null)]){const td=document.createElement('td');td.textContent=text;tr.append(td)}body.append(tr)}if(old&&!Array.from(select.options).some(x=>x.value===old)){const op=document.createElement('option');op.value=old;op.textContent='#'+old+'（已丢失；不会切换目标）';select.append(op)}if(old)select.value=old;else{const op=document.createElement('option');op.value='';op.textContent='请选择工具 ID';select.prepend(op);select.value=''}
+}catch(e){byId('liveState').textContent='无法读取视觉服务：'+e.message}finally{setTimeout(update,250)}}update();
+</script></html>

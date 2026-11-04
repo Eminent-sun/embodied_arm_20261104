@@ -1,0 +1,48 @@
+{
+  "bench_baseline": {
+    "frames": 90,
+    "processed_fps": 18.347497950428885,
+    "inference_median_ms": 50.22165949776536,
+    "inference_p95_ms": 62.588885003788164,
+    "frames_with_hands": 52
+  },
+  "bench_cpu_new": {
+    "frames": 90,
+    "processed_fps": 19.20236115760756,
+    "inference_median_ms": 49.08616300235735,
+    "inference_p95_ms": 63.02953449412598,
+    "frames_with_hands": 75
+  },
+  "bench_parallel_cpu": {
+    "frames": 270,
+    "processed_fps": 29.84090784542862,
+    "inference_median_ms": 23.07128899701638,
+    "inference_p95_ms": 26.622003156080606,
+    "frames_with_hands": 1
+  },
+  "bench_gpu": {
+    "frames": 270,
+    "processed_fps": 29.822082816515685,
+    "inference_median_ms": 14.033632993232459,
+    "inference_p95_ms": 17.842324249795638,
+    "frames_with_hands": 0,
+    "host_latency_median_ms": 16.13157699466683
+  },
+  "bench_tools_gpu_ros": {
+    "frames": 270,
+    "processed_fps": 29.84918221672342,
+    "inference_median_ms": 24.97602549556177,
+    "inference_p95_ms": 31.0235070552153,
+    "host_latency_median_ms": 28.972946500289254,
+    "frames_with_hands": 270,
+    "max_hands": 2,
+    "model": "tools_yolo11n.pt",
+    "supported_tool_classes": [
+      "pliers",
+      "scissors",
+      "screwdriver"
+    ],
+    "all_depth_available": true,
+    "all_uncalibrated": true
+  }
+}

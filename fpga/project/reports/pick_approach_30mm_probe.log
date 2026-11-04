@@ -1,0 +1,12 @@
+RUNPATH v2：5 段精简路线；5/3/2 秒固定计时，轻微反馈波动不重置。
+确认初始位连续停稳（最多等待 5 秒，不发送运动或夹爪命令）。
+{"pose": [180, 0, 190, 0, 0, 0], "reply": [3, 2, 106, 0], "cartesian": {"sequence": 3, "result": 2, "model_only": false, "plan_valid": false, "frames": 0, "duration_ms": 0, "solver": "original DLS fallback", "analytic_solutions": 0, "xyz_mm": [180.0, 0.0, 190.0], "rpy_deg": [0.0, 0.0, 0.0], "seed_joint_rad": [-0.0, 1.5700000524520874, 0.0004000663757324219, -0.0, 1.5703999996185303, 0.0], "target_joint_rad": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "target_motor_rad": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "position_error_mm": 0.0, "orientation_error_rad": 0.0}}
+{"pose": [180, 0, 190, 0, -10, 0], "reply": [4, 0, 106, 0], "cartesian": {"sequence": 4, "result": 0, "model_only": false, "plan_valid": true, "frames": 293, "duration_ms": 14600, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [180.0, 0.0, 190.0], "rpy_deg": [0.0, -10.0, 0.0], "seed_joint_rad": [-0.0, 1.5700000524520874, 0.0004000663757324219, -0.0, 1.5703999996185303, 0.0], "target_joint_rad": [0.004728271625936031, 1.9008362293243408, -0.5818162560462952, -0.010606463998556137, -0.07726426422595978, 1.555553913116455], "target_motor_rad": [-1.0741686820983887, 2.965026378631592, -1.553826093673706, 3.0447354316711426, 1.5664746761322021, -1.4133381843566895], "position_error_mm": 2.9802378776366822e-05, "orientation_error_rad": 1.1588604564849447e-07}}
+Virtual gripper open
+approach: 180 0 190 0 -10 0
+ARM segment 1 result 6
+控制器本次未确认停稳；保持原目标，等待连续停稳后再检查（最多 5 秒/3 次，未启动运动）。
+ARM segment 1 result 0
+descend: 180 0 160 0 0 0
+ARM segment 2 result 0
+PICK_APPROACH_30MM_PROBE_PASS

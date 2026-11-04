@@ -1,0 +1,32 @@
+{
+  "inventory_date": "2026-11-04",
+  "pc": {
+    "manufacturer": "ASUSTeK COMPUTER INC.",
+    "model": "ASUS TUF Gaming A16 FA608WI_FA608WI",
+    "cpu": "AMD Ryzen AI 9 HX 370 w/ Radeon 890M",
+    "physical_memory_bytes": 33362407424,
+    "gpu_inventory": [
+      "AMD Radeon 890M",
+      "NVIDIA GeForce RTX 4070 Laptop GPU"
+    ],
+    "note": "Hardware inventory alone does not demonstrate inference on an allowed AMD backend"
+  },
+  "fpga": {
+    "board": "ALINX AX7010",
+    "part": "xc7z010clg400-1",
+    "pl_clock_hz": 50000000,
+    "can_clock_hz": 20000000,
+    "vivado": "2023.1",
+    "vitis_required": "2023.1",
+    "arm_compiler_archived": "arm-xilinx-eabi-gcc.exe (GCC) 12.2.0"
+  },
+  "os_build": null,
+  "rocm_version": null,
+  "ai_model": null,
+  "inference_backend": null,
+  "model_precision": null,
+  "input_specification": null,
+  "power_mode": null,
+  "python_test_dependency_lock": null,
+  "source": "Existing reports and read-only host inventory from preceding audit; missing fields intentionally null"
+}

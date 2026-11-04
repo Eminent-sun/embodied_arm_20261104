@@ -1,0 +1,39 @@
+{
+  "format": "ZYNQ_FIXED_PATH_ORIENTATION_CANDIDATE_V1",
+  "source": "original RA8P1 URDF solver and fixed XYZ/order",
+  "proposed_rpy_deg": [
+    0,
+    -45,
+    0
+  ],
+  "previous_accepted_rpy_deg": [
+    0,
+    45,
+    0
+  ],
+  "sample_count": 232,
+  "geometry_math_passed": true,
+  "relative_to_home_joint_min_deg": [
+    0.128,
+    32.79,
+    -93.583,
+    0.196,
+    -74.636,
+    86.461
+  ],
+  "relative_to_home_joint_max_deg": [
+    66.968,
+    67.452,
+    -28.888,
+    109.731,
+    -31.191,
+    147.44
+  ],
+  "max_adjacent_joint_step_deg": 2.793,
+  "meets_stated_joint_ranges_if_ID3_and_ID5_negative_joint_is_clockwise": true,
+  "clockwise_motor_read_sign_id3_id5_verified": true,
+  "physical_home_alignment_verified": false,
+  "user_approved_orientation_change": true,
+  "runtime_motion_authorized": false,
+  "note": "The path planner now accepts this orientation for offline validation. ID3 and ID5 clockwise read direction is user-confirmed. Fresh HOME alignment, dynamics and stop behavior still require verification before hardware motion."
+}

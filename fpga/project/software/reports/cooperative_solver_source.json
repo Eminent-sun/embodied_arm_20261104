@@ -1,0 +1,6 @@
+{
+  "vendor_sha256": "14b5c49d594a587fd74fa973a33d359a7eccb9d077d05bfb39f21cbbb5306b7e",
+  "generated_sha256": "5b149eef5c2ba72f92f7c79fc702d02e79e0e55ed44bdb5272b106620f44d4a1",
+  "changes": "One abortable service call per IK iteration; equations/model/limits/seeds unchanged",
+  "mathematical_source_identity_after_removing_hook": true
+}

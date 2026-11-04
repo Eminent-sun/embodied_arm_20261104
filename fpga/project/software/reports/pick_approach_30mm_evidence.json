@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PICK_APPROACH_30MM_OFFLINE",
+  "runner_sha256": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+  "ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+  "old_segments": 5,
+  "new_segments": 6,
+  "old_planned_duration_s": 47.1,
+  "new_planned_duration_s": 50.2,
+  "approach_pose": [
+    180.0,
+    0.0,
+    190.0,
+    0.0,
+    -10.0,
+    0.0
+  ],
+  "pickup_pose": [
+    180.0,
+    0.0,
+    160.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "wait_5s_after_descent": true,
+  "descent_max_lateral_deviation_mm": 0.660456395348717,
+  "high_pose_pitch_user_confirmed_deg": -10,
+  "hardware_access": false
+}

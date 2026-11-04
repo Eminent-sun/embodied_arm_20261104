@@ -1,0 +1,17 @@
+{
+  "change": "GRIP OPENSTEP / CLOSESTEP retained; limits expanded to 1110..1490 us across host, PS and PL",
+  "fresh_PS_status_required": true,
+  "PWM_must_be_enabled": true,
+  "python_tests_passed": 78,
+  "PWM_AXI_checks_passed": 246,
+  "hardware_access": false,
+  "initial_us": 1400,
+  "open_preset_us": 1220,
+  "close_preset_us": 1360,
+  "step_us": 10,
+  "download_required": true,
+  "BIT_ELF_rebuilt_and_verified": true,
+  "ARM_gripper_scenarios_passed": 14,
+  "ARM_dispatch_scenarios_passed": 17,
+  "build_log": "reports/limits_1110_1490_build.log"
+}

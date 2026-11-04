@@ -1,0 +1,14 @@
+{
+  "incident_snapshot": "history\\before_route_optimization_20261104\\software\\operator_logs\\20261104_133116\\recorded_cycle.jsonl",
+  "snapshot_sha256": "d66fee818718d2223d5f2fd6be6c9ecb3ef58f8d7f03bb4a8c63707b26c083bd",
+  "dwell_restarts": 34,
+  "restart_span_s": 62.578000000008615,
+  "old_segments": 30,
+  "new_segments": 5,
+  "old_planned_duration_s": 148.75,
+  "new_planned_duration_s": 47.1,
+  "actual_ARM_pick_wait_s": 5.00199998199998,
+  "injected_pick_wait_jitter_samples": 13,
+  "runner_sha256": "5cd41f16b31772da06379694db6938d3d6d392cad6976e4aefa40db4b9da55a3",
+  "hardware_access": false
+}

@@ -1,0 +1,63 @@
+PS -> AXI4-Lite -> PWM 舵机接口 V1
+
+CAN 邮箱仍为 0x40000000 / 4 KB。合并 BIT 的版本号 0x00020009；原寄存器定义不变。
+PS 电机驱动接受旧 0x00020008 和新 0x00020009；舵机驱动必须先读到新版本才访问 PWM。
+PWM 外设单独位于 0x40001000 / 4 KB，32 位，50 MHz，与邮箱同一时钟和复位域。
+PL CAN 主设备的地址空间排除此外设，PS 是唯一写入者。
+
+偏移   访问   定义
+0x00   R      ID = 0x53525631 (SRV1)
+0x04   R      ABI = 0x00010000
+0x08   R/W    CTRL：完整 32 位写 1 = 原子提交暂存配置并启用；写 0 = 立即关闭
+0x0C   R/W    暂存目标脉宽 us，1110..1490，默认 1400
+0x10   R/W    暂存每步变化 us，1..10，默认 10
+0x14   R/W    暂存每步等待帧数，1..50，默认 5；一帧 20 ms
+0x18   R      bit0 启用；bit1 正在渐变；bit2 当前 PWM 高；bit3 服务超时锁存
+0x1C   R      当前输出脉宽 us
+0x20   R      已提交目标脉宽 us
+0x24   R      已输出完整帧计数，32 位自然回绕，复位清零
+0x28   W      完整 32 位写 0x4B49434B (KICK) 续 1 s 服务时间，不能重新启用
+0x2C   R      服务时限 ms，1000
+0x30   R      脉宽下限 1110
+0x34   R      脉宽上限 1490
+0x38   R      帧周期 us，20000
+
+配置寄存器支持 WSTRB，合并后范围检查；非法/只读/未对齐地址返回 SLVERR。
+CTRL/KICK 要求完整 32 位写。AW/W 通道可任意先后到达；B/R 响应在反压时保持。
+暂存配置不改变正在运行的 PWM；CTRL=1 后目标/步长/步间隔同时生效。
+已启用状态下，active_us 只在完整 PWM 帧边界改变，不改写当前高脉冲。
+OFF/复位/服务超时可立即截断输出，这是停用语义。
+从 OFF 启用直接输出目标脉宽，没有强制经过原 CENTER 的自动动作。
+
+PS API（已有 ELF 内使用，无需额外 Vitis 外设驱动）
+  gripper_init()：仅初始化软件状态，不访问硬件。
+  gripper_command(request, now_ms, permit_enable)：显式命令。
+  gripper_service(now_ms, permit_enable)：主循环及运动学合作让出时调用。
+  permit_enable 是主机心跳/STOP/六轴故障检查的结果，不应无条件固定为 1。
+
+例如在已有控制循环中请求闭合：
+  gripper_request_t r = {GRIPPER_REQUEST_MAGIC, 1, GRIP_SET,
+                         GRIPPER_CLOSE_US, 10, 5};
+  int rc = gripper_command(&r, now_ms, permit_enable);
+  // 之后持续调用 gripper_service；不会阻塞等待实际机械动作。
+
+错误码：0 成功；40 输入非法；41 BIT/外设版本不符；42 STOP/主机失联/故障禁止启用；43 写入回读不符。
+主机命令沿用带 CRC 和单调序号的 DDR 请求，operation=111，record 前 24 字节为：
+  magic=0x47525031, version=1, action(0查询/1关闭/2设置), pulse_us, slew_us, step_frames。
+其余请求参数与 padding 必须为零。报告 g_gripper_report 为 13 个 uint32_t / 52 字节。
+不会使用 CAN FIFO，不改变电机标定，不写电机内部零点，不自动执行 PICK/DELIVER。
+
+接口与速度
+AXI 50 MHz 每周期 20 ns，但这不是一次 PS 命令的实测往返时间。
+原子提交后的输出渐变在 20 ms 帧边界按指定步间隔执行。
+例：已经在 1400 us 输出，OPEN 默认 10 us/100 ms，到 1220 us 需约 1.8 s 的脉宽渐变。
+从 1220 到 CLOSE 1360 需约 1.4 s。真实舵机动作、负载与到位时间不由寄存器读数证明。
+
+电脑端逐次命令（不扩展 PS/PL ABI）
+  GRIP OPENSTEP：最新 target_us 减 10，限制到 1110 us。
+  GRIP CLOSESTEP：最新 target_us 加 10，限制到 1490 us。
+每次先通过 operation=111/action=0 刷新报告并核对请求序号及结果，
+再通过原 action=2 提交一次绝对目标，渐变参数为 10 us / 100 ms。
+正在渐变时以已提交 target_us 为基准，连续输入累加目标；不会自动重复。
+PWM 关闭、服务超时、查询失败或报告异常时不提交步进；先显式 GRIP INIT。
+原 OPEN/CLOSE 仍为 1220/1360 us 预设。单次命令改变的是目标脉宽，非实测角度。

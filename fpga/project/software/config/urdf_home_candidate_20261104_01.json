@@ -1,0 +1,165 @@
+{
+  "format": "ZYNQ_ARM_URDF_HOME_CANDIDATE_V1",
+  "source_pose_sha256": "e46b701164be2c1bb5814760272dc58fe59acc6f70d2740a9439342cb22bcc1f",
+  "motor_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "captured_motor_rad": [
+    -0.9278879165649414,
+    2.6251015663146973,
+    -0.058759987354278564,
+    3.070901870727539,
+    0.9962778091430664,
+    -0.07081876695156097
+  ],
+  "nominal_urdf_home_joint_rad": [
+    0.0,
+    1.57,
+    0.0,
+    0.0,
+    1.57,
+    0.0
+  ],
+  "home_as_nominal_trajectory_origin": true,
+  "motor_gain": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0
+  ],
+  "candidate_motor_zero_rad": [
+    -0.9278879165649414,
+    4.1951015663146975,
+    -0.058759987354278564,
+    3.070901870727539,
+    2.5662778091430667,
+    -0.07081876695156097
+  ],
+  "urdf_joint_min_rad": [
+    -3.14,
+    0.39571,
+    -3.027351,
+    -3.14,
+    -1.545172,
+    -3.14
+  ],
+  "urdf_joint_max_rad": [
+    3.14,
+    3.223736,
+    0.074481,
+    3.14,
+    1.57,
+    3.14
+  ],
+  "projected_motor_range_from_urdf_rad": [
+    [
+      -4.067887916564942,
+      2.2121120834350587
+    ],
+    [
+      0.9713655663146974,
+      3.7993915663146973
+    ],
+    [
+      -0.13324098735427858,
+      2.9685910126457213
+    ],
+    [
+      -0.06909812927246106,
+      6.21090187072754
+    ],
+    [
+      0.9962778091430666,
+      4.111449809143067
+    ],
+    [
+      -3.210818766951561,
+      3.069181233048439
+    ]
+  ],
+  "physical_motor_delta_deg_from_home": [
+    [
+      -100.0,
+      100.0
+    ],
+    [
+      -90.0,
+      90.0
+    ],
+    [
+      0.0,
+      120.0
+    ],
+    [
+      -120.0,
+      120.0
+    ],
+    [
+      0.0,
+      100.0
+    ],
+    null
+  ],
+  "clockwise_mechpos_increases_confirmed_for_id3_id5": true,
+  "physical_motor_range_from_home_rad": [
+    [
+      -2.6732171685592707,
+      0.8174413354293881
+    ],
+    [
+      1.0543052395198007,
+      4.195897893109594
+    ],
+    [
+      -0.058759987354278564,
+      2.0356351150389167
+    ],
+    [
+      0.9765067683343438,
+      5.165296973120734
+    ],
+    [
+      0.9962778091430664,
+      2.7416070611373957
+    ],
+    null
+  ],
+  "candidate_motor_safe_range_intersection_rad": [
+    [
+      -2.6732171685592707,
+      0.8174413354293881
+    ],
+    [
+      1.0543052395198007,
+      3.7993915663146973
+    ],
+    [
+      -0.058759987354278564,
+      2.0356351150389167
+    ],
+    [
+      0.9765067683343438,
+      5.165296973120734
+    ],
+    [
+      0.9962778091430664,
+      2.7416070611373957
+    ],
+    [
+      -3.210818766951561,
+      3.069181233048439
+    ]
+  ],
+  "physical_home_alignment_verified": false,
+  "physical_safe_range_verified": false,
+  "ready_for_motion": false,
+  "storage": "PC file only; regenerate from a fresh motor capture after power/program reset",
+  "note": "The captured physical pose was only approximately RA8P1 HOME. User-provided physical travel and URDF limits are intersected, but this record does not certify current board state, stop behavior or actual HOME alignment."
+}

@@ -1,0 +1,4 @@
+{"request": 13, "operation": "RECOVER", "reply": [13, 0, 109, 0]}
+{"request": 14, "operation": "RESUME", "reply": [14, 0, 110, 0]}
+{"request": 15, "operation": "GOHOME", "reply": [15, 6, 108, 0]}
+{"request": 16, "operation": "GOHOME", "reply": [16, 0, 108, 0]}

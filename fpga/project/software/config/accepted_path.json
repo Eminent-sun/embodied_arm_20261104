@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-03",
+  "scope": "PS-PL execution development only; NO hardware motion authorization",
+  "user_approval": "\u91c7\u7528\u5019\u9009\u59ff\u6001\uff0c\u7ee7\u7eed\u5f00\u53d1\u6267\u884c\u94fe\u8def",
+  "control_point": "bare Link6 reference; no end tool installed",
+  "nominal_XYZ_and_order": "original seven points preserved",
+  "proposed_RPY_deg_now_accepted": [
+    0,
+    -45,
+    0
+  ],
+  "model_algorithm_limits": "unchanged original RA8P1 URDF C",
+  "axis_ID_map": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "motor_calibration_confirmed": false,
+  "physical_motion_authorized": false,
+  "orientation_approval": "2026-11-04: user accepted (0,-45,0) after ID4 range conflict in (0,45,0) preview",
+  "clockwise_sign_id3_id5_verified": true,
+  "clockwise_sign_method": "Operator manually measured both ID3 and ID5 from motor front; clockwise increased mechPos_rad on 2026-11-04",
+  "user_accepted_first_motion_rate_rad_s": 0.5,
+  "user_accepted_first_motion_accel_rad_s2": 0.5
+}

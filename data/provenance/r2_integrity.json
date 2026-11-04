@@ -1,0 +1,10 @@
+{
+  "application_files_identical_to_r1": 724,
+  "original_measurement_files_identical_to_r1": 30,
+  "metrics_rows": 50,
+  "user_reported_field_rows": 6,
+  "remaining_targets": 3,
+  "field_error_rms": "not_computed_per_user",
+  "docx_integrity": "passed",
+  "pdf_text_checks": "passed"
+}

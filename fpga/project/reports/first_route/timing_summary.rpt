@@ -1,0 +1,2118 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Wed Nov  4 10:19:17 2026
+| Host         : YouShuTing running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -report_unconstrained -file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/timing_summary.rpt
+| Design       : can_test_wrapper
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+------------------------------------------------------------------------------------------------
+| Report Methodology
+| ------------------
+------------------------------------------------------------------------------------------------
+
+Rule       Severity  Description                                      Violations  
+---------  --------  -----------------------------------------------  ----------  
+LUTAR-1    Warning   LUT drives async reset alert                     4           
+PDRC-190   Warning   Suboptimally placed synchronized register chain  1           
+TIMING-9   Warning   Unknown CDC Logic                                1           
+TIMING-18  Warning   Missing input or output delay                    2           
+
+Note: This report is based on the most recent report_methodology run and may not be up-to-date. Run report_methodology on the current design for the latest report.
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (2)
+6. checking no_output_delay (2)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (2)
+------------------------------
+ There are 2 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (2)
+-------------------------------
+ There are 2 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+     -0.646     -167.704                    814                26317        0.027        0.000                      0                26317        7.000        0.000                       0                  9069  
+
+
+Timing constraints are not met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock                         Waveform(ns)       Period(ns)      Frequency(MHz)
+-----                         ------------       ----------      --------------
+sys_clk_50m                   {0.000 10.000}     20.000          50.000          
+  clk_out1_can_test_clk_pl_0  {0.000 10.000}     20.000          50.000          
+  clk_out2_can_test_clk_pl_0  {0.000 25.000}     50.000          20.000          
+  clkfbout_can_test_clk_pl_0  {0.000 10.000}     20.000          50.000          
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock                             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----                             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+sys_clk_50m                                                                                                                                                                     7.000        0.000                       0                     1  
+  clk_out1_can_test_clk_pl_0       -0.646     -167.704                    814                25781        0.027        0.000                      0                25781        8.750        0.000                       0                  8831  
+  clk_out2_can_test_clk_pl_0       38.476        0.000                      0                  470        0.122        0.000                      0                  470       24.500        0.000                       0                   234  
+  clkfbout_can_test_clk_pl_0                                                                                                                                                   17.845        0.000                       0                     3  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock                  To Clock                        WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------                  --------                        -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+clk_out2_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0        7.261        0.000                      0                    1        0.207        0.000                      0                    1  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group                  From Clock                  To Clock                        WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------                  ----------                  --------                        -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+**async_default**           clk_out1_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0       15.639        0.000                      0                   62        0.789        0.000                      0                   62  
+**async_default**           clk_out1_can_test_clk_pl_0  clk_out2_can_test_clk_pl_0        6.827        0.000                      0                    3        0.351        0.000                      0                    3  
+
+
+------------------------------------------------------------------------------------------------
+| User Ignored Path Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group                  From Clock                  To Clock                  
+----------                  ----------                  --------                  
+(none)                      clk_out1_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0  
+(none)                      clk_out2_can_test_clk_pl_0  clk_out1_can_test_clk_pl_0  
+(none)                      clk_out1_can_test_clk_pl_0  clk_out2_can_test_clk_pl_0  
+(none)                      clk_out2_can_test_clk_pl_0  clk_out2_can_test_clk_pl_0  
+
+
+------------------------------------------------------------------------------------------------
+| Unconstrained Path Table
+| ------------------------
+------------------------------------------------------------------------------------------------
+
+Path Group                  From Clock                  To Clock                  
+----------                  ----------                  --------                  
+(none)                      clk_out1_can_test_clk_pl_0                              
+(none)                      clk_out2_can_test_clk_pl_0                              
+(none)                      clkfbout_can_test_clk_pl_0                              
+(none)                                                  clk_out1_can_test_clk_pl_0  
+(none)                                                  clk_out2_can_test_clk_pl_0  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  sys_clk_50m
+  To Clock:  sys_clk_50m
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack        7.000ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         sys_clk_50m
+Waveform(ns):       { 0.000 10.000 }
+Period(ns):         20.000
+Sources:            { sys_clk_50m }
+
+Check Type        Corner  Lib Pin            Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     MMCME2_ADV/CLKIN1  n/a            1.249         20.000      18.751     MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKIN1
+Max Period        n/a     MMCME2_ADV/CLKIN1  n/a            100.000       20.000      80.000     MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKIN1
+Low Pulse Width   Slow    MMCME2_ADV/CLKIN1  n/a            3.000         10.000      7.000      MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKIN1
+High Pulse Width  Slow    MMCME2_ADV/CLKIN1  n/a            3.000         10.000      7.000      MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKIN1
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out1_can_test_clk_pl_0
+  To Clock:  clk_out1_can_test_clk_pl_0
+
+Setup :          814  Failing Endpoints,  Worst Slack       -0.646ns,  Total Violation     -167.704ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.027ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        8.750ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (VIOLATED) :        -0.646ns  (required time - arrival time)
+  Source:                 can_test_i/pl_motion_mailbox/inst/engine_word_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/pl_el05_single_tx/inst/staged_targets_reg[2][14]/CE
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             clk_out1_can_test_clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            20.000ns  (clk_out1_can_test_clk_pl_0 rise@20.000ns - clk_out1_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        20.161ns  (logic 5.091ns (25.252%)  route 15.070ns (74.748%))
+  Logic Levels:           28  (CARRY4=8 LUT2=2 LUT3=2 LUT4=1 LUT5=5 LUT6=10)
+  Clock Path Skew:        -0.177ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.318ns = ( 18.682 - 20.000 ) 
+    Source Clock Delay      (SCD):    -0.667ns
+    Clock Pessimism Removal (CPR):    0.474ns
+  Clock Uncertainty:      0.102ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.667    -0.667    can_test_i/pl_motion_mailbox/inst/clk
+    SLICE_X25Y40         FDRE                                         r  can_test_i/pl_motion_mailbox/inst/engine_word_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X25Y40         FDRE (Prop_fdre_C_Q)         0.456    -0.211 f  can_test_i/pl_motion_mailbox/inst/engine_word_reg[5]/Q
+                         net (fo=4, routed)           0.684     0.473    can_test_i/pl_el05_single_tx/inst/command_word[5]
+    SLICE_X24Y40         LUT5 (Prop_lut5_I3_O)        0.124     0.597 r  can_test_i/pl_el05_single_tx/inst/command_error_code[0]_i_11/O
+                         net (fo=6, routed)           0.820     1.417    can_test_i/pl_el05_single_tx/inst/command_error_code[0]_i_11_n_0
+    SLICE_X25Y41         LUT4 (Prop_lut4_I1_O)        0.124     1.541 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_435/O
+                         net (fo=64, routed)          1.030     2.571    can_test_i/pl_el05_single_tx/inst/mapped_axis[0]
+    SLICE_X25Y54         LUT6 (Prop_lut6_I4_O)        0.124     2.695 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_642/O
+                         net (fo=1, routed)           0.154     2.849    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_642_n_0
+    SLICE_X25Y54         LUT5 (Prop_lut5_I0_O)        0.124     2.973 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_607/O
+                         net (fo=7, routed)           0.861     3.834    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_607_n_0
+    SLICE_X25Y54         LUT5 (Prop_lut5_I0_O)        0.124     3.958 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_595/O
+                         net (fo=31, routed)          0.626     4.583    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_595_n_0
+    SLICE_X26Y56         LUT6 (Prop_lut6_I0_O)        0.124     4.707 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_610/O
+                         net (fo=2, routed)           1.003     5.710    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_610_n_0
+    SLICE_X30Y59         LUT5 (Prop_lut5_I0_O)        0.124     5.834 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_602/O
+                         net (fo=3, routed)           0.591     6.425    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_602_n_0
+    SLICE_X31Y59         LUT6 (Prop_lut6_I5_O)        0.124     6.549 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_572/O
+                         net (fo=2, routed)           0.887     7.436    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_572_n_0
+    SLICE_X22Y56         LUT6 (Prop_lut6_I3_O)        0.124     7.560 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_542/O
+                         net (fo=1, routed)           0.609     8.169    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_542_n_0
+    SLICE_X22Y58         CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.656     8.825 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_495/CO[3]
+                         net (fo=1, routed)           0.000     8.825    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_495_n_0
+    SLICE_X22Y59         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     8.939 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_493/CO[3]
+                         net (fo=1, routed)           0.000     8.939    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_493_n_0
+    SLICE_X22Y60         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     9.053 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_423/CO[3]
+                         net (fo=1, routed)           0.000     9.053    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_423_n_0
+    SLICE_X22Y61         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     9.167 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_501/CO[3]
+                         net (fo=1, routed)           0.000     9.167    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_501_n_0
+    SLICE_X22Y62         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     9.281 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_429/CO[3]
+                         net (fo=1, routed)           0.000     9.281    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_429_n_0
+    SLICE_X22Y63         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     9.395 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_368/CO[3]
+                         net (fo=1, routed)           0.000     9.395    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_368_n_0
+    SLICE_X22Y64         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.222     9.617 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_326/O[0]
+                         net (fo=2, routed)           0.954    10.571    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_326_n_7
+    SLICE_X19Y64         LUT2 (Prop_lut2_I0_O)        0.299    10.870 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_333/O
+                         net (fo=1, routed)           0.000    10.870    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_333_n_0
+    SLICE_X19Y64         CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.532    11.402 r  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_276/CO[3]
+                         net (fo=1, routed)           0.728    12.130    can_test_i/pl_el05_single_tx/inst/path_stage_allowed1
+    SLICE_X18Y64         LUT3 (Prop_lut3_I1_O)        0.124    12.254 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_205/O
+                         net (fo=1, routed)           0.990    13.244    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_205_n_0
+    SLICE_X26Y51         LUT6 (Prop_lut6_I4_O)        0.124    13.368 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_118/O
+                         net (fo=1, routed)           0.158    13.526    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_118_n_0
+    SLICE_X26Y51         LUT5 (Prop_lut5_I4_O)        0.124    13.650 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_52/O
+                         net (fo=2, routed)           0.397    14.047    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_52_n_0
+    SLICE_X25Y51         LUT6 (Prop_lut6_I1_O)        0.124    14.171 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_19/O
+                         net (fo=1, routed)           0.449    14.621    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_19_n_0
+    SLICE_X23Y49         LUT6 (Prop_lut6_I2_O)        0.124    14.745 f  can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_4/O
+                         net (fo=2, routed)           0.486    15.230    can_test_i/pl_el05_single_tx/inst/command_start_accepted_INST_0_i_4_n_0
+    SLICE_X23Y49         LUT6 (Prop_lut6_I2_O)        0.124    15.354 r  can_test_i/pl_el05_single_tx/inst/command_rejected_INST_0_i_2/O
+                         net (fo=52, routed)          0.641    15.995    can_test_i/pl_el05_single_tx/inst/command_rejected_INST_0_i_2_n_0
+    SLICE_X24Y50         LUT6 (Prop_lut6_I2_O)        0.124    16.119 r  can_test_i/pl_el05_single_tx/inst/latched_motor[7]_i_6/O
+                         net (fo=1, routed)           0.282    16.401    can_test_i/pl_el05_single_tx/inst/latched_motor[7]_i_6_n_0
+    SLICE_X24Y50         LUT6 (Prop_lut6_I3_O)        0.124    16.525 r  can_test_i/pl_el05_single_tx/inst/latched_motor[7]_i_4/O
+                         net (fo=228, routed)         1.046    17.571    can_test_i/pl_el05_single_tx/inst/latched_motor[7]_i_4_n_0
+    SLICE_X28Y45         LUT2 (Prop_lut2_I1_O)        0.124    17.695 r  can_test_i/pl_el05_single_tx/inst/latched_index[15]_i_1/O
+                         net (fo=61, routed)          0.689    18.383    can_test_i/pl_el05_single_tx/inst/latched_index
+    SLICE_X25Y46         LUT3 (Prop_lut3_I0_O)        0.124    18.507 r  can_test_i/pl_el05_single_tx/inst/staged_targets[2][31]_i_1/O
+                         net (fo=64, routed)          0.987    19.494    can_test_i/pl_el05_single_tx/inst/staged_targets[2][31]_i_1_n_0
+    SLICE_X27Y52         FDRE                                         r  can_test_i/pl_el05_single_tx/inst/staged_targets_reg[2][14]/CE
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                     20.000    20.000 r  
+    U18                                               0.000    20.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    20.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459    21.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    22.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    15.502 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    17.102    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    17.193 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.490    18.682    can_test_i/pl_el05_single_tx/inst/clk
+    SLICE_X27Y52         FDRE                                         r  can_test_i/pl_el05_single_tx/inst/staged_targets_reg[2][14]/C
+                         clock pessimism              0.474    19.156    
+                         clock uncertainty           -0.102    19.053    
+    SLICE_X27Y52         FDRE (Setup_fdre_C_CE)      -0.205    18.848    can_test_i/pl_el05_single_tx/inst/staged_targets_reg[2][14]
+  -------------------------------------------------------------------
+                         required time                         18.848    
+                         arrival time                         -19.494    
+  -------------------------------------------------------------------
+                         slack                                 -0.646    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.027ns  (arrival time - required time)
+  Source:                 can_test_i/pl_motion_mailbox/inst/engine_value_reg[10]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/pl_el05_single_tx/inst/staged_targets_reg[5][10]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             clk_out1_can_test_clk_pl_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out1_can_test_clk_pl_0 rise@0.000ns - clk_out1_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.372ns  (logic 0.141ns (37.887%)  route 0.231ns (62.113%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.270ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.695ns
+    Source Clock Delay      (SCD):    -0.464ns
+    Clock Pessimism Removal (CPR):    -0.501ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.562    -0.464    can_test_i/pl_motion_mailbox/inst/clk
+    SLICE_X26Y50         FDRE                                         r  can_test_i/pl_motion_mailbox/inst/engine_value_reg[10]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X26Y50         FDRE (Prop_fdre_C_Q)         0.141    -0.323 r  can_test_i/pl_motion_mailbox/inst/engine_value_reg[10]/Q
+                         net (fo=23, routed)          0.231    -0.092    can_test_i/pl_el05_single_tx/inst/command_value_word[10]
+    SLICE_X26Y49         FDRE                                         r  can_test_i/pl_el05_single_tx/inst/staged_targets_reg[5][10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.832    -0.695    can_test_i/pl_el05_single_tx/inst/clk
+    SLICE_X26Y49         FDRE                                         r  can_test_i/pl_el05_single_tx/inst/staged_targets_reg[5][10]/C
+                         clock pessimism              0.501    -0.194    
+    SLICE_X26Y49         FDRE (Hold_fdre_C_D)         0.075    -0.119    can_test_i/pl_el05_single_tx/inst/staged_targets_reg[5][10]
+  -------------------------------------------------------------------
+                         required time                          0.119    
+                         arrival time                          -0.092    
+  -------------------------------------------------------------------
+                         slack                                  0.027    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_out1_can_test_clk_pl_0
+Waveform(ns):       { 0.000 10.000 }
+Period(ns):         20.000
+Sources:            { can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0 }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     RAMB18E1/CLKARDCLK  n/a            2.576         20.000      17.424     RAMB18_X1Y10     can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/CLKARDCLK
+Max Period        n/a     MMCME2_ADV/CLKOUT0  n/a            213.360       20.000      193.360    MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+Low Pulse Width   Slow    RAMD32/CLK          n/a            1.250         10.000      8.750      SLICE_X20Y64     can_test_i/pl_can_reader/inst/receiver/frames/memory_reg_0_15_0_5/RAMA/CLK
+High Pulse Width  Slow    RAMD32/CLK          n/a            1.250         10.000      8.750      SLICE_X20Y64     can_test_i/pl_can_reader/inst/receiver/frames/memory_reg_0_15_0_5/RAMA/CLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out2_can_test_clk_pl_0
+  To Clock:  clk_out2_can_test_clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack       38.476ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.122ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack       24.500ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             38.476ns  (required time - arrival time)
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/RXE_COUNTER_I_reg[2]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             clk_out2_can_test_clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            50.000ns  (clk_out2_can_test_clk_pl_0 rise@50.000ns - clk_out2_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        11.341ns  (logic 1.787ns (15.756%)  route 9.554ns (84.244%))
+  Logic Levels:           7  (LUT3=1 LUT5=1 LUT6=4 MUXF7=1)
+  Clock Path Skew:        -0.130ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.311ns = ( 48.689 - 50.000 ) 
+    Source Clock Delay      (SCD):    -0.593ns
+    Clock Pessimism Removal (CPR):    0.588ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.741    -0.593    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/CAN_CLK
+    SLICE_X39Y18         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/RXE_COUNTER_I_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X39Y18         FDRE (Prop_fdre_C_Q)         0.419    -0.174 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/RXE_COUNTER_I_reg[2]/Q
+                         net (fo=39, routed)          2.308     2.134    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/RXE_COUNTER_I_reg[2]
+    SLICE_X34Y22         LUT3 (Prop_lut3_I0_O)        0.297     2.431 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/btl_i_24/O
+                         net (fo=6, routed)           2.082     4.513    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/btl_i_6
+    SLICE_X7Y17          MUXF7 (Prop_muxf7_S_O)       0.276     4.789 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/btl_i_14/O
+                         net (fo=1, routed)           1.660     6.449    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/btl_i_3_3
+    SLICE_X34Y19         LUT6 (Prop_lut6_I5_O)        0.299     6.748 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/btl_i_5/O
+                         net (fo=1, routed)           0.810     7.558    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/btl_i_5_n_0
+    SLICE_X34Y18         LUT6 (Prop_lut6_I0_O)        0.124     7.682 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/bsp/btl_i_3/O
+                         net (fo=4, routed)           0.842     8.524    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BSP_TXBIT
+    SLICE_X30Y14         LUT6 (Prop_lut6_I0_O)        0.124     8.648 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/RSYNC_FLG_I_i_4/O
+                         net (fo=2, routed)           1.143     9.790    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/RSYNC_FLG_I_i_4_n_0
+    SLICE_X34Y12         LUT6 (Prop_lut6_I1_O)        0.124     9.914 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_i_2/O
+                         net (fo=1, routed)           0.710    10.625    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_i_2_n_0
+    SLICE_X34Y12         LUT5 (Prop_lut5_I1_O)        0.124    10.749 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_i_1/O
+                         net (fo=1, routed)           0.000    10.749    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_i_1_n_0
+    SLICE_X34Y12         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                     50.000    50.000 r  
+    U18                                               0.000    50.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    50.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459    51.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    52.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    45.502 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    47.102    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    47.193 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.496    48.689    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_CLK
+    SLICE_X34Y12         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_reg/C
+                         clock pessimism              0.588    49.277    
+                         clock uncertainty           -0.130    49.148    
+    SLICE_X34Y12         FDRE (Setup_fdre_C_D)        0.077    49.225    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/HSYNC_FLG_I_reg
+  -------------------------------------------------------------------
+                         required time                         49.225    
+                         arrival time                         -10.749    
+  -------------------------------------------------------------------
+                         slack                                 38.476    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.122ns  (arrival time - required time)
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS1_cdc_to_reg[1]/C
+                            (rising edge-triggered cell FDCE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS2_reg[1]/D
+                            (rising edge-triggered cell FDCE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             clk_out2_can_test_clk_pl_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out2_can_test_clk_pl_0 rise@0.000ns - clk_out2_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.197ns  (logic 0.141ns (71.611%)  route 0.056ns (28.389%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.708ns
+    Source Clock Delay      (SCD):    -0.473ns
+    Clock Pessimism Removal (CPR):    -0.235ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         0.553    -0.473    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/CAN_CLK
+    SLICE_X25Y18         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS1_cdc_to_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X25Y18         FDCE (Prop_fdce_C_Q)         0.141    -0.332 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS1_cdc_to_reg[1]/Q
+                         net (fo=1, routed)           0.056    -0.276    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS1_cdc_to[1]
+    SLICE_X25Y18         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS2_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         0.819    -0.708    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/CAN_CLK
+    SLICE_X25Y18         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS2_reg[1]/C
+                         clock pessimism              0.235    -0.473    
+    SLICE_X25Y18         FDCE (Hold_fdce_C_D)         0.075    -0.398    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_RGPTR_FS2_reg[1]
+  -------------------------------------------------------------------
+                         required time                          0.398    
+                         arrival time                          -0.276    
+  -------------------------------------------------------------------
+                         slack                                  0.122    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_out2_can_test_clk_pl_0
+Waveform(ns):       { 0.000 25.000 }
+Period(ns):         50.000
+Sources:            { can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1 }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period        n/a     RAMB18E1/CLKBWRCLK  n/a            2.576         50.000      47.424     RAMB18_X1Y10     can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/CLKBWRCLK
+Max Period        n/a     MMCME2_ADV/CLKOUT1  n/a            213.360       50.000      163.360    MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+Low Pulse Width   Slow    FDRE/C              n/a            0.500         25.000      24.500     SLICE_X17Y18     can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/counter_cntrl_f1_tx_tl_reg/C
+High Pulse Width  Slow    FDRE/C              n/a            0.500         25.000      24.500     SLICE_X17Y18     can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/counter_cntrl_f1_tx_tl_reg/C
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clkfbout_can_test_clk_pl_0
+  To Clock:  clkfbout_can_test_clk_pl_0
+
+Setup :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+PW    :            0  Failing Endpoints,  Worst Slack       17.845ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clkfbout_can_test_clk_pl_0
+Waveform(ns):       { 0.000 10.000 }
+Period(ns):         20.000
+Sources:            { can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBOUT }
+
+Check Type  Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location         Pin
+Min Period  n/a     BUFG/I              n/a            2.155         20.000      17.845     BUFGCTRL_X0Y2    can_test_i/clk_pl/inst/clkf_buf/I
+Max Period  n/a     MMCME2_ADV/CLKFBIN  n/a            100.000       20.000      80.000     MMCME2_ADV_X0Y0  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBIN
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_out2_can_test_clk_pl_0
+  To Clock:  clk_out1_can_test_clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        7.261ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.207ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             7.261ns  (required time - arrival time)
+  Source:                 can_test_i/pl_reset_ctrl/inst/can_release_reg[2]/C
+                            (rising edge-triggered cell FDCE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]/D
+                            (rising edge-triggered cell FDCE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             clk_out1_can_test_clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_out1_can_test_clk_pl_0 rise@60.000ns - clk_out2_can_test_clk_pl_0 rise@50.000ns)
+  Data Path Delay:        1.953ns  (logic 0.478ns (24.475%)  route 1.475ns (75.525%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.344ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.314ns = ( 58.686 - 60.000 ) 
+    Source Clock Delay      (SCD):    -0.668ns = ( 49.332 - 50.000 ) 
+    Clock Pessimism Removal (CPR):    0.303ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                     50.000    50.000 r  
+    U18                                               0.000    50.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    50.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530    51.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285    52.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    45.805 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    47.565    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    47.666 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.666    49.332    can_test_i/pl_reset_ctrl/inst/clk_can_20m
+    SLICE_X28Y33         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_release_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y33         FDCE (Prop_fdce_C_Q)         0.478    49.810 r  can_test_i/pl_reset_ctrl/inst/can_release_reg[2]/Q
+                         net (fo=1, routed)           1.475    51.285    can_test_i/pl_reset_ctrl/inst/can_release[2]
+    SLICE_X28Y34         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                     60.000    60.000 r  
+    U18                                               0.000    60.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    60.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459    61.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    62.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    55.502 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    57.102    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    57.193 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.493    58.686    can_test_i/pl_reset_ctrl/inst/clk_axi_50m
+    SLICE_X28Y34         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]/C
+                         clock pessimism              0.303    58.989    
+                         clock uncertainty           -0.250    58.739    
+    SLICE_X28Y34         FDCE (Setup_fdce_C_D)       -0.193    58.546    can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]
+  -------------------------------------------------------------------
+                         required time                         58.546    
+                         arrival time                         -51.285    
+  -------------------------------------------------------------------
+                         slack                                  7.261    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.207ns  (arrival time - required time)
+  Source:                 can_test_i/pl_reset_ctrl/inst/can_release_reg[2]/C
+                            (rising edge-triggered cell FDCE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]/D
+                            (rising edge-triggered cell FDCE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             clk_out1_can_test_clk_pl_0
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out1_can_test_clk_pl_0 rise@0.000ns - clk_out2_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.779ns  (logic 0.148ns (18.998%)  route 0.631ns (81.002%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.317ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.702ns
+    Source Clock Delay      (SCD):    -0.468ns
+    Clock Pessimism Removal (CPR):    -0.550ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         0.558    -0.468    can_test_i/pl_reset_ctrl/inst/clk_can_20m
+    SLICE_X28Y33         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_release_reg[2]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y33         FDCE (Prop_fdce_C_Q)         0.148    -0.320 r  can_test_i/pl_reset_ctrl/inst/can_release_reg[2]/Q
+                         net (fo=1, routed)           0.631     0.311    can_test_i/pl_reset_ctrl/inst/can_release[2]
+    SLICE_X28Y34         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.825    -0.702    can_test_i/pl_reset_ctrl/inst/clk_axi_50m
+    SLICE_X28Y34         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]/C
+                         clock pessimism              0.550    -0.152    
+                         clock uncertainty            0.250     0.098    
+    SLICE_X28Y34         FDCE (Hold_fdce_C_D)         0.006     0.104    can_test_i/pl_reset_ctrl/inst/can_ready_sync_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -0.104    
+                         arrival time                           0.311    
+  -------------------------------------------------------------------
+                         slack                                  0.207    
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  clk_out1_can_test_clk_pl_0
+  To Clock:  clk_out1_can_test_clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack       15.639ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.789ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             15.639ns  (required time - arrival time)
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RST_I_reg/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg/CLR
+                            (recovery check against rising-edge clock clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            20.000ns  (clk_out1_can_test_clk_pl_0 rise@20.000ns - clk_out1_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        3.802ns  (logic 0.518ns (13.623%)  route 3.284ns (86.377%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.051ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.308ns = ( 18.692 - 20.000 ) 
+    Source Clock Delay      (SCD):    -0.669ns
+    Clock Pessimism Removal (CPR):    0.588ns
+  Clock Uncertainty:      0.102ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.665    -0.669    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/S_AXI_ACLK
+    SLICE_X20Y16         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RST_I_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X20Y16         FDRE (Prop_fdre_C_Q)         0.518    -0.151 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RST_I_reg/Q
+                         net (fo=236, routed)         3.284     3.134    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/scndry_reset2
+    SLICE_X13Y17         FDCE                                         f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                     20.000    20.000 r  
+    U18                                               0.000    20.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    20.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459    21.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    22.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    15.502 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    17.102    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    17.193 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.499    18.692    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/S_AXI_ACLK
+    SLICE_X13Y17         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg/C
+                         clock pessimism              0.588    19.280    
+                         clock uncertainty           -0.102    19.178    
+    SLICE_X13Y17         FDCE (Recov_fdce_C_CLR)     -0.405    18.773    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg
+  -------------------------------------------------------------------
+                         required time                         18.773    
+                         arrival time                          -3.134    
+  -------------------------------------------------------------------
+                         slack                                 15.639    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.789ns  (arrival time - required time)
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RST_I_reg/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WGPTR_FS1_cdc_to_reg[0]/CLR
+                            (removal check against rising-edge clock clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out1_can_test_clk_pl_0 rise@0.000ns - clk_out1_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.960ns  (logic 0.164ns (17.088%)  route 0.796ns (82.912%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.262ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.705ns
+    Source Clock Delay      (SCD):    -0.471ns
+    Clock Pessimism Removal (CPR):    -0.496ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.555    -0.471    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/S_AXI_ACLK
+    SLICE_X20Y16         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RST_I_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X20Y16         FDRE (Prop_fdre_C_Q)         0.164    -0.307 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RST_I_reg/Q
+                         net (fo=236, routed)         0.796     0.488    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/AR[0]
+    SLICE_X26Y18         FDCE                                         f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WGPTR_FS1_cdc_to_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.822    -0.705    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/S_AXI_ACLK
+    SLICE_X26Y18         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WGPTR_FS1_cdc_to_reg[0]/C
+                         clock pessimism              0.496    -0.209    
+    SLICE_X26Y18         FDCE (Remov_fdce_C_CLR)     -0.092    -0.301    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WGPTR_FS1_cdc_to_reg[0]
+  -------------------------------------------------------------------
+                         required time                          0.301    
+                         arrival time                           0.488    
+  -------------------------------------------------------------------
+                         slack                                  0.789    
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  clk_out1_can_test_clk_pl_0
+  To Clock:  clk_out2_can_test_clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        6.827ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.351ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             6.827ns  (required time - arrival time)
+  Source:                 can_test_i/pl_reset_ctrl/inst/clock_ready_reg/C
+                            (rising edge-triggered cell FDCE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            10.000ns  (clk_out2_can_test_clk_pl_0 rise@50.000ns - clk_out1_can_test_clk_pl_0 rise@40.000ns)
+  Data Path Delay:        2.143ns  (logic 0.580ns (27.071%)  route 1.563ns (72.929%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        -0.420ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.315ns = ( 48.685 - 50.000 ) 
+    Source Clock Delay      (SCD):    -0.593ns = ( 39.407 - 40.000 ) 
+    Clock Pessimism Removal (CPR):    0.303ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                     40.000    40.000 r  
+    U18                                               0.000    40.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    40.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530    41.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285    42.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    35.805 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    37.565    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    37.666 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.741    39.407    can_test_i/pl_reset_ctrl/inst/clk_axi_50m
+    SLICE_X41Y29         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/clock_ready_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y29         FDCE (Prop_fdce_C_Q)         0.456    39.863 r  can_test_i/pl_reset_ctrl/inst/clock_ready_reg/Q
+                         net (fo=3, routed)           0.587    40.451    can_test_i/pl_reset_ctrl/inst/clock_ready_reg_n_0
+    SLICE_X43Y29         LUT3 (Prop_lut3_I2_O)        0.124    40.575 f  can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1/O
+                         net (fo=8, routed)           0.975    41.550    can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1_n_0
+    SLICE_X28Y33         FDCE                                         f  can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                     50.000    50.000 r  
+    U18                                               0.000    50.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    50.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459    51.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    52.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    45.502 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    47.102    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    47.193 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.492    48.685    can_test_i/pl_reset_ctrl/inst/clk_can_20m
+    SLICE_X28Y33         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/C
+                         clock pessimism              0.303    48.988    
+                         clock uncertainty           -0.250    48.738    
+    SLICE_X28Y33         FDCE (Recov_fdce_C_CLR)     -0.361    48.377    can_test_i/pl_reset_ctrl/inst/can_release_reg[0]
+  -------------------------------------------------------------------
+                         required time                         48.377    
+                         arrival time                         -41.550    
+  -------------------------------------------------------------------
+                         slack                                  6.827    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.351ns  (arrival time - required time)
+  Source:                 can_test_i/pl_reset_ctrl/inst/clock_ready_reg/C
+                            (rising edge-triggered cell FDCE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/CLR
+                            (removal check against rising-edge clock clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_out2_can_test_clk_pl_0 rise@0.000ns - clk_out1_can_test_clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.825ns  (logic 0.186ns (22.558%)  route 0.639ns (77.442%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.291ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.703ns
+    Source Clock Delay      (SCD):    -0.443ns
+    Clock Pessimism Removal (CPR):    -0.550ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.583    -0.443    can_test_i/pl_reset_ctrl/inst/clk_axi_50m
+    SLICE_X41Y29         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/clock_ready_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X41Y29         FDCE (Prop_fdce_C_Q)         0.141    -0.302 r  can_test_i/pl_reset_ctrl/inst/clock_ready_reg/Q
+                         net (fo=3, routed)           0.203    -0.099    can_test_i/pl_reset_ctrl/inst/clock_ready_reg_n_0
+    SLICE_X43Y29         LUT3 (Prop_lut3_I2_O)        0.045    -0.054 f  can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1/O
+                         net (fo=8, routed)           0.435     0.381    can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1_n_0
+    SLICE_X28Y33         FDCE                                         f  can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         0.824    -0.703    can_test_i/pl_reset_ctrl/inst/clk_can_20m
+    SLICE_X28Y33         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/C
+                         clock pessimism              0.550    -0.153    
+                         clock uncertainty            0.250     0.097    
+    SLICE_X28Y33         FDCE (Remov_fdce_C_CLR)     -0.067     0.030    can_test_i/pl_reset_ctrl/inst/can_release_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -0.030    
+                         arrival time                           0.381    
+  -------------------------------------------------------------------
+                         slack                                  0.351    
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out1_can_test_clk_pl_0
+  To Clock:  clk_out1_can_test_clk_pl_0
+
+Max Delay            16 Endpoints
+Min Delay            16 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[7]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/E_RD_DATA_I2_reg[30]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        3.404ns  (logic 1.055ns (30.997%)  route 2.349ns (69.003%))
+  Logic Levels:           3  (LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.653ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.326ns
+    Source Clock Delay      (SCD):    -0.673ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.102ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.661    -0.673    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/S_AXI_ACLK
+    SLICE_X24Y16         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X24Y16         FDRE (Prop_fdre_C_Q)         0.478    -0.195 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[7]/Q
+                         net (fo=20, routed)          0.584     0.390    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[0]_0[1]
+    SLICE_X23Y16         LUT6 (Prop_lut6_I0_O)        0.301     0.691 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/E_RD_DATA_I2[30]_i_4/O
+                         net (fo=1, routed)           0.289     0.980    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/E_RD_DATA_I2[30]_i_4_n_0
+    SLICE_X23Y17         LUT6 (Prop_lut6_I5_O)        0.124     1.104 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/E_RD_DATA_I2[30]_i_2/O
+                         net (fo=1, routed)           0.849     1.953    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RD_DATA_I2_reg[30]
+    SLICE_X22Y19         LUT5 (Prop_lut5_I2_O)        0.152     2.105 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/E_RD_DATA_I2[30]_i_1/O
+                         net (fo=1, routed)           0.626     2.731    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/D[1]
+    SLICE_X22Y22         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/E_RD_DATA_I2_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.481    -1.326    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/S_AXI_ACLK
+    SLICE_X22Y22         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/E_RD_DATA_I2_reg[30]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SLEEP_2S_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/SLEEP_2S_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Slow Process Corner)
+  Data Path Delay:        0.611ns  (logic 0.367ns (60.049%)  route 0.244ns (39.951%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.646ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.670ns
+    Source Clock Delay      (SCD):    -1.316ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.102ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.491    -1.316    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SLEEP_2S_CDC_TO/S_AXI_ACLK
+    SLICE_X27Y17         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SLEEP_2S_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y17         FDRE (Prop_fdre_C_Q)         0.367    -0.949 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SLEEP_2S_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2/Q
+                         net (fo=1, routed)           0.244    -0.705    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/SLEEP_2S_CDC_TO/IC_SYNC_SR_SLEEP_FS2
+    SLICE_X27Y17         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/SLEEP_2S_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.664    -0.670    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/SLEEP_2S_CDC_TO/S_AXI_ACLK
+    SLICE_X27Y17         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/SLEEP_2S_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out2_can_test_clk_pl_0
+  To Clock:  clk_out1_can_test_clk_pl_0
+
+Max Delay            40 Endpoints
+Min Delay            40 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR_reg/C
+                            (rising edge-triggered cell FDCE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR_FS1_cdc_to_reg/D
+                            (rising edge-triggered cell FDCE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        1.415ns  (logic 0.456ns (32.222%)  route 0.959ns (67.778%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.632ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.308ns
+    Source Clock Delay      (SCD):    -0.676ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.658    -0.676    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/CAN_CLK
+    SLICE_X25Y18         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X25Y18         FDCE (Prop_fdce_C_Q)         0.456    -0.220 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR_reg/Q
+                         net (fo=3, routed)           0.959     0.739    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR
+    SLICE_X13Y17         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR_FS1_cdc_to_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.499    -1.308    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/S_AXI_ACLK
+    SLICE_X13Y17         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_RPTR_FS1_cdc_to_reg/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/src_ff_reg/C
+                            (rising edge-triggered cell FDRE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/syncstages_ff_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Slow Process Corner)
+  Data Path Delay:        0.586ns  (logic 0.337ns (57.530%)  route 0.249ns (42.470%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.645ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.672ns
+    Source Clock Delay      (SCD):    -1.317ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.490    -1.317    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/src_clk
+    SLICE_X17Y18         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/src_ff_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X17Y18         FDRE (Prop_fdre_C_Q)         0.337    -0.980 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/src_ff_reg/Q
+                         net (fo=1, routed)           0.249    -0.731    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/p_0_in[0]
+    SLICE_X17Y19         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/syncstages_ff_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.662    -0.672    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/dest_clk
+    SLICE_X17Y19         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/cdctxren/syncstages_ff_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out1_can_test_clk_pl_0
+  To Clock:  clk_out2_can_test_clk_pl_0
+
+Max Delay            75 Endpoints
+Min Delay            75 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[8]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_reg/D
+                            (rising edge-triggered cell FDSE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        7.356ns  (logic 1.622ns (22.049%)  route 5.734ns (77.951%))
+  Logic Levels:           6  (LUT3=1 LUT4=1 LUT6=4)
+  Clock Path Skew:        -0.640ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.313ns
+    Source Clock Delay      (SCD):    -0.673ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.661    -0.673    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/S_AXI_ACLK
+    SLICE_X24Y16         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[8]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X24Y16         FDRE (Prop_fdre_C_Q)         0.478    -0.195 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/ic/IC_REG_BTR_I_reg[8]/Q
+                         net (fo=25, routed)          1.936     1.741    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/IC_REG_BTR[8]
+    SLICE_X28Y11         LUT3 (Prop_lut3_I0_O)        0.320     2.061 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_TRNSMT_EN_FD1_i_9/O
+                         net (fo=3, routed)           0.688     2.748    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_SAMP_I4_in[1]
+    SLICE_X29Y11         LUT6 (Prop_lut6_I1_O)        0.328     3.076 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_17/O
+                         net (fo=2, routed)           0.767     3.843    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_17_n_0
+    SLICE_X30Y11         LUT6 (Prop_lut6_I4_O)        0.124     3.967 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_19/O
+                         net (fo=1, routed)           0.952     4.919    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_19_n_0
+    SLICE_X30Y10         LUT6 (Prop_lut6_I0_O)        0.124     5.043 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_12/O
+                         net (fo=1, routed)           0.801     5.844    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_12_n_0
+    SLICE_X30Y13         LUT4 (Prop_lut4_I2_O)        0.124     5.968 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_4/O
+                         net (fo=1, routed)           0.591     6.559    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX0_out
+    SLICE_X30Y14         LUT6 (Prop_lut6_I4_O)        0.124     6.683 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_1/O
+                         net (fo=1, routed)           0.000     6.683    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_1_n_0
+    SLICE_X30Y14         FDSE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.494    -1.313    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_CLK
+    SLICE_X30Y14         FDSE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_reg/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR_reg[0]/C
+                            (rising edge-triggered cell FDCE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR_FS1_cdc_to_reg[0]/D
+                            (rising edge-triggered cell FDCE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Slow Process Corner)
+  Data Path Delay:        0.624ns  (logic 0.367ns (58.802%)  route 0.257ns (41.198%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.649ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.667ns
+    Source Clock Delay      (SCD):    -1.316ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.250ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.120ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.491    -1.316    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/S_AXI_ACLK
+    SLICE_X14Y18         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X14Y18         FDCE (Prop_fdce_C_Q)         0.367    -0.949 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR_reg[0]/Q
+                         net (fo=1, routed)           0.257    -0.692    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR[0]
+    SLICE_X14Y17         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR_FS1_cdc_to_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.667    -0.667    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/CAN_CLK
+    SLICE_X14Y17         FDCE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WGPTR_FS1_cdc_to_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out2_can_test_clk_pl_0
+  To Clock:  clk_out2_can_test_clk_pl_0
+
+Max Delay           271 Endpoints
+Min Delay           271 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SYNC_TL_RST_FS2_reg/C
+                            (rising edge-triggered cell FDPE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I_reg[1]/R
+                            (rising edge-triggered cell FDRE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        7.467ns  (logic 1.568ns (20.998%)  route 5.899ns (79.002%))
+  Logic Levels:           6  (LUT3=1 LUT5=2 LUT6=3)
+  Clock Path Skew:        -0.639ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.312ns
+    Source Clock Delay      (SCD):    -0.673ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.661    -0.673    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/CAN_CLK
+    SLICE_X25Y16         FDPE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SYNC_TL_RST_FS2_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X25Y16         FDPE (Prop_fdpe_C_Q)         0.419    -0.254 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/SYNC_TL_RST_FS2_reg/Q
+                         net (fo=173, routed)         1.769     1.515    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/SYNC_TL_RST
+    SLICE_X31Y13         LUT3 (Prop_lut3_I1_O)        0.327     1.842 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[1]_i_5/O
+                         net (fo=3, routed)           0.825     2.667    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_SJW_I[1]
+    SLICE_X30Y12         LUT6 (Prop_lut6_I1_O)        0.326     2.993 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_33/O
+                         net (fo=1, routed)           0.658     3.651    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_33_n_0
+    SLICE_X30Y10         LUT5 (Prop_lut5_I4_O)        0.124     3.775 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_16/O
+                         net (fo=3, routed)           0.488     4.263    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_16_n_0
+    SLICE_X30Y10         LUT5 (Prop_lut5_I4_O)        0.124     4.387 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_i_9/O
+                         net (fo=5, routed)           0.839     5.226    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/ltOp
+    SLICE_X33Y11         LUT6 (Prop_lut6_I2_O)        0.124     5.350 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_6/O
+                         net (fo=5, routed)           0.782     6.131    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I113_out
+    SLICE_X33Y12         LUT6 (Prop_lut6_I4_O)        0.124     6.255 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_1/O
+                         net (fo=4, routed)           0.539     6.794    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]
+    SLICE_X32Y13         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I_reg[1]/R
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.495    -1.312    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_CLK
+    SLICE_X32Y13         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I_reg[1]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS1_reg/C
+                            (rising edge-triggered cell FDPE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS2_reg/D
+                            (rising edge-triggered cell FDPE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             (none)
+  Path Type:              Hold (Min at Slow Process Corner)
+  Data Path Delay:        0.526ns  (logic 0.367ns (69.785%)  route 0.159ns (30.215%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.646ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    -0.668ns
+    Source Clock Delay      (SCD):    -1.314ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+  Clock Uncertainty:      0.130ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.000ns
+  Timing Exception:       False Path
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.493    -1.314    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/CAN_CLK
+    SLICE_X19Y16         FDPE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS1_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X19Y16         FDPE (Prop_fdpe_C_Q)         0.367    -0.947 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS1_reg/Q
+                         net (fo=1, routed)           0.159    -0.788    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS1
+    SLICE_X19Y16         FDPE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS2_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.666    -0.668    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/CAN_CLK
+    SLICE_X19Y16         FDPE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/olsync/OL_FIFO_RST_FS2_reg/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out1_can_test_clk_pl_0
+  To Clock:  
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/pl_servo_axi/inst/active_us_reg[10]/C
+                            (rising edge-triggered cell FDSE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            servo_pwm
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        11.347ns  (logic 5.490ns (48.383%)  route 5.857ns (51.617%))
+  Logic Levels:           4  (CARRY4=1 LUT3=1 LUT4=1 OBUF=1)
+  Clock Uncertainty:      0.264ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.661    -0.673    can_test_i/pl_servo_axi/inst/clk
+    SLICE_X20Y30         FDSE                                         r  can_test_i/pl_servo_axi/inst/active_us_reg[10]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X20Y30         FDSE (Prop_fdse_C_Q)         0.518    -0.155 r  can_test_i/pl_servo_axi/inst/active_us_reg[10]/Q
+                         net (fo=14, routed)          1.784     1.630    can_test_i/pl_servo_axi/inst/active_us_reg_n_0_[10]
+    SLICE_X20Y27         LUT4 (Prop_lut4_I3_O)        0.124     1.754 r  can_test_i/pl_servo_axi/inst/servo_pwm0_carry__0_i_7/O
+                         net (fo=1, routed)           0.000     1.754    can_test_i/pl_servo_axi/inst/servo_pwm0_carry__0_i_7_n_0
+    SLICE_X20Y27         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     2.287 r  can_test_i/pl_servo_axi/inst/servo_pwm0_carry__0/CO[3]
+                         net (fo=1, routed)           1.094     3.381    can_test_i/pl_servo_axi/inst/servo_pwm0
+    SLICE_X15Y32         LUT3 (Prop_lut3_I0_O)        0.150     3.531 r  can_test_i/pl_servo_axi/inst/servo_pwm_INST_0/O
+                         net (fo=2, routed)           2.979     6.509    servo_pwm_OBUF
+    W19                  OBUF (Prop_obuf_I_O)         4.165    10.674 r  servo_pwm_OBUF_inst/O
+                         net (fo=0)                   0.000    10.674    servo_pwm
+    W19                                                               r  servo_pwm (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/pl_servo_axi/inst/frame_us_reg[11]/C
+                            (rising edge-triggered cell FDRE clocked by clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            servo_pwm
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        3.759ns  (logic 2.374ns (63.155%)  route 1.385ns (36.845%))
+  Logic Levels:           4  (CARRY4=1 LUT3=1 LUT4=1 OBUF=1)
+  Clock Uncertainty:      0.264ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.550    -0.476    can_test_i/pl_servo_axi/inst/clk
+    SLICE_X21Y27         FDRE                                         r  can_test_i/pl_servo_axi/inst/frame_us_reg[11]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X21Y27         FDRE (Prop_fdre_C_Q)         0.141    -0.335 f  can_test_i/pl_servo_axi/inst/frame_us_reg[11]/Q
+                         net (fo=4, routed)           0.115    -0.220    can_test_i/pl_servo_axi/inst/frame_us_reg_n_0_[11]
+    SLICE_X20Y27         LUT4 (Prop_lut4_I1_O)        0.048    -0.172 r  can_test_i/pl_servo_axi/inst/servo_pwm0_carry__0_i_3/O
+                         net (fo=1, routed)           0.000    -0.172    can_test_i/pl_servo_axi/inst/servo_pwm0_carry__0_i_3_n_0
+    SLICE_X20Y27         CARRY4 (Prop_carry4_DI[1]_CO[3])
+                                                      0.111    -0.061 r  can_test_i/pl_servo_axi/inst/servo_pwm0_carry__0/CO[3]
+                         net (fo=1, routed)           0.383     0.322    can_test_i/pl_servo_axi/inst/servo_pwm0
+    SLICE_X15Y32         LUT3 (Prop_lut3_I0_O)        0.046     0.368 r  can_test_i/pl_servo_axi/inst/servo_pwm_INST_0/O
+                         net (fo=2, routed)           0.887     1.255    servo_pwm_OBUF
+    W19                  OBUF (Prop_obuf_I_O)         2.028     3.283 r  servo_pwm_OBUF_inst/O
+                         net (fo=0)                   0.000     3.283    servo_pwm
+    W19                                                               r  servo_pwm (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clk_out2_can_test_clk_pl_0
+  To Clock:  
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2/C
+                            (rising edge-triggered cell FDRE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            CAN_TX
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        10.161ns  (logic 4.284ns (42.165%)  route 5.876ns (57.835%))
+  Logic Levels:           2  (LUT2=1 OBUF=1)
+  Clock Uncertainty:      0.292ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530     1.530 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285     2.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.010    -4.195 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.760    -2.435    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.101    -2.334 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.666    -0.668    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/CAN_CLK
+    SLICE_X28Y16         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y16         FDRE (Prop_fdre_C_Q)         0.478    -0.190 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2/Q
+                         net (fo=9, routed)           1.803     1.613    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2_0
+    SLICE_X35Y22         LUT2 (Prop_lut2_I1_O)        0.295     1.908 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/CAN_PHY_TX_INST_0/O
+                         net (fo=1, routed)           4.073     5.981    CAN_TX_OBUF
+    F17                  OBUF (Prop_obuf_I_O)         3.511     9.493 r  CAN_TX_OBUF_inst/O
+                         net (fo=0)                   0.000     9.493    CAN_TX
+    F17                                                               r  CAN_TX (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_reg/C
+                            (rising edge-triggered cell FDSE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Destination:            CAN_TX
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Min at Fast Process Corner
+  Data Path Delay:        3.380ns  (logic 1.421ns (42.054%)  route 1.958ns (57.946%))
+  Logic Levels:           2  (LUT2=1 OBUF=1)
+  Clock Uncertainty:      0.292ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.297     0.297 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.440     0.738    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -2.271    -1.534 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           0.482    -1.052    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026    -1.026 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         0.559    -0.467    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_CLK
+    SLICE_X30Y14         FDSE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X30Y14         FDSE (Prop_fdse_C_Q)         0.164    -0.303 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_TX_reg/Q
+                         net (fo=3, routed)           0.507     0.204    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/SM_REG_I_reg[0]
+    SLICE_X35Y22         LUT2 (Prop_lut2_I0_O)        0.045     0.249 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/CAN_PHY_TX_INST_0/O
+                         net (fo=1, routed)           1.451     1.700    CAN_TX_OBUF
+    F17                  OBUF (Prop_obuf_I_O)         1.212     2.912 r  CAN_TX_OBUF_inst/O
+                         net (fo=0)                   0.000     2.912    CAN_TX
+    F17                                                               r  CAN_TX (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  clkfbout_can_test_clk_pl_0
+  To Clock:  
+
+Max Delay             1 Endpoint
+Min Delay             1 Endpoint
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBOUT
+                            (clock source 'clkfbout_can_test_clk_pl_0'  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBIN
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.538ns  (logic 0.101ns (2.855%)  route 3.437ns (97.145%))
+  Logic Levels:           1  (BUFG=1)
+  Clock Uncertainty:      0.225ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.110ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clkfbout_can_test_clk_pl_0 fall edge)
+                                                     10.000    10.000 f  
+    U18                                               0.000    10.000 f  sys_clk_50m (IN)
+                         net (fo=0)                   0.000    10.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.530    11.530 f  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.285    12.815    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -7.010     5.805 f  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBOUT
+                         net (fo=1, routed)           1.760     7.565    can_test_i/clk_pl/inst/clkfbout_can_test_clk_pl_0
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.101     7.666 f  can_test_i/clk_pl/inst/clkf_buf/O
+                         net (fo=1, routed)           1.677     9.343    can_test_i/clk_pl/inst/clkfbout_buf_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV                                   f  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBIN
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBOUT
+                            (clock source 'clkfbout_can_test_clk_pl_0'  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Destination:            can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBIN
+  Path Group:             (none)
+  Path Type:              Min at Slow Process Corner
+  Data Path Delay:        3.178ns  (logic 0.091ns (2.864%)  route 3.086ns (97.136%))
+  Logic Levels:           1  (BUFG=1)
+  Clock Uncertainty:      0.225ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.110ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clkfbout_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKFBOUT)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBOUT
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clkfbout_can_test_clk_pl_0
+    BUFGCTRL_X0Y2        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkf_buf/O
+                         net (fo=1, routed)           1.487    -1.320    can_test_i/clk_pl/inst/clkfbout_buf_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV                                   r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKFBIN
+  -------------------------------------------------------------------    -------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  clk_out1_can_test_clk_pl_0
+
+Max Delay             7 Endpoints
+Min Delay             7 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 rst_n
+                            (input port)
+  Destination:            can_test_i/pl_reset_ctrl/inst/axi_release_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             (none)
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Data Path Delay:        5.891ns  (logic 1.601ns (27.176%)  route 4.290ns (72.824%))
+  Logic Levels:           2  (IBUF=1 LUT3=1)
+  Clock Path Skew:        -1.320ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.320ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.264ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    N15                                               0.000     0.000 r  rst_n (IN)
+                         net (fo=0)                   0.000     0.000    rst_n
+    N15                  IBUF (Prop_ibuf_I_O)         1.477     1.477 r  rst_n_IBUF_inst/O
+                         net (fo=3, routed)           2.257     3.734    can_test_i/pl_reset_ctrl/inst/rst_n
+    SLICE_X43Y29         LUT3 (Prop_lut3_I1_O)        0.124     3.858 f  can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1/O
+                         net (fo=8, routed)           2.033     5.891    can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1_n_0
+    SLICE_X33Y59         FDCE                                         f  can_test_i/pl_reset_ctrl/inst/axi_release_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        1.488    -1.320    can_test_i/pl_reset_ctrl/inst/clk_axi_50m
+    SLICE_X33Y59         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/axi_release_reg[0]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/clk_pl/inst/mmcm_adv_inst/LOCKED
+                            (internal pin)
+  Destination:            can_test_i/pl_reset_ctrl/inst/lock_sync_reg[0]/CLR
+                            (removal check against rising-edge clock clk_out1_can_test_clk_pl_0  {rise@0.000ns fall@10.000ns period=20.000ns})
+  Path Group:             (none)
+  Path Type:              Removal (Min at Fast Process Corner)
+  Data Path Delay:        0.893ns  (logic 0.045ns (5.042%)  route 0.848ns (94.958%))
+  Logic Levels:           1  (LUT2=1)
+  Clock Uncertainty:      0.264ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.192ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X0Y0      MMCME2_ADV                   0.000     0.000 r  can_test_i/clk_pl/inst/mmcm_adv_inst/LOCKED
+                         net (fo=2, routed)           0.725     0.725    can_test_i/pl_reset_ctrl/inst/clock_locked
+    SLICE_X43Y29         LUT2 (Prop_lut2_I0_O)        0.045     0.770 f  can_test_i/pl_reset_ctrl/inst/lock_sync[1]_i_1/O
+                         net (fo=2, routed)           0.123     0.893    can_test_i/pl_reset_ctrl/inst/lock_sync[1]_i_1_n_0
+    SLICE_X43Y29         FDCE                                         f  can_test_i/pl_reset_ctrl/inst/lock_sync_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out1_can_test_clk_pl_0
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout1_buf/O
+                         net (fo=8830, routed)        0.850    -0.677    can_test_i/pl_reset_ctrl/inst/clk_axi_50m
+    SLICE_X43Y29         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/lock_sync_reg[0]/C
+
+
+
+
+
+--------------------------------------------------------------------------------------
+Path Group:  (none)
+From Clock:  
+  To Clock:  clk_out2_can_test_clk_pl_0
+
+Max Delay            59 Endpoints
+Min Delay            59 Endpoints
+--------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 CAN_RX
+                            (input port)
+  Destination:            can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             (none)
+  Path Type:              Setup (Max at Slow Process Corner)
+  Data Path Delay:        10.045ns  (logic 2.632ns (26.205%)  route 7.413ns (73.795%))
+  Logic Levels:           7  (IBUF=1 LUT3=2 LUT6=4)
+  Clock Path Skew:        -1.312ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.312ns
+    Source Clock Delay      (SCD):    0.000ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.292ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    F16                                               0.000     0.000 f  CAN_RX (IN)
+                         net (fo=0)                   0.000     0.000    CAN_RX
+    F16                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  CAN_RX_IBUF_inst/O
+                         net (fo=1, routed)           2.754     4.214    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/CAN_PHY_RX
+    SLICE_X35Y22         LUT3 (Prop_lut3_I2_O)        0.120     4.334 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/tlsync/LBACK_2C_CDC_TO/btl_i_1/O
+                         net (fo=12, routed)          1.526     5.860    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_PHY_RX
+    SLICE_X33Y11         LUT3 (Prop_lut3_I0_O)        0.355     6.215 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/RSYNC_FLG_I_i_2/O
+                         net (fo=8, routed)           0.901     7.116    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/RSYNC_OCCR_I
+    SLICE_X30Y11         LUT6 (Prop_lut6_I5_O)        0.326     7.442 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_12/O
+                         net (fo=2, routed)           0.656     8.098    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_12_n_0
+    SLICE_X31Y10         LUT6 (Prop_lut6_I0_O)        0.124     8.222 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[4]_i_5/O
+                         net (fo=6, routed)           0.820     9.042    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I11
+    SLICE_X31Y12         LUT6 (Prop_lut6_I1_O)        0.124     9.166 f  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[1]_i_4/O
+                         net (fo=1, routed)           0.755     9.921    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[1]_i_4_n_0
+    SLICE_X32Y13         LUT6 (Prop_lut6_I5_O)        0.124    10.045 r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[1]_i_1/O
+                         net (fo=1, routed)           0.000    10.045    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I[1]_i_1_n_0
+    SLICE_X32Y13         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162     2.621    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.118    -4.498 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           1.599    -2.898    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    -2.807 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         1.495    -1.312    can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/CAN_CLK
+    SLICE_X32Y13         FDRE                                         r  can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/tl/btl/BTL_COUNTER_I_reg[1]/C
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack:                    inf
+  Source:                 can_test_i/clk_pl/inst/mmcm_adv_inst/LOCKED
+                            (internal pin)
+  Destination:            can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/CLR
+                            (removal check against rising-edge clock clk_out2_can_test_clk_pl_0  {rise@0.000ns fall@25.000ns period=50.000ns})
+  Path Group:             (none)
+  Path Type:              Removal (Min at Fast Process Corner)
+  Data Path Delay:        1.205ns  (logic 0.045ns (3.734%)  route 1.160ns (96.266%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Uncertainty:      0.292ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.050ns
+    Discrete Jitter          (DJ):    0.249ns
+    Phase Error              (PE):    0.165ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    MMCME2_ADV_X0Y0      MMCME2_ADV                   0.000     0.000 r  can_test_i/clk_pl/inst/mmcm_adv_inst/LOCKED
+                         net (fo=2, routed)           0.725     0.725    can_test_i/pl_reset_ctrl/inst/clock_locked
+    SLICE_X43Y29         LUT3 (Prop_lut3_I0_O)        0.045     0.770 f  can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1/O
+                         net (fo=8, routed)           0.435     1.205    can_test_i/pl_reset_ctrl/inst/axi_release[2]_i_1_n_0
+    SLICE_X28Y33         FDCE                                         f  can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/CLR
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out2_can_test_clk_pl_0 rise edge)
+                                                      0.000     0.000 r  
+    U18                                               0.000     0.000 r  sys_clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    can_test_i/clk_pl/inst/clk_in1
+    U18                  IBUF (Prop_ibuf_I_O)         0.486     0.486 r  can_test_i/clk_pl/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           0.480     0.966    can_test_i/clk_pl/inst/clk_in1_can_test_clk_pl_0
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -3.050    -2.084 r  can_test_i/clk_pl/inst/mmcm_adv_inst/CLKOUT1
+                         net (fo=1, routed)           0.528    -1.556    can_test_i/clk_pl/inst/clk_out2_can_test_clk_pl_0
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029    -1.527 r  can_test_i/clk_pl/inst/clkout2_buf/O
+                         net (fo=232, routed)         0.824    -0.703    can_test_i/pl_reset_ctrl/inst/clk_can_20m
+    SLICE_X28Y33         FDCE                                         r  can_test_i/pl_reset_ctrl/inst/can_release_reg[0]/C
+
+
+
+
+

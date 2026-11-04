@@ -1,0 +1,7 @@
+{
+  "status": "PASS_OFFLINE_STUBS_ONLY",
+  "tests": 16,
+  "hardware_access": false,
+  "vendor_source": "installed Vitis2023.1 xsdb.tcl mrd: binary scan iu* / return val_list",
+  "BIT_ELF_changed": false
+}

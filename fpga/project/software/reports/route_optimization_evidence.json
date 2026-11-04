@@ -1,0 +1,8 @@
+{
+  "current_route": "RUNPATH v3",
+  "current_evidence": "pick_approach_30mm_evidence.json",
+  "runner_sha256": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+  "motion_segments": 6,
+  "v2_evidence_archived_at": "history/before_pick_approach_30mm_20261104/software/reports/route_optimization_evidence.json",
+  "hardware_access": false
+}

@@ -1,0 +1,24 @@
+ECHO is off.
+ECHO is off.
+READONLY_TARGETS_BEGIN
+  1  APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Suspended)
+  4  xc7z010
+READONLY_TARGETS_END
+ARM_REPORT_BEGIN
+1464226353 1 226 5 0 63 1 293 293 0 1 5 3209663232 1076830314 3221646594 1077791712 3179929991 3217040989 0 975543868 0 0 0 0 3209663232 1076830475 3221646594 1077791712 3179929984 3217040989
+ARM_REPORT_END
+MAILBOX_REGISTERS_BEGIN
+Memory read error at 0x4000000C. AHB AP transaction error, DAP status 0xF0000021
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 Memory get siiii {Bea{o{msg o{} A}}} {JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0 1073741824 4 84 3}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"::tcf::send_command $chan Memory get "siiii" "Bea{o{msg o{} A}}" [list $ctx $start_addr $size $nbytes $mode]"
+    (procedure "mrd" line 87)
+    invoked from within
+"mrd -value 0x40000000 21"
+    invoked from within
+"puts [mrd -value 0x40000000 21]"
+    (file "D:\FPGA_jingsai\optimization\robstride_arm_gripper_20261104\software\reports\incident_154243_readonly.tcl" line 11)

@@ -1,0 +1,118 @@
+[
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000002.png",
+    "sample_id": "000002",
+    "false_positive_indices": [
+      2
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000003.png",
+    "sample_id": "000003",
+    "false_positive_indices": [
+      2
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000011.png",
+    "sample_id": "000011",
+    "false_positive_indices": [
+      2
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000029.png",
+    "sample_id": "000029",
+    "false_positive_indices": [
+      2
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000050.png",
+    "sample_id": "000050",
+    "false_positive_indices": [
+      2
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000065.png",
+    "sample_id": "000065",
+    "false_positive_indices": [
+      3
+    ],
+    "missed_truth_indices": [
+      3
+    ]
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000079.png",
+    "sample_id": "000079",
+    "false_positive_indices": [
+      3
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000088.png",
+    "sample_id": "000088",
+    "false_positive_indices": [
+      4
+    ],
+    "missed_truth_indices": []
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000092.png",
+    "sample_id": "000092",
+    "false_positive_indices": [
+      3
+    ],
+    "missed_truth_indices": [
+      3
+    ]
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000110.png",
+    "sample_id": "000110",
+    "false_positive_indices": [
+      3
+    ],
+    "missed_truth_indices": [
+      3
+    ]
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000111.png",
+    "sample_id": "000111",
+    "false_positive_indices": [
+      2
+    ],
+    "missed_truth_indices": [
+      3
+    ]
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000112.png",
+    "sample_id": "000112",
+    "false_positive_indices": [
+      3
+    ],
+    "missed_truth_indices": [
+      3
+    ]
+  },
+  {
+    "image": "datasets/site_tools/web_sessions/table_20261102_233455_e7dcede4/images/000122.png",
+    "sample_id": "000122",
+    "false_positive_indices": [
+      3
+    ],
+    "missed_truth_indices": [
+      3
+    ]
+  }
+]

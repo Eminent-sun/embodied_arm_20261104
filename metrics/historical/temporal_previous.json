@@ -1,0 +1,5635 @@
+{
+  "source_kind": "synthetic_test",
+  "camera_opened": false,
+  "description": "Saved seven-object result + artificial +/- mm jitter, 150 mm spike and three-frame dropout; not a real video benchmark.",
+  "raw_x_std_mm": 3.910599100450294,
+  "filtered_x_std_mm": 1.5507383076104717,
+  "outlier_rejected": true,
+  "dropout_held_unusable": true,
+  "acks": [
+    {
+      "seq": 1,
+      "ok": true,
+      "accepted": true,
+      "source_frame_id": 0,
+      "execution_enabled": false
+    },
+    {
+      "seq": 2,
+      "ok": true,
+      "accepted": true,
+      "source_frame_id": 1,
+      "execution_enabled": false
+    },
+    {
+      "seq": 3,
+      "ok": true,
+      "accepted": true,
+      "source_frame_id": 2,
+      "execution_enabled": false
+    }
+  ],
+  "received_matches_status_file": true,
+  "trace": [
+    {
+      "frame": 0,
+      "input_x_m": -0.033489227758343024,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 1,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.033489227758343024,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.033489227758343024,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tentative",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 1,
+      "input_x_m": -0.026003652807613995,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 2,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.03242826469790061,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.026003652807613995,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tentative",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 2,
+      "input_x_m": -0.03064244535833861,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 3,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.031922040830162986,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03064244535833861,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 3,
+      "input_x_m": -0.027932519751079007,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 4,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030791136518436808,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027932519751079007,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 4,
+      "input_x_m": -0.02777023518976714,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 5,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029980808169822102,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02777023518976714,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 5,
+      "input_x_m": -0.03690315074892435,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 6,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02940018253619411,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03690315074892435,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 6,
+      "input_x_m": -0.027110501796461784,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 7,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028938143498068728,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027110501796461784,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 7,
+      "input_x_m": -0.03298074087560074,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 8,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030084093278555563,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03298074087560074,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 8,
+      "input_x_m": -0.03409268485113778,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 9,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03090520217661954,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03409268485113778,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 9,
+      "input_x_m": -0.024651487396536383,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 10,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03149355241147313,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.024651487396536383,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 10,
+      "input_x_m": -0.03556730369333725,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 11,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.032230325077790015,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03556730369333725,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 11,
+      "input_x_m": -0.03547140439822684,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 12,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03314906958508063,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03547140439822684,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 12,
+      "input_x_m": -0.03248153774878525,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 13,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03380737879097205,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03248153774878525,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 13,
+      "input_x_m": -0.02349197702953976,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 14,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03380737879097205,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02349197702953976,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 14,
+      "input_x_m": -0.025418282972649087,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 15,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03142933279388113,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.025418282972649087,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 15,
+      "input_x_m": -0.02978248650810479,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 16,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029725388378980824,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02978248650810479,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 16,
+      "input_x_m": -0.021887887737730836,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 17,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02850445885422742,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.021887887737730836,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 17,
+      "input_x_m": -0.0321559111430498,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 18,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02850445885422742,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.0321559111430498,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 18,
+      "input_x_m": -0.03629723743959731,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 19,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02953953124904224,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03629723743959731,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 19,
+      "input_x_m": -0.02643731270380933,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 20,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030281193028637653,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02643731270380933,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 20,
+      "input_x_m": -0.02824997732186586,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 21,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02970540697429712,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02824997732186586,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 21,
+      "input_x_m": -0.027734042542061133,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 22,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027734042542061133,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 22,
+      "input_x_m": -0.0334974342229529,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 23,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.0334974342229529,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 23,
+      "input_x_m": -0.02685961747359666,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 24,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02685961747359666,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 24,
+      "input_x_m": -0.027887590216806965,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 25,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027887590216806965,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 25,
+      "input_x_m": -0.034121442672185275,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 26,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.034121442672185275,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 26,
+      "input_x_m": -0.02696841927920688,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 27,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02696841927920688,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 27,
+      "input_x_m": -0.028000853204137477,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 28,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029146586882309738,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028000853204137477,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 28,
+      "input_x_m": -0.023418272308249298,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 29,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02852914456650754,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.023418272308249298,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 29,
+      "input_x_m": -0.030697474142791583,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 30,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02852914456650754,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.030697474142791583,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 30,
+      "input_x_m": -0.028094213456290755,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 31,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02852914456650754,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028094213456290755,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 31,
+      "input_x_m": -0.02539605158298241,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 32,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02852914456650754,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02539605158298241,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 32,
+      "input_x_m": -0.03403551014408131,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 33,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02852914456650754,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03403551014408131,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 33,
+      "input_x_m": -0.031215992749934463,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 34,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02929078189975077,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.031215992749934463,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 34,
+      "input_x_m": -0.03305640515547649,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 35,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030358218188924195,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03305640515547649,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 35,
+      "input_x_m": -0.031330975484472015,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 36,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030358218188924195,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.031330975484472015,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 36,
+      "input_x_m": -0.023728740875353323,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 37,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030358218188924195,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.023728740875353323,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 37,
+      "input_x_m": -0.026313411260889485,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 38,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029211642070052134,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.026313411260889485,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 38,
+      "input_x_m": -0.02747296336781598,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 39,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028390084380924135,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02747296336781598,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 39,
+      "input_x_m": -0.02781318498768054,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 40,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028390084380924135,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02781318498768054,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 40,
+      "input_x_m": -0.02689672793002262,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 41,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028390084380924135,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02689672793002262,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 41,
+      "input_x_m": -0.023436684023277546,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 42,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028390084380924135,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.023436684023277546,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 42,
+      "input_x_m": -0.0265524299050644,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 43,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027869166875033966,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.0265524299050644,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 43,
+      "input_x_m": -0.023172698807435214,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 44,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.026612696770142417,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.023172698807435214,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 44,
+      "input_x_m": -0.028038245235449583,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 45,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.026612696770142417,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028038245235449583,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 45,
+      "input_x_m": 0.12106499696286693,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 46,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.026612696770142417,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          0.12106499696286693,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": false,
+        "coordinate_age_ms": 33.333333333333435,
+        "tracking_status": "jump_rejected",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 46,
+      "input_x_m": -0.027695708384307578,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 47,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.026612696770142417,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027695708384307578,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 47,
+      "input_x_m": -0.030186172323336213,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 48,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.026612696770142417,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.030186172323336213,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 48,
+      "input_x_m": -0.027009196585588785,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 49,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.026612696770142417,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027009196585588785,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 49,
+      "input_x_m": -0.03928226864262839,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 50,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027625665201902863,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03928226864262839,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 50,
+      "input_x_m": -0.030821953293964647,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 51,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028531712798388224,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.030821953293964647,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 51,
+      "input_x_m": -0.031386108262032225,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 52,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029340844539571507,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.031386108262032225,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 52,
+      "input_x_m": -0.032983788033815006,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 53,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029920612766508422,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.032983788033815006,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 53,
+      "input_x_m": -0.02644575750327682,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 54,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029920612766508422,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02644575750327682,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 54,
+      "input_x_m": -0.025041548527464735,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 55,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028935600099094388,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.025041548527464735,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 55,
+      "input_x_m": -0.02464020560517005,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 56,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027831758403526457,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02464020560517005,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 56,
+      "input_x_m": -0.03242083909452556,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 57,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02704082126673517,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03242083909452556,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 57,
+      "input_x_m": -0.027177747738590934,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 58,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02704082126673517,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027177747738590934,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 58,
+      "input_x_m": -0.03558376161531293,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 59,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028565887869468565,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03558376161531293,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 59,
+      "input_x_m": -0.03079537481443,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 60,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029197877611849627,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03079537481443,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 60,
+      "input_x_m": null,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 60,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.029197877611849627,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03079537481443,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": false,
+        "coordinate_age_ms": 33.333333333333435,
+        "tracking_status": "held",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": false
+      }
+    },
+    {
+      "frame": 61,
+      "input_x_m": null,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 60,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.029197877611849627,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03079537481443,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": false,
+        "coordinate_age_ms": 66.66666666666666,
+        "tracking_status": "held",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": false
+      }
+    },
+    {
+      "frame": 62,
+      "input_x_m": null,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 60,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.029197877611849627,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03079537481443,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": false,
+        "coordinate_age_ms": 100.00000000000031,
+        "tracking_status": "held",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": false
+      }
+    },
+    {
+      "frame": 63,
+      "input_x_m": -0.025703245928852012,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 1,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.030374279123681933,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.025703245928852012,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tentative",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 64,
+      "input_x_m": -0.036455160286230706,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 2,
+        "stable": false,
+        "surface_point_camera_m": [
+          -0.030374279123681933,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.036455160286230706,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": false,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tentative",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 65,
+      "input_x_m": -0.028433648655886948,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 3,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029824171148315516,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028433648655886948,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 66,
+      "input_x_m": -0.03187663339329638,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 4,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030405979930997026,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03187663339329638,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 67,
+      "input_x_m": -0.029983032610215385,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 5,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030405979930997026,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.029983032610215385,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 68,
+      "input_x_m": -0.023450516007340612,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 6,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030405979930997026,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.023450516007340612,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 69,
+      "input_x_m": -0.02413398549135987,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 7,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028628065887104606,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02413398549135987,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 70,
+      "input_x_m": -0.028414258484624855,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 8,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02735413480714681,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028414258484624855,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 71,
+      "input_x_m": -0.019661547929631533,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 9,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02644132330084398,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.019661547929631533,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 72,
+      "input_x_m": -0.02880193358109592,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 10,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027000588651713203,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02880193358109592,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 73,
+      "input_x_m": -0.027563643064397257,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 11,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027000588651713203,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.027563643064397257,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 74,
+      "input_x_m": -0.024851214653985994,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 12,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027000588651713203,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.024851214653985994,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 75,
+      "input_x_m": -0.031084225388533098,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 13,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027000588651713203,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.031084225388533098,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 76,
+      "input_x_m": -0.030526412749149363,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 14,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.02800004938776078,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.030526412749149363,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 77,
+      "input_x_m": -0.025631712209148404,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 15,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028716194298828004,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.025631712209148404,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 78,
+      "input_x_m": -0.03516871604489959,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 16,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029229334550515743,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03516871604489959,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 79,
+      "input_x_m": -0.03148848912710152,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 17,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029869734137551736,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03148848912710152,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 80,
+      "input_x_m": -0.03689245916938815,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 18,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03137182959412083,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03689245916938815,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 81,
+      "input_x_m": -0.020232550849828636,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 19,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03137182959412083,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.020232550849828636,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 82,
+      "input_x_m": -0.031019280903658686,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 20,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.03137182959412083,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.031019280903658686,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 83,
+      "input_x_m": -0.026763086152171392,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 21,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030065395130729786,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.026763086152171392,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 84,
+      "input_x_m": -0.03445443654031424,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 22,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030065395130729786,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03445443654031424,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 85,
+      "input_x_m": -0.02108124777706402,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 23,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029129293932497424,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.02108124777706402,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 86,
+      "input_x_m": -0.03436365353341697,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 24,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030613070988555587,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03436365353341697,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 87,
+      "input_x_m": -0.030714988007601796,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 25,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030613070988555587,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.030714988007601796,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 88,
+      "input_x_m": -0.019680076212602707,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 26,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030613070988555587,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.019680076212602707,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 89,
+      "input_x_m": -0.026237888447333792,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 27,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029372843727594997,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.026237888447333792,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 90,
+      "input_x_m": -0.030508666942658233,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 28,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028484182062889576,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.030508666942658233,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 91,
+      "input_x_m": -0.023886765302557494,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 29,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027847428155621516,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.023886765302557494,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 92,
+      "input_x_m": -0.028418802085563785,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 30,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027847428155621516,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028418802085563785,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 93,
+      "input_x_m": -0.028937123644644094,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 31,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027847428155621516,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028937123644644094,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 94,
+      "input_x_m": -0.03146792451732772,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 32,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.027847428155621516,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03146792451732772,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 95,
+      "input_x_m": -0.032904212041331635,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 33,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.028873725514346735,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.032904212041331635,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 96,
+      "input_x_m": -0.03255902023384805,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 34,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.029918391178633118,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03255902023384805,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 97,
+      "input_x_m": -0.03225843848274566,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 35,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.030666926836175668,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.03225843848274566,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 98,
+      "input_x_m": -0.031707204324092415,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 36,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.031118070556835412,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.031707204324092415,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    },
+    {
+      "frame": 99,
+      "input_x_m": -0.028378079404624234,
+      "target": {
+        "class_name": "scissors",
+        "confidence": 0.8399763703346252,
+        "box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "track_id": 1,
+        "consecutive_hits": 37,
+        "stable": true,
+        "surface_point_camera_m": [
+          -0.031118070556835412,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "surface_point_base_m": null,
+        "depth_quality": {
+          "valid": true,
+          "point_camera_m": [
+            -0.029116004136252493,
+            0.01696444067344152,
+            0.5429999828338623
+          ],
+          "sample_kind": "pixel_patch_surface",
+          "reason": null,
+          "valid_fraction": 1.0,
+          "mad_m": 0.0,
+          "spread_m": 0.0009999871253967285
+        },
+        "point_kind": "bbox_center_surface_sample",
+        "grasp_pose": null,
+        "class_id": 2,
+        "raw_box_xyxy": [
+          241.2799072265625,
+          187.2726593017578,
+          346.54583740234375,
+          330.56292724609375
+        ],
+        "raw_surface_point_camera_m": [
+          -0.028378079404624234,
+          0.01696444067344152,
+          0.5429999828338623
+        ],
+        "coordinate_usable": true,
+        "coordinate_fresh": true,
+        "coordinate_age_ms": 0.0,
+        "tracking_status": "tracked",
+        "filter_kind": "median3_ema_deadband",
+        "observed_this_frame": true
+      }
+    }
+  ]
+}

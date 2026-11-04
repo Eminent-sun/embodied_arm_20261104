@@ -1,0 +1,41 @@
+{
+  "record_type": "user_reported_field_test",
+  "reported_on": "2026-11-04",
+  "test_date": null,
+  "source": "User message in this project conversation",
+  "statement": "现场完整感知吞吐≥25帧/秒连续运行30分钟；现场主机感知延迟P95≤50ms、P99≤80ms、最大≤150ms；持续运行稳定性30分钟内异常、人工重启均为0次，这些我实际测试了一下，满足要求，三维定位误差5-8mm。",
+  "raw_logs_attached": false,
+  "independently_recomputed": false,
+  "conditions": "用户反馈达到此前列出的现场目标；未提供现场参数快照、逐帧日志及逐测点误差表。",
+  "throughput": {
+    "reported_lower_bound_fps": 25,
+    "duration_minutes": 30,
+    "status": "passed_as_reported",
+    "exact_measured_fps": null
+  },
+  "host_latency": {
+    "p95_upper_bound_ms": 50,
+    "p99_upper_bound_ms": 80,
+    "max_upper_bound_ms": 150,
+    "status": "passed_as_reported",
+    "exact_percentiles": null
+  },
+  "stability": {
+    "duration_minutes": 30,
+    "exceptions": 0,
+    "manual_restarts": 0,
+    "status": "passed_as_reported"
+  },
+  "localization": {
+    "reported_error_range_mm": [
+      5,
+      8
+    ],
+    "rms_mm": null,
+    "point_count": null,
+    "reference_method": null,
+    "error_definition": "各测点定位误差约为5–8 mm；未提供各轴分量或距离计算方法",
+    "status": "point_error_range_reported_rms_not_computed"
+  },
+  "clarification": "各测点误差约为 5–8 mm，未计算 RMS"
+}

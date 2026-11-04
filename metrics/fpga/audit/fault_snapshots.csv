@@ -1,0 +1,11 @@
+﻿session,time,state,error,fault_cause,stop_confirmed,sample_ms,last_service_ms,max_service_ms,scope
+20261104_131510,2026-11-04T13:15:19,FAULT_LOCKED,23,23,True,,,,"stored DDR snapshot, not fresh physical observation"
+20261104_133116,2026-11-04T13:31:38,FAULT_LOCKED,23,23,True,50,8,9,"stored DDR snapshot, not fresh physical observation"
+20261104_135448,2026-11-04T13:54:54,FAULT_LOCKED,11,5,False,50,8,9,"stored DDR snapshot, not fresh physical observation"
+20261104_143500,2026-11-04T14:48:15,FAULT_LOCKED,11,5,False,,,,"stored DDR snapshot, not fresh physical observation"
+20261104_154243,2026-11-04T15:42:50,FAULT_LOCKED,5,5,True,50,9,9,"stored DDR snapshot, not fresh physical observation"
+20261104_154243,2026-11-04T15:43:06,FAULT_LOCKED,5,5,True,50,9,9,"stored DDR snapshot, not fresh physical observation"
+20261104_154243,2026-11-04T15:43:56,FAULT_LOCKED,5,5,True,50,9,9,"stored DDR snapshot, not fresh physical observation"
+20261104_154647,2026-11-04T15:46:50,FAULT_LOCKED,5,5,True,50,9,9,"stored DDR snapshot, not fresh physical observation"
+20261104_155128,2026-11-04T16:19:14,FAULT_LOCKED,11,5,False,50,8,9,"stored DDR snapshot, not fresh physical observation"
+20261104_155128,2026-11-04T16:19:26,FAULT_LOCKED,11,5,False,50,8,9,"stored DDR snapshot, not fresh physical observation"

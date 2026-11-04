@@ -1,0 +1,21 @@
+{
+  "scope": "Same AI PC TCP loopback, Python reference receiver; excludes physical NIC, cable, AX7010, PL and actuators",
+  "endpoint": "127.0.0.1 ephemeral port",
+  "clock": "perf_counter_ns on one host; no clock sync needed for RTT",
+  "samples": 409340,
+  "duration_s": 10.000026535009965,
+  "rtt_ms": {
+    "p50": 0.01997,
+    "p95": 0.02256,
+    "p99": 0.04043,
+    "max": 5.850094,
+    "mean": 0.020308201592807936,
+    "n": 409340
+  },
+  "timeouts": 0,
+  "invalid_replies": 0,
+  "application_payload_bytes_per_s_both_directions": 7755236.221472958,
+  "requests_per_s": 40933.89138187843,
+  "includes_arm1_header_in_throughput": false,
+  "no_motion": true
+}

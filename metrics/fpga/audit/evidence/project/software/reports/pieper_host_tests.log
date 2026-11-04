@@ -1,0 +1,1 @@
+PASS PIEPER 1012 FK_IK TARGETS including 12 near-singular; unreachable/nonfinite/branch checks; max_position_mm=8.94069672e-005 max_orientation_rad=0.000472305459

@@ -1,0 +1,327 @@
+{
+  "status": "PASS_RUNPATH_REJECTION_HOLD_AND_START_BOUNDARY_FIX_OFFLINE",
+  "hardware_access": false,
+  "incident_log": {
+    "path": "software\\operator_logs\\20261104_124450\\recorded_cycle.jsonl",
+    "sha256": "f17b2bade4737fced2ccc6dfff2c75117466819a9f498769f000f2e2a73fda8e",
+    "failed_request": {
+      "event": "request",
+      "time_monotonic_s": 225367.875,
+      "request": 14,
+      "operation": 107,
+      "reply": [
+        14,
+        2,
+        107,
+        0
+      ]
+    },
+    "abort": {
+      "event": "cycle_aborted",
+      "time_monotonic_s": 225367.875,
+      "reason": "CycleError: Request 14 failed: (14, 2, 107, 0)",
+      "stop_requested": true,
+      "stop_error": null
+    }
+  },
+  "confirmed_cause": "PC runner explicitly requested STOP after first MOVETO returned PATH_BAD_GEOMETRY.",
+  "reproduced_trigger": "Outward 0.0004-rad encoder offset at J3 or J5 HOME boundary reproduced PATH_BAD_GEOMETRY with incident calibration and old ELF.",
+  "uncertainty": "Original log lacks failed Cartesian report and live joint positions; exact incident axis/offset cannot be established.",
+  "before_reproduction": [
+    {
+      "axis": null,
+      "motor_delta_rad": 0,
+      "reply": [
+        3,
+        0,
+        106,
+        0
+      ],
+      "cartesian": {
+        "sequence": 3,
+        "result": 0,
+        "model_only": false,
+        "plan_valid": true,
+        "frames": 293,
+        "duration_ms": 14600,
+        "solver": "Pieper spherical wrist",
+        "analytic_solutions": 1,
+        "xyz_mm": [
+          200.0,
+          0.0,
+          300.0
+        ],
+        "rpy_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "seed_joint_rad": [
+          -4.291534423828125e-05,
+          1.5697318315505981,
+          -0.0,
+          -0.0,
+          1.5700000524520874,
+          0.0
+        ],
+        "target_joint_rad": [
+          0.004252726677805185,
+          1.7367910146713257,
+          -1.1431442499160767,
+          0.007620285730808973,
+          0.5936458706855774,
+          1.5771042108535767
+        ],
+        "target_motor_rad": [
+          -1.036195993423462,
+          2.8377199172973633,
+          -0.9565771818161011,
+          3.098137140274048,
+          0.9090295433998108,
+          -1.3928958177566528
+        ],
+        "position_error_mm": 1.4901871509209741e-05,
+        "orientation_error_rad": 1.3889722083604283e-07
+      },
+      "state": 3
+    },
+    {
+      "axis": 3,
+      "motor_delta_rad": -0.0004,
+      "reply": [
+        3,
+        2,
+        106,
+        0
+      ],
+      "cartesian": {
+        "sequence": 3,
+        "result": 2,
+        "model_only": false,
+        "plan_valid": false,
+        "frames": 0,
+        "duration_ms": 0,
+        "solver": "Pieper spherical wrist",
+        "analytic_solutions": 1,
+        "xyz_mm": [
+          200.0,
+          0.0,
+          300.0
+        ],
+        "rpy_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "seed_joint_rad": [
+          -4.291534423828125e-05,
+          1.5697318315505981,
+          0.0004000663757324219,
+          -0.0,
+          1.5700000524520874,
+          0.0
+        ],
+        "target_joint_rad": [
+          0.004252726677805185,
+          1.7367910146713257,
+          -1.1431442499160767,
+          0.007620285730808973,
+          0.5936458706855774,
+          1.5771042108535767
+        ],
+        "target_motor_rad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_error_mm": 1.4901871509209741e-05,
+        "orientation_error_rad": 1.3889722083604283e-07
+      },
+      "state": 3
+    },
+    {
+      "axis": 3,
+      "motor_delta_rad": 0.0004,
+      "reply": [
+        3,
+        0,
+        106,
+        0
+      ],
+      "cartesian": {
+        "sequence": 3,
+        "result": 0,
+        "model_only": false,
+        "plan_valid": true,
+        "frames": 293,
+        "duration_ms": 14600,
+        "solver": "Pieper spherical wrist",
+        "analytic_solutions": 1,
+        "xyz_mm": [
+          200.0,
+          0.0,
+          300.0
+        ],
+        "rpy_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "seed_joint_rad": [
+          -4.291534423828125e-05,
+          1.5697318315505981,
+          -0.0004000663757324219,
+          -0.0,
+          1.5700000524520874,
+          0.0
+        ],
+        "target_joint_rad": [
+          0.004252726677805185,
+          1.7367910146713257,
+          -1.1431442499160767,
+          0.007620285730808973,
+          0.5936458706855774,
+          1.5771042108535767
+        ],
+        "target_motor_rad": [
+          -1.036195993423462,
+          2.8377199172973633,
+          -0.9565771818161011,
+          3.098137140274048,
+          0.9090295433998108,
+          -1.3928958177566528
+        ],
+        "position_error_mm": 1.4901871509209741e-05,
+        "orientation_error_rad": 1.3889722083604283e-07
+      },
+      "state": 3
+    },
+    {
+      "axis": 5,
+      "motor_delta_rad": 0.0004,
+      "reply": [
+        3,
+        0,
+        106,
+        0
+      ],
+      "cartesian": {
+        "sequence": 3,
+        "result": 0,
+        "model_only": false,
+        "plan_valid": true,
+        "frames": 293,
+        "duration_ms": 14600,
+        "solver": "Pieper spherical wrist",
+        "analytic_solutions": 1,
+        "xyz_mm": [
+          200.0,
+          0.0,
+          300.0
+        ],
+        "rpy_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "seed_joint_rad": [
+          -4.291534423828125e-05,
+          1.5697318315505981,
+          -0.0,
+          -0.0,
+          1.5696001052856445,
+          0.0
+        ],
+        "target_joint_rad": [
+          0.004252726677805185,
+          1.7367910146713257,
+          -1.1431442499160767,
+          0.007620285730808973,
+          0.5936458706855774,
+          1.5771042108535767
+        ],
+        "target_motor_rad": [
+          -1.036195993423462,
+          2.8377199172973633,
+          -0.9565771818161011,
+          3.098137140274048,
+          0.9090295433998108,
+          -1.3928958177566528
+        ],
+        "position_error_mm": 1.4901871509209741e-05,
+        "orientation_error_rad": 1.3889722083604283e-07
+      },
+      "state": 3
+    },
+    {
+      "axis": 5,
+      "motor_delta_rad": -0.0004,
+      "reply": [
+        3,
+        2,
+        106,
+        0
+      ],
+      "cartesian": {
+        "sequence": 3,
+        "result": 2,
+        "model_only": false,
+        "plan_valid": false,
+        "frames": 0,
+        "duration_ms": 0,
+        "solver": "Pieper spherical wrist",
+        "analytic_solutions": 1,
+        "xyz_mm": [
+          200.0,
+          0.0,
+          300.0
+        ],
+        "rpy_deg": [
+          0.0,
+          -90.0,
+          0.0
+        ],
+        "seed_joint_rad": [
+          -4.291534423828125e-05,
+          1.5697318315505981,
+          -0.0,
+          -0.0,
+          1.5704001188278198,
+          0.0
+        ],
+        "target_joint_rad": [
+          0.004252726677805185,
+          1.7367910146713257,
+          -1.1431442499160767,
+          0.007620285730808973,
+          0.5936458706855774,
+          1.5771042108535767
+        ],
+        "target_motor_rad": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_error_mm": 1.4901871509209741e-05,
+        "orientation_error_rad": 1.3889722083604283e-07
+      },
+      "state": 3
+    }
+  ],
+  "new_ELF_sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+  "new_runner_sha256": "59d1aa124b2a7ad339094c28f919110c6499b84cfab94e642c90dd2048180b4c",
+  "BIT_changed": false,
+  "requires_software_download_and_fresh_calibration": true,
+  "evidence": [
+    "software/reports/recorded_start_reproduction.json",
+    "software/reports/recorded_cycle_arm_path.json",
+    "reports/gripper_signoff.json"
+  ],
+  "physical_motion_tested": false
+}

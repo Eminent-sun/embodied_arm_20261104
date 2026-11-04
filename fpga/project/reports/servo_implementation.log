@@ -1,0 +1,850 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov  4 10:25:34 2026
+# Process ID: 20440
+# Current directory: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104
+# Command line: vivado.exe -mode batch -source build/resume_servo_impl.tcl -log reports/servo_implementation.log -journal reports/servo_implementation.jou
+# Log file: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/servo_implementation.log
+# Journal file: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104\reports/servo_implementation.jou
+# Running On: YouShuTing, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 24, Host memory: 33362 MB
+#-----------------------------------------------------------
+source build/resume_servo_impl.tcl
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# set out [file join $root reports]
+# set bitdir [file join $root bitstream]
+# open_project [file join $root vivado2023_project roboarm_ila_rx_debug.xpr]
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+# if {[get_property PROGRESS [get_runs synth_1]] ne {100%} || [get_property NEEDS_REFRESH [get_runs synth_1]]} {error "Fresh completed synthesis required"}
+# set_property strategy Performance_ExplorePostRoutePhysOpt [get_runs impl_1]
+# reset_run impl_1
+# set f [open [file join $root build build_nodebug.tcl] r]
+# set script [read $f]
+# close $f
+# set start [string first {launch_runs impl_1 -to_step write_bitstream} $script]
+# if {$start<0} {error "Implementation flow missing"}
+# eval [string range $script $start end]
+[Wed Nov  4 10:25:47 2026] Launched impl_1...
+Run output will be captured here: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 506.586 ; gain = 20.270
+[Wed Nov  4 10:25:47 2026] Waiting for impl_1 to finish...
+
+*** Running vivado
+    with args -log can_test_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source can_test_wrapper.tcl -notrace
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source can_test_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+Command: link_design -top can_test_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 909.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_processing_system7_0_0/can_test_processing_system7_0_0.xdc] for cell 'can_test_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_processing_system7_0_0/can_test_processing_system7_0_0.xdc] for cell 'can_test_i/processing_system7_0/inst'
+Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_axi_can_0_0/can_test_axi_can_0_0.xdc] for cell 'can_test_i/axi_can_0/U0'
+Finished Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_axi_can_0_0/can_test_axi_can_0_0.xdc] for cell 'can_test_i/axi_can_0/U0'
+Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_clk_pl_0/can_test_clk_pl_0_board.xdc] for cell 'can_test_i/clk_pl/inst'
+Finished Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_clk_pl_0/can_test_clk_pl_0_board.xdc] for cell 'can_test_i/clk_pl/inst'
+Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_clk_pl_0/can_test_clk_pl_0.xdc] for cell 'can_test_i/clk_pl/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_clk_pl_0/can_test_clk_pl_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_clk_pl_0/can_test_clk_pl_0.xdc:57]
+Finished Parsing XDC File [d:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/roboarm.gen/sources_1/bd/can_test/ip/can_test_clk_pl_0/can_test_clk_pl_0.xdc] for cell 'can_test_i/clk_pl/inst'
+Parsing XDC File [D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/constraints/ax7010_can.xdc]
+Finished Parsing XDC File [D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/constraints/ax7010_can.xdc]
+Parsing XDC File [D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/constraints/ax7010_pl_clock_reset.xdc]
+Finished Parsing XDC File [D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/constraints/ax7010_pl_clock_reset.xdc]
+Parsing XDC File [D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/constraints/ax7010_servo.xdc]
+Finished Parsing XDC File [D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/candidate/constraints/ax7010_servo.xdc]
+INFO: [Project 1-1714] 11 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1639.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 52 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 52 instances
+
+13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1639.059 ; gain = 1136.074
+Command: opt_design -directive Explore
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.604 . Memory (MB): peak = 1639.059 ; gain = 0.000
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Retarget
+INFO: [Opt 31-1566] Pulled 28 inverters resulting in an inversion of 127 pins
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1302e8787
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.926 . Memory (MB): peak = 1929.859 ; gain = 48.453
+INFO: [Opt 31-389] Phase Retarget created 7 cells and removed 100 cells
+INFO: [Opt 31-1021] In phase Retarget, 33 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1487eb32d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1929.859 ; gain = 48.453
+INFO: [Opt 31-389] Phase Constant propagation created 1 cells and removed 36 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 158d09362
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1929.859 ; gain = 48.453
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 42 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 158d09362
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1929.859 ; gain = 48.453
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 130a79516
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1929.859 ; gain = 48.453
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+INFO: [Opt 31-1555] control_set_opt supports Versal devices only, and device 7z010 is unsupported
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 130a79516
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1929.859 ; gain = 48.453
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               7  |             100  |                                             33  |
+|  Constant propagation         |               1  |              36  |                                              0  |
+|  Sweep                        |               0  |              42  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1929.859 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 130a79516
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1929.859 ; gain = 48.453
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1929.859 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 130a79516
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1929.859 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+33 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [runtcl-4] Executing : report_drc -file can_test_wrapper_drc_opted.rpt -pb can_test_wrapper_drc_opted.pb -rpx can_test_wrapper_drc_opted.rpx
+Command: report_drc -file can_test_wrapper_drc_opted.rpt -pb can_test_wrapper_drc_opted.pb -rpx can_test_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1956.191 ; gain = 9.648
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_opt.dcp' has been generated.
+Command: place_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 29 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'Explore' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1956.191 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 125d10a8e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1956.191 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1956.191 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 9dddd3d6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.559 . Memory (MB): peak = 1956.191 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1674647aa
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1674647aa
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2017.645 ; gain = 61.453
+Phase 1 Placer Initialization | Checksum: 1674647aa
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 14e497aae
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 130b54011
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 130b54011
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 225a089a1
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 44 LUTNM shape to break, 199 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 30, two critical 14, total 44, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 132 nets or LUTs. Breaked 44 LUTs, combined 88 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2017.645 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           44  |             88  |                   132  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           44  |             88  |                   132  |           0  |           9  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 2c31a7a8b
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 2017.645 ; gain = 61.453
+Phase 2.4 Global Placement Core | Checksum: 255bdbf8f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 2017.645 ; gain = 61.453
+Phase 2 Global Placement | Checksum: 255bdbf8f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 272c39daf
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 20fb40cb6
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 257f331d0
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 24cfa6eac
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 259803e01
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 26cf2c6b1
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1ef72e535
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1bff94724
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2017.645 ; gain = 61.453
+Phase 3 Detail Placement | Checksum: 1bff94724
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2017.645 ; gain = 61.453
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 187cd6bb1
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.336 | TNS=-23.059 |
+Phase 1 Physical Synthesis Initialization | Checksum: f88d5010
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.499 . Memory (MB): peak = 2054.391 ; gain = 10.703
+INFO: [Place 46-33] Processed net can_test_i/pl_robstride_feedback/inst/bank/clear, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net can_test_i/pl_el05_single_tx/inst/latched_motor[7]_i_1_n_0, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 2 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 2, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: f88d5010
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.897 . Memory (MB): peak = 2055.363 ; gain = 11.676
+Phase 4.1.1.1 BUFG Insertion | Checksum: 187cd6bb1
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:25 . Memory (MB): peak = 2055.363 ; gain = 99.172
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.643. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 25ae306f1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 2059.984 ; gain = 103.793
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 2059.984 ; gain = 103.793
+Phase 4.1 Post Commit Optimization | Checksum: 25ae306f1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 2059.984 ; gain = 103.793
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 25ae306f1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 2059.984 ; gain = 103.793
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                4x4|
+|___________|___________________|___________________|
+|      South|                1x1|                4x4|
+|___________|___________________|___________________|
+|       East|                2x2|                4x4|
+|___________|___________________|___________________|
+|       West|                1x1|                4x4|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 25ae306f1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:28 . Memory (MB): peak = 2059.984 ; gain = 103.793
+Phase 4.3 Placer Reporting | Checksum: 25ae306f1
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:29 . Memory (MB): peak = 2059.984 ; gain = 103.793
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2059.984 ; gain = 0.000
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:29 . Memory (MB): peak = 2059.984 ; gain = 103.793
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1cb1d415c
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:29 . Memory (MB): peak = 2059.984 ; gain = 103.793
+Ending Placer Task | Checksum: 108e3807f
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:29 . Memory (MB): peak = 2059.984 ; gain = 103.793
+INFO: [Common 17-83] Releasing license: Implementation
+78 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:29 . Memory (MB): peak = 2059.984 ; gain = 103.793
+INFO: [runtcl-4] Executing : report_io -file can_test_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2062.203 ; gain = 2.219
+INFO: [runtcl-4] Executing : report_utilization -file can_test_wrapper_utilization_placed.rpt -pb can_test_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file can_test_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2062.203 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.881 . Memory (MB): peak = 2091.047 ; gain = 28.844
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_placed.dcp' has been generated.
+Command: phys_opt_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: Explore
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2130.449 ; gain = 39.402
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+88 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.886 . Memory (MB): peak = 2170.273 ; gain = 36.719
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_physopt.dcp' has been generated.
+Command: route_design -directive Explore -tns_cleanup
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'Explore'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: be514288 ConstDB: 0 ShapeSum: 4a923df7 RouteDB: 0
+Post Restoration Checksum: NetGraph: df31bd22 | NumContArr: 46906250 | Constraints: 190a55ad | Timing: 0
+Phase 1 Build RT Design | Checksum: 13ecc751f
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2239.535 ; gain = 39.844
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 13ecc751f
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2239.535 ; gain = 39.844
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 13ecc751f
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2239.535 ; gain = 39.844
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1cf85453d
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2252.320 ; gain = 52.629
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.180  | TNS=0.000  | WHS=-0.349 | THS=-76.882|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 18193
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 18193
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 13ed3959d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2253.355 ; gain = 53.664
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 13ed3959d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2253.355 ; gain = 53.664
+Phase 3 Initial Routing | Checksum: 99edb630
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 4066
+ Number of Nodes with overlaps = 1169
+ Number of Nodes with overlaps = 479
+ Number of Nodes with overlaps = 183
+ Number of Nodes with overlaps = 45
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.612 | TNS=-82.201| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 2237f3000
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:29 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 997
+ Number of Nodes with overlaps = 224
+ Number of Nodes with overlaps = 97
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.572 | TNS=-59.297| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 143cbc9ac
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:34 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 730
+ Number of Nodes with overlaps = 262
+ Number of Nodes with overlaps = 89
+ Number of Nodes with overlaps = 45
+ Number of Nodes with overlaps = 27
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.189  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 2d05d1b4c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:40 . Memory (MB): peak = 2273.758 ; gain = 74.066
+Phase 4 Rip-up And Reroute | Checksum: 2d05d1b4c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:40 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 TNS Cleanup
+
+Phase 5.1.1 Delay CleanUp
+Phase 5.1.1 Delay CleanUp | Checksum: 2d05d1b4c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:40 . Memory (MB): peak = 2273.758 ; gain = 74.066
+Phase 5.1 TNS Cleanup | Checksum: 2d05d1b4c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:40 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 2d05d1b4c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:40 . Memory (MB): peak = 2273.758 ; gain = 74.066
+Phase 5 Delay and Skew Optimization | Checksum: 2d05d1b4c
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:40 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 26c965661
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 2273.758 ; gain = 74.066
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.203  | TNS=0.000  | WHS=0.035  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 25d6424ec
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 2273.758 ; gain = 74.066
+Phase 6 Post Hold Fix | Checksum: 25d6424ec
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 17.654 %
+  Global Horizontal Routing Utilization  = 19.8686 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 24ca38a43
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 24ca38a43
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:41 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1ffb8b753
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:42 . Memory (MB): peak = 2273.758 ; gain = 74.066
+
+Phase 10 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.202  | TNS=0.000  | WHS=0.037  | THS=0.000  |
+
+Phase 10 Post Router Timing | Checksum: 246078b91
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:44 . Memory (MB): peak = 2313.996 ; gain = 114.305
+INFO: [Route 35-61] The design met the timing requirement.
+INFO: [Route 35-16] Router Completed Successfully
+
+Phase 11 Post-Route Event Processing
+Phase 11 Post-Route Event Processing | Checksum: d3205137
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:44 . Memory (MB): peak = 2313.996 ; gain = 114.305
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:44 . Memory (MB): peak = 2313.996 ; gain = 114.305
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+105 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:01 ; elapsed = 00:00:45 . Memory (MB): peak = 2313.996 ; gain = 143.723
+INFO: [runtcl-4] Executing : report_drc -file can_test_wrapper_drc_routed.rpt -pb can_test_wrapper_drc_routed.pb -rpx can_test_wrapper_drc_routed.rpx
+Command: report_drc -file can_test_wrapper_drc_routed.rpt -pb can_test_wrapper_drc_routed.pb -rpx can_test_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file can_test_wrapper_methodology_drc_routed.rpt -pb can_test_wrapper_methodology_drc_routed.pb -rpx can_test_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file can_test_wrapper_methodology_drc_routed.rpt -pb can_test_wrapper_methodology_drc_routed.pb -rpx can_test_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file can_test_wrapper_power_routed.rpt -pb can_test_wrapper_power_summary_routed.pb -rpx can_test_wrapper_power_routed.rpx
+Command: report_power -file can_test_wrapper_power_routed.rpt -pb can_test_wrapper_power_summary_routed.pb -rpx can_test_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+115 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file can_test_wrapper_route_status.rpt -pb can_test_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file can_test_wrapper_timing_summary_routed.rpt -pb can_test_wrapper_timing_summary_routed.pb -rpx can_test_wrapper_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file can_test_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file can_test_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file can_test_wrapper_bus_skew_routed.rpt -pb can_test_wrapper_bus_skew_routed.pb -rpx can_test_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2350.840 ; gain = 31.773
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_routed.dcp' has been generated.
+Command: phys_opt_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode 
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: Explore
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2350.840 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -warn_on_violation -file can_test_wrapper_timing_summary_postroute_physopted.rpt -pb can_test_wrapper_timing_summary_postroute_physopted.pb -rpx can_test_wrapper_timing_summary_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file can_test_wrapper_bus_skew_postroute_physopted.rpt -pb can_test_wrapper_bus_skew_postroute_physopted.pb -rpx can_test_wrapper_bus_skew_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.991 . Memory (MB): peak = 2355.367 ; gain = 4.527
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_postroute_physopt.dcp' has been generated.
+INFO: [Memdata 28-208] The XPM instance: <can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst> is part of IP: <can_test_i/axi_can_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst> is part of IP: <can_test_i/axi_can_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force can_test_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ADDRARDADDR[5] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/addra[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_READ_ADDR_LOW_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ADDRARDADDR[6] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/addra[1]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_READ_ADDR_LOW_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ADDRARDADDR[7] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/addra[2]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_READ_ADDR_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ADDRBWRADDR[5] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/addrb[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WRITE_ADDR_LOW_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ADDRBWRADDR[6] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/addrb[1]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WRITE_ADDR_LOW_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ADDRBWRADDR[7] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/addrb[2]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_WRITE_ADDR_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ENARDEN (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/ena) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_EMPTY_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ENARDEN (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/ena) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_EMPTY_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ENBWREN (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/ENBWREN (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/fullgenlen2.TXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[0] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[0] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/fullgenlen2.TXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[1] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[1] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/fullgenlen2.TXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[2] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[2] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/fullgenlen2.TXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[3] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/TXF_HPB_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg/WEBWE[3] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/woecctx.memtx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/txfifo/fullgenlen2.TXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ADDRARDADDR[5] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/addrb[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_READ_ADDR_LOW_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ADDRARDADDR[6] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/addrb[1]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_READ_ADDR_LOW_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ADDRARDADDR[7] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/addrb[2]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_READ_ADDR_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ADDRBWRADDR[5] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/addra[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WRITE_ADDR_LOW_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ADDRBWRADDR[6] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/addra[1]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WRITE_ADDR_LOW_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ADDRBWRADDR[7] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/addra[2]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_WRITE_ADDR_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/ENARDEN (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/enb) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/RXF_EMPTY_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[0] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/wea[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/fullgenlen2.RXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[1] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/wea[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/fullgenlen2.RXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[2] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/wea[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/fullgenlen2.RXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg has an input control pin can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[3] (net: can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/memrx/xpm_memory_base_inst/wea[0]) which is driven by a register (can_test_i/axi_can_0/U0/core_options.cantop_i/CANCORE_LOGIC_I/ol/rxf/fullgenlen2.RXF_FULL_I_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 29 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./can_test_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2831.621 ; gain = 476.254
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 10:28:09 2026...
+[Wed Nov  4 10:28:13 2026] impl_1 finished
+wait_on_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:02:25 . Memory (MB): peak = 506.586 ; gain = 0.000
+IMPL_STATUS=write_bitstream Complete!
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 912.625 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1657.613 ; gain = 16.461
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1657.613 ; gain = 16.461
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1657.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 52 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 52 instances
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1657.613 ; gain = 1151.027
+ROUTED_SLICE=3406
+SLICE_HEADROOM=994 (commissioning build; full timing/DRC still required)
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: report_drc -file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/drc.rpt
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/drc.rpt.
+report_drc completed successfully
+Command: report_methodology -file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/methodology.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/methodology.rpt.
+report_methodology completed successfully
+INFO: [Timing 38-91] UpdateTimingParams: No interconnect No Cell Dly, Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-314] The report_cdc command only analyzes and reports clock domain crossing paths where clocks have been defined on both source and destination sides. Ports with no input delay constraint are skipped. Please run check_timing to verify there are no missing clock definitions in your design, nor any unconstrained input port.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Vivado 12-750] There are no ChipScope debug cores in this design.
+ROUTED_DEBUG_CORES=
+ROUTED_WNS=0.202 ROUTED_WHS=0.037
+DRC_ERROR_COUNT=0
+INFO: [Project 1-1918] Creating Hardware Platform: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/bitstream/roboarm_arm_workflow.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/bitstream/roboarm_arm_workflow.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (D:/Xilinx/Vivado/2023.1/data/embeddedsw) loading 0 seconds
+NODEBUG_BIT=D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/bitstream/roboarm_arm_workflow.bit
+NODEBUG_CORE_COUNT=0 NO_LTX_REQUIRED
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 10:28:36 2026...

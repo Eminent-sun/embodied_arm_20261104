@@ -1,0 +1,51 @@
+cpu 1271 21.170584740985703
+gpu 6280 104.65537649523765
+Ultralytics 8.4.193 🚀 Python-3.12.3 torch-2.13.0+rocm10.0.0 CUDA:0 (AMD Radeon 890M Graphics, 14838MiB)
+YOLO11n summary (fused): 101 layers, 2,597,780 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 17397.9±3519.5 MB/s, size: 458.1 KB)
+[K[34m[1mval: [0mScanning /home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/host/app/datasets/tools_site_v4_holdout/labels/test... 84 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 84/124 238.8it/s 0.1s<0.2s[K[34m[1mval: [0mScanning /home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/host/app/datasets/tools_site_v4_holdout/labels/test... 124 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 124/124 882.0it/s 0.1s
+[34m[1mval: [0mNew cache created: /home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/host/app/datasets/tools_site_v4_holdout/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/124 2.2s/it 0.6s<4:25[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% ╸─────────── 8/124 19.2it/s 0.8s<6.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 15/124 32.5it/s 0.9s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 17% ━━────────── 22/124 41.8it/s 1.0s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 23% ━━╸───────── 29/124 48.6it/s 1.1s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 29% ━━━───────── 36/124 52.6it/s 1.2s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 34% ━━━━──────── 43/124 56.3it/s 1.3s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 50/124 58.5it/s 1.4s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 45% ━━━━━╸────── 57/124 60.1it/s 1.5s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/124 61.3it/s 1.6s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 57% ━━━━━━╸───── 71/124 62.0it/s 1.7s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 62% ━━━━━━━╸──── 78/124 62.9it/s 1.9s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/124 63.1it/s 2.0s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 74% ━━━━━━━━╸─── 92/124 63.7it/s 2.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 79% ━━━━━━━━━╸── 99/124 63.6it/s 2.2s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 106/124 64.0it/s 2.3s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 91% ━━━━━━━━━━╸─ 113/124 64.0it/s 2.4s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 120/124 63.9it/s 2.5s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 124/124 48.2it/s 2.6s
+                   all        124        393      0.993      0.987      0.994      0.821
+Speed: 0.4ms preprocess, 14.0ms inference, 0.0ms loss, 0.4ms postprocess per image
+Saving /home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/metrics/logs/ap_validation/predictions.json...
+
+Evaluating faster-coco-eval mAP...
+[31m[1mrequirements:[0m Ultralytics requirement ['faster-coco-eval>=1.6.7'] not found, attempting AutoUpdate...
+WARNING ⚠️ Retry 1/2 failed: Command '['/home/aup/roboarm/.venv-rocm/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'faster-coco-eval>=1.6.7']' returned non-zero exit status 1.
+WARNING ⚠️ Retry 2/2 failed: Command '['/home/aup/roboarm/.venv-rocm/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'faster-coco-eval>=1.6.7']' returned non-zero exit status 1.
+WARNING ⚠️ [31m[1mrequirements:[0m ❌ Command '['/home/aup/roboarm/.venv-rocm/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'faster-coco-eval>=1.6.7']' returned non-zero exit status 1.
+/home/aup/roboarm/.venv-rocm/bin/python: No module named pip
+
+WARNING ⚠️ faster-coco-eval unable to run: No module named 'faster_coco_eval'
+Results saved to [1m/home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/metrics/logs/ap_validation[0m
+Traceback (most recent call last):
+  File "/home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/metrics/scripts/benchmark_aipc.py", line 148, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/metrics/scripts/benchmark_aipc.py", line 87, in main
+    save(out/'ap_metrics.json',report['ap']);torch.set_num_threads(1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aup/roboarm_delivery_20261104/aipc_embodied_20261104/metrics/scripts/benchmark_aipc.py", line 15, in save
+    path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False))
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

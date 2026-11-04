@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "mode": "measured",
+  "validated": false,
+  "setup_id": null,
+  "calibration_id": null,
+  "frame_id": "base_link",
+  "tip_link": "Link6",
+  "workspace_min_m": null,
+  "workspace_max_m": null,
+  "max_joint_velocity_rad_s": 0.25,
+  "max_joint_acceleration_rad_s2": 0.5,
+  "gripper": {
+    "tcp_calibrated": false,
+    "link_to_tcp": null,
+    "collision_boxes": []
+  },
+  "scene_boxes": [],
+  "grasp_profiles": {},
+  "place_zones": {},
+  "note": "Current task: tabletop tool pickup only: approach, grasp, verify grip, lift and hold. No handover or placement. Real calibration, gripper/TCP and controller commissioning remain required; execution disabled.",
+  "robot_model_reviewed": false,
+  "robot_description_sha256": null,
+  "task_kind": "tabletop_pickup",
+  "handover_regions": {
+    "handover": {
+      "reviewed": false,
+      "body_scene_reviewed": false,
+      "min_m": null,
+      "max_m": null,
+      "palm_to_tcp_offset_base_m": null,
+      "tcp_quaternion_xyzw": null,
+      "approach_offset_base_m": null,
+      "hand_margin_m": 0.025,
+      "max_deviation_m": 0.01
+    }
+  }
+}

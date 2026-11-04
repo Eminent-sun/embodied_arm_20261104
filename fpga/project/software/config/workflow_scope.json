@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-03",
+  "request": "Per-axis capture/save and hold; one six-axis initial pose; separate PICK and DELIVER interfaces",
+  "calibration_method": "Software motor/model mapping; no motor zero/EEPROM writes",
+  "persistence": "PC JSON file, RAM copy on PS",
+  "hardware_operations_this_turn": false,
+  "physical_calibration": "not supplied",
+  "original_XYZ_order_preserved": true,
+  "orientation_RPY_deg": [
+    0,
+    -45,
+    0
+  ]
+}

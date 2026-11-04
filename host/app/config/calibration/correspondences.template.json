@@ -1,0 +1,54 @@
+{
+  "units": "m",
+  "camera_serial": "AY6T25501D7",
+  "physically_measured": false,
+  "fit": [
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    }
+  ],
+  "validation": [
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    },
+    {
+      "camera_m": null,
+      "base_m": null
+    }
+  ],
+  "instructions": "Fixed camera eye-to-hand: assign actual mount setup_id, copy factory camera model from frozen sample; measure >=6 fit and >=4 independently located validation correspondences in metres. Prefer 10-15 fit points across the table. Set flags only after real measurements.",
+  "camera_fixed": false,
+  "setup_id": null,
+  "factory_intrinsic": null,
+  "factory_distortion": null
+}

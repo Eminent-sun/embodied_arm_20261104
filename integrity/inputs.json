@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "input_files": [
+    {
+      "filename": "aipc_embodied_20261104_r2.zip",
+      "bytes": 139278121,
+      "sha256": "1a228ebb1a3f47075099cf6519e8e306ef8677ae79b0188c9e73af04870b6d76"
+    },
+    {
+      "filename": "embodied_arm_full_submission_20261104.zip",
+      "bytes": 391890710,
+      "sha256": "a3d480b75e8c509d7f849ff63e49229c8f6cb195261cd66fda1f10b0876c1c54"
+    }
+  ],
+  "guide_sha256": "c6ad82acd4f7bdcd13bd412e232ed85d05f2a87dd5e2cdd04f9d219f88b569fc"
+}

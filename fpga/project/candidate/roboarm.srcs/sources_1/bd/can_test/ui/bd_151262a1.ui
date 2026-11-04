@@ -1,0 +1,163 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.900213",
+   "Default View_TopLeft":"1273,166",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 3250 -y 2550 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 3250 -y 2570 -defaultsOSRD
+preplace port port-id_CAN_TX -pg 1 -lvl 7 -x 3250 -y 2710 -defaultsOSRD
+preplace port port-id_CAN_RX -pg 1 -lvl 0 -x -10 -y 2600 -defaultsOSRD
+preplace port port-id_sys_clk_50m -pg 1 -lvl 0 -x -10 -y 1910 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x -10 -y 1820 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1590 -y 2490 -defaultsOSRD
+preplace inst axi_periph -pg 1 -lvl 5 -x 2690 -y 2410 -defaultsOSRD
+preplace inst axi_can_0 -pg 1 -lvl 6 -x 3030 -y 2690 -defaultsOSRD
+preplace inst const_zero -pg 1 -lvl 6 -x 3030 -y 680 -defaultsOSRD
+preplace inst const_one -pg 1 -lvl 1 -x 110 -y 60 -defaultsOSRD
+preplace inst ila_can_reader -pg 1 -lvl 5 -x 2690 -y 1140 -defaultsOSRD
+preplace inst vio_can_send -pg 1 -lvl 3 -x 940 -y 1950 -defaultsOSRD
+preplace inst clk_pl -pg 1 -lvl 1 -x 110 -y 1900 -defaultsOSRD
+preplace inst pl_reset_ctrl -pg 1 -lvl 2 -x 400 -y 1810 -defaultsOSRD
+preplace inst rx_ready_one -pg 1 -lvl 2 -x 400 -y 3050 -defaultsOSRD
+preplace inst b2_zero1 -pg 1 -lvl 2 -x 400 -y 3270 -defaultsOSRD
+preplace inst b2_zero8 -pg 1 -lvl 2 -x 400 -y 3370 -defaultsOSRD
+preplace inst b2_zero16 -pg 1 -lvl 2 -x 400 -y 3470 -defaultsOSRD
+preplace inst b2_zero32 -pg 1 -lvl 2 -x 400 -y 3570 -defaultsOSRD
+preplace inst vio_feedback_debug -pg 1 -lvl 2 -x 400 -y 3160 -defaultsOSRD
+preplace inst pl_robstride_feedback -pg 1 -lvl 3 -x 940 -y 3270 -defaultsOSRD
+preplace inst pl_can_reader -pg 1 -lvl 4 -x 1590 -y 960 -defaultsOSRD
+preplace netloc CAN_RX_1 1 0 7 NJ 2600 NJ 2600 NJ 2600 NJ 2600 NJ 2600 2860J 2590 3210
+preplace netloc axi_can_0_can_phy_tx 1 6 1 NJ 2710
+preplace netloc axi_can_0_ip2bus_intrevent 1 3 4 1400 2590 NJ 2590 2840J 2550 3220
+preplace netloc b2_zero16_dout 1 2 1 570J 3390n
+preplace netloc b2_zero1_dout 1 2 1 570J 3270n
+preplace netloc b2_zero32_dout 1 2 1 710J 3410n
+preplace netloc b2_zero8_dout 1 2 1 710 3350n
+preplace netloc clk_pl_clk_out1 1 1 5 220 1950 580 2040 1270 80 2160 2690 NJ
+preplace netloc clk_pl_clk_out2 1 1 6 210 1700 630J 1780 1260J 2250 1830J 2580 NJ 2580 3200
+preplace netloc clk_pl_locked 1 1 1 230 1840n
+preplace netloc const_one_dout 1 1 1 N 60
+preplace netloc const_zero_dout 1 6 1 N 680
+preplace netloc pl_can_reader_attempted_count 1 4 1 N 900
+preplace netloc pl_can_reader_axis_index 1 4 1 2230 1180n
+preplace netloc pl_can_reader_bus_quarantined 1 4 1 1890 580n
+preplace netloc pl_can_reader_busy 1 4 1 1960 220n
+preplace netloc pl_can_reader_can_init_error 1 4 1 1900 680n
+preplace netloc pl_can_reader_can_init_error_code 1 4 1 2140 720n
+preplace netloc pl_can_reader_can_init_failed_state 1 4 1 2150 740n
+preplace netloc pl_can_reader_can_init_last_status 1 4 1 1910 760n
+preplace netloc pl_can_reader_can_init_state 1 4 1 2120 700n
+preplace netloc pl_can_reader_can_initialized 1 4 1 2110 660n
+preplace netloc pl_can_reader_completed_count 1 4 1 1840 140n
+preplace netloc pl_can_reader_cycle_completed_count 1 4 1 2210 1220n
+preplace netloc pl_can_reader_cycle_limit 1 4 1 2190 1280n
+preplace netloc pl_can_reader_cycle_seq 1 4 1 2240 1160n
+preplace netloc pl_can_reader_cycle_started_count 1 4 1 2270 1200n
+preplace netloc pl_can_reader_deadline_violation 1 4 1 N 1100
+preplace netloc pl_can_reader_debug_state 1 4 1 1970 260n
+preplace netloc pl_can_reader_enqueued_count 1 4 1 N 920
+preplace netloc pl_can_reader_error_flags 1 4 1 1940 180n
+preplace netloc pl_can_reader_frame_limit 1 4 1 N 1000
+preplace netloc pl_can_reader_last_attempt_cycle 1 4 1 N 1140
+preplace netloc pl_can_reader_last_bresp 1 4 1 1880 500n
+preplace netloc pl_can_reader_last_isr 1 4 1 2050 520n
+preplace netloc pl_can_reader_last_rresp 1 4 1 1800 200n
+preplace netloc pl_can_reader_last_sequence 1 4 1 N 960
+preplace netloc pl_can_reader_last_sr 1 4 1 2080 620n
+preplace netloc pl_can_reader_max_cycle_span_cycles 1 4 1 2200 1260n
+preplace netloc pl_can_reader_missed_cycle_count 1 4 1 2220 1240n
+preplace netloc pl_can_reader_missed_deadline_count 1 4 1 N 940
+preplace netloc pl_can_reader_periodic_completed 1 4 1 N 1060
+preplace netloc pl_can_reader_periodic_stopped 1 4 1 N 1080
+preplace netloc pl_can_reader_read_done 1 4 1 1850 240n
+preplace netloc pl_can_reader_round_used 1 4 1 N 1020
+preplace netloc pl_can_reader_rresp_valid 1 4 1 1810 300n
+preplace netloc pl_can_reader_rx_axi_error_count 1 4 1 1840 1620n
+preplace netloc pl_can_reader_rx_can_id 1 2 3 640 50 NJ 50 2170
+preplace netloc pl_can_reader_rx_data 1 2 3 630 1790 1310J 1840 1960
+preplace netloc pl_can_reader_rx_dlc 1 2 3 650 1800 NJ 1800 1920
+preplace netloc pl_can_reader_rx_error_flags 1 4 1 1910 1480n
+preplace netloc pl_can_reader_rx_fifo_level 1 4 1 1810 1680n
+preplace netloc pl_can_reader_rx_frame_count 1 4 1 1870 1560n
+preplace netloc pl_can_reader_rx_frame_error 1 2 3 700 1850 NJ 1850 1900
+preplace netloc pl_can_reader_rx_ide 1 2 3 660 1810 NJ 1810 2010
+preplace netloc pl_can_reader_rx_integrity_lost 1 2 3 690 1840 1250J 1860 1940
+preplace netloc pl_can_reader_rx_invalid_frame_count 1 4 1 1830 1640n
+preplace netloc pl_can_reader_rx_last_dlc 1 4 1 1780 1740n
+preplace netloc pl_can_reader_rx_last_id 1 4 1 1800 1720n
+preplace netloc pl_can_reader_rx_last_isr 1 4 1 1790 1700n
+preplace netloc pl_can_reader_rx_overflow_count 1 4 1 1860 1580n
+preplace netloc pl_can_reader_rx_rtr 1 2 3 670 1820 NJ 1820 1980
+preplace netloc pl_can_reader_rx_service_fault 1 4 1 1890 1520n
+preplace netloc pl_can_reader_rx_service_state 1 4 1 1880 1540n
+preplace netloc pl_can_reader_rx_sw_drop_count 1 4 1 1820 1660n
+preplace netloc pl_can_reader_rx_timestamp 1 2 3 680 1830 NJ 1830 1950
+preplace netloc pl_can_reader_rx_underflow_count 1 4 1 1850 1600n
+preplace netloc pl_can_reader_rx_valid 1 2 3 710 1860 1240J 1870 2060
+preplace netloc pl_can_reader_scheduled_count 1 4 1 N 880
+preplace netloc pl_can_reader_scheduler_fault 1 4 1 2180 1300n
+preplace netloc pl_can_reader_scheduler_state 1 4 1 N 860
+preplace netloc pl_can_reader_selected_period 1 4 1 N 980
+preplace netloc pl_can_reader_send_used 1 4 1 2100 620n
+preplace netloc pl_can_reader_start_rejected 1 4 1 N 1040
+preplace netloc pl_can_reader_status_value 1 4 1 1790 100n
+preplace netloc pl_can_reader_success_count 1 4 1 1830 120n
+preplace netloc pl_can_reader_timeout_count 1 4 1 1860 160n
+preplace netloc pl_can_reader_transaction_timeout 1 4 1 1980 280n
+preplace netloc pl_can_reader_tx_busy 1 4 1 1990 360n
+preplace netloc pl_can_reader_tx_completed_cycle 1 4 1 N 1120
+preplace netloc pl_can_reader_tx_error 1 4 1 1870 420n
+preplace netloc pl_can_reader_tx_error_code 1 4 1 2060 540n
+preplace netloc pl_can_reader_tx_error_count 1 4 1 2040 480n
+preplace netloc pl_can_reader_tx_fifo_write_done 1 4 1 2000 380n
+preplace netloc pl_can_reader_tx_may_be_pending 1 4 1 2090 600n
+preplace netloc pl_can_reader_tx_state 1 4 1 1860 340n
+preplace netloc pl_can_reader_tx_success 1 4 1 2010 400n
+preplace netloc pl_can_reader_tx_success_count 1 4 1 2030 460n
+preplace netloc pl_can_reader_tx_timeout 1 4 1 2020 440n
+preplace netloc pl_can_reader_write_error_flags 1 4 1 2070 560n
+preplace netloc pl_reset_ctrl_axi_aresetn 1 2 4 600 900 1310 90 2130 2710 NJ
+preplace netloc pl_reset_ctrl_can_aresetn 1 2 1 N 1780
+preplace netloc pl_reset_ctrl_can_reset_released_axi 1 2 3 580J 60 NJ 60 1920
+preplace netloc pl_reset_ctrl_clock_locked_axi 1 2 3 610J 1760 1170 100 1780
+preplace netloc pl_reset_ctrl_clock_ready 1 2 3 570J 70 NJ 70 2280
+preplace netloc pl_reset_ctrl_reset_released 1 2 3 590J 1770 1180 110 2240
+preplace netloc pl_robstride_feedback_accepted_frame_count 1 3 2 1310J 2240 2300
+preplace netloc pl_robstride_feedback_debug_data 1 3 2 1370J 2380 1800
+preplace netloc pl_robstride_feedback_diag_event_info 1 3 2 1380J 2390 2440
+preplace netloc pl_robstride_feedback_diag_timeout_seen 1 3 2 1390J 2400 1810
+preplace netloc pl_robstride_feedback_feedback_timeout 1 3 2 1280J 2260 2290
+preplace netloc pl_robstride_feedback_frame_ready 1 3 2 1230 2350 2420
+preplace netloc pl_robstride_feedback_integrity_lost 1 3 2 NJ 3610 2370
+preplace netloc pl_robstride_feedback_invalid_frame_count 1 3 2 NJ 3650 2400
+preplace netloc pl_robstride_feedback_mapping_valid 1 3 2 1350J 2330 2380
+preplace netloc pl_robstride_feedback_param_pending 1 3 2 1300J 2310 2350
+preplace netloc pl_robstride_feedback_param_poisoned 1 3 2 1330J 2320 2360
+preplace netloc pl_robstride_feedback_parameter_timeout_count 1 3 2 1340J 2300 2340
+preplace netloc pl_robstride_feedback_query_error_code 1 3 2 NJ 3150 2410
+preplace netloc pl_robstride_feedback_query_fault 1 3 2 1260J 2270 2310
+preplace netloc pl_robstride_feedback_query_feedback_timestamp 1 3 2 1320J 2290 2330
+preplace netloc pl_robstride_feedback_query_position_raw 1 3 2 NJ 3050 2390
+preplace netloc pl_robstride_feedback_query_warning 1 3 2 1290J 2280 2320
+preplace netloc pl_robstride_feedback_watchdog_config_valid 1 3 2 1360J 2340 1780
+preplace netloc rst_n_1 1 0 2 20 1820 NJ
+preplace netloc rx_ready_one_dout 1 2 1 570J 3050n
+preplace netloc sys_clk_50m_1 1 0 1 NJ 1910
+preplace netloc vio_can_send_probe_out0 1 3 2 1190 120 1820
+preplace netloc vio_can_send_probe_out1 1 3 2 1200 1880 2250J
+preplace netloc vio_can_send_probe_out2 1 3 2 1210 1890 2260J
+preplace netloc vio_can_send_probe_out3 1 3 2 1220 1900 2280J
+preplace netloc vio_feedback_debug_probe_out0 1 2 3 610 2360 NJ 2360 1820
+preplace netloc vio_feedback_debug_probe_out1 1 2 3 620 2370 NJ 2370 2430
+preplace netloc axi_periph_M00_AXI 1 5 1 2850 2410n
+preplace netloc pl_can_reader_M_AXI 1 4 1 1930 60n
+preplace netloc processing_system7_0_DDR 1 4 3 1880J 2560 NJ 2560 3230J
+preplace netloc processing_system7_0_FIXED_IO 1 4 3 1780J 2570 NJ 2570 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 1 2450 2320n
+levelinfo -pg 1 -10 110 400 940 1590 2690 3030 3250
+pagesize -pg 1 -db -bbox -sgen -150 0 3370 3870
+"
+}
+0

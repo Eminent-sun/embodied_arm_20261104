@@ -1,0 +1,39 @@
+{
+  "yolo11n.pt": {
+    "official_source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt",
+    "download_source": "https://hf-mirror.com/Ultralytics/YOLO11/resolve/main/yolo11n.pt",
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "bytes": 5613764
+  },
+  "hand_landmarker.task": {
+    "official_source": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+    "download_source": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+    "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "bytes": 7819105
+  },
+  "tools_yolo11n.pt": {
+    "source": "Local YOLO11n four-class fine-tuning, tools_site_v4_run",
+    "base_model": "models/archive/tabletop_v3_before_site_v4/tools_yolo11n.pt",
+    "base_model_sha256": "30937c536434dcf25808abde2c23fe96a7f0a6ca3efe5f5443243d3f2178b9a3",
+    "sha256": "c4f3d1e2def5f30f86cd55beb582407b41c808bb4eaff01ca6584771f53a489f",
+    "bytes": 5507546,
+    "classes": {
+      "0": "screwdriver",
+      "1": "pliers",
+      "2": "scissors",
+      "3": "tweezers"
+    },
+    "epochs": 25,
+    "best_epoch": 21,
+    "dataset_manifest": "datasets/tools_site_v4/manifest.json",
+    "dataset_manifest_sha256": "71038e188d64c64d9856b926b884c4e77c2d1a93600134b1015759d77ad736d3",
+    "trainval_annotation_sha256": "6a9587ab729b15de3b3935bbddcb34d5ea6c9e7588c60caf04d11e242f3ac7ed",
+    "test_annotation_sha256": "8f0a6dcc67c907d0d421e799bc780c850df22146b291a0b97fb9aac9a9905a60",
+    "evaluation": "runtime/site_training_v4/new_holdout.json",
+    "public_regression": "runtime/site_training_v4/ap_comparison.json",
+    "deployment_confidence": 0.35,
+    "deployment_nms_iou": 0.45,
+    "previous_weights": "models/archive/tabletop_v3_before_site_v4/tools_yolo11n.pt",
+    "limitations": "Same occasion, physical tools and backgrounds across grouped sessions. No novel-table/novel-tool/occlusion/grasp-success acceptance; camera not fixed, no commissioned base extrinsics."
+  }
+}

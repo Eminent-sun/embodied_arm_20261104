@@ -1,0 +1,53 @@
+{
+  "source_kind": "synthetic_test",
+  "source_session_id": "synthetic_example_only",
+  "frame_id": 1,
+  "camera_serial": "fixture_camera",
+  "mounting": "eye_to_hand",
+  "image_size": [
+    640,
+    480
+  ],
+  "camera_frame": "camera_color_optical_frame",
+  "base_frame": "base_link",
+  "units": "m",
+  "station_setup_id": null,
+  "calibration_id": null,
+  "camera_model_signature": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "base_calibration_valid": false,
+  "hand_present": false,
+  "schema_version": 1,
+  "sender_age_ms": 0,
+  "ttl_ms": 500,
+  "execution_enabled": false,
+  "detections": [
+    {
+      "class_name": "tweezers",
+      "confidence": 0.8,
+      "box_xyxy": [
+        100.0,
+        100.0,
+        120.0,
+        180.0
+      ],
+      "track_id": 1,
+      "consecutive_hits": 3,
+      "stable": true,
+      "surface_point_camera_m": [
+        0.1,
+        0.1,
+        0.6
+      ],
+      "surface_point_base_m": null,
+      "depth_quality": {
+        "valid": true,
+        "valid_fraction": 1.0,
+        "mad_m": 0.001,
+        "spread_m": 0.003
+      },
+      "point_kind": "bbox_center_surface_sample",
+      "grasp_pose": null,
+      "class_id": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿session,start_s,end_s,duration_s,outcome,final_state,gripper_pulse_us,evidence
+20261104_124450,225366.953,225367.875,0.9219999999913853,cycle_aborted,,,evidence\operator_logs\20261104_124450\recorded_cycle.jsonl
+20261104_130107,226428.171,226428.39,0.21900000001187436,cycle_rejected_hold,,,evidence\operator_logs\20261104_130107\recorded_cycle.jsonl
+20261104_133116,228127.671,,,missing_terminal,,,evidence\operator_logs\20261104_133116\recorded_cycle.jsonl
+20261104_135448,229752.312,229837.296,84.98399999999674,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_135448\recorded_cycle.jsonl
+20261104_144953,233190.64,233276.875,86.23499999998603,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_144953\recorded_cycle.jsonl
+20261104_144953,233436.671,233521.171,84.5,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_144953\recorded_cycle.jsonl
+20261104_155128,236635.015,236725.546,90.53099999998813,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_155128\recorded_cycle.jsonl
+20261104_155128,236728.312,236815.812,87.5,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_155128\recorded_cycle.jsonl
+20261104_155128,237178.703,237265.546,86.84299999999348,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_155128\recorded_cycle.jsonl
+20261104_155128,237388.812,237481.25,92.43799999999464,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_155128\recorded_cycle.jsonl
+20261104_155128,237569.312,237659.125,89.81299999999464,cycle_completed,INITIAL_HOLD,1110,evidence\operator_logs\20261104_155128\recorded_cycle.jsonl
+20261104_155128,237720.062,237742.937,22.875,cycle_rejected_hold,,,evidence\operator_logs\20261104_155128\recorded_cycle.jsonl

@@ -1,0 +1,625 @@
+[
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_104841\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_104841\\requests.jsonl",
+    "sha256": "becfdd0562fe5e2519a8d8aedfa278811111f89aa0d73b3c87c11ffbb4f20895",
+    "size": 2166,
+    "source_mtime_ns": 1793760580993046000
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_110302\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_110302\\requests.jsonl",
+    "sha256": "248add0368b95d26eea7ace17e204849e5d8a8dcd1254bc8b6d6b38e0c6be5c2",
+    "size": 7720,
+    "source_mtime_ns": 1793761443394804500
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_111827\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_111827\\requests.jsonl",
+    "sha256": "a982864214838e3723862285b50a82b246635c65102f1e6d943d703567333b0d",
+    "size": 18773,
+    "source_mtime_ns": 1793762404464133600
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_112119\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_112119\\requests.jsonl",
+    "sha256": "4b1ffabb39ebf70207fa87e0434111dcd184302f613fbf11f2757d62a895b44c",
+    "size": 9548,
+    "source_mtime_ns": 1793762563907406000
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_113335\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_113335\\requests.jsonl",
+    "sha256": "d2709aa2eee32815888dba6a476fa0e027a673839ac9bbb3e7a179f7aacb61b8",
+    "size": 72574,
+    "source_mtime_ns": 1793765358715483500
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_121001\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_121001\\requests.jsonl",
+    "sha256": "8a59c33c2f83733f73c54f65349699ef15a321476d0e44d03e7a5385322f7d1e",
+    "size": 6610,
+    "source_mtime_ns": 1793765561358819200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_124450\\recorded_cycle.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_124450\\recorded_cycle.jsonl",
+    "sha256": "f17b2bade4737fced2ccc6dfff2c75117466819a9f498769f000f2e2a73fda8e",
+    "size": 1167,
+    "source_mtime_ns": 1793767608471179300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_124450\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_124450\\requests.jsonl",
+    "sha256": "dc91ea83e1bd50daee5b1d3f43116ce69c65dc53e6aae35c1d00478d1e5b715a",
+    "size": 789,
+    "source_mtime_ns": 1793767572783896600
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_130107\\recorded_cycle.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_130107\\recorded_cycle.jsonl",
+    "sha256": "76d052a55cc101dfbdc35c364b02cb203536caaf1167869038194adefeb1213a",
+    "size": 2517,
+    "source_mtime_ns": 1793768668991571000
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_130107\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_130107\\requests.jsonl",
+    "sha256": "f4df283f592b912f9bfc122504457a8e50c03515286ce680215c87c51e30a5bf",
+    "size": 858,
+    "source_mtime_ns": 1793768589246074700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_131510\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_131510\\requests.jsonl",
+    "sha256": "3dbd76601b0ffe0a892d6420584d319443b02ee33864cd784369817ea52ee080",
+    "size": 265,
+    "source_mtime_ns": 1793769580396222900
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_131510\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_131510\\fault_snapshots.jsonl",
+    "sha256": "0bb34dcf614a18e5132e6dc35075818910dd4afd340655acf770c9ae776c5432",
+    "size": 1382,
+    "source_mtime_ns": 1793769319763312700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_131510\\before_recovery.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_131510\\before_recovery.jsonl",
+    "sha256": "71faaa8de2ae20e569c73493b7a5fe30886136621b635243bef8d0b4da63e38e",
+    "size": 1512,
+    "source_mtime_ns": 1793769395912185700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_133116\\recorded_cycle.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_133116\\recorded_cycle.jsonl",
+    "sha256": "d66fee818718d2223d5f2fd6be6c9ecb3ef58f8d7f03bb4a8c63707b26c083bd",
+    "size": 136756,
+    "source_mtime_ns": 1793770518462049600
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_133116\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_133116\\requests.jsonl",
+    "sha256": "ae113d4f9e62f068772ff9fe721daf9d01d6bc75daabba1e43d0cf91afecf9a4",
+    "size": 199,
+    "source_mtime_ns": 1793770346209302200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_133116\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_133116\\fault_snapshots.jsonl",
+    "sha256": "a52c14db0354f4f8c1ffe594855508dd49e0e8fe68026fa6f0507751399b33d9",
+    "size": 1706,
+    "source_mtime_ns": 1793770298625575400
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_133116\\before_recovery.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_133116\\before_recovery.jsonl",
+    "sha256": "77d3415cfde320b108b83ab919a28af525f33ff56ef5609ea0c466f52a2fab21",
+    "size": 1878,
+    "source_mtime_ns": 1793770322458992900
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_135448\\recorded_cycle.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_135448\\recorded_cycle.jsonl",
+    "sha256": "452961c346f45fb6ce43c3774bb7a9943cbc517206e0041a4d8bfde31e657893",
+    "size": 34487,
+    "source_mtime_ns": 1793772077905110700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_135448\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_135448\\requests.jsonl",
+    "sha256": "7fbbf6b48a84e35f31bade7f620a2a1612586aa52eb4edc9d969d0493432dc05",
+    "size": 546,
+    "source_mtime_ns": 1793771932596933100
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_135448\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_135448\\fault_snapshots.jsonl",
+    "sha256": "bb98d0bdef6bf045ac86ae594911b689f67af8f114034e194a52c91bbe3b5b53",
+    "size": 1923,
+    "source_mtime_ns": 1793771694541451200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_135448\\before_recovery.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_135448\\before_recovery.jsonl",
+    "sha256": "7e0bd849d862d7a6d880f1cf17a6ca4d43bc0bd52595ea4da73ae0e4d7cf698c",
+    "size": 1878,
+    "source_mtime_ns": 1793771708281183400
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_143500\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_143500\\requests.jsonl",
+    "sha256": "102440915e403c62186ca111d733d9baea873db5fe51b8810541a6f86b3ad64a",
+    "size": 1587,
+    "source_mtime_ns": 1793774530747123400
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_143500\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_143500\\fault_snapshots.jsonl",
+    "sha256": "fd620e5cc1a5530c5a9dfccac6aea17a002dc7d8134653a3fcb2d1e02c6015a3",
+    "size": 1368,
+    "source_mtime_ns": 1793774895529526300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_144953\\recorded_cycle.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_144953\\recorded_cycle.jsonl",
+    "sha256": "9af94834c3e0861c4cc757e3945ce26361baf9f4c4c04282fcf3e4802ad729ba",
+    "size": 65316,
+    "source_mtime_ns": 1793775761765114300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_144953\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_144953\\requests.jsonl",
+    "sha256": "d2665e2b51310dcbb4dcc60e96fbe4daa36e879a9a51bd4b912f60f6b6bf2643",
+    "size": 1517,
+    "source_mtime_ns": 1793775219183366800
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_154243\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_154243\\requests.jsonl",
+    "sha256": "1866a18e918266fb7857e7d8d56258b18d55292c19859ce38b466a45f44500ff",
+    "size": 207,
+    "source_mtime_ns": 1793778239819529500
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_154243\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_154243\\fault_snapshots.jsonl",
+    "sha256": "0f54be6336ddf6f2a989f746f90ffbc33611eabd0904e25ac1302f501cba90a8",
+    "size": 5238,
+    "source_mtime_ns": 1793778236276548200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_154243\\before_recovery.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_154243\\before_recovery.jsonl",
+    "sha256": "51f12123ad452f9b0ff2ac9d0409d9906a187a180ba142649b5999e8f8fc13e8",
+    "size": 3766,
+    "source_mtime_ns": 1793778239620288800
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_154647\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_154647\\fault_snapshots.jsonl",
+    "sha256": "10906c940e0d85ee276c27bcbc2662123e8b0ebda09163abef5f0cede2a637ae",
+    "size": 1746,
+    "source_mtime_ns": 1793778410639228300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_155128\\recorded_cycle.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_155128\\recorded_cycle.jsonl",
+    "sha256": "81bc96ac83f09d30358ca24b81b1553f20cd8e948dc85d17e5207953403a791f",
+    "size": 217611,
+    "source_mtime_ns": 1793779983531145500
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_155128\\requests.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_155128\\requests.jsonl",
+    "sha256": "27217f47ce689ad3db60eee390e9484ea667a25e255ff9dc5f86904a489a5f51",
+    "size": 990,
+    "source_mtime_ns": 1793780362202547700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_155128\\fault_snapshots.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_155128\\fault_snapshots.jsonl",
+    "sha256": "6cae4380b76c0666b12145739eb7b1b287a98c2650c44741d091c2726270ec64",
+    "size": 3490,
+    "source_mtime_ns": 1793780366761887900
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\operator_logs\\20261104_155128\\before_recovery.jsonl",
+    "copy": "evidence\\operator_logs\\20261104_155128\\before_recovery.jsonl",
+    "sha256": "d3b4934a02c4483d75fb8ca2151b29babe2fce851972a20fa5ea9ecc19906561",
+    "size": 1883,
+    "source_mtime_ns": 1793780362003224900
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\utilization.rpt",
+    "copy": "evidence\\project\\reports\\utilization.rpt",
+    "sha256": "f5221d25b1705976fcff23380ae6d28e889fd8d9f799f8bd3d42b21fc4a84188",
+    "size": 11757,
+    "source_mtime_ns": 1793762040584701300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\timing_summary.rpt",
+    "copy": "evidence\\project\\reports\\timing_summary.rpt",
+    "sha256": "fb65cf4ed7467869c0ba67c91a787f456f9904831f9c3d01831e983ce2421c3f",
+    "size": 166911,
+    "source_mtime_ns": 1793762043142028700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\drc.rpt",
+    "copy": "evidence\\project\\reports\\drc.rpt",
+    "sha256": "902d933ac9cb09db0f41e379d1f3360c5e91ad9225ddf40c5c8a140eed4043c3",
+    "size": 30672,
+    "source_mtime_ns": 1793762045506217300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\cdc.rpt",
+    "copy": "evidence\\project\\reports\\cdc.rpt",
+    "sha256": "54b130e93c79842a0f83e81889d54c1d34d4297795dd5a3463af82a461cd77ce",
+    "size": 1459,
+    "source_mtime_ns": 1793762048940530200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\gripper_signoff.json",
+    "copy": "evidence\\project\\reports\\gripper_signoff.json",
+    "sha256": "29c87935d5ad6da058ae30cc48c310b5395a1c84dd1928c88d0b0a25994d8ec4",
+    "size": 11736,
+    "source_mtime_ns": 1793778044074584000
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\candidate\\rtl\\pl_servo_axi.v",
+    "copy": "evidence\\project\\candidate\\rtl\\pl_servo_axi.v",
+    "sha256": "16d8e0cbcaf2e55417aada9b93375efcb392f5391c2609d296c5fd4e40989ddc",
+    "size": 8925,
+    "source_mtime_ns": 1793761616619939700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\candidate\\sim\\tb_servo_axi.sv",
+    "copy": "evidence\\project\\candidate\\sim\\tb_servo_axi.sv",
+    "sha256": "fdac0964c60e360fe517b3952f47559280709e56aad31bc86040b5d75cb0903a",
+    "size": 5513,
+    "source_mtime_ns": 1793761616619939700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\build\\arm_workflow.elf",
+    "copy": "evidence\\project\\software\\build\\arm_workflow.elf",
+    "sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3",
+    "size": 342836,
+    "source_mtime_ns": 1793767946746200100
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\tools\\recorded_cycle.py",
+    "copy": "evidence\\project\\software\\tools\\recorded_cycle.py",
+    "sha256": "27783603bb2a0c791d0ba398160a98632736c8e478700f4878c836d35062ff88",
+    "size": 19010,
+    "source_mtime_ns": 1793777815154535700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\pieper_host_tests.log",
+    "copy": "evidence\\project\\software\\reports\\pieper_host_tests.log",
+    "sha256": "2e6b7bcca9e96e9d1c5be363ebd153a1dc280bc0b9cafe9d88fd7b8bae4b71cb",
+    "size": 164,
+    "source_mtime_ns": 1793767943851161300
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\cartesian_host_tests.log",
+    "copy": "evidence\\project\\software\\reports\\cartesian_host_tests.log",
+    "sha256": "76ae48290402a09513e80865b563462ee5a7593583558ad3e1c926209b4e27e7",
+    "size": 59,
+    "source_mtime_ns": 1793767941851342700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\cartesian_tracking_verification.json",
+    "copy": "evidence\\project\\software\\reports\\cartesian_tracking_verification.json",
+    "sha256": "642770cb127b104a96ad4500bf6dd125e77e4f1e734efeb9a5c42536aa98483d",
+    "size": 1459,
+    "source_mtime_ns": 1793737117187484700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\arm_schedule_verification.json",
+    "copy": "evidence\\project\\software\\reports\\arm_schedule_verification.json",
+    "sha256": "2c6927541c9da0bedf767a3696a0c7e0e452ba80de52216bacc12594dac2d9eb",
+    "size": 1615,
+    "source_mtime_ns": 1793755056166805000
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\dispatch_hold_arm.json",
+    "copy": "evidence\\project\\software\\reports\\dispatch_hold_arm.json",
+    "sha256": "b7e4da88b3013bed790872323e3ab809506d87c5367dfcc90b4edaea8cb30660",
+    "size": 2199,
+    "source_mtime_ns": 1793768032395886700
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\recorded_cycle_arm_path.json",
+    "copy": "evidence\\project\\software\\reports\\recorded_cycle_arm_path.json",
+    "sha256": "82771b56774cd137d13461f949406a2b536dd982cf5797afd8219f3c106e9229",
+    "size": 6483,
+    "source_mtime_ns": 1793777953482209400
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\python_tests.log",
+    "copy": "evidence\\project\\reports\\python_tests.log",
+    "sha256": "3ea810f3d0d5cf8220a3d758a7b2a75d651608129cc65e13b3994ca9b99d012e",
+    "size": 332,
+    "source_mtime_ns": 1793778018211947200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\reports\\recorded_cycle_final_run.log",
+    "copy": "evidence\\project\\reports\\recorded_cycle_final_run.log",
+    "sha256": "f53bdcf2f3edcfdaa58e77e683c4eb6950bff6d4f51da588281d2d06b28b806f",
+    "size": 1609,
+    "source_mtime_ns": 1793777953483215200
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\simulation\\servo\\run.log",
+    "copy": "evidence\\project\\simulation\\servo\\run.log",
+    "sha256": "e485b02216da513a712e350607c64f96a409309fdf44173cadc43ad8376fa91a",
+    "size": 1508,
+    "source_mtime_ns": 1793761659738362100
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\tools\\workflow_bridge.tcl",
+    "copy": "evidence\\project\\software\\tools\\workflow_bridge.tcl",
+    "sha256": "24d4a0de683b37f52b6921ec1a8be6130ab134fdd48b66e04ecd3f90c552c60c",
+    "size": 1984,
+    "source_mtime_ns": 1793754102138443600
+  },
+  {
+    "source": "D:\\FPGA_jingsai\\optimization\\robstride_arm_gripper_20261104\\software\\reports\\workflow_symbols.json",
+    "copy": "evidence\\project\\software\\reports\\workflow_symbols.json",
+    "sha256": "4e0e080ff77ada7205e0f108f31916b45a288d688a64ad4793ec15f48dea185f",
+    "size": 1359,
+    "source_mtime_ns": 1793767946958655600
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\poweron_read_results.json",
+    "copy": "evidence\\historical\\poweron_read_results.json",
+    "sha256": "42a7c56b8ac2449c4f6e738898251d9cc4fb73e1ba924052bd1c6e231b7699cd",
+    "size": 13160,
+    "source_mtime_ns": 1793632348333110200
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_7005.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_7005.csv",
+    "sha256": "90a4f3aca7e7a4b891bc6945d075183841c747ded3bd901e64c6da88aea1368c",
+    "size": 176205,
+    "source_mtime_ns": 1793632218681919100
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_7019.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_7019.csv",
+    "sha256": "7187fbf47449fbb3c3e0324e210930f714add1bc6a08d394d97c4630eb31a10f",
+    "size": 176205,
+    "source_mtime_ns": 1793632219058735100
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_701B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_701b.csv",
+    "sha256": "1a8e207e71ab11f36f306aabd941e675e7d3da3d67f9a76d2733f576f2591b42",
+    "size": 176205,
+    "source_mtime_ns": 1793632219424791400
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_7024.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_7024.csv",
+    "sha256": "6540849d4e6ef13aee70a773f859317685abd2cff3a1640bee9a5fa7d0df4465",
+    "size": 176205,
+    "source_mtime_ns": 1793632219866974700
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_7025.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_7025.csv",
+    "sha256": "d6abd774375fb09b4a0124868559f5803d3904c542b9cfd7729841ed0a5fd3d4",
+    "size": 176205,
+    "source_mtime_ns": 1793632220236488500
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_7029.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_7029.csv",
+    "sha256": "93d67a9288ff7de21eecc0caa6e60f62fcbcf98328b4bb410ea1321374b26f94",
+    "size": 176205,
+    "source_mtime_ns": 1793632220596472100
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id1_702B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id1_702b.csv",
+    "sha256": "8050fe3d3d736f1bec83327d04fc5a62a2be48b2ce9627a8d9754c5956831121",
+    "size": 176205,
+    "source_mtime_ns": 1793632220970042900
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_7005.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_7005.csv",
+    "sha256": "28435c7c5dc0c038852f413d1ed5570fc24bf320e1c8514f16e19a3093f252bb",
+    "size": 176205,
+    "source_mtime_ns": 1793632221353283700
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_7019.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_7019.csv",
+    "sha256": "a4cbfe03fc113539d27121eb9aaf9461058e8e64afe24570d51b4f911813e82d",
+    "size": 176205,
+    "source_mtime_ns": 1793632221724871000
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_701B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_701b.csv",
+    "sha256": "fae9cabc498645e7019739526672ae274bbbfbd3e0263804945da3258343d1d0",
+    "size": 176205,
+    "source_mtime_ns": 1793632222085054800
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_7024.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_7024.csv",
+    "sha256": "c1b573eeffe1aaf8ebe94c30ce685b7d876a2309f4cf5eaa2b3fddbaea808066",
+    "size": 176205,
+    "source_mtime_ns": 1793632222468874000
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_7025.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_7025.csv",
+    "sha256": "9c83286b44a4aa922d7bcdc79b19118df044d6ceeae60221c170864e680c3b5c",
+    "size": 176205,
+    "source_mtime_ns": 1793632222831514400
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_7029.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_7029.csv",
+    "sha256": "faff5d28de9d9ddbbef7a222741ceb2ea46393ff39d83cbcc0aab4a324ccdf4a",
+    "size": 176205,
+    "source_mtime_ns": 1793632223230513200
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id2_702B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id2_702b.csv",
+    "sha256": "d7e0b8b5b9fe841ea468ae95284ca806eef96e89e48cab65b5b33472c1ea0102",
+    "size": 176205,
+    "source_mtime_ns": 1793632223584351800
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_7005.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_7005.csv",
+    "sha256": "3be1f4647abeccb170203efedfd93c3e1e973d297ef1773a14042704e1c41ab7",
+    "size": 176205,
+    "source_mtime_ns": 1793632223935622800
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_7019.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_7019.csv",
+    "sha256": "d0add9eefa371ab9d4f45ae71fe638308d52c98b6ed1447f6413392f02a25aaf",
+    "size": 176205,
+    "source_mtime_ns": 1793632224304565600
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_701B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_701b.csv",
+    "sha256": "328c51ade0ab0bffd3accb77f34c6cccc96323c1312b500be65bc130a440f621",
+    "size": 176205,
+    "source_mtime_ns": 1793632224673842900
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_7024.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_7024.csv",
+    "sha256": "0734e4769bb94fd0fc87fc88656e6cb8e8e9be5a3976d57f7a397e623d39d46c",
+    "size": 176205,
+    "source_mtime_ns": 1793632225068015700
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_7025.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_7025.csv",
+    "sha256": "64668da994b9561a8616339ce06be047400be4b1f8261efc9e0bcf4d15170448",
+    "size": 176205,
+    "source_mtime_ns": 1793632225427997400
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_7029.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_7029.csv",
+    "sha256": "1daf0e476cc128a64d24dc8d84107963ca72a8d141f7a35fc3f7a94c641ffbe3",
+    "size": 176205,
+    "source_mtime_ns": 1793632225798450900
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id3_702B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id3_702b.csv",
+    "sha256": "6953e3bc2262a277f133496403a24995d32e6d7d067312fd549462ab225ec2d2",
+    "size": 176205,
+    "source_mtime_ns": 1793632226164733700
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_7005.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_7005.csv",
+    "sha256": "c2826511eb2c496e97d4517c8cad022d70e132d44d2da8ba6b092e1637b667b4",
+    "size": 176205,
+    "source_mtime_ns": 1793632226551894300
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_7019.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_7019.csv",
+    "sha256": "05c90fe0faf7336ce5be27f138f0a1ac4e2cac430ee28f38e5c4adb974730980",
+    "size": 176205,
+    "source_mtime_ns": 1793632226938955800
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_701B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_701b.csv",
+    "sha256": "8c1d75d5dccb86c9550016343f2509316575f2a4f6330f8894295c75b45f0a8e",
+    "size": 176205,
+    "source_mtime_ns": 1793632227302898300
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_7024.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_7024.csv",
+    "sha256": "4c307039fd57b8d16a52f1ba871f5293038c59e16eb24534bdac545da7ca2bd2",
+    "size": 176205,
+    "source_mtime_ns": 1793632227708666900
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_7025.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_7025.csv",
+    "sha256": "a808b3551080a9ca3dac3e07b128a04a642efadd4dd45708ce6b37742ba19e9b",
+    "size": 176205,
+    "source_mtime_ns": 1793632228079435500
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_7029.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_7029.csv",
+    "sha256": "530b66829ba93fe270de7d609ba93e600537832b2fc1ad878189b33758c0834b",
+    "size": 176205,
+    "source_mtime_ns": 1793632228444497000
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id4_702B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id4_702b.csv",
+    "sha256": "67a8a0af34826bf618df2e78209c9ed90783f571e00900b470b158d451d031ae",
+    "size": 176205,
+    "source_mtime_ns": 1793632228835712100
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_7005.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_7005.csv",
+    "sha256": "d0998a5ba8cf5f80e0017b99d14cccdb664707e9e94dc94a3bb060d5b53f08d2",
+    "size": 176205,
+    "source_mtime_ns": 1793632229202437900
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_7019.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_7019.csv",
+    "sha256": "5dfd5eec2df306aad26119ad6669f72b8f0b83b63eae6029e0248d9862208f23",
+    "size": 176205,
+    "source_mtime_ns": 1793632229595009200
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_701B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_701b.csv",
+    "sha256": "8f07c0a85abf4d046ffdea206eea98cb9addf463553671062f2b97b11bc8a13a",
+    "size": 176205,
+    "source_mtime_ns": 1793632229967215000
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_7024.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_7024.csv",
+    "sha256": "5fe85f6cfda393fda1e7218a1522bbefc91300333e361872f7519576f4242ed2",
+    "size": 176205,
+    "source_mtime_ns": 1793632230330423000
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_7025.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_7025.csv",
+    "sha256": "ebb3007329af83731fad5970eb07bfeaa954eb739904485348dda6f178327d39",
+    "size": 176205,
+    "source_mtime_ns": 1793632230691105100
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_7029.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_7029.csv",
+    "sha256": "7a9756df339ad9604f9340f1ca87bec9ae7fc5de68357c72a5fcfde9c69b4864",
+    "size": 176205,
+    "source_mtime_ns": 1793632231086831900
+  },
+  {
+    "source": "C:\\Users\\YST\\.codex\\.chatgpt-projects\\g-p-6ab325265b648191a4cc3465b94309fb\\five_axis_review_20261102\\build\\evidence\\20261102_230939\\completion_id5_702B.csv",
+    "copy": "evidence\\historical\\ila\\completion_id5_702b.csv",
+    "sha256": "579a918fdd1773655267929984e02e1ecda1ba0677b2b26f718597e7dabb9b1e",
+    "size": 176205,
+    "source_mtime_ns": 1793632231452552200
+  }
+]

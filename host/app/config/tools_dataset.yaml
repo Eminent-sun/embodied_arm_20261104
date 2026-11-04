@@ -1,0 +1,10 @@
+# Resolve --data to an absolute path when training; prepare real labels first.
+path: ../datasets/tools_v2
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: screwdriver
+  1: pliers
+  2: scissors
+  3: tweezers

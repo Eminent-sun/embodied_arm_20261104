@@ -1,0 +1,9 @@
+{"event": "preflight_pass", "time_monotonic_s": 225366.953, "calibration_sha256": "b577e2de612c2b15b08233347bb25b5354f0b7eeb0151456400629e402eae4ab", "home_motor_rad": [-1.031900405883789, 2.6706607341766357, -2.0997214317321777, 3.105757474899292, -0.0673246905207634, -2.9700000286102295]}
+{"event": "cycle_started", "time_monotonic_s": 225366.953}
+{"event": "gripper_requested", "time_monotonic_s": 225366.968, "pulse_us": 1110}
+{"event": "request", "time_monotonic_s": 225367.187, "request": 11, "operation": 111, "reply": [11, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 225367.421, "request": 12, "operation": 111, "reply": [12, 0, 111, 0]}
+{"event": "gripper_pulse_reached", "time_monotonic_s": 225367.421, "pulse_us": 1110, "mechanical_feedback": false}
+{"event": "request", "time_monotonic_s": 225367.656, "request": 13, "operation": 111, "reply": [13, 0, 111, 0]}
+{"event": "request", "time_monotonic_s": 225367.875, "request": 14, "operation": 107, "reply": [14, 2, 107, 0]}
+{"event": "cycle_aborted", "time_monotonic_s": 225367.875, "reason": "CycleError: Request 14 failed: (14, 2, 107, 0)", "stop_requested": true, "stop_error": null}

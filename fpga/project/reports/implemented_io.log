@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Nov  4 11:14:45 2026
+# Process ID: 53952
+# Current directory: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104
+# Command line: vivado.exe -mode batch -source build/verify_gripper_io.tcl -log reports/implemented_io.log -journal reports/implemented_io.jou
+# Log file: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/reports/implemented_io.log
+# Journal file: D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104\reports/implemented_io.jou
+# Running On: YouShuTing, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 24, Host memory: 33362 MB
+#-----------------------------------------------------------
+source build/verify_gripper_io.tcl
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# open_project [file join $root vivado2023_project roboarm_ila_rx_debug.xpr]
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/FPGA_jingsai/optimization/robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+# open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 907.289 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1652.344 ; gain = 15.500
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1652.344 ; gain = 15.500
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1652.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 52 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 52 instances
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:18 . Memory (MB): peak = 1652.344 ; gain = 1167.000
+# foreach {port pin} {servo_pwm W19 CAN_TX F17 CAN_RX F16} {
+#     if {[get_property PACKAGE_PIN [get_ports $port]] ne $pin} {error "Pin mismatch: $port"}
+# }
+# if {[get_property IOSTANDARD [get_ports servo_pwm]] ne {LVCMOS33}} {error "Servo voltage standard mismatch"}
+# report_io -file [file join $root reports implemented_io.rpt]
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1660.133 ; gain = 7.789
+# puts "GRIPPER_IMPLEMENTED_IO_PASS servo_pwm=W19 CAN_TX=F17 CAN_RX=F16"
+GRIPPER_IMPLEMENTED_IO_PASS servo_pwm=W19 CAN_TX=F17 CAN_RX=F16
+# close_project
+# exit 0
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 11:15:08 2026...

@@ -1,0 +1,61 @@
+{
+  "order_confirmed_by_user": true,
+  "mechanical_direction_zero_and_limits_confirmed": false,
+  "joints": [
+    {
+      "joint": 1,
+      "Motor_ID": 1,
+      "model": "EL05",
+      "direction": null,
+      "model_zero_motor_position_rad": null,
+      "transmission_mapping": null,
+      "verified_safe_position_range_rad": null
+    },
+    {
+      "joint": 2,
+      "Motor_ID": 2,
+      "model": "RS00",
+      "direction": null,
+      "model_zero_motor_position_rad": null,
+      "transmission_mapping": null,
+      "verified_safe_position_range_rad": null
+    },
+    {
+      "joint": 3,
+      "Motor_ID": 3,
+      "model": "EL05",
+      "direction": null,
+      "model_zero_motor_position_rad": null,
+      "transmission_mapping": null,
+      "verified_safe_position_range_rad": null
+    },
+    {
+      "joint": 4,
+      "Motor_ID": 4,
+      "model": "EL05",
+      "direction": null,
+      "model_zero_motor_position_rad": null,
+      "transmission_mapping": null,
+      "verified_safe_position_range_rad": null
+    },
+    {
+      "joint": 5,
+      "Motor_ID": 5,
+      "model": "EL05",
+      "direction": null,
+      "model_zero_motor_position_rad": null,
+      "transmission_mapping": null,
+      "verified_safe_position_range_rad": null
+    },
+    {
+      "joint": 6,
+      "Motor_ID": 6,
+      "model": "EL05",
+      "direction": null,
+      "model_zero_motor_position_rad": null,
+      "transmission_mapping": null,
+      "verified_safe_position_range_rad": null
+    }
+  ],
+  "old_RA8P1_sign_offset_values_are_reference_only": true
+}

@@ -1,0 +1,21 @@
+{
+  "action": "promote validation-selected v4 checkpoint after frozen holdout and old-source regression",
+  "old_sha256": "30937c536434dcf25808abde2c23fe96a7f0a6ca3efe5f5443243d3f2178b9a3",
+  "new_sha256": "c4f3d1e2def5f30f86cd55beb582407b41c808bb4eaff01ca6584771f53a489f",
+  "selected_epoch": 21,
+  "selection_metric": "validation mAP50-95 (not test)",
+  "default_model": "/home/aup/roboarm/models/tools_yolo11n.pt",
+  "archive_model": "/home/aup/roboarm/models/archive/tabletop_v3_before_site_v4/tools_yolo11n.pt",
+  "camera_inference_restarted": false,
+  "training_finished": true,
+  "offline_test": {
+    "tp": 387,
+    "fp": 13,
+    "fn": 6,
+    "precision": 0.9675,
+    "recall": 0.9847328244274809,
+    "f1": 0.9760403530895334
+  },
+  "public_regression_improved": true,
+  "old_site_regression": "7 TP, 0 FP, 0 FN for both versions"
+}

@@ -1,0 +1,58 @@
+{
+  "images": 124,
+  "instances": 393,
+  "metrics": {
+    "metrics/precision(B)": 0.9925735691566633,
+    "metrics/recall(B)": 0.9868510934979222,
+    "metrics/mAP50(B)": 0.9938605208211373,
+    "metrics/mAP50-95(B)": 0.8208379101779993,
+    "fitness": 0.8208379101779993
+  },
+  "per_class": [
+    {
+      "Class": "screwdriver",
+      "Images": 73,
+      "Instances": 73,
+      "Box-P": 0.97197,
+      "Box-R": 1.0,
+      "Box-F1": 0.98578,
+      "mAP50": 0.995,
+      "mAP75": 0.98144,
+      "mAP50-95": 0.83991
+    },
+    {
+      "Class": "pliers",
+      "Images": 124,
+      "Instances": 124,
+      "Box-P": 0.99833,
+      "Box-R": 1.0,
+      "Box-F1": 0.99916,
+      "mAP50": 0.995,
+      "mAP75": 0.995,
+      "mAP50-95": 0.8563
+    },
+    {
+      "Class": "scissors",
+      "Images": 123,
+      "Instances": 123,
+      "Box-P": 1.0,
+      "Box-R": 0.99473,
+      "Box-F1": 0.99736,
+      "mAP50": 0.995,
+      "mAP75": 0.98459,
+      "mAP50-95": 0.84405
+    },
+    {
+      "Class": "tweezers",
+      "Images": 73,
+      "Instances": 73,
+      "Box-P": 1.0,
+      "Box-R": 0.95267,
+      "Box-F1": 0.97576,
+      "mAP50": 0.99044,
+      "mAP75": 0.88499,
+      "mAP50-95": 0.7431
+    }
+  ],
+  "note": "AP uses conf=.001 and NMS IoU=.7; fixed deployment threshold measured separately at .35/.45"
+}

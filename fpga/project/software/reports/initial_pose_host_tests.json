@@ -1,0 +1,6 @@
+{
+  "status": "PASS_OFFLINE_ONLY",
+  "checks": 7,
+  "hardware_access": false,
+  "save_before_enable_verified": true
+}

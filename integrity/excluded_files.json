@@ -1,0 +1,3446 @@
+[
+  {
+    "archive": "aipc_embodied_20261104_r2.zip",
+    "path": "aipc_embodied_20261104_r2/file_manifest.json",
+    "bytes": 171524,
+    "reason": "replaced_by_merged_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/document_map.json",
+    "bytes": 1184,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/project_readme.txt",
+    "bytes": 6868,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_01.md",
+    "bytes": 3417,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_02.md",
+    "bytes": 3711,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_03.md",
+    "bytes": 3256,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_04.md",
+    "bytes": 3648,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_05.txt",
+    "bytes": 4158,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_06.md",
+    "bytes": 14559,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_07.md",
+    "bytes": 3628,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_08.md",
+    "bytes": 5015,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/operator/reference_09.md",
+    "bytes": 711,
+    "reason": "duplicate_operator_document_in_complete_project"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/docs/reproduction.md",
+    "bytes": 1960,
+    "reason": "replaced_by_merged_reproduction_guide"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/arm_workflow.elf",
+    "bytes": 342836,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps7_init.c",
+    "bytes": 544299,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps7_init.h",
+    "bytes": 3795,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps7_init.html",
+    "bytes": 2961780,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps7_init.tcl",
+    "bytes": 35921,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps7_init_gpl.c",
+    "bytes": 544916,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps7_init_gpl.h",
+    "bytes": 4413,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps_init/can_test.hwh",
+    "bytes": 296119,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps_init/ps7_init.c",
+    "bytes": 544299,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps_init/ps7_init.h",
+    "bytes": 3795,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/ps_init/ps7_init.tcl",
+    "bytes": 35921,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/roboarm_arm_workflow.bit",
+    "bytes": 2083852,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/roboarm_arm_workflow.xsa",
+    "bytes": 662780,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/workflow_build_inputs.json",
+    "bytes": 5769,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/artifacts/workflow_symbols.json",
+    "bytes": 1359,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/build_nodebug.tcl",
+    "bytes": 5693,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/check_relocated.tcl",
+    "bytes": 800,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/export_ps_init.py",
+    "bytes": 526,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/integrate_servo.tcl",
+    "bytes": 1756,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/package_delivery.py",
+    "bytes": 1713,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/post_build.tcl",
+    "bytes": 1207,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/probe_pick_approach_30mm.py",
+    "bytes": 1662,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/probe_short_route.py",
+    "bytes": 1082,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/relocation_check_path.json",
+    "bytes": 94,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/resume_servo_impl.tcl",
+    "bytes": 804,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_hold_sim.ps1",
+    "bytes": 1124,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_mailbox_sim.ps1",
+    "bytes": 1515,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_path_sim.ps1",
+    "bytes": 1094,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_pp_sim.ps1",
+    "bytes": 1530,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_recovery_sim.ps1",
+    "bytes": 1573,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_servo_sim.ps1",
+    "bytes": 987,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_six_sim.ps1",
+    "bytes": 1608,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_transport_sim.ps1",
+    "bytes": 1589,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/run_v21_sim.ps1",
+    "bytes": 2017,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/signoff_gripper.py",
+    "bytes": 8744,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/signoff_path.py",
+    "bytes": 25915,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/build/scripts/verify_gripper_io.tcl",
+    "bytes": 622,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/readme.md",
+    "bytes": 237,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/build_stdout.log",
+    "bytes": 200300,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/cdc.rpt",
+    "bytes": 1459,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/clock_interaction.rpt",
+    "bytes": 2198,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/dispatch_hold_run.log",
+    "bytes": 1381,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/drc.rpt",
+    "bytes": 30672,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/gripper_arm_run.log",
+    "bytes": 711,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/gripper_signoff.json",
+    "bytes": 11736,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/implementation_stdout.log",
+    "bytes": 78578,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/implemented_io.log",
+    "bytes": 3650,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/implemented_io.rpt",
+    "bytes": 125510,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/implemented_io_13616.backup.log",
+    "bytes": 3650,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/io_stdout.log",
+    "bytes": 3163,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/limits_1110_1490_build.log",
+    "bytes": 277151,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/mailbox_address.txt",
+    "bytes": 48,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/manual_grip_steps_update.json",
+    "bytes": 574,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/methodology.rpt",
+    "bytes": 5255,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/motor_preservation.json",
+    "bytes": 5766,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/pick_approach_30mm_probe.log",
+    "bytes": 1830,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/python_tests.log",
+    "bytes": 332,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/recorded_cycle_final_run.log",
+    "bytes": 1609,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/recorded_start_final_run.log",
+    "bytes": 5411,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/runpath_incident_fix.json",
+    "bytes": 8294,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/runpath_preflight_stability_fix.json",
+    "bytes": 1230,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/runpath_settle_wait_fix.json",
+    "bytes": 2878,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/servo_build.log",
+    "bytes": 199386,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/servo_build_65300.backup.log",
+    "bytes": 244397,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/servo_implementation.log",
+    "bytes": 78265,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/timing_summary.rpt",
+    "bytes": 166911,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/utilization.rpt",
+    "bytes": 11757,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/utilization_hier.rpt",
+    "bytes": 27749,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/utilization_synth_hier.rpt",
+    "bytes": 32108,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/report/workflow_host_run.log",
+    "bytes": 139,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/constraints/ax7010_can.xdc",
+    "bytes": 752,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/constraints/ax7010_debug_clock.xdc",
+    "bytes": 433,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/constraints/ax7010_pl_clock_reset.xdc",
+    "bytes": 796,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/constraints/ax7010_servo.xdc",
+    "bytes": 255,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/can_axi_lite_master.v",
+    "bytes": 36207,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/can_line_scope.v",
+    "bytes": 570,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/can_rx_frame_fifo.v",
+    "bytes": 2349,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/can_rx_service.v",
+    "bytes": 10281,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_can_init.v",
+    "bytes": 5345,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_can_scheduler.v",
+    "bytes": 4009,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_clock_reset.v",
+    "bytes": 3674,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_motion_mailbox.v",
+    "bytes": 9295,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_robstride_command_engine.v",
+    "bytes": 38050,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_robstride_single_tx.v",
+    "bytes": 6607,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_servo_axi.v",
+    "bytes": 8925,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/pl_six_axis_scheduler.v",
+    "bytes": 5800,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_axis_map.v",
+    "bytes": 825,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_command_encoder.v",
+    "bytes": 2878,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_feedback_bank.v",
+    "bytes": 17934,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_feedback_debug.v",
+    "bytes": 2579,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_frame_adapter.v",
+    "bytes": 1136,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_protocol.v",
+    "bytes": 12408,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/rtl/robstride_rx_dispatch.v",
+    "bytes": 2939,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/can_axi_rx_slave_model.v",
+    "bytes": 11063,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/can_axi_slave_model.v",
+    "bytes": 6906,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/robstride_golden_vectors.json",
+    "bytes": 1958,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_axi_lite_master.v",
+    "bytes": 17709,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_axi_lite_master_tx.v",
+    "bytes": 21469,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_periodic_tx.v",
+    "bytes": 15717,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_rx_frame_fifo.v",
+    "bytes": 2190,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_rx_frame_fifo_width.v",
+    "bytes": 5642,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_rx_service.v",
+    "bytes": 26585,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_scheduler_long.v",
+    "bytes": 2762,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_can_six_axis_tx.v",
+    "bytes": 16461,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_command_capture.v",
+    "bytes": 8876,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_hold_pp.sv",
+    "bytes": 16993,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_motion_mailbox.sv",
+    "bytes": 6559,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_motion_mailbox_v2.sv",
+    "bytes": 6710,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_path_pp.sv",
+    "bytes": 18275,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pl_can_init.v",
+    "bytes": 6433,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pl_clock_reset.v",
+    "bytes": 6123,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pl_clock_reset_cdc.v",
+    "bytes": 9316,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pl_robstride_command_engine.v",
+    "bytes": 13674,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pl_robstride_single_tx.v",
+    "bytes": 10615,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pl_six_axis_scheduler.v",
+    "bytes": 5408,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pp_commissioning.v",
+    "bytes": 13189,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_pp_master.sv",
+    "bytes": 12123,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_recover_mailbox.sv",
+    "bytes": 7940,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_recover_pp.sv",
+    "bytes": 16984,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_cancel_lifecycle.v",
+    "bytes": 3879,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_command_encoder.v",
+    "bytes": 5091,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_command_master.sv",
+    "bytes": 14663,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_feedback_debug.v",
+    "bytes": 23494,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_generated_map.v",
+    "bytes": 4075,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_protocol.v",
+    "bytes": 14624,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_rx_integration.v",
+    "bytes": 20429,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_robstride_single_master.sv",
+    "bytes": 12533,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_servo_axi.sv",
+    "bytes": 5513,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_single_tx_fault_repro.sv",
+    "bytes": 16029,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_six_pp.sv",
+    "bytes": 16726,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_six_pp_two_turn.sv",
+    "bytes": 17599,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_six_stop_master.sv",
+    "bytes": 12559,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/tb_v21_protocol_engine.v",
+    "bytes": 8748,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/test_robstride_vectors.py",
+    "bytes": 3259,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/test_usbcan_periodic.py",
+    "bytes": 6397,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/fpga/src/sim/test_usbcan_six_axis.py",
+    "bytes": 8512,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/hardware/cad/forearm_parts.zip",
+    "bytes": 5478966,
+    "reason": "historical_mechanical_archives_not_used_by_submitted_software"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/hardware/models/myrobotarm_urdf.zip",
+    "bytes": 6636008,
+    "reason": "historical_mechanical_archives_not_used_by_submitted_software"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/hardware/models/robotarm2v0_urdf.zip",
+    "bytes": 7297783,
+    "reason": "historical_mechanical_archives_not_used_by_submitted_software"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/control_center.py",
+    "bytes": 9173,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/download_gripper.py",
+    "bytes": 1978,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/download_gripper.tcl",
+    "bytes": 1013,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/gripper_protocol.py",
+    "bytes": 2634,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/prepare_cooperative_solver.py",
+    "bytes": 2092,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/prepare_home_alignment.py",
+    "bytes": 4935,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/prepare_machine_config.py",
+    "bytes": 4184,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/recorded_cycle.py",
+    "bytes": 19010,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/refresh_workflow_symbols.py",
+    "bytes": 2655,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/workflow_bridge.tcl",
+    "bytes": 1984,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/workflow_console.py",
+    "bytes": 39874,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/app/workflow_protocol.py",
+    "bytes": 8232,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/build_cartesian_host.ps1",
+    "bytes": 2190,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/build_executor_arm.ps1",
+    "bytes": 3114,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/build_executor_host.ps1",
+    "bytes": 1097,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/build_preflight.ps1",
+    "bytes": 2019,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/build_workflow_host.ps1",
+    "bytes": 1077,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/readme.md",
+    "bytes": 724,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/requirements_host.txt",
+    "bytes": 225,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/deploy/requirements_tests.txt",
+    "bytes": 157,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/host/model/model.md",
+    "bytes": 882,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/integrity/pack_submission.py",
+    "bytes": 40739,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/integrity/source_map.json",
+    "bytes": 103419,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/integrity/verification.json",
+    "bytes": 7205,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/integrity/verify_package.py",
+    "bytes": 474,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/media/historical_demo.mp4",
+    "bytes": 251278742,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/media/readme.md",
+    "bytes": 211,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/audit/guide_extracted.txt",
+    "bytes": 58540,
+    "reason": "redundant_guide_extract_or_page_image"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/audit/guide_page_16.png",
+    "bytes": 170649,
+    "reason": "redundant_guide_extract_or_page_image"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/audit/guide_page_17.png",
+    "bytes": 200606,
+    "reason": "redundant_guide_extract_or_page_image"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/audit_spherical_wrist.py",
+    "bytes": 1835,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/cartesian_tests.c",
+    "bytes": 7184,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/emulate_cartesian.py",
+    "bytes": 7355,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/emulate_path_executor.py",
+    "bytes": 11981,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/emulate_recovery.py",
+    "bytes": 4098,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/emulate_schedule.py",
+    "bytes": 5820,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/emulate_workflow.py",
+    "bytes": 23302,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/host_main.c",
+    "bytes": 1101,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/path_executor_tests.c",
+    "bytes": 5546,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/pieper_tests.c",
+    "bytes": 2127,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/plan_rate_scan.c",
+    "bytes": 2032,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/probe_recorded_start.py",
+    "bytes": 3517,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/solver_equivalence.c",
+    "bytes": 1180,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/tcp_host_main.c",
+    "bytes": 1714,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_calibration_config.py",
+    "bytes": 5649,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_cartesian_protocol.py",
+    "bytes": 1888,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_config_home_capture.py",
+    "bytes": 6341,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_control_center.py",
+    "bytes": 3099,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_gripper_protocol.py",
+    "bytes": 5495,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_home_alignment.py",
+    "bytes": 2293,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_id2_candidate.py",
+    "bytes": 4887,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_initial_pose.py",
+    "bytes": 4476,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_recorded_cycle.py",
+    "bytes": 21700,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_recovery_console.py",
+    "bytes": 3031,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_schedule_console.py",
+    "bytes": 1515,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_workflow_bridge.py",
+    "bytes": 11249,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/test_workflow_protocol.py",
+    "bytes": 1844,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/tool_tests.c",
+    "bytes": 4907,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/tool_tests.h",
+    "bytes": 391,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_cartesian_tracking.py",
+    "bytes": 3087,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_config_home_capture_arm.py",
+    "bytes": 4824,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_dispatch_hold_arm.py",
+    "bytes": 6616,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_gripper_arm.py",
+    "bytes": 6560,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_recorded_cycle_arm.py",
+    "bytes": 15262,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_timed_plan.py",
+    "bytes": 3698,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/verify_workflow_plans.py",
+    "bytes": 4197,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/metrics/tests/workflow_tests.c",
+    "bytes": 5650,
+    "reason": "duplicate_of_complete_fpga_project_tests"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/readme.md",
+    "bytes": 3841,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/references/amd_guide_2026.pdf",
+    "bytes": 950952,
+    "reason": "duplicate_contest_guide"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/report/historical_technical_plan_v1.docx",
+    "bytes": 118034,
+    "reason": "superseded_historical_proposal"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/report/missing_items.md",
+    "bytes": 1865,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/sha256_manifest.json",
+    "bytes": 63919,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip",
+    "path": "embodied_arm_submission/submission_checklist.csv",
+    "bytes": 1904,
+    "reason": "obsolete_wrapper_mirror_or_replaced_document"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps7_init.c",
+    "bytes": 544299,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps7_init.h",
+    "bytes": 3795,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps7_init.html",
+    "bytes": 2961780,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps7_init.tcl",
+    "bytes": 35921,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps7_init_gpl.c",
+    "bytes": 544916,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps7_init_gpl.h",
+    "bytes": 4413,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps_init/can_test.hwh",
+    "bytes": 296119,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps_init/ps7_init.c",
+    "bytes": 544299,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps_init/ps7_init.h",
+    "bytes": 3795,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/ps_init/ps7_init.tcl",
+    "bytes": 35921,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/roboarm_arm_workflow.bit",
+    "bytes": 2083852,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/bitstream/roboarm_arm_workflow.xsa",
+    "bytes": 664863,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/build/signoff_gripper.py",
+    "bytes": 4926,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/candidate/rtl/pl_servo_axi.v",
+    "bytes": 8925,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/candidate/sim/tb_servo_axi.sv",
+    "bytes": 5252,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/docs/SERVO_INTERFACE.txt",
+    "bytes": 4158,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/manifest_sha256.json",
+    "bytes": 140981,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/README.txt",
+    "bytes": 5850,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/build_stdout.log",
+    "bytes": 200300,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/cdc.rpt",
+    "bytes": 1459,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/clock_interaction.rpt",
+    "bytes": 2198,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/dispatch_hold_run.log",
+    "bytes": 1381,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/drc.rpt",
+    "bytes": 30672,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/first_route/servo_build.log",
+    "bytes": 244397,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/first_route/timing_summary.rpt",
+    "bytes": 167335,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/first_route/utilization.rpt",
+    "bytes": 11746,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/gripper_arm_run.log",
+    "bytes": 711,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/gripper_signoff.json",
+    "bytes": 8791,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/implementation_stdout.log",
+    "bytes": 78578,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/implemented_io.jou",
+    "bytes": 948,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/implemented_io.log",
+    "bytes": 3650,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/implemented_io.rpt",
+    "bytes": 125510,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/io_stdout.log",
+    "bytes": 3163,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/mailbox_address.txt",
+    "bytes": 48,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/manual_grip_steps_update.json",
+    "bytes": 1203,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/methodology.rpt",
+    "bytes": 5255,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/motor_preservation.json",
+    "bytes": 5168,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/python_tests.log",
+    "bytes": 305,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/servo_build.jou",
+    "bytes": 927,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/servo_build.log",
+    "bytes": 199386,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/servo_build_65300.backup.jou",
+    "bytes": 928,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/servo_build_65300.backup.log",
+    "bytes": 244397,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/servo_implementation.jou",
+    "bytes": 972,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/servo_implementation.log",
+    "bytes": 78265,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/timing_summary.rpt",
+    "bytes": 164566,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/utilization.rpt",
+    "bytes": 11757,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/utilization_hier.rpt",
+    "bytes": 27749,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/utilization_synth_hier.rpt",
+    "bytes": 32108,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/reports/workflow_host_run.log",
+    "bytes": 207,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/build/arm_workflow.elf",
+    "bytes": 342012,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/build/arm_workflow.map",
+    "bytes": 105863,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_cartesian_calibration.bin",
+    "bytes": 468,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_cartesian_plan.bin",
+    "bytes": 17588,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_cartesian_verification.json",
+    "bytes": 5259,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_initial_pose_test.bin",
+    "bytes": 116,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_recovery_verification.json",
+    "bytes": 1591,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_schedule_regression.log",
+    "bytes": 9056,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_schedule_trace.json",
+    "bytes": 43375,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_schedule_verification.json",
+    "bytes": 1615,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_test_calibration.bin",
+    "bytes": 468,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_workflow_deliver_plan.bin",
+    "bytes": 21188,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_workflow_pick_plan.bin",
+    "bytes": 16868,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_workflow_return_plan.bin",
+    "bytes": 10988,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_workflow_trace.csv",
+    "bytes": 117798,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/arm_workflow_verification.json",
+    "bytes": 6097,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/baseline_6s_cartesian_plan.bin",
+    "bytes": 7268,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/cartesian_host_tests.log",
+    "bytes": 59,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/cartesian_protocol_tests.json",
+    "bytes": 46,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/cartesian_tracking_verification.json",
+    "bytes": 1459,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/cartesian_tracking_verification.log",
+    "bytes": 1459,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/config_home_capture_arm.json",
+    "bytes": 495,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/config_home_capture_arm.log",
+    "bytes": 459,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/cooperative_solver_source.json",
+    "bytes": 346,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/dispatch_hold_arm.json",
+    "bytes": 2199,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/dispatch_hold_arm.log",
+    "bytes": 1381,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/executor_host_build.log",
+    "bytes": 3449,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/executor_host_tests.log",
+    "bytes": 1566,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/gripper_arm_tests.json",
+    "bytes": 1649,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/id2_candidate_plan_tests.jsonl",
+    "bytes": 1149,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/id2_candidate_python_tests.log",
+    "bytes": 282,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/initial_pose_host_tests.json",
+    "bytes": 124,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/latehold_full_arm.log",
+    "bytes": 9058,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/latehold_python_tests.log",
+    "bytes": 284,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/machine_config_preparation.json",
+    "bytes": 2239,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/pieper_host_tests.log",
+    "bytes": 164,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/recovery_arm_console.log",
+    "bytes": 8020,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/recovery_console_tests.log",
+    "bytes": 108,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/recovery_python_tests.log",
+    "bytes": 259,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/schedule_python_tests.log",
+    "bytes": 267,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/solver_equivalence.log",
+    "bytes": 76,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/spherical_wrist_audit.json",
+    "bytes": 2115,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/tracking_verify_console.log",
+    "bytes": 1338,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_arm_build.log",
+    "bytes": 112,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_bridge_console.log",
+    "bytes": 1860,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_bridge_tests.json",
+    "bytes": 212,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_build_inputs.json",
+    "bytes": 8595,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_host_build.log",
+    "bytes": 695,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_host_tests.log",
+    "bytes": 280,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_plan_verification.json",
+    "bytes": 2106,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_protocol_tests.json",
+    "bytes": 138,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_symbols.json",
+    "bytes": 1359,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/reports/workflow_verify_console.log",
+    "bytes": 2106,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/src/gripper.c",
+    "bytes": 3167,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/tests/test_gripper_protocol.py",
+    "bytes": 5481,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/tests/verify_gripper_arm.py",
+    "bytes": 5983,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/tools/control_center.py",
+    "bytes": 7687,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/tools/gripper_protocol.py",
+    "bytes": 2634,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_limits_1110_1490_20261104/software/tools/workflow_console.py",
+    "bytes": 37347,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/docs/SERVO_INTERFACE.txt",
+    "bytes": 3448,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/manifest_sha256.json",
+    "bytes": 137949,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/README.txt",
+    "bytes": 5087,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/reports/gripper_signoff.json",
+    "bytes": 8791,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/reports/python_tests.log",
+    "bytes": 9430,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/software/tests/test_gripper_protocol.py",
+    "bytes": 1783,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/software/tools/control_center.py",
+    "bytes": 7271,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/software/tools/gripper_protocol.py",
+    "bytes": 1798,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_manual_grip_steps_20261104/software/tools/workflow_console.py",
+    "bytes": 36535,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/build/signoff_gripper.py",
+    "bytes": 8378,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/docs/RUNPATH停稳等待与中断恢复_20261104.md",
+    "bytes": 3611,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/docs/RUNPATH前置停稳检查修复_20261104.md",
+    "bytes": 3156,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/docs/RUNPATH失能故障修复_20261104.md",
+    "bytes": 3648,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/docs/总脚本详细操作说明_20261104.md",
+    "bytes": 14743,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/docs/精简路径与固定等待修复_20261104.md",
+    "bytes": 4741,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/docs/记录路径拾取递送使用说明_20261104.md",
+    "bytes": 1164,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/README.txt",
+    "bytes": 6933,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/reports/gripper_signoff.json",
+    "bytes": 11699,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_00.bin",
+    "bytes": 17588,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_01.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_02.bin",
+    "bytes": 14108,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_03.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_04.bin",
+    "bytes": 17588,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_arm_path.json",
+    "bytes": 5604,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_cycle_source_audit.json",
+    "bytes": 1300,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/reports/recorded_start_reproduction.json",
+    "bytes": 9915,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/tests/test_recorded_cycle.py",
+    "bytes": 19576,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/tests/verify_recorded_cycle_arm.py",
+    "bytes": 14113,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/tools/control_center.py",
+    "bytes": 9015,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_pick_approach_30mm_20261104/software/tools/recorded_cycle.py",
+    "bytes": 18719,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/build/signoff_gripper.py",
+    "bytes": 7964,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/reports/gripper_signoff.json",
+    "bytes": 11601,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/software/reports/recorded_cycle_arm_path.json",
+    "bytes": 15452,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/software/reports/recorded_start_reproduction.json",
+    "bytes": 9915,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/software/tests/test_recorded_cycle.py",
+    "bytes": 14527,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/software/tests/verify_recorded_cycle_arm.py",
+    "bytes": 11869,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/software/tools/recorded_cycle.py",
+    "bytes": 17107,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_preflight_stability_fix_20261104/software/tools/workflow_console.py",
+    "bytes": 39695,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/build/signoff_gripper.py",
+    "bytes": 5156,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/docs/总脚本详细操作说明_20261104.md",
+    "bytes": 13623,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/README.txt",
+    "bytes": 5893,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/reports/gripper_signoff.json",
+    "bytes": 9617,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/reports/python_tests.log",
+    "bytes": 305,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/software/tests/test_gripper_protocol.py",
+    "bytes": 5495,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/software/tests/verify_gripper_arm.py",
+    "bytes": 6560,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/software/tools/control_center.py",
+    "bytes": 7687,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/software/tools/gripper_protocol.py",
+    "bytes": 2634,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_recorded_pick_delivery_20261104/software/tools/workflow_console.py",
+    "bytes": 37347,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/build/signoff_gripper.py",
+    "bytes": 8030,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/docs/RUNPATH停稳等待与中断恢复_20261104.md",
+    "bytes": 3331,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/docs/RUNPATH前置停稳检查修复_20261104.md",
+    "bytes": 2851,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/docs/RUNPATH失能故障修复_20261104.md",
+    "bytes": 3648,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/docs/总脚本详细操作说明_20261104.md",
+    "bytes": 14910,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/docs/记录路径拾取递送使用说明_20261104.md",
+    "bytes": 8053,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/README.txt",
+    "bytes": 7896,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/reports/gripper_signoff.json",
+    "bytes": 11602,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/operator_logs/20261104_133116/recorded_cycle.jsonl",
+    "bytes": 136756,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_05.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_06.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_07.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_08.bin",
+    "bytes": 4688,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_09.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_10.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_11.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_12.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_13.bin",
+    "bytes": 5828,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_14.bin",
+    "bytes": 7268,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_15.bin",
+    "bytes": 5828,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_16.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_17.bin",
+    "bytes": 5828,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_18.bin",
+    "bytes": 7268,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_19.bin",
+    "bytes": 5828,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_20.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_21.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_22.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_23.bin",
+    "bytes": 3788,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_24.bin",
+    "bytes": 5828,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_25.bin",
+    "bytes": 7268,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_26.bin",
+    "bytes": 5828,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_27.bin",
+    "bytes": 4688,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_28.bin",
+    "bytes": 7268,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_29.bin",
+    "bytes": 17588,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_arm_path.json",
+    "bytes": 15500,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/reports/recorded_cycle_source_audit.json",
+    "bytes": 5592,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/tests/test_recorded_cycle.py",
+    "bytes": 17478,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/tests/verify_recorded_cycle_arm.py",
+    "bytes": 12233,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_route_optimization_20261104/software/tools/recorded_cycle.py",
+    "bytes": 19315,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/build/signoff_gripper.py",
+    "bytes": 5982,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/docs/记录路径拾取递送使用说明_20261104.md",
+    "bytes": 6299,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/README.txt",
+    "bytes": 7165,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/reports/gripper_signoff.json",
+    "bytes": 10269,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/reports/motor_preservation.json",
+    "bytes": 5168,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/build/arm_workflow.elf",
+    "bytes": 342004,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/build/arm_workflow.map",
+    "bytes": 105911,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/reports/recorded_cycle_arm_path.json",
+    "bytes": 15011,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/reports/recorded_start_reproduction.json",
+    "bytes": 6078,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/reports/workflow_build_inputs.json",
+    "bytes": 8595,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/reports/workflow_symbols.json",
+    "bytes": 1359,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/src/arm_workflow.c",
+    "bytes": 31613,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/tests/test_recorded_cycle.py",
+    "bytes": 9152,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/tests/verify_recorded_cycle_arm.py",
+    "bytes": 10526,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/tools/recorded_cycle.py",
+    "bytes": 12557,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_runpath_hold_fix_20261104/software/tools/workflow_console.py",
+    "bytes": 38913,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/build/signoff_gripper.py",
+    "bytes": 7423,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/docs/记录路径拾取递送使用说明_20261104.md",
+    "bytes": 7217,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/README.txt",
+    "bytes": 7387,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/reports/recorded_cycle_arm_path.json",
+    "bytes": 15178,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/reports/recorded_start_reproduction.json",
+    "bytes": 10042,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/tests/probe_recorded_start.py",
+    "bytes": 3517,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/tests/test_recorded_cycle.py",
+    "bytes": 10951,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/tests/verify_recorded_cycle_arm.py",
+    "bytes": 10929,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/tools/recorded_cycle.py",
+    "bytes": 15101,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/history/before_settle_wait_fix_20261104/software/tools/workflow_console.py",
+    "bytes": 39293,
+    "reason": "superseded_revision_not_required_by_current_signoff"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/manifest_sha256.json",
+    "bytes": 212908,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/implemented_io.jou",
+    "bytes": 948,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/implemented_io_13616.backup.jou",
+    "bytes": 948,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/implemented_io_13616.backup.log",
+    "bytes": 3650,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/limits_1110_1490_build.jou",
+    "bytes": 972,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/servo_build.jou",
+    "bytes": 927,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/servo_build_65300.backup.jou",
+    "bytes": 928,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/servo_build_65300.backup.log",
+    "bytes": 244397,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/reports/servo_implementation.jou",
+    "bytes": 972,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/simulation/servo/xsim.jou",
+    "bytes": 842,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/simulation/servo/xsim_63784.backup.jou",
+    "bytes": 842,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado.jou",
+    "bytes": 1074,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado.log",
+    "bytes": 1470,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/.jobs/vrs_config_1.xml",
+    "bytes": 441,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/.jobs/vrs_config_2.xml",
+    "bytes": 455,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/.jobs/vrs_config_3.xml",
+    "bytes": 441,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/.jobs/vrs_config_4.xml",
+    "bytes": 458,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/.jobs/vrs_config_5.xml",
+    "bytes": 441,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/.jobs/vrs_config_6.xml",
+    "bytes": 458,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.init_design.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.init_design.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.opt_design.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.opt_design.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.phys_opt_design.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.phys_opt_design.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.place_design.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.place_design.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.post_route_phys_opt_design.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.post_route_phys_opt_design.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.route_design.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.route_design.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.vivado.begin.rst",
+    "bytes": 214,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.vivado.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.Vivado_Implementation.queue.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.write_bitstream.begin.rst",
+    "bytes": 175,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/.write_bitstream.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper.bit",
+    "bytes": 2083852,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper.tcl",
+    "bytes": 16007,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper.vdi",
+    "bytes": 71659,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_bus_skew_postroute_physopted.pb",
+    "bytes": 30,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_bus_skew_postroute_physopted.rpt",
+    "bytes": 1177,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_bus_skew_postroute_physopted.rpx",
+    "bytes": 1288,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_bus_skew_routed.pb",
+    "bytes": 30,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_bus_skew_routed.rpt",
+    "bytes": 1049,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_bus_skew_routed.rpx",
+    "bytes": 1160,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_clock_utilization_routed.rpt",
+    "bytes": 22384,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_control_sets_placed.rpt",
+    "bytes": 88584,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_opted.pb",
+    "bytes": 37,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_opted.rpt",
+    "bytes": 30698,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_opted.rpx",
+    "bytes": 61158,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_routed.pb",
+    "bytes": 37,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_routed.rpt",
+    "bytes": 30702,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_drc_routed.rpx",
+    "bytes": 61159,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_io_placed.rpt",
+    "bytes": 125454,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_methodology_drc_routed.pb",
+    "bytes": 52,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_methodology_drc_routed.rpt",
+    "bytes": 5395,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_methodology_drc_routed.rpx",
+    "bytes": 7006,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_opt.dcp",
+    "bytes": 4768869,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_physopt.dcp",
+    "bytes": 6791446,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_placed.dcp",
+    "bytes": 6791141,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_postroute_physopt.dcp",
+    "bytes": 8223834,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_power_routed.rpt",
+    "bytes": 11276,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_power_routed.rpx",
+    "bytes": 8565238,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_power_summary_routed.pb",
+    "bytes": 872,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_route_status.pb",
+    "bytes": 45,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_route_status.rpt",
+    "bytes": 651,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_routed.dcp",
+    "bytes": 8223634,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_timing_summary_postroute_physopted.pb",
+    "bytes": 111,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_timing_summary_postroute_physopted.rpt",
+    "bytes": 1083431,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_timing_summary_postroute_physopted.rpx",
+    "bytes": 1079182,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_timing_summary_routed.pb",
+    "bytes": 111,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_timing_summary_routed.rpt",
+    "bytes": 1083246,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_timing_summary_routed.rpx",
+    "bytes": 1079044,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_utilization_placed.pb",
+    "bytes": 224,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/can_test_wrapper_utilization_placed.rpt",
+    "bytes": 11751,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/gen_run.xml",
+    "bytes": 14270,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/htr.txt",
+    "bytes": 492,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/init_design.pb",
+    "bytes": 6967,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/ISEWrap.js",
+    "bytes": 8435,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/ISEWrap.sh",
+    "bytes": 2173,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/opt_design.pb",
+    "bytes": 10598,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/phys_opt_design.pb",
+    "bytes": 2320,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/place_design.pb",
+    "bytes": 26582,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/post_route_phys_opt_design.pb",
+    "bytes": 3485,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/project.wdf",
+    "bytes": 7768,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/route_design.pb",
+    "bytes": 17212,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/rundef.js",
+    "bytes": 1488,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/runme.bat",
+    "bytes": 305,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/runme.log",
+    "bytes": 71890,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/runme.sh",
+    "bytes": 1408,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/vivado.jou",
+    "bytes": 1089,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/vivado.pb",
+    "bytes": 149,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/impl_1/write_bitstream.pb",
+    "bytes": 53628,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/can_axi_lite_master/component.xml",
+    "bytes": 106537,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/can_axi_lite_master/xgui/can_axi_lite_master_v1_0.tcl",
+    "bytes": 12817,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_clock_reset/component.xml",
+    "bytes": 15209,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_clock_reset/xgui/pl_clock_reset_v1_0.tcl",
+    "bytes": 981,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_motion_mailbox/component.xml",
+    "bytes": 47441,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_motion_mailbox/xgui/pl_motion_mailbox_v1_0.tcl",
+    "bytes": 897,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_robstride_command_engine/component.xml",
+    "bytes": 53918,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_robstride_command_engine/xgui/pl_robstride_command_engine_v1_0.tcl",
+    "bytes": 15286,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_servo_axi/component.xml",
+    "bytes": 27686,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/pl_servo_axi/xgui/pl_servo_axi_v1_0.tcl",
+    "bytes": 1480,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/robstride_protocol/component.xml",
+    "bytes": 70220,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.gen/sources_1/bd/mref/robstride_protocol/xgui/robstride_protocol_v1_0.tcl",
+    "bytes": 4532,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.vivado.begin.rst",
+    "bytes": 214,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.vivado.end.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/.Vivado_Synthesis.queue.rst",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/__synthesis_is_complete__",
+    "bytes": 0,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/can_test_wrapper.dcp",
+    "bytes": 3562457,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/can_test_wrapper.tcl",
+    "bytes": 9576,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/can_test_wrapper.vds",
+    "bytes": 172211,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/can_test_wrapper_utilization_synth.pb",
+    "bytes": 224,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/can_test_wrapper_utilization_synth.rpt",
+    "bytes": 9082,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/dont_touch.xdc",
+    "bytes": 9884,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/gen_run.xml",
+    "bytes": 8032,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/htr.txt",
+    "bytes": 484,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/ISEWrap.js",
+    "bytes": 8435,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/ISEWrap.sh",
+    "bytes": 2173,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/project.wdf",
+    "bytes": 7768,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/rundef.js",
+    "bytes": 1417,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/runme.bat",
+    "bytes": 305,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/runme.log",
+    "bytes": 172824,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/runme.sh",
+    "bytes": 1345,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/vivado.jou",
+    "bytes": 1084,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/vivado2023_project/roboarm_ila_rx_debug.runs/synth_1/vivado.pb",
+    "bytes": 253762,
+    "reason": "rebuildable_vivado_run_outputs_final_reports_and_artifacts_retained"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/package_snapshot_manifest.json",
+    "bytes": 403825,
+    "reason": "session_backup_or_superseded_manifest"
+  },
+  {
+    "archive": "embodied_arm_full_submission_20261104.zip!code/engineering_project.zip",
+    "path": "robstride_arm_gripper_20261104/candidate/roboarm.srcs/utils_1/imports/synth_1/can_test_wrapper.dcp",
+    "bytes": 39234673,
+    "reason": "unused_old_incremental_checkpoint_xpr_auto_incremental_disabled_no_file_reference"
+  }
+]

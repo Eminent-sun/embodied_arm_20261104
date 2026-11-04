@@ -1,0 +1,9 @@
+{
+  "validated": false,
+  "frame_id": "base_link",
+  "workspace_min_m": null,
+  "workspace_max_m": null,
+  "place_zones": {},
+  "gripper": {"owner": "AX7010_PL", "tcp_calibrated": false, "model_available": false},
+  "note": "Measure table bounds, place zones and gripper TCP before generating executable grasp plans."
+}

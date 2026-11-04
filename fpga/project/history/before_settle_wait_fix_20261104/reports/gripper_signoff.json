@@ -1,0 +1,295 @@
+{
+  "status": "PASS_OFFLINE_ARM_GRIPPER",
+  "hardware_access": false,
+  "physical_servo_tested": false,
+  "BIT_requires_first_download": true,
+  "pulse_limits_us": [
+    1110,
+    1490
+  ],
+  "mailbox_ABI": "0x00020009",
+  "servo_AXI_base": "0x40001000",
+  "servo_pin": "W19 (J10 pin3)",
+  "timing": {
+    "WNS_ns": 0.218,
+    "WHS_ns": 0.037,
+    "slices": 3438,
+    "DRC_errors": 0,
+    "debug_cores": 0
+  },
+  "validated_sources": [
+    {
+      "path": "candidate/rtl/pl_servo_axi.v",
+      "sha256": "16d8e0cbcaf2e55417aada9b93375efcb392f5391c2609d296c5fd4e40989ddc"
+    },
+    {
+      "path": "candidate/sim/tb_servo_axi.sv",
+      "sha256": "fdac0964c60e360fe517b3952f47559280709e56aad31bc86040b5d75cb0903a"
+    },
+    {
+      "path": "software/src/gripper.c",
+      "sha256": "12741829261629a54da39fc5b82dcf92d69272193ae2e96a3a12db912d38debf"
+    },
+    {
+      "path": "software/tests/verify_gripper_arm.py",
+      "sha256": "f921670ad7307901a16eb9cae8663a116f3e80ec7113d71fae388888a18911c5"
+    },
+    {
+      "path": "software/tests/test_gripper_protocol.py",
+      "sha256": "05da6effbf418385686beed8daa64d8cd15e35bfa8dd7127f22be092d70e4522"
+    },
+    {
+      "path": "software/tools/recorded_cycle.py",
+      "sha256": "59d1aa124b2a7ad339094c28f919110c6499b84cfab94e642c90dd2048180b4c"
+    },
+    {
+      "path": "software/tests/test_recorded_cycle.py",
+      "sha256": "5ca071de817870abe0d37c4d0eb7ae6a91f0d445b16ca0cbf938064321783a59"
+    },
+    {
+      "path": "software/tests/verify_recorded_cycle_arm.py",
+      "sha256": "6ae577115b1f474f27a2d9a066dcdaa5e12c39f1f68ee3c3e86ad84a5e4da838"
+    },
+    {
+      "path": "software/src/workflow_plan.c",
+      "sha256": "3c7d9b5ca072da1f62d2a91999bdb0051ae9272a32f386b7d9eae2c35d94d396"
+    },
+    {
+      "path": "software/tests/cartesian_tests.c",
+      "sha256": "08e37998d56faefd4541c531cfb8b774700f2805f886f64b661c18fe62ac4a59"
+    },
+    {
+      "path": "software/tests/probe_recorded_start.py",
+      "sha256": "a210eb7bfb2101aef92bf4a2ddfc3098b70aadb7e29a29e8e65979f37c72b272"
+    }
+  ],
+  "requires_software_reload_for_runpath_fix": true,
+  "tests": {
+    "PWM_AXI_assertions": 246,
+    "python_tests": 90,
+    "host_workflow_checks": 68,
+    "cartesian_host_checks": 5605,
+    "start_boundary_and_rejected_hold_cases": 9,
+    "recorded_cycle_segments": 30,
+    "gripper_arm_tests": 14,
+    "dispatch_hold_arm": 17
+  },
+  "motor_preservation": {
+    "all_original_motor_RTL_unchanged": true,
+    "motion_core_unchanged": false,
+    "preserved_files": [
+      {
+        "path": "candidate/rtl/can_axi_lite_master.v",
+        "sha256": "a0821e0bda249dd3c856da67e6017851917734b5ec2ac2c43c379b479cc94c74"
+      },
+      {
+        "path": "candidate/rtl/can_line_scope.v",
+        "sha256": "21aae1cd3e0998d335b5ffeb1ee654930457b86907ae320c73078b3c7b156ef7"
+      },
+      {
+        "path": "candidate/rtl/can_rx_frame_fifo.v",
+        "sha256": "052dbb2cdb170c8e68b45fb603dac80f0c16816aadc4f7311944b9e5fe4105bb"
+      },
+      {
+        "path": "candidate/rtl/can_rx_service.v",
+        "sha256": "b07df9d887850b40251e2235e33b7164d89f22012ed66ea601e703ec180d2d33"
+      },
+      {
+        "path": "candidate/rtl/pl_can_init.v",
+        "sha256": "63ba2673317c15a80d6c2bfad847f29983dab78f9cf6ba643509c58da60fda6e"
+      },
+      {
+        "path": "candidate/rtl/pl_can_scheduler.v",
+        "sha256": "e41f7fe76ac65d4072212a8916f2234b5b44db3f25787135b38f5c0c0f5bb748"
+      },
+      {
+        "path": "candidate/rtl/pl_clock_reset.v",
+        "sha256": "95747a63c2fbd2d2fcd0bb6b740fb643dfa0b058ac739c2d08288df6fdeef56b"
+      },
+      {
+        "path": "candidate/rtl/pl_motion_mailbox.v",
+        "sha256": "86c5c6b0b57cf56803d273cd07328921f3013ca2b108cd330d411506b8dc9134"
+      },
+      {
+        "path": "candidate/rtl/pl_robstride_command_engine.v",
+        "sha256": "930ba828361aef8bbeb66b07fe848106e06a13aa63e8c3badb07da5382ffa794"
+      },
+      {
+        "path": "candidate/rtl/pl_robstride_single_tx.v",
+        "sha256": "1c2bf23f9454838bb4edd881c83157a050ad0e41f8b40c7c963ee6fa600a7cb4"
+      },
+      {
+        "path": "candidate/rtl/pl_six_axis_scheduler.v",
+        "sha256": "da281df62d4dae8138962fe6da90e368dddc77873c073946468d7b6a193cee37"
+      },
+      {
+        "path": "candidate/rtl/robstride_axis_map.v",
+        "sha256": "4f31b8f513ab4e38584f2c1e3307fdfb128eed3f0895f363209c3f120dd22a9b"
+      },
+      {
+        "path": "candidate/rtl/robstride_command_encoder.v",
+        "sha256": "1f2d2eef16d1aa37c4fd8ca7174de9aecc5c663c54bd48a6a06e795587e48406"
+      },
+      {
+        "path": "candidate/rtl/robstride_feedback_bank.v",
+        "sha256": "82bfd36e2d4f5e0f7ace8986a43528fd1adcdd3d593ea0fb44c0f7fdcc70af2b"
+      },
+      {
+        "path": "candidate/rtl/robstride_feedback_debug.v",
+        "sha256": "eee72d78e1bea6da8812b67b169f524e7a98e40821ca9ea8c293de778cadfa6a"
+      },
+      {
+        "path": "candidate/rtl/robstride_frame_adapter.v",
+        "sha256": "ab294cdfc136f032d21a34a0a268af4254d159e3358521b0f44e4ee3e5f2c379"
+      },
+      {
+        "path": "candidate/rtl/robstride_protocol.v",
+        "sha256": "d168c5c0962f5af1e59334e940ff1cce3de3c7160a1cb9347306773d1ce45435"
+      },
+      {
+        "path": "candidate/rtl/robstride_rx_dispatch.v",
+        "sha256": "06148289bb2ae87521518b86986368f976c29f96a18039f031ae044853ce4195"
+      },
+      {
+        "path": "software/src/arm_workflow.c",
+        "sha256": "164137f8fda614b201b966c0f5194ff23dcdbc7a39dc0051d66e9561d1719d94"
+      },
+      {
+        "path": "software/src/arm_kinematics_port.c",
+        "sha256": "a477d5edcd199cecc671b95090106e9b363ed1425f2a150cf3eccb269f48fc5f"
+      },
+      {
+        "path": "software/src/pieper_kinematics.c",
+        "sha256": "30a77d35e711f21a06219700b7801221334146169b204aa944f3a7ee42a35a4f"
+      },
+      {
+        "path": "software/src/fixed_path.c",
+        "sha256": "e0815b29e2b0b06c775eb58dbef0d4dce8d144daab92e27cc7188f3c751030ff"
+      },
+      {
+        "path": "software/src/pick_candidate.c",
+        "sha256": "c8364c183b687d3208e048d3194eb2788310fb90401a7b23db9b74a9be120df5"
+      },
+      {
+        "path": "software/src/path_plan.c",
+        "sha256": "4565fbc2b404a60713c307141b9e0f5f6b04667bba634aabba2230c18339083b"
+      },
+      {
+        "path": "software/src/path_executor.c",
+        "sha256": "a19ec4902c017c27ebe7b64ce565732380a3fed4d187c91b1c3acc51429ca871"
+      },
+      {
+        "path": "software/src/motion_mailbox.c",
+        "sha256": "4b52301a0d9078fd0643fbe31db7cc65d54b10eb59dc66274fb9247695e442ab"
+      },
+      {
+        "path": "software/vendor/ra8p1/urdf_kinematics.c",
+        "sha256": "14b5c49d594a587fd74fa973a33d359a7eccb9d077d05bfb39f21cbbb5306b7e"
+      },
+      {
+        "path": "software/vendor/ra8p1/urdf_kinematics.h",
+        "sha256": "f31cf29280a29bf5d7f1ca8b75303540ee6ce064c3aea38efe8fa8fa23b722f4"
+      },
+      {
+        "path": "software/platform/compute.ld",
+        "sha256": "2a4de64cd74dfabea1159fd5719721af9447c169446f6d7dbbfb0bc684d21253"
+      },
+      {
+        "path": "software/platform/start.S",
+        "sha256": "402bd93194ea06942bee423ecaa06e8d76d107b412ca46f9956cf962e040f13c"
+      }
+    ],
+    "integration_changes": [
+      "AXI interconnect third output and independent PWM peripheral",
+      "mailbox advertised version 0x00020009; map unchanged",
+      "PS path_mailbox accepts both 0x00020008 and 0x00020009",
+      "workflow runtime dispatches new gripper requests and services PWM heartbeat",
+      "implementation strategy Performance_ExplorePostRoutePhysOpt",
+      "20261104 RUNPATH fix: PS bounded start projection and PC non-executed rejection preserves verified hold; first segment preview and diagnostic snapshots."
+    ],
+    "reviewed_motion_changes": [
+      {
+        "path": "software/src/workflow_plan.c",
+        "baseline_sha256": "9bff2bf1180a0055298cb8174e99d889dab6d3ce217e2201bfa34906a8005d3f",
+        "sha256": "3c7d9b5ca072da1f62d2a91999bdb0051ae9272a32f386b7d9eae2c35d94d396",
+        "baseline_copy": "history/before_runpath_hold_fix_20261104/software/src/workflow_plan.c",
+        "reason": "Bound only measured trajectory start to original physical joint limits within min(0.001 rad, existing start/arrival tolerances); strict target/frame/motor limits and stop guards retained."
+      }
+    ]
+  },
+  "paired_files": [
+    {
+      "path": "bitstream/roboarm_arm_workflow.bit",
+      "sha256": "a842287fd4ef1b495c5b9cbc6b555e3024fe21e47414ae5908cbec5852df2cb4"
+    },
+    {
+      "path": "bitstream/roboarm_arm_workflow.xsa",
+      "sha256": "1d58bf426a65501f15307a80a9d353b1a703f5c7dfe7f8b97ad6cc5dfbbeff83"
+    },
+    {
+      "path": "bitstream/ps_init/ps7_init.tcl",
+      "sha256": "ae69fbae96b303cd1f8651e1c791b56b4d9cc421df5b28f5b6af42b333968cbd"
+    },
+    {
+      "path": "software/build/arm_workflow.elf",
+      "sha256": "26efd1aa0c282df839d6f17d3f5a1da99472e1240234b605d06cc83311fa02f3"
+    },
+    {
+      "path": "software/reports/workflow_symbols.json",
+      "sha256": "4e0e080ff77ada7205e0f108f31916b45a288d688a64ad4793ec15f48dea185f"
+    },
+    {
+      "path": "software/tools/control_center.py",
+      "sha256": "f1344c33b604e5e61e8516376eb090d4ad406a6e918ebd822c61b44249f0ac2b"
+    },
+    {
+      "path": "software/tools/download_gripper.py",
+      "sha256": "838ae5cafe68e57fb41e027b59db374efd992037186c5e1a11928d31a4acc856"
+    },
+    {
+      "path": "software/tools/gripper_protocol.py",
+      "sha256": "674fa58ad5aa9c8b5ab7c1e1bcfb44eaaf062c67a0dadbc2d66379fa0e70ffb7"
+    },
+    {
+      "path": "software/tools/prepare_cooperative_solver.py",
+      "sha256": "4645055780619b7df6be40e8e6ba5ff4de167166cef7df69c2e5be43be947850"
+    },
+    {
+      "path": "software/tools/prepare_home_alignment.py",
+      "sha256": "ab54c07ecfa92c936072f4df26a7eaf6de774f9450b470fc6dd3557f59e89340"
+    },
+    {
+      "path": "software/tools/prepare_machine_config.py",
+      "sha256": "d84e93946bd0f5cb4b53ba0bbf9a664d7d20f59ccb0b036910745d10e877cfd0"
+    },
+    {
+      "path": "software/tools/recorded_cycle.py",
+      "sha256": "59d1aa124b2a7ad339094c28f919110c6499b84cfab94e642c90dd2048180b4c"
+    },
+    {
+      "path": "software/tools/refresh_workflow_symbols.py",
+      "sha256": "2fe4d9c9176474c28a0de90e18ca8ae5f6224dfa696cf6ca361f7a33ca4eb834"
+    },
+    {
+      "path": "software/tools/workflow_console.py",
+      "sha256": "c47ff5d2c8991710ef43ce458435dbcba0a6043d5c71f6241fa2696bcb9e6d2f"
+    },
+    {
+      "path": "software/tools/workflow_protocol.py",
+      "sha256": "b3132842f1483a4ce72b376e2f3bdf158c046ea505d8f50ec75a5636c17d418c"
+    },
+    {
+      "path": "software/tools/download_gripper.tcl",
+      "sha256": "3e41cbdb57743eb89ef8328d3a744e31a5e312e89ed2bb8f73f42ae9faf294b4"
+    },
+    {
+      "path": "software/tools/workflow_bridge.tcl",
+      "sha256": "24d4a0de683b37f52b6921ec1a8be6130ab134fdd48b66e04ecd3f90c552c60c"
+    }
+  ],
+  "limitations": [
+    "Offline simulation and implementation only; physical torque/arrival/grasp not measured.",
+    "PWM status is command output, not physical position feedback.",
+    "Existing CAN IP/reset and asynchronous external I/O timing warnings remain in full reports."
+  ]
+}

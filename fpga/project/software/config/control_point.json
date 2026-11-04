@@ -1,0 +1,35 @@
+{
+  "mode": "LINK6_REFERENCE",
+  "no_end_tool_installed": true,
+  "position_units": "mm",
+  "orientation": "R maps control-point coordinates into base_link; quaternion xyzw Hamilton",
+  "T_Link6_control": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "identity_is_control_point_definition_not_physical_tool_calibration": true,
+  "new_tool_requires_separate_calibration": true,
+  "motor_start_allowed": false
+}

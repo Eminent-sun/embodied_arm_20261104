@@ -1,0 +1,52 @@
+{"scenario": "nominal", "passed": true, "state": "0x3", "CAN_model_commands": 16534, "model_enables": 6, "model_enabled_mask": 63}
+{"scenario": "wrong_sequence_echo", "passed": true, "state": "0xe2", "CAN_model_commands": 246, "model_enables": 6, "model_enabled_mask": 0}
+{"scenario": "following_error", "passed": true, "state": "0xe2", "CAN_model_commands": 248, "model_enables": 6, "model_enabled_mask": 0}
+{"scenario": "late_commit", "passed": true, "state": "0xd", "CAN_model_commands": 325, "model_enables": 6, "model_enabled_mask": 63}
+{"scenario": "host_lost", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0}
+{"scenario": "stop_unknown", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0}
+{"scenario": "wrong_ABI", "passed": true, "state": "0x1", "CAN_model_commands": 0, "model_enables": 0, "model_enabled_mask": 0}
+{"scenario": "explicit_stop", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": true, "reported_enabled_mask": 0, "stop_ack_mask": "0x3f", "stop_elapsed_ms": 0, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_one_missing", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": false, "reported_enabled_mask": 63, "stop_ack_mask": "0x37", "stop_elapsed_ms": 300, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_running_feedback", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 32, "stop_confirmed": false, "reported_enabled_mask": 63, "stop_ack_mask": "0x1f", "stop_elapsed_ms": 300, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_feedback_error", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": false, "reported_enabled_mask": 63, "stop_ack_mask": "0x3e", "stop_elapsed_ms": 300, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_near_zero_rs00", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": true, "reported_enabled_mask": 0, "stop_ack_mask": "0x3f", "stop_elapsed_ms": 0, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_fast_el05", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": false, "reported_enabled_mask": 63, "stop_ack_mask": "0x3f", "stop_elapsed_ms": 300, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_snapshot_race", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 32, "stop_confirmed": false, "reported_enabled_mask": 63, "stop_ack_mask": "0x1f", "stop_elapsed_ms": 300, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_delayed_feedback", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": true, "reported_enabled_mask": 0, "stop_ack_mask": "0x3f", "stop_elapsed_ms": 150, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "stop_late_feedback", "passed": true, "state": "0xe2", "CAN_model_commands": 137, "model_enables": 6, "model_enabled_mask": 0, "stop_confirmed": false, "reported_enabled_mask": 63, "stop_ack_mask": "0x1f", "stop_elapsed_ms": 300, "no_CAN_queries_after_stop": true, "no_auto_retry": true}
+{"scenario": "pure_model_CHECKPOSE_no_peripheral_mapping", "passed": true, "solution": {"sequence": 1, "result": 0, "model_only": true, "plan_valid": false, "frames": 0, "duration_ms": 0, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [200.0, 0.0, 100.0], "rpy_deg": [0.0, -45.0, 0.0], "seed_joint_rad": [0.0, 1.5700000524520874, 0.0, 0.0, 1.5700000524520874, 0.0], "target_joint_rad": [0.004256346728652716, 2.351253032684326, -0.5402324199676514, 0.0035286894999444485, 1.0256062746047974, 1.5696039199829102], "target_motor_rad": null, "position_error_mm": 1.6660234905430116e-05, "orientation_error_rad": 4.945497167341273e-08}}
+{"scenario": "MOVETO_GOHOME_without_calibration_rejected", "passed": true}
+{"scenario": "frame_padding_CRC_unreachable_rejected_no_peripherals", "passed": true}
+{"scenario": "calibrated_preview_retains_hold_no_target_commit", "passed": true, "plan": {"sequence": 11, "result": 0, "model_only": false, "plan_valid": true, "frames": 293, "duration_ms": 14600, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [200.0, 0.0, 100.0], "rpy_deg": [0.0, -45.0, 0.0], "seed_joint_rad": [-0.0, 1.5700000524520874, -0.0, -0.0, 1.5700000524520874, 0.0], "target_joint_rad": [0.004256346728652716, 2.351253032684326, -0.5402324199676514, 0.0035286894999444485, 1.0256062746047974, 1.5696039199829102], "target_motor_rad": [0.005743653047829866, -0.7812529802322388, 0.5402324199676514, 0.01647130958735943, 0.54439377784729, 1.5396039485931396], "position_error_mm": 1.6660234905430116e-05, "orientation_error_rad": 4.945497167341273e-08}}
+{"scenario": "MOVETO_reaches_cartesian_hold_busy_rejected", "passed": true, "frames": 293, "duration_ms": 14600}
+{"scenario": "arbitrary_XYZ_and_all_three_RPY_components", "passed": true, "target": [190.66168932704335, 103.18950309144678, 194.41907294642215, 77.22682323579177, -16.237895636378603, -72.46653240658254], "solution": {"sequence": 14, "result": 0, "model_only": false, "plan_valid": true, "frames": 188, "duration_ms": 9350, "solver": "Pieper spherical wrist", "analytic_solutions": 1, "xyz_mm": [190.66168212890625, 103.18950653076172, 194.4190673828125], "rpy_deg": [77.22682189941406, -16.237895965576172, -72.4665298461914], "seed_joint_rad": [0.004256346728652716, 2.351253032684326, -0.5402324199676514, 0.0035286899656057358, 1.0256062746047974, 1.5696039199829102], "target_joint_rad": [0.5000001788139343, 2.0, -0.800000011920929, 0.30000001192092896, 1.0000003576278687, 0.40000006556510925], "target_motor_rad": [-0.4900001883506775, -0.4299999475479126, 0.800000011920929, -0.2800000011920929, 0.5699996948242188, 0.37000006437301636], "position_error_mm": 1.4901161193847656e-05, "orientation_error_rad": 2.0702192671251396e-07}}
+{"scenario": "independent_FK_endpoint_and_discrete_rates", "passed": true, "max_velocity_rad_s": 0.23707866668701172, "max_acceleration_rad_s2": 0.07915496826171875}
+{"scenario": "GOHOME_returns_saved_six_joint_pose_without_reenable", "passed": true}
+{"scenario": "observed_ID6_error_still_trips_no_further_target_commit", "passed": true, "injected_error_rad": 0.10340649}
+{"scenario": "STOP_during_actual_ARM_IK_no_motion_commit", "passed": true}
+{"scenario": "MOVETO_rejects_limits_above_approved_point5", "passed": true}
+PASS ARM CARTESIAN 11 SCENARIOS
+{"scenario": "RECOVER_stop_and_reads_only_retains_calibration", "passed": true, "recovery_bursts": 1}
+{"scenario": "replayed_RECOVER_and_RECOVER_outside_fault_rejected", "passed": true}
+{"scenario": "RESUME_enables_current_pose_without_homing_or_recalibration", "passed": true}
+{"scenario": "GOHOME_after_recovery_uses_original_saved_HOME", "passed": true}
+{"scenario": "recover_stale_cannot_resume_or_replay", "passed": true}
+{"scenario": "recover_fast_cannot_resume_or_replay", "passed": true}
+{"scenario": "recover_running_cannot_resume_or_replay", "passed": true}
+{"scenario": "recover_stop_cannot_resume_or_replay", "passed": true}
+{"scenario": "recover_tx_fail_cannot_resume_or_replay", "passed": true}
+{"scenario": "poisoned_mailbox_not_unlocked", "passed": true}
+{"scenario": "stale_host_cannot_recover", "passed": true}
+{"scenario": "changed_motor_offset_invalidates_saved_calibration", "passed": true}
+{"scenario": "malformed_recovery_and_out_of_range_resume_rejected", "passed": true}
+PASS ARM RECOVERY 13 SCENARIOS
+{"scenario": "serial_service_over_sample_period_all_293_frames_complete_without_catchup", "passed": true, "injected_delay_per_transaction_ms": 3, "max_service_ms": 63, "actual_virtual_elapsed_ms": 36559, "nominal_plan_ms": 14600}
+{"scenario": "GOHOME_uses_same_completion_spacing_and_saved_HOME", "passed": true}
+{"scenario": "real_dispatch_stall_pauses_holding_without_next_commit", "passed": true, "lateness_ms": 151, "timing_reason": 2}
+{"scenario": "total_55_second_limit_retained", "passed": true, "frames": 252, "elapsed_ms": 55168, "timing_reason": 1}
+{"scenario": "STOP_during_slow_serial_groups_prevents_next_target", "passed": true}
+{"scenario": "host_loss_during_slow_serial_groups_prevents_next_target", "passed": true}
+{"scenario": "RESUME_after_RECOVER_keeps_timer_monotonic_and_calibration", "passed": true}
+{"scenario": "fresh_ELF_RESTORE_then_RESUME_initializes_IO_and_holds_current_pose", "passed": true}
+{"scenario": "fresh_ELF_restore_retains_original_GO_HOME", "passed": true}
+PASS ARM SCHEDULE 9 SCENARIOS
